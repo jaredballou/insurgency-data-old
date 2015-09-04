@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+$translucent 1
+$basetexture overviews/bb_lighthouse_v2
+$vertexalpha 1
+$no_fullbright 1
+$ignorez 1
+}

@@ -127,7 +127,7 @@
 		}
 	}
 	
-	"strike"
+	"elimination"
 	{
 		"navfile"   		"sinjar"
 		"nightlighting"		"0"

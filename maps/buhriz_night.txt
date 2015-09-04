@@ -63,9 +63,13 @@
 	"strike"
 	{
 		"navfile"   		"buhriz"
+		"nightlighting"		"1"
 		"AttackingTeam"		"security"
-		"controlpoint"		"cachepoint_a"
-		"controlpoint"		"cachepoint_b"
+		"controlpoint"		"cachepoint_a" 
+		"controlpoint"		"cachepoint_b" 
+		"controlpoint"		"cachepoint_c" 
+		"controlpoint"		"cachepoint_d" 
+		"controlpoint"		"cachepoint_e" 
 		
 		"spawnzones"
 		{
@@ -74,38 +78,109 @@
 		}
 		
 		"entities"
-		{				
-			"obj_weapon_cache"
-			{
-				"origin"		"439.367096 2163.003174 -5.822027"
-				"angles"		"0.000000 -90.469322 0.000000"
-				"targetname"	"cache_a"
-				"teamnumber"	"3"
-				"ControlPoint"	"cachepoint_a"
-				"TakeDamageBullets" "0"
-			}		
-			"point_controlpoint"
-			{
-				"origin"		"439.367096 2163.003174 67.822027"
-				"angles"		"0.000000 -90.469322 0.000000"
-				"targetname"	"cachepoint_a"
-			}		
-			
+		{			
+			// Cache A
 			"obj_weapon_cache"
 			{
 				"origin"		"-1802.116943 1662.534058 176.031250"
 				"angles"		"0.000000 2.975417 0.000000"
-				"targetname"	"cache_b"
+				"targetname"	"cache_a"
 				"teamnumber"	"3"
-				"ControlPoint"	"cachepoint_b"
+				"ControlPoint"	"cachepoint_a"
 				"TakeDamageBullets" "0"
 			}						
 			"point_controlpoint"
 			{
 				"origin"		"-1802.116943 1662.534058 248.031250"
 				"angles"		"0.000000 2.975417 0.000000"
-				"targetname"	"cachepoint_b"
+				"targetname"	"cachepoint_a"
+			}	
+			
+			// Cache B
+			"obj_weapon_cache"
+			{
+				"origin"		"439.367096 2163.003174 -5.822027"
+				"angles"		"0.000000 -90.469322 0.000000"
+				"targetname"	"cache_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_b"
+				"TakeDamageBullets" "0"
 			}		
+			"point_controlpoint"
+			{
+				"origin"		"439.367096 2163.003174 67.822027"
+				"angles"		"0.000000 -90.469322 0.000000"
+				"targetname"	"cachepoint_b"
+			}	
+			
+			// Cache C
+			"obj_weapon_cache"
+			{
+				"origin"		"1132.722534 3576.257568 124.031250"
+				"angles"		"0.000000 -54.939095 0.000000"
+				"targetname"	"cache_c"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_c"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"1132.722534 3576.257568 124.031250"
+				"angles"		"0.000000 -54.939095 0.000000"
+				"targetname"	"cachepoint_c"
+			}	
+		}
+	}
+	
+	"elimination"
+	{
+		"navfile"   		"buhriz"
+		"nightlighting"		"1"
+		"AttackingTeam"		"security"
+		"controlpoint"		"cachepoint_a" 
+		"controlpoint"		"cachepoint_b" 
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_neutral"
+		}
+		
+		"entities"
+		{
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"-1.660434 903.905640 208.031250"
+				"angles"		"0.000000 -4.620418 0.000000"
+				"targetname"	"cache_a"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-1.660434 903.905640 208.031250"
+				"angles"		"0.000000 -4.620418 0.000000"
+				"targetname"	"cachepoint_a"
+			}	
+			
+			// Cache B
+			"obj_weapon_cache"
+			{
+				"origin"		"1132.722534 3576.257568 124.031250"
+				"angles"		"0.000000 -54.939095 0.000000"
+				"targetname"	"cache_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_b"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"1132.722534 3576.257568 124.031250"
+				"angles"		"0.000000 -54.939095 0.000000"
+				"targetname"	"cachepoint_b"
+			}	
 		}
 	}
 }

@@ -164,56 +164,6 @@
 			"0"  "spawnzone_oc"
 		}
 	}
-	
-	"strike"
-	{
-		"navfile"   		"market"
-		"nightlighting"		"1"
-		"AttackingTeam"		"security"
-		"controlpoint"		"cachepoint_a"
-		"controlpoint"		"cachepoint_b"
-		
-		"entities"
-		{			
-			"obj_weapon_cache"
-			{
-				"origin"		"2548.713623 -1138.073975 12.031250"
-				"angles"		"0.000000 -90.483391 0.000000"
-				"targetname"	"cache_a"
-				"teamnumber"	"3"
-				"ControlPoint"	"cachepoint_a"
-				"TakeDamageBullets" "0"
-			}				
-			"point_controlpoint"
-			{
-				"origin"		"2565.713623 -1138.073975 84.031250"
-				"angles"		"0.000000 -90.483391 0.000000"
-				"targetname"	"cachepoint_a"
-			}
-			
-			"obj_weapon_cache"
-			{
-				"origin"		"741.986206 -1617.295288 27.377441"
-				"angles"		"0.000000 -90.374619 0.000000"
-				"targetname"	"cache_b"
-				"teamnumber"	"3" // INS
-				"ControlPoint"	"cachepoint_b"
-				"TakeDamageBullets" "0"
-			}
-			"point_controlpoint"
-			{
-				"origin"		"741.986206 -1617.295288 99.377441"
-				"angles"		"0.000000 -90.374619 0.000000"
-				"targetname"	"cachepoint_b"
-			}
-		}
-		
-		"spawnzones"
-		{
-			"disablespawns" "1"
-			"0"  "spawnzone_neutral"
-			}
-		}
 
 	"push"
 	{
@@ -253,4 +203,126 @@
 			}	
 	   }			
    } 
+   
+   "strike"
+	{
+		"navfile"   		"market"
+		"nightlighting"		"1"
+		"AttackingTeam"		"security"
+		"controlpoint"		"cachepoint_a" 
+		"controlpoint"		"cachepoint_b" 
+		"controlpoint"		"cachepoint_c" 
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_strike"
+		}
+		
+		"entities"
+		{
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"3186.550537 -531.821838 0.077168"
+				"angles"		"0.000000 -89.494263 0.000000"
+				"targetname"	"cache_a"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"3186.550537 -531.821838 72.077168"
+				"angles"		"0.000000 -89.494263 0.000000"
+				"targetname"	"cachepoint_a"
+			}	
+			
+			// Cache B
+			"obj_weapon_cache"
+			{
+				"origin"		"2207.510986 -1234.518066 64.031250"
+				"angles"		"0.000000 -178.796295 0.000000"
+				"targetname"	"cache_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_b"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"2207.510986 -1234.518066 136.031250"
+				"angles"		"0.000000 -178.796295 0.000000"
+				"targetname"	"cachepoint_b"
+			}	
+			
+			// Cache C
+			"obj_weapon_cache"
+			{
+				"origin"		"431.389282 -2620.310059 51.031250"
+				"angles"		"0.000000 -78.796852 0.000000"
+				"targetname"	"cache_c"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_c"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"431.389282 -2620.310059 123.031250"
+				"angles"		"0.000000 -78.796852 0.000000"
+				"targetname"	"cachepoint_c"
+			}
+		}
+	}
+   
+	"elimination"
+	{
+		"navfile"   		"market"
+		"nightlighting"		"1"
+		"AttackingTeam"		"security"
+		"controlpoint"		"cachepoint_a" 
+		"controlpoint"		"cachepoint_b" 
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_neutral"
+		}
+		
+		"entities"
+		{
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"3631.661621 -254.093994 192.031250"
+				"angles"		"0.000000 -91.082588 0.000000"
+				"targetname"	"cache_a"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"3631.661621 -254.093994 264.031250"
+				"angles"		"0.000000 -91.082588 0.000000"
+				"targetname"	"cachepoint_a"
+			}	
+			
+			// Cache B
+			"obj_weapon_cache"
+			{
+				"origin"		"2207.510986 -1234.518066 64.031250"
+				"angles"		"0.000000 -178.796295 0.000000"
+				"targetname"	"cache_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_b"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"2207.510986 -1234.518066 136.031250"
+				"angles"		"0.000000 -178.796295 0.000000"
+				"targetname"	"cachepoint_b"
+			}	
+		}
+	}
 }

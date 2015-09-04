@@ -72,7 +72,7 @@
 				"0"  "firefight_spawnzone"
 			}
 	}
-	"strike"
+	"elimination"
 	{
 		"navfile" 		"station"
 		"nightlighting"		"0"

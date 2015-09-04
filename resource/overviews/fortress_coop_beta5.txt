@@ -1,0 +1,9 @@
+"fortress_coop_beta4"
+{
+	material	overviews/fortress_coop_beta5       	// texture file
+	pos_x		"-3125"			// X coordinate
+	pos_y		"7156"			// Y coordinate
+	scale		"10.0" 			// scale used when taking the screenshot
+	rotate		"0"			// map was rotated by 90 degrees in image editor
+	zoom		1			// optimal zoom factor if map is shown in full size
+}

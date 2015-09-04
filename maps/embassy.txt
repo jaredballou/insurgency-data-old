@@ -78,4 +78,5 @@
 			"0"  "spawnzone_firefight"
 		}
 	}	
+	
 }

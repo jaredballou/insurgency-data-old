@@ -1,0 +1,9 @@
+"karkar_coop_v1_1"
+{
+	"material" 	"maps/overviews/karkar_coop_v1"
+	"pos_x" 	"-5965"
+	"pos_y" 	"1340"
+	"scale" 	"11"
+	"zoom"		"1.0"
+	"rotate"	"0"
+}

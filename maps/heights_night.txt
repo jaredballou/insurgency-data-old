@@ -139,32 +139,42 @@
 		"navfile"   		"heights"
 		"nightlighting"		"1"
 		"AttackingTeam"		"security"
-		"controlpoint"		"cachepoint_a"
-		"controlpoint"		"cachepoint_b"
-		//"controlpoint"	"cachepoint_c"
+		"controlpoint"		"cachepoint_a" 
+		"controlpoint"		"cachepoint_b" 
+		"controlpoint"		"cachepoint_c" 
+		"controlpoint"		"cachepoint_d" 
+		"controlpoint"		"cachepoint_e" 
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_skirmish"
+		}
 		
 		"entities"
-		{			
+		{
+			// Cache A
 			"obj_weapon_cache"
 			{
-				"origin"		"-214.926514 2717.396484 226.031250"
-				"angles"		"0.000000 85.587997 0.000000"
+				"origin"		"-1805.347412 723.918640 358.031250"
+				"angles"		"0.000000 -5.206677 0.000000"
 				"targetname"	"cache_a"
 				"teamnumber"	"3"
 				"ControlPoint"	"cachepoint_a"
 				"TakeDamageBullets" "0"
-			}			
+			}				
 			"point_controlpoint"
 			{
-				"origin"		"-214.926514 2717.396484 298.031250"
-				"angles"		"0.000000 85.587997 0.000000"
+				"origin"		"-1805.347412 723.918640 358.031250"
+				"angles"		"0.000000 -5.206677 0.000000"
 				"targetname"	"cachepoint_a"
-			}
+			}	
 			
+			// Cache B
 			"obj_weapon_cache"
 			{
-				"origin"		"1820.333984 3032.967773 370.031250"
-				"angles"		"0.000000 89.467018 0.000000"
+				"origin"		"-619.958008 663.001465 192.031250"
+				"angles"		"0.000000 89.059868 0.000000"
 				"targetname"	"cache_b"
 				"teamnumber"	"3"
 				"ControlPoint"	"cachepoint_b"
@@ -172,32 +182,62 @@
 			}				
 			"point_controlpoint"
 			{
-				"origin"		"1820.333984 3032.967773 442.031250"
-				"angles"		"0.000000 89.467018 0.000000"
+				"origin"		"-619.958008 663.001465 192.031250"
+				"angles"		"0.000000 89.059868 0.000000"
 				"targetname"	"cachepoint_b"
 			}
-				
-			//"obj_weapon_cache"
-			//{
-			//	"origin"		"167.225861 1175.837402 160.031250"
-			//	"angles"		"0.000000 91.812088 0.000000"
-			//	"targetname"	"cache_c"
-			//	"teamnumber"	"3"
-			//	"ControlPoint"	"cachepoint_c"
-			//	"TakeDamageBullets" "0"
-			//}			
-			//"point_controlpoint"
-			//{
-			//	"origin"		"167.225861 1175.837402 232.031250"
-			//	"angles"		"0.000000 91.812088 0.000000"
-			//	"targetname"	"cachepoint_c"
-			//}		
-		}
-		
-		"spawnzones"
-		{
-			"disablespawns" "1"
-			"0"  "spawnzone_skirmish"
+			
+			// Cache C
+			"obj_weapon_cache"
+			{
+				"origin"		"-409.599579 2772.499023 227.135574"
+				"angles"		"0.000000 -4.681485 0.000000"
+				"targetname"	"cache_c"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_c"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-409.599579 2772.499023 227.135574"
+				"angles"		"0.000000 -4.681485 0.000000"
+				"targetname"	"cachepoint_c"
+			}	
+			
+			// Cache D
+			"obj_weapon_cache"
+			{
+				"origin"		"1805.952515 3031.537842 370.031250"
+				"angles"		"0.000000 88.767975 0.000000"
+				"targetname"	"cache_d"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_d"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"1805.952515 3031.537842 370.031250"
+				"angles"		"0.000000 88.767975 0.000000"
+				"targetname"	"cachepoint_d"
+			}	
+			
+			// Cache E
+			"obj_weapon_cache"
+			{
+				"origin"		"2619.810547 1567.812988 354.031250"
+				"angles"		"0.000000 -90.406097 0.000000"
+				"targetname"	"cache_e"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_e"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"2619.810547 1567.812988 354.031250"
+				"angles"		"0.000000 -90.406097 0.000000"
+				"targetname"	"cachepoint_e"
+			}				
+			
 		}
 	}
 	

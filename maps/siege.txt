@@ -6,6 +6,7 @@
 	// - Push - add cover to block line of sight down insurgent alleyway
 	// - Ambush - opposite roads are exits, escorting team spawns in second story room on far side of map
 	// - Occupy - control the street
+	// - Elimination
 	
 	"skirmish"
 	{
@@ -93,7 +94,7 @@
 			// Final Cache
 			"obj_weapon_cache"
 			{
-				"origin"		"-4013.354248 -1856.367676 -255.968750"
+				"origin"		"-4011 -1943 -255.968750"
 				"angles"		"0.000000 -91.051781 0.000000"
 				"targetname"	"cache_final"
 				"teamnumber"	"3"
@@ -103,7 +104,7 @@
 			}
 			"point_controlpoint"
 			{
-				"origin"		"-4013.354248 -1856.367676 -183.968750"
+				"origin"		"-4011 -1943 -183.968750"
 				"angles"		"0.000000 -91.051781 0.000000"
 				"targetname"	"cachepoint_final"
 			}	
@@ -131,6 +132,58 @@
 		{
 			"disablespawns" "1"
 			"0"  "spawnzone_ff"
+		}
+	}
+	
+	"elimination"
+	{
+		"navfile"   		"siege"
+		"nightlighting"		"0"
+		"AttackingTeam"		"insurgents"
+		"controlpoint"		"cachepoint_a" 
+		"controlpoint"		"cachepoint_b" 
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_ff"
+		}
+		
+		"entities"
+		{
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"-1354.651001 2140.671387 200.311218"
+				"angles"		"0.000000 180.0 0.000000"
+				"targetname"	"cache_a"
+				"teamnumber"	"2"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-1340.651001 2140.671387 272.311218"
+				"angles"		"0.000000 180.0 0.000000"
+				"targetname"	"cachepoint_a"
+			}	
+			
+			// Cache B
+			"obj_weapon_cache"
+			{
+				"origin"		"1262.295654 2452.320068 0.031250"
+				"angles"		"0.000000 -92.796150 0.000000"
+				"targetname"	"cache_b"
+				"teamnumber"	"2"
+				"ControlPoint"	"cachepoint_b"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"1262.295654 2452.320068 0.031250"
+				"angles"		"0.000000 -92.796150 0.000000"
+				"targetname"	"cachepoint_b"
+			}	
 		}
 	}
 } 

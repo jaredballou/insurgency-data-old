@@ -1,0 +1,9 @@
+"invasion_coop_beta2"
+{
+	material	overviews/invasion_coop_beta2  // texture file
+	pos_x		"-8534"			// X coordinate
+	pos_y		"15278"			// Y coordinate
+	scale		"16.0" 			// scale used when taking the screenshot
+	rotate		"0"			// map was rotated by 90 degrees in image editor
+	zoom		1			// optimal zoom factor if map is shown in full size
+}

@@ -1,0 +1,9 @@
+prophet
+{
+	material overviews/prophet
+	pos_x 000
+	pos_y 10000
+	scale 10
+	rotate 0
+	zoom 1
+}

@@ -176,7 +176,7 @@
 		}
 	}
 	
-	"strike"
+	"elimination"
 	{
 		"navfile"   		"peak"
 		"nightlighting"		"0"

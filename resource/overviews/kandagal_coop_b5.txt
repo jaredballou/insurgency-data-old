@@ -1,0 +1,9 @@
+"kandagal_coop_b5"
+{
+	material	overviews/kandagal     	// texture file
+	pos_x		-7803			// X coordinate
+	pos_y		7402			// Y coordinate
+	scale		13.0 			// scale used when taking the screenshot
+	rotate		0			// map was rotated by 90 degrees in image editor
+	zoom		1			// optimal zoom factor if map is shown in full size
+}

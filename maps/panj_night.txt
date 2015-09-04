@@ -10,6 +10,7 @@
 	// - Firefight
 	// - Occupy
 	// - Push	
+	// - Strike
 	
 	"skirmish"
 	{
@@ -131,6 +132,78 @@
 				"targetname"	"cachepoint_final"
 			}	
 		}			
+	}
+	
+	"strike"
+	{
+		"navfile"   		"panj"
+		"nightlighting"		"1"
+		"AttackingTeam"		"security"
+		"controlpoint"		"cachepoint_a" 
+		"controlpoint"		"cachepoint_b" 
+		"controlpoint"		"cachepoint_c" 
+		"controlpoint"		"cachepoint_d" 
+		"controlpoint"		"cachepoint_e" 
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_neutral"
+		}
+		
+		"entities"
+		{
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"-3400.848877 -3305.844971 67.885948"
+				"angles"		"0.000000 82.754272 0.000000"
+				"targetname"	"cache_a"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-3400.848877 -3305.844971 67.885948"
+				"angles"		"0.000000 82.754272 0.000000"
+				"targetname"	"cachepoint_a"
+			}
+
+			// Cache B
+			"obj_weapon_cache"
+			{
+				"origin"		"-4023.697754 -601.177490 0.031250"
+				"angles"		"0.000000 87.112160 0.000000"
+				"targetname"	"cache_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_b"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-4023.697754 -601.177490 0.031250"
+				"angles"		"0.000000 87.112160 0.000000"
+				"targetname"	"cachepoint_b"
+			}				
+			
+			// Cache C
+			"obj_weapon_cache"
+			{
+				"origin"		"-1436.980591 1632.834473 0.031250"
+				"angles"		"0.000000 44.425434 0.000000"
+				"targetname"	"cache_c"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_c"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-1436.980591 1632.834473 0.031250"
+				"angles"		"0.000000 44.425434 0.000000"
+				"targetname"	"cachepoint_c"
+			}	
+		}
 	}
 }
 	

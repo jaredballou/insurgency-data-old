@@ -1,0 +1,392 @@
+/**
+ * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+ * Richard Clark (http://richclarkdesign.com)
+ * http://cssreset.com
+ */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+article img {
+    max-width: 100%;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
+
+/*ANIMS*/
+@-webkit-keyframes loadingFlash{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
+/* STYLES */
+@font-face {
+	font-family: OratorStd;
+	src: url("../media/fonts/OratorStd.otf") format("opentype");
+}
+
+@font-face {
+	font-family: FoundationSans-Bold;
+	src: url("../media/fonts/FoundationSans-Bold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: FoundationSans-Cond;
+	src: url("../media/fonts/FoundationSans-Cond.otf") format("opentype");
+}
+
+body
+{
+	background: transparent;
+	color: rgb( 242, 235, 216 );
+	font-family: FoundationSans-Cond;
+	overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+::-webkit-scrollbar {
+    width: 2px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(242,235,216,0.5);
+}
+#outer-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+}
+#loading {
+    width: 100%;
+    height: 100%;
+    background: rgba( 62, 53, 53, 0.25 );
+    position: absolute;
+    z-index: -100;
+}
+#loading p {
+    margin: 0;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: OratorStd;
+    text-transform: uppercase;
+}
+#loading p span {
+    opacity: 1;
+    -webkit-animation: loadingFlash 1s infinite;
+}
+#featured-stories, #bottom-container
+{
+	display: -webkit-box;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+   	width: 100%;
+   	justify-content: space-between;
+}
+#featured-stories {
+    height: 23%;
+}
+#featured-stories li {
+    list-style: none;
+}
+
+.featured-container
+{
+    -webkit-box-flex: 1;
+    flex: 1 0px;   
+    position: relative;
+}
+.featured-container a {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+.featured-container .article-image {
+    width: 100%;
+    height: 100%;
+}
+.featured-container .article-image:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(top,rgba(27,22,22,0) 50%,rgba(27,22,22,0.4) 80%,rgba(27,22,22,0.95) 100%);
+    background-image: linear-gradient(top,rgba(27,22,22,0) 50%,rgba(27,22,22,0.4) 80%,rgba(27,22,22,0.95) 100%);
+}
+.featured-container:hover .article-image:after {
+    background-image: -webkit-linear-gradient(top,rgba(27,22,22,0.25) 0,rgba(27,22,22,0.75) 50%,rgba(27,22,22,1) 100%);
+    background-image: linear-gradient(top,rgba(27,22,22,0) 50%,rgba(27,22,22,0.4) 80%,rgba(27,22,22,0.95) 100%);
+}
+.featured-container a .title {
+    display: block;
+    text-transform: uppercase;
+    color: #f2ebd8;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 10px;
+    font-size: 18px;
+    font-family: FoundationSans-Bold;
+
+}
+#featured-stories
+{
+	margin-bottom: 1.5%;
+}
+
+h1, h2, h3, h4, h5
+{
+	font-family: FoundationSans-Bold;
+	text-transform: uppercase;
+}
+#bottom-container {
+    height: 100%;
+}
+#story-container, #recent-news {
+    height: 100%;
+    overflow-y: scroll;
+    position: relative;
+    overflow-x: hidden;
+}
+
+#story-container h1, #story-container p
+{
+	margin: 0px;
+	margin-bottom: 5px;
+}
+#story-container .article-image {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+article
+{
+	font-family: FoundationSans-Cond;
+	font-size: 16px;
+    line-height: 1.25em;
+    padding-bottom: 30px;
+}
+article h1 {font-size: 1.25em;}
+article h2 {font-size: 1.05em;}
+article h3 {font-family: 'OratorStd',courier,monospace; font-size: .75em;}
+article ul {
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+article ul {padding: 0 5%;}
+article ul li {margin-bottom: 5px}
+article ul ul {margin-bottom: 0}
+article ul li:last-child{margin-bottom: 0;}
+article blockquote {padding: 20px 10% 0; font-family: 'oratorstd';}
+article blockquote + p {padding: 0 10% 20px;}
+.article-title {
+    font-size: 24px;
+}
+.article-details
+{
+	font-family: OratorStd;
+	padding-bottom: 5px;
+	border-bottom: solid 1px rgba( 27, 22, 22, 0.5 );
+    font-size: 12px;
+}
+.article-image {
+    background-size: cover;
+    background-position: center;
+}
+
+.featured-container
+{
+    margin-right: 1px;
+}
+
+.featured-container:last-child
+{
+	margin-right: 0px;
+}
+
+.featured-container, #story-container, #recent-news
+{
+	background: rgba( 62, 53, 53, 0.25 );
+}
+
+#story-container
+{
+	padding: 15px;
+	width: 80%;
+    height: 100%;
+}
+#story-contents
+{
+    margin-top: 300px;
+}
+#story-container article p {
+    margin-bottom: 20px;
+}
+#story-container article a {
+    text-decoration: underline;
+    color: #f2ebd8;
+}
+#story-container article a:hover {
+    text-decoration: underline;
+    color: #cc2e19;
+}
+#recent-news
+{
+	margin-left: .5%;
+    width: 35%;
+}
+.news-list {
+    display: -webkit-box;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+.news-list li {
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.news-list li:hover {
+    background-image: -webkit-linear-gradient(left,rgba(242,235,216,0.25) 50%,rgba(242,235,216,0.05) 100%);
+    background-image: linear-gradient(left,rgba(242,235,216,0.25) 50%,rgba(242,235,216,0.05) 100%);
+}
+.news-list a {
+    color: #f2ebd8;
+    display: block;
+    overflow: hidden;
+    height: 120px;
+}
+.news-list div {
+    width: 100%;
+}
+.news-list .article-image {
+    width:100%;
+    height: 120px;
+}
+.news-list li .article-image:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(top,rgba(27,22,22,0) 50%,rgba(27,22,22,0.4) 80%,rgba(27,22,22,0.95) 100%);
+    background-image: linear-gradient(top,rgba(27,22,22,0) 50%,rgba(27,22,22,0.4) 80%,rgba(27,22,22,0.95) 100%);
+    
+}
+.news-list li:hover .article-image:after {
+    background-image: -webkit-linear-gradient(top,rgba(27,22,22,0.25) 0,rgba(27,22,22,0.75) 50%,rgba(27,22,22,1) 100%);
+    background-image: linear-gradient(top,rgba(27,22,22,0) 50%,rgba(27,22,22,0.4) 80%,rgba(27,22,22,0.95) 100%);
+}
+.news-list span {
+    display: block;
+}
+.news-list .title {
+    margin-bottom: 2px;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 10px;
+    text-transform: uppercase;
+}
+.news-list .date {
+    font-family: oratorstd;
+    text-transform: uppercase;
+    font-size: 12px;
+}

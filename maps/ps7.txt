@@ -1,0 +1,170 @@
+"cpsetup.txt"
+{
+    "theater_conditions"
+	{
+		"?nightmap"		"0"
+	}
+	
+	//  Supported modes:
+    //  - Firefight
+    //  - Skirmish
+    //  - Occupy
+    //  - Hunt
+
+	"firefight"
+    {
+        "navfile" "ps7"
+		"nightlighting" "0"
+		
+		"controlpoint" "firefight_cap_a"
+        "controlpoint" "occupy_cap"
+        "controlpoint" "firefight_cap_c"
+
+        "spawnzones"
+        {
+            "disablespawns" "1"
+            "0" "spawnzone_neutral"
+        }
+    }
+
+	"skirmish" 
+	{
+		"navfile" "ps7"
+		"nightlighting" "0"
+		
+		"controlpoint"    "skirmish_cap_a"   
+		"controlpoint"    "cachepoint_b"
+		"controlpoint"    "occupy_cap"
+		"controlpoint"    "skirmish_cap_d"
+		"controlpoint"    "cachepoint_e"
+
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0" "spawnzone_neutral"
+		}
+
+		"entities"
+		{
+			// Cache B
+			"obj_weapon_cache"
+			{
+				"origin"        "3900 -2284 -232"
+				"angles"        "0 270 0"
+				"targetname"    "cache_b"
+				"teamnumber"    "2" // Security
+				"ControlPoint"    "cachepoint_b"
+				"TakeDamageBullets" "0"
+			}
+			"point_controlpoint"
+			{
+				"origin"        "3900  -2284 -232"
+				"angles"        "0 270 0"
+				"targetname"    "cachepoint_b"
+			}        
+
+			// Cache E
+			"obj_weapon_cache"
+			{
+				"origin"        "-1393 4030 -231"
+				"angles"        "0 0 0"
+				"targetname"    "cache_e"
+				"teamnumber"    "3" // Insurgents
+				"ControlPoint"    "cachepoint_e"
+				"TakeDamageBullets" "0"
+			}                
+			"point_controlpoint"
+			{
+				"origin"        "-1393 4030 -231"
+				"angles"        "0 0 0"
+				"targetname"    "cachepoint_e"
+			}
+		}
+	}
+
+	"occupy"
+	{
+		"navfile" "ps7"
+		"nightlighting" "0"
+		
+		"controlpoint" "occupy_cap"
+
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0" "spawnzone_neutral"
+		}
+	}
+	
+	"hunt"
+	{
+		"navfile"   		"ps7"
+		"nightlighting"		"0"
+		"AttackingTeam"		"security"
+				
+		"controlpoint"		"cachepoint_a"
+		"controlpoint"		"cachepoint_b"
+		"controlpoint"		"cachepoint_c"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_1"
+		}
+		
+		"entities"
+		{
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"3900 -2284 -232"
+				"angles"		"0 270 0"
+				"targetname"    "cache_a"
+				"teamnumber"    "3" // Insurgents
+				"ControlPoint"    "cachepoint_a"
+				"TakeDamageBullets" "0"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"3900 -2284 -232"
+				"angles"		"0 270 0"
+				"targetname"    "cachepoint_a"
+			}		
+			
+			// Cache B
+			"obj_weapon_cache"
+			{
+				"origin"		"-4036 2547 512"
+				"angles"		"0 270 0"
+				"targetname"	"cache_b"
+				"teamnumber"	"3" // Insurgents
+				"ControlPoint"	"cachepoint_b"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-4036 2547 512"
+				"angles"		"0 270 0"
+				"targetname"	"cachepoint_b"
+			}
+			
+			// Cache C
+			"obj_weapon_cache"
+			{
+				"origin"		"-1393 4030 -231"
+				"angles"		"0 0 0"
+				"targetname"    "cache_c"
+				"teamnumber"    "3" // Insurgents
+				"ControlPoint"    "cachepoint_c"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-1393 4030 -231"
+				"angles"		"0 0 0"
+				"targetname"    "cachepoint_c"
+			}
+			
+		}
+	}
+}

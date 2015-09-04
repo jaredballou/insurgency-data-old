@@ -1,0 +1,128 @@
+"cpsetup.txt"
+{
+	// clean_sweep supported modes:
+	// - Push
+	// - Skirmish
+	// - Occupy
+	// - Firefight
+	// - Strike
+	
+	"push"
+	{
+		"navfile"   		"clean_sweep"
+		"AttackingTeam"		"security"
+		"controlpoint"		"cp_a"
+		"controlpoint"		"cp_occupy"
+		"controlpoint"		"cp_push"
+		"controlpoint"		"cachepoint_final"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "pushspawn_a"
+			"1"  "pushspawn_b"
+			"2"  "pushspawn_c"
+		}
+		
+		"entities"
+		{
+			// Final Cache
+			"obj_weapon_cache"
+			{
+				"origin"		"759 6878 38"
+				"angles"		"0 180 0"
+				"targetname"	"cache_final"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_final"
+				"TakeDamageBullets" "0"
+				"DestructibleWhenActiveOnly" "1"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"759 6878 54"
+				"angles"		"0 180 0"
+				"targetname"	"cachepoint_final"
+			}	
+		}
+	}
+	
+	"firefight"
+	{
+		"navfile"   		"clean_sweep"
+		"controlpoint" "cp_a"
+		"controlpoint" "cp_b"
+		"controlpoint" "cp_c"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0" "spawnzone_a"
+		}
+	}
+	
+	"skirmish"
+	{
+		"navfile"   		"clean_sweep"
+		"controlpoint"		"cachepoint_a"
+		"controlpoint" 		"cp_a"
+		"controlpoint" 		"cp_b"
+		"controlpoint" 		"cp_c"
+		"controlpoint"		"cachepoint_e"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_a"
+		}
+		
+		"entities"
+		{	
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"-369 1320 167"
+				"angles"		"0.000000 180 0.000000"
+				"targetname"	"cache_a"
+				"teamnumber"	"2"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-369 1320 183"
+				"angles"		"0.000000 180 0.000000"
+				"targetname"	"cachepoint_a"
+			}	
+			
+			// Cache E
+			"obj_weapon_cache"
+			{
+				"origin"		"759 6878 38"
+				"angles"		"0 180 0"
+				"targetname"	"cache_e"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_e"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"759 6878 38"
+				"angles"		"0 180 0"
+				"targetname"	"cachepoint_e"
+			}	
+		}
+	}
+	
+	"occupy"
+	{
+		"navfile"   		"clean_sweep"
+		"controlpoint"		"cp_occupy" 
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_a"
+		}
+	}
+
+}

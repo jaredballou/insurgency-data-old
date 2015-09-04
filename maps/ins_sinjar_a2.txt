@@ -1,0 +1,32 @@
+"cpsetup.txt"
+{	
+//	"firefight"
+//	{
+//		"controlpoint" "cap_a"
+//		"controlpoint" "cap_b"
+//		"controlpoint" "cap_c"
+//		"controlpoint" "cap_d"
+//		"controlpoint" "cap_e"
+//
+//		"spawnzones"
+//		{
+//			"0" "spawnzone_1"
+//		}
+//	}
+		"push"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"pushpoint_01"
+		"controlpoint"		"pushpoint_02"
+		"controlpoint"		"pushpoint_03"
+		"controlpoint"		"pushpoint_04"
+		
+		"spawnzones"
+		{
+			"0"  "spawnzone_1"
+			"1"  "spawnzone_2"
+			"2"  "spawnzone_3"
+			"3"  "spawnzone_4"
+		}
+	}
+}

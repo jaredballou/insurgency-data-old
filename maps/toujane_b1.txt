@@ -1,0 +1,131 @@
+"cpsetup.txt"
+{	
+	// supported modes:
+	// - Strike
+	// - Hunt
+
+
+	"strike"
+	{
+		"AttackingTeam"		"insurgents"
+		"controlpoint"		"point_a"
+		"controlpoint"		"point_b"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_strike"
+		}
+		
+		"entities"
+		{				
+			"obj_weapon_cache"
+			{
+				"origin"		"-624 2211 129"
+				"angles"		"0 0 0"
+				"targetname"	"cache_point_a"
+				"teamnumber"	"2"
+				"ControlPoint"	"point_a"
+				"TakeDamageBullets" "0"
+			}		
+			"point_controlpoint"
+			{
+				"origin"		"-624 2220 176"
+				"angles"		"0 0 0"
+				"targetname"	"point_a"
+			}		
+			
+			"obj_weapon_cache"
+			{
+				"origin"		"1806 808 166"
+				"angles"		"0 0 0"
+				"targetname"	"cache_point_b"
+				"teamnumber"	"2"
+				"ControlPoint"	"point_b"
+				"TakeDamageBullets" "0"
+			}						
+			"point_controlpoint"
+			{
+				"origin"		"1800 808 206"
+				"angles"		"0 0 0"
+				"targetname"	"point_b"
+			}		
+		}
+	}
+
+"hunt"
+	{
+		"navfile"   		"dust_ws"
+		"AttackingTeam"		"security"
+		"nightlighting"		"0"
+		
+		"controlpoint"		"point_a"
+		"controlpoint"		"point_b"
+		"controlpoint"		"point_c"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_hunt"
+		}
+		
+		"entities"
+		{			
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"-624 2211 129"
+				"angles"		"0 0 0"
+				"targetname"	"cache_point_a"
+				"teamnumber"	"3"
+				"ControlPoint"	"point_a"
+				"TakeDamageBullets" "0"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"-624 2220 176"
+				"angles"		"0 0 0"
+				"targetname"	"point_a"
+			}	
+			
+			// Cache B
+			"obj_weapon_cache"
+			{
+				"origin"		"1806 808 166"
+				"angles"		"0 0 0"
+				"targetname"	"cache_point_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"point_b"
+				"TakeDamageBullets" "0"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"1800 808 206"
+				"angles"		"0 0 0"
+				"targetname"	"point_b"
+			}	
+			
+			// Cache C
+			"obj_weapon_cache"
+			{
+				"origin"		"867 1480 185"
+				"angles"		"0.000000 0 0.000000"
+				"targetname"	"cache_point_c"
+				"teamnumber"	"3"
+				"ControlPoint"	"point_c"
+				"TakeDamageBullets" "0"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"664 1480 216"
+				"angles"		"0.000000 0 0.000000"
+				"targetname"	"point_c"
+			}	
+		}
+	}
+
+
+
+
+
+}	

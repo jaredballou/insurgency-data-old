@@ -1,0 +1,83 @@
+"cpsetup.txt"
+{
+	// Ghazni supported modes:
+	// - Skirmish
+	// - Firefight
+	// - Occupy
+	
+	"skirmish"
+	{
+		"controlpoint"	"cachepoint_a"
+		"controlpoint" 	"firefightpoint_2"
+		"controlpoint" 	"occupypoint_01"
+		"controlpoint" 	"firefightpoint_1"
+		"controlpoint"	"cachepoint_e"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0" "spawnzone_neutral"
+		}
+		
+		"entities"
+		{
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"-2824 -176 344"
+				"angles"		"0.000000 0.000000 0.000000"
+				"targetname"	"cache_a"
+				"teamnumber"	"2"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"-2824 -176 384"
+				"angles"		"0.000000 0.000000 0.000000"
+				"targetname"	"cachepoint_a"
+			}		
+			
+			// Cache E
+			"obj_weapon_cache"
+			{
+				"origin"		"2902 856 448"
+				"angles"		"0.000000 0.000000 0.000000"
+				"targetname"	"cache_e"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_e"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"2902 856 489"
+				"angles"		"0.000000 0.000000 0.000000"
+				"targetname"	"cachepoint_e"
+			}
+		}
+	}
+
+	"firefight"
+	{
+		"controlpoint" "firefightpoint_2"
+		"controlpoint" "occupypoint_01"
+		"controlpoint" "firefightpoint_1"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0" "spawnzone_neutral"
+		}
+	}
+	
+	"occupy"
+	{
+		"controlpoint" "occupypoint_01"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0" "spawnzone_neutral"
+		}
+	}
+}

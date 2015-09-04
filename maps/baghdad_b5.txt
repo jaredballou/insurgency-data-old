@@ -1,0 +1,83 @@
+"cpsetup.txt"
+{	
+	// supported modes:
+	// - Push
+	// - Battle
+	// - Checkpoint
+
+
+	
+	"push"
+	{
+		"AttackingTeam"		"insurgents"
+		"controlpoint"		"battle_d"
+		"controlpoint"		"battle_c"
+		"controlpoint"		"battle_b"
+		"controlpoint"		"battle_a"
+
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_push_01"
+			"1"  "spawnzone_push_02"
+			"2"  "spawnzone_push_03"
+			"3"  "spawnzone_push_04"
+		}
+		
+	}
+
+
+
+
+"checkpoint"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"battle_a"
+		"controlpoint"		"battle_b"
+		"controlpoint"		"coop1"
+		"controlpoint"		"battle_c"
+		"controlpoint"		"coop2"
+		"controlpoint"		"battle_d"
+		"controlpoint"		"cachepoint_final_coop"
+
+		
+
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_coop1"
+			"1"  "spawnzone_coop2"
+			"2"  "spawnzone_coop3"
+			"3"  "spawnzone_coop4"
+			"4"  "spawnzone_coop5"
+			"5"  "spawnzone_coop6"
+			"6"  "spawnzone_coop7"
+
+
+		}
+		"entities"
+		{
+			// Cache g
+			"obj_weapon_cache"
+			{
+				"origin"		"506 -1027 16"
+				"angles"		"0 0 0"
+				"targetname"	"cachepoint_final_coop"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_final_coop"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"510 -1026 32"
+				"angles"		"0 90 0"
+				"targetname"	"cachepoint_final_coop" 
+			}	
+		}
+	}
+
+
+
+}	

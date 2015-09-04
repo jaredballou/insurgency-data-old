@@ -1,0 +1,29 @@
+"cpsetup.txt"
+{
+	"theater_conditions"
+	{
+		"?nightmap"			"0"
+	}
+	
+	//  Supported modes:
+    //  - push
+    
+	"push"
+	{
+		"navfile"			"ps7_push"
+		"nightlighting" 	"0"
+		
+		"AttackingTeam"		"security"
+		"controlpoint"		"push_cap_a"
+		"controlpoint"		"occupy_cap"
+		"controlpoint"		"push_cap_c"
+
+		"spawnzones"
+		{
+        "disablespawns" "1"
+        "0"  "spawnzone_01"
+        "1"  "spawnzone_02"
+        "2"  "spawnzone_03"
+		}
+	}
+}

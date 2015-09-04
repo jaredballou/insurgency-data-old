@@ -1,0 +1,231 @@
+"cpsetup.txt"
+{	
+	// supported modes:
+	// - Strike
+	// - Hunt
+	// - Occupy
+	// - Flashpoint
+
+	"strike"
+	{
+		"AttackingTeam"		"insurgents"
+		"controlpoint"		"point_a"
+		"controlpoint"		"point_b"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_strike"
+		}
+		
+		"entities"
+		{				
+			"obj_weapon_cache"
+			{
+				"origin"		"1942 648 -2"
+				"angles"		"0 0 0"
+				"targetname"	"cache_point_a"
+				"teamnumber"	"2"
+				"ControlPoint"	"point_a"
+				"TakeDamageBullets" "0"
+			}		
+			"point_controlpoint"
+			{
+				"origin"		"1944 652 40"
+				"angles"		"0 0 0"
+				"targetname"	"point_a"
+			}		
+			
+			"obj_weapon_cache"
+			{
+				"origin"		"430 -480 2"
+				"angles"		"0 0 0"
+				"targetname"	"cache_point_b"
+				"teamnumber"	"2"
+				"ControlPoint"	"point_b"
+				"TakeDamageBullets" "0"
+			}						
+			"point_controlpoint"
+			{
+				"origin"		"428 -480 48"
+				"angles"		"0 0 0"
+				"targetname"	"point_b"
+			}		
+		}
+	}
+
+"hunt"
+	{
+		"navfile"   		"dust_ws"
+		"AttackingTeam"		"security"
+		"nightlighting"		"0"
+		
+		"controlpoint"		"point_a"
+		"controlpoint"		"point_b"
+		"controlpoint"		"point_c"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_hunt"
+		}
+		
+		"entities"
+		{			
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"1942 648 -2"
+				"angles"		"0 0 0"
+				"targetname"	"cache_point_a"
+				"teamnumber"	"3"
+				"ControlPoint"	"point_a"
+				"TakeDamageBullets" "0"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"1944 652 40"
+				"angles"		"0 0 0"
+				"targetname"	"point_a"
+			}	
+			
+			// Cache B
+			"obj_weapon_cache"
+			{
+				"origin"		"430 -480 2"
+				"angles"		"0 0 0"
+				"targetname"	"cache_point_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"point_b"
+				"TakeDamageBullets" "0"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"428 -480 48"
+				"angles"		"0 0 0"
+				"targetname"	"point_b"
+			}	
+			
+			// Cache C
+			"obj_weapon_cache"
+			{
+				"origin"		"-758 -64 0"
+				"angles"		"0.000000 0 0.000000"
+				"targetname"	"cache_point_c"
+				"teamnumber"	"3"
+				"ControlPoint"	"point_c"
+				"TakeDamageBullets" "0"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"-760 -60 44"
+				"angles"		"0.000000 0 0.000000"
+				"targetname"	"point_c"
+			}	
+		}
+	}
+
+ "occupy"
+{
+    "navfile"   "dust_ws"
+    "controlpoint" "occupy"
+
+    "spawnzones"
+    {
+          "disabledspawns" "1"
+          "0" "spawnzone_occupy"
+    }
+}
+
+"flashpoint"
+{
+    "controlpoint"        "point_a"
+    "controlpoint"        "point_b"
+    "controlpoint"        "occupy"
+    "controlpoint"        "point_d"
+    "controlpoint"        "point_e"
+
+    "entities"
+    {
+        // Cache A
+        "obj_weapon_cache"
+        {
+            "origin"        "1942 648 -2"
+            "angles"        "0 0 0"
+            "targetname"    "cache_point_a"
+            "teamnumber"    "2"
+            "ControlPoint"    "point_a"
+            "TakeDamageBullets" "0"
+        }                
+        "point_controlpoint"
+        {
+            "origin"        "1944 652 40"
+            "angles"        "0 0 0"
+            "targetname"    "point_a"
+        }
+
+        // Cache B
+        "obj_weapon_cache"
+        {
+            "origin"        "430 -480 2"
+            "angles"        "0 0 0"
+            "targetname"    "cache_point_b"
+            "teamnumber"    "2"
+            "ControlPoint"    "point_b"
+            "TakeDamageBullets" "0"
+        }                
+        "point_controlpoint"
+        {
+            "origin"        "428 -480 48"
+            "angles"        "0.000000 -71.893448 0.000000"
+            "targetname"    "point_b"
+        }    
+
+        // Cache D
+        "obj_weapon_cache"
+        {
+            "origin"        "702 2132 1"
+            "angles"        "0 270 0"
+            "targetname"    "cache_point_d"
+            "teamnumber"    "3"
+            "ControlPoint"    "point_d"
+            "TakeDamageBullets" "0"
+        }                
+        "point_controlpoint"
+        {
+            "origin"        "700 2128 40"
+            "angles"        "0 0 0"
+            "targetname"    "point_d"
+        }    
+
+        // Cache E
+        "obj_weapon_cache"
+        {
+            "origin"        "-1931 2762 33"
+            "angles"        "0 0 0"
+            "targetname"    "cache_point_e"
+            "teamnumber"    "3"
+            "ControlPoint"    "point_e"
+            "TakeDamageBullets" "0"
+        }                
+        "point_controlpoint"
+        {
+            "origin"        "-1924 2768 88"
+            "angles"        "0 0 0"
+            "targetname"    "point_e"
+        }
+    }
+
+    "spawnzones"
+    {
+        "disablespawns" "1"
+        "0"  "spawnzone_occupy"
+    }
+}
+
+
+
+
+
+
+}	

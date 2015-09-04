@@ -1,0 +1,16 @@
+"cpsetup.txt"
+{
+	"hunt"
+	{
+	}
+	
+	"outpost"
+	{
+		"AttackingTeam"		"insurgents"
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_outpost"
+		}
+	}	
+} 

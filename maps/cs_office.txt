@@ -1,0 +1,101 @@
+"cpsetup.txt"
+{
+	// Ministry supported modes:	
+	// - Skirmish
+	// - Firefight
+	// - Infiltrate
+	// - Occupy
+	
+	"firefight"
+	{
+		"navfile"   		"cs_officeb2"
+		"nightlighting"		"0"
+		"controlpoint"	"cp_1"
+		"controlpoint"	"cp_2"
+		"controlpoint"  "cp_3"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_occupy"
+		}
+	}
+	
+	"strike"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"cachepoint_a"
+		"controlpoint"		"cachepoint_b"
+		"controlpoint"		"cachepoint_c"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_occupy"
+		}
+		
+		"entities"
+		{				
+			"obj_weapon_cache"
+			{
+				"origin"		"-476.000 761.000 -160.000"
+				"angles"		"0.000000 -182.000 0.000000"
+				"targetname"	"cache_a"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}		
+			"point_controlpoint"
+			{
+				"origin"		"-475 761 -144"
+				"angles"		"0.000000 -90.469322 0.000000"
+				"targetname"	"cachepoint_a"
+			}		
+			
+			"obj_weapon_cache"
+			{
+				"origin"		"1684.000 -170.000 -160.000"
+				"angles"		"0.000000 91.975417 0.000000"
+				"targetname"	"cache_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_b"
+				"TakeDamageBullets" "0"
+			}						
+			"point_controlpoint"
+			{
+				"origin"		"1684.000 -170.000 -143.000"
+				"angles"		"0.000000 2.975417 0.000000"
+				"targetname"	"cachepoint_b"
+			}
+			
+			"obj_weapon_cache"
+			{
+				"origin"		"565.000 535.000 -160.000"
+				"angles"		"0.000000 92.975417 0.000000"
+				"targetname"	"cache_c"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_c"
+				"TakeDamageBullets" "0"
+			}						
+			"point_controlpoint"
+			{
+				"origin"		"565.000 535.000 -143.000"
+				"angles"		"0.000000 2.975417 0.000000"
+				"targetname"	"cachepoint_c"
+			}			
+		}
+	}
+
+	"occupy"
+	{
+		"navfile"   		"cs_officeb2"
+		"nightlighting"		"0"
+		"controlpoint"		"cp_oc"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_occupy"
+		}
+	}
+}

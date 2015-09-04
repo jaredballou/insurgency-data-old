@@ -1,0 +1,26 @@
+"cpsetup.txt"
+{	
+	// Siege supported modes:	
+	// - Skirmish
+	// - Firefight - modify run up to B (insurgent advantage)
+	// - Push - add cover to block line of sight down insurgent alleyway
+	// - Ambush - opposite roads are exits, escorting team spawns in second story room on far side of map
+	// - Occupy - control the street
+	
+	
+	
+	"firefight"
+	{
+		"controlpoint"		"cp_1"
+		"controlpoint"		"cp_2"
+		"controlpoint"		"cp_3"
+
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_ff"
+		}
+	}
+	
+
+} 

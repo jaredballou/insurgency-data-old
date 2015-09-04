@@ -1,0 +1,35 @@
+  "cpsetup.txt"
+{	
+	
+	"theater_conditions"
+	{
+		"?nightmap"		"1"
+	}
+
+	"checkpoint"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"cp1"
+		"controlpoint"		"cp2"
+		"controlpoint"		"cp3"
+		"controlpoint"		"cp4"
+		"controlpoint"		"cp5"
+		"controlpoint"		"cp6"
+		"controlpoint"		"cp7"
+		"controlpoint"		"cp8"
+		
+		"spawnzones"
+		{
+			
+			"disablespawns" "1" 
+			"0"  "spawnzone1"
+			"1"  "spawnzone2"
+			"2"  "spawnzone3"
+			"3"  "spawnzone4"
+			"4"  "spawnzone5"
+			"5"  "spawnzone6"
+			"6"  "spawnzone7"
+			"7"  "spawnzone8"
+		}
+	}
+} 

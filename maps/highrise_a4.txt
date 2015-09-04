@@ -1,0 +1,80 @@
+"cpsetup.txt"
+{	
+	// mw2_highrise supported modes:
+	// firefight
+	// Strike
+	// occupy
+
+
+	"firefight"
+	{
+                      "controlpoint" "cp_1"
+                      "controlpoint" "cp_2"
+                      "controlpoint" "cp_3"
+
+                      "spawnzones"
+                     {
+		"disablespawns" "1"
+                               "0" "spawnzone_firefight"
+                     }
+	}
+
+	"occupy"
+	{
+		"controlpoint"	"cp_2"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_firefight"
+		}
+	}
+
+	"strike"
+	{
+		"controlpoint"		"strike_a"
+		"controlpoint"		"strike_b"
+	
+	"entities"
+		{	
+			"obj_weapon_cache"
+			{
+				"origin"		"-248 -2360 -84"
+				"angles"		"0 0 0"
+				"targetname"	"cache_a"
+				"teamnumber"	"3"
+				"ControlPoint"	"strike_a"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-248 -2360 -84"
+				"angles"		"0 0 0"
+				"targetname"	"strike_a"
+			}
+			
+			"obj_weapon_cache"
+			{
+				"origin"		"-1233.88 -3256 -88"
+				"angles"		"0 90 0"
+				"targetname"	"cache_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"strike_b"
+				"TakeDamageBullets" "0"
+			}		
+			"point_controlpoint"
+			{
+				"origin"		"-1233.88 -3256 -88"
+				"angles"		"0 90 0"
+				"targetname"	"strike_b"
+			}			
+		}
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_firefight"
+		}
+	}
+
+}	

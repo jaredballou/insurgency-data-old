@@ -1,0 +1,12 @@
+"cpsetup.txt"
+{
+
+	"occupy"
+	{
+		"controlpoint"		"dom_cap2"	// B
+	}
+
+		
+	
+
+} 

@@ -1,0 +1,60 @@
+"cpsetup.txt"
+{	
+	"outpost"
+	{
+		"navfile"   		"panj"
+		"AttackingTeam"		"insurgents"
+		
+		"controlpoint"		"cachepoint_friendly"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_1"
+		}
+		
+		"settings"
+		{
+			// bot attack/patrol spawn points
+			"attack_spawns"
+			{
+				"1"  	"spawnzone_attack_01"
+				"2"  	"spawnzone_attack_02"
+				"3"  	"spawnzone_attack_03"
+				"4"  	"spawnzone_attack_04"
+				"5"  	"spawnzone_attack_05"
+				"6"  	"spawnzone_attack_06"
+				"7"  	"spawnzone_attack_07"
+				"8"  	"spawnzone_attack_08"
+				"9"  	"spawnzone_attack_09"
+				"10"  	"spawnzone_attack_10"
+				"11"  	"spawnzone_attack_11"
+				"12"  	"spawnzone_attack_12"
+				"13"  	"spawnzone_attack_13"
+				"14"  	"spawnzone_attack_14"
+				"15"  	"spawnzone_attack_15"
+				"16"  	"spawnzone_attack_16"
+			}
+		}
+		
+		"entities"
+		{			
+			// Cache friendly
+			"obj_weapon_cache"
+			{
+				"origin"		"-176 30 23"
+				"angles"		"0 270 -4.41779"
+				"targetname"	"cache_friendly"
+				"teamnumber"	"2"
+				"ControlPoint"	"cachepoint_friendly"
+				"TakeDamageBullets" "0"
+			}	
+			"point_controlpoint"
+			{
+				"origin"		"-176 30 95"
+				"angles"		"0 270 -4.41779"
+				"targetname"	"cachepoint_friendly"
+			}
+		}
+	}
+} 

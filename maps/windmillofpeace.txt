@@ -1,0 +1,74 @@
+"cpsetup.txt"
+{
+    //  Supported modes:
+    // - Firefight
+    // - Skirmish
+    // - Occupy
+        // - Push
+
+"firefight"
+    {
+	"navfile"   		"windmillofpeace"
+        "controlpoint" "firefight_cap_a"
+        "controlpoint" "occupy_cap"
+        "controlpoint" "firefight_cap_c"
+
+        "spawnzones"
+        {
+            "disablespawns" "1"
+            "0" "spawnzone_skirmish"
+        }
+    }
+
+"skirmish"
+{
+    "navfile"   	"sdk_skirmish"
+    "controlpoint"    "cp_1"   
+    "controlpoint"    "cp_2"
+    "controlpoint"    "cp_3"
+    "controlpoint"    "cp_4"
+    "controlpoint"    "cp_5"
+
+    "spawnzones"
+    {
+        "disablespawns" "1"
+        "0" "spawnzone_skirmish"
+    }
+
+    "entities"
+    {
+        // Cache A
+        "obj_weapon_cache"
+        {
+            "origin"        "1602 -1358 16"
+            "angles"        "0.000000 90 0.000000"
+            "targetname"    "cache_a"
+            "teamnumber"    "2" // Security
+            "ControlPoint"    "cachepoint_a"
+            "TakeDamageBullets" "0"
+        }
+        "point_controlpoint"
+        {
+            "origin"        "1602 -1358 70"
+            "angles"        "0.000000 90 0.000000"
+            "targetname"    "cachepoint_a"
+        }        
+
+        // Cache E
+        "obj_weapon_cache"
+        {
+            "origin"        "-1498 1466 -32"
+            "angles"        "0.000000 90 0.000000"
+            "targetname"    "cache_e"
+            "teamnumber"    "3" // Insurgents
+            "ControlPoint"    "cachepoint_e"
+            "TakeDamageBullets" "0"
+        }                
+        "point_controlpoint"
+        {
+            "origin"        "-1498 1466 50"
+            "angles"        "0.000000 90 0.000000"
+            "targetname"    "cachepoint_e"
+        }
+    }
+}

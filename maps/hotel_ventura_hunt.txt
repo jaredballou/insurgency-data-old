@@ -1,0 +1,78 @@
+"cpsetup.txt"
+{	
+	"theater_conditions"
+	{
+		"?nightmap"		"1"
+	}
+	
+	"hunt"
+	{
+		"navfile"   		"Hotel_Ventura_Hunt"
+		"nightlighting"		"1"
+		"AttackingTeam"		"security"
+		
+		"controlpoint"		"cachepoint_a"
+		"controlpoint"		"cachepoint_b"
+		"controlpoint"		"cachepoint_c"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_hunt"
+		}
+		
+		"entities"
+		{
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"-1229 -1290 -182"
+				"angles"		"0.000000 178.817810 0.000000"
+				"targetname"	"cache_a"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "1"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"-1229 -1290 -182"
+				"angles"		"0.000000 178.817810 0.000000"
+				"targetname"	"cachepoint_a"
+			}		
+			
+			// Cache B
+			"obj_weapon_cache"
+			{
+				"origin"		"547 -1326 -181"
+				"angles"		"0.000000 88.491737 0.000000"
+				"targetname"	"cache_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_b"
+				"TakeDamageBullets" "1"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"547 -1326 -181"
+				"angles"		"0.000000 88.491737 0.000000"
+				"targetname"	"cachepoint_b"
+			}
+			
+			// Cache C
+			"obj_weapon_cache"
+			{
+				"origin"		"-1185 -1183 60"
+				"angles"		"0.000000 -89.338501 0.000000"
+				"targetname"	"cache_c"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_c"
+				"TakeDamageBullets" "1"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-1185 -1183 60"
+				"angles"		"0.000000 -89.338501 0.000000"
+				"targetname"	"cachepoint_c"
+			}	
+		}
+	}
+} 

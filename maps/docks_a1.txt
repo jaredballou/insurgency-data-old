@@ -1,0 +1,73 @@
+"cpsetup.txt"
+{
+    //  Supported modes:
+    // - Firefight
+    // - Skirmish
+    // - Occupy
+        // - Push
+
+"firefight"
+    {
+        "controlpoint" "firefight_cap_a"
+        "controlpoint" "firefight_cap_b"
+        "controlpoint" "firefight_cap_c"
+
+        "spawnzones"
+        {
+            "disablespawns" "1"
+            "0" "spawnzone_neutral"
+        }
+    }
+"skirmish"
+{
+    "controlpoint"    "cachepoint_a"   
+    "controlpoint"     "firefight_cap_a"
+    "controlpoint"     "firefight_cap_b"
+    "controlpoint"     "firefight_cap_c"
+    "controlpoint"    "cachepoint_e"
+
+    "spawnzones"
+    {
+        "disablespawns" "1"
+        "0" "spawnzone_neutral"
+    }
+
+    "entities"
+    {
+        // Cache A
+        "obj_weapon_cache"
+        {
+            "origin"        "-3240 -276 430"
+            "angles"        "0.000000 90 0.000000"
+            "targetname"    "cache_a"
+            "teamnumber"    "2" // Security
+            "ControlPoint"    "cachepoint_a"
+            "TakeDamageBullets" "0"
+        }
+        "point_controlpoint"
+        {
+            "origin"        "-3249 -271 474"
+            "angles"        "0.000000 90 0.000000"
+            "targetname"    "cachepoint_a"
+        }        
+
+        // Cache E
+        "obj_weapon_cache"
+        {
+            "origin"        "-4735 4376 195"
+            "angles"        "0.000000 90 0.000000"
+            "targetname"    "cache_e"
+            "teamnumber"    "3" // Insurgents
+            "ControlPoint"    "cachepoint_e"
+            "TakeDamageBullets" "0"
+        }                
+        "point_controlpoint"
+        {
+            "origin"        "-4739 4380 238"
+            "angles"        "0.000000 90 0.000000"
+            "targetname"    "cachepoint_e"
+        }
+    }
+}
+}
+}

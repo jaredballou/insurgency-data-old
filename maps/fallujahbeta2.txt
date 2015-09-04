@@ -1,0 +1,136 @@
+"cpsetup.txt"
+{	
+	// Siege supported modes:	
+	// - Skirmish
+	// - Firefight - modify run up to B (insurgent advantage)
+	// - Push - add cover to block line of sight down insurgent alleyway
+	// - Ambush - opposite roads are exits, escorting team spawns in second story room on far side of map
+	// - Occupy - control the street
+	
+	"skirmish"
+	{
+		"controlpoint"		"cachepoint_a"
+		"controlpoint"		"cap_2"
+		"controlpoint"		"extra_cap_1"
+		"controlpoint"		"cap_4"
+		"controlpoint"		"cachepoint_e"
+
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_ff"
+		}
+		
+		"entities"
+		{	
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"-1354.651001 2140.671387 200.311218"
+				"angles"		"0.000000 180.0 0.000000"
+				"targetname"	"cache_a"
+				"teamnumber"	"2"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-1340.651001 2140.671387 272.311218"
+				"angles"		"0.000000 180.0 0.000000"
+				"targetname"	"cachepoint_a"
+			}	
+			
+			// Cache E
+			"obj_weapon_cache"
+			{
+				"origin"		"-1233.443237 -1769.529907 208.031250"
+				"angles"		"0.000000 -90.966850 0.000000"
+				"targetname"	"cache_e"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_e"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-1233.443237 -1769.529907 280.031250"
+				"angles"		"0.000000 -90.966850 0.000000"
+				"targetname"	"cachepoint_e"
+			}	
+		}
+	}
+	
+	"firefight"
+	{
+		"controlpoint"		"cap_2"
+		"controlpoint"		"extra_cap_1"
+		"controlpoint"		"cap_4"
+
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_ff"
+		}
+	}
+	
+	"push"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"cap_2"
+		"controlpoint"		"extra_cap_1"
+		"controlpoint"		"push_cap_c"
+		"controlpoint"		"cachepoint_final"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_push_a"
+			"1"  "spawnzone_push_b"
+			"2"  "spawnzone_push_c"
+		}
+		
+		"entities"
+		{
+			// Final Cache
+			"obj_weapon_cache"
+			{
+				"origin"		"-4013.354248 -1856.367676 -255.968750"
+				"angles"		"0.000000 -91.051781 0.000000"
+				"targetname"	"cache_final"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_final"
+				"TakeDamageBullets" "0"
+				"DestructibleWhenActiveOnly" "1"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"-4013.354248 -1856.367676 -183.968750"
+				"angles"		"0.000000 -91.051781 0.000000"
+				"targetname"	"cachepoint_final"
+			}	
+		}
+	}
+	
+	"ambush"
+	{
+		"attackingteam"		"security"
+		"controlpoint" 		"vip_cap"
+		"controlpoint" 		"vip_cap_2"
+
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_ambush"
+		}	
+	}
+	
+	"occupy"
+	{
+		"controlpoint"		"cap_occupy"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_ff"
+		}
+	}
+} 

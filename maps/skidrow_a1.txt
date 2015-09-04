@@ -1,0 +1,82 @@
+"cpsetup.txt"
+{	
+	// cod_skidrow supported modes:
+	// firefight
+	// Strike
+	// occupy
+	//not Skirmish
+
+
+	"firefight"
+	{
+                      "controlpoint" "cp_3"
+                      "controlpoint" "cp_2"
+                      "controlpoint" "cp_1"
+
+                      "spawnzones"
+                     {
+		"disablespawns" "1"
+                               "0" "spawnzone_firefight"
+                     }
+	}
+
+	"occupy"
+	{
+		"controlpoint"	"cp_2"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_firefight"
+		}
+	}
+
+	"strike"
+	{
+		"AttackingTeam"		"Security"
+		"controlpoint"		"strike_a"
+		"controlpoint"		"strike_b"
+	
+	"entities"
+		{	
+			"obj_weapon_cache"
+			{
+				"origin"		"1020 1304 8"
+				"angles"		"0 90 0"
+				"targetname"	"cache_a"
+				"teamnumber"	"3"
+				"ControlPoint"	"strike_a"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"1020 1304 8"
+				"angles"		"0 90 0"
+				"targetname"	"strike_a"
+			}
+			
+			"obj_weapon_cache"
+			{
+				"origin"		"332 296 152"
+				"angles"		"0 0 0"
+				"targetname"	"cache_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"strike_b"
+				"TakeDamageBullets" "0"
+			}		
+			"point_controlpoint"
+			{
+				"origin"		"332 296 152"
+				"angles"		"0 0 0"
+				"targetname"	"strike_b"
+			}			
+		}
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_firefight"
+		}
+	}
+
+}	

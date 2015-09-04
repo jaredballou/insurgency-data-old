@@ -1,0 +1,92 @@
+"cpsetup.txt"
+{	
+	"theater_conditions"
+	{
+		"?nightmap"			"0"
+	}
+	
+	//  Supported modes:
+    //  - checkpoint
+	
+	"checkpoint"
+	{
+		"navfile"			"ps7_coop"
+		"nightlighting" 	"0"
+		"AttackingTeam"		"security"
+		
+		"controlpoint"		"cp1"
+		"controlpoint"		"cachepoint_b"
+		"controlpoint"		"cp3"
+		"controlpoint"		"cachepoint_d"
+		"controlpoint"		"cachepoint_e"
+		"controlpoint"		"cp6"
+		"controlpoint"		"cp7"
+	
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone1"                                           
+			"1"  "spawnzone2"
+			"2"  "spawnzone3"
+			"3"  "spawnzone4"
+			"4"  "spawnzone5"
+			"5"  "spawnzone6"
+			"6"  "spawnzone7"
+			"7"  "spawnzone8"
+		}
+		
+		"entities"
+		{
+			"obj_weapon_cache"
+			{
+				"origin"		"3900 -2284 -232"
+				"angles"		"0 270 0"
+				"targetname"	"cache_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_b"
+				"TakeDamageBullets" "0"
+			}
+			
+			"point_controlpoint"
+			{
+				"origin"		"3900  -2284 -232"
+				"angles"		"0 270 0"
+				"targetname"	"cachepoint_b"
+			}
+			
+			"obj_weapon_cache"
+			{
+				"origin"		"-4036 2547 512"
+				"angles"		"0 270 0"
+				"targetname"	"cache_d"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_d"
+				"TakeDamageBullets" "0"
+			}
+			
+			"point_controlpoint"
+			{
+				"origin"		"-4036 2547 512"
+				"angles"		"0 270 0"
+				"targetname"	"cachepoint_d"
+			}
+			
+			"obj_weapon_cache"
+			{
+				"origin"		"-1393 4030 -231"
+				"angles"		"0 0 0"
+				"targetname"	"cache_e"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_e"
+				"TakeDamageBullets" "0"
+			}
+			
+			"point_controlpoint"
+			{
+				"origin"		"-1393 4030 -231"
+				"angles"		"0 0 0"
+				"targetname"	"cachepoint_e"
+			} 
+		}		
+	}
+}

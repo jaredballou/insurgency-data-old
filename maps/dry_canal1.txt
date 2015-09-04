@@ -1,0 +1,90 @@
+"cpsetup.txt"
+{	
+	//Firefight
+	//skirmish
+	//ambush
+	//push
+	//occupy
+	//infiltrate
+	//flashpoint
+	//strike - new
+
+	"ambush"
+	{
+		"attackingteam"		"insurgents"
+		"controlpoint" 		"vip_0_cp"
+		"controlpoint" 		"vip_1_cp"
+
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_0"
+		}	
+	}
+
+
+	"push"
+	{
+    		"AttackingTeam"        "insurgents"
+    		"controlpoint"        "cp_3"
+    		"controlpoint"        "cp_2"
+    		"controlpoint"        "push_cap_c"
+
+    		"spawnzones"
+    		{
+       			"disablespawns" "1"
+        		"0"  "spawnzone_01"
+        		"1"  "spawnzone_02"
+        		"2"  "spawnzone_03"
+    		}
+	}
+
+	"strike"
+	{
+		"controlpoint"		"cachepoint_a"
+		"controlpoint"		"cachepoint_b"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0" "spawnzone_01"
+		}
+		
+		"entities"
+		{
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"-1322 -2456 260"
+				"angles"		"0 180 0"
+				"targetname"	"cache_a"
+				"teamnumber"	"2"//sec
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"-1322 -2456 260"
+				"angles"		"0 180 0"
+				"targetname"	"cachepoint_a"
+			}		
+			
+			// Cache B
+			"obj_weapon_cache"
+			{
+				"origin"		"3668 -3478 64"
+				"angles"		"0 90 0"
+				"targetname"	"cache_b"
+				"teamnumber"	"2"//sec
+				"ControlPoint"	"cachepoint_b"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"3668 -3478 64"
+				"angles"		"0 90 0"
+				"targetname"	"cachepoint_b"
+			}
+		}
+	}
+}

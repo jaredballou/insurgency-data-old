@@ -1,0 +1,5 @@
+particles_manifest
+{
+	// ghazni
+	"file"		"!particles/ghazni.pcf"
+}

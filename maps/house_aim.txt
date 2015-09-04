@@ -1,0 +1,4 @@
+"cpsetup.txt"
+{ "skirmish" { "controlpoint" "cap_a" "controlpoint" "cap_b" "controlpoint" "cap_c" "spawnzones" { "0" "spawnzone_1" } }
+}
+Category

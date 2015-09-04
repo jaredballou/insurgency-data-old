@@ -1,0 +1,17 @@
+"cpsetup.txt"
+{
+
+	"occupy"
+	{
+		"controlpoint"		"dom_cap1"	// A
+		"controlpoint"		"dom_cap2"	// B
+		"controlpoint"		"dom_cap3" 	// C
+	}
+
+	"elimination"
+	{
+		"controlpoint"		"dom_cap2"		
+	}	
+	
+
+} 

@@ -1,0 +1,54 @@
+"cpsetup.txt"
+{
+	"theater_conditions"
+	{
+		"?nightmap"		"1"
+	}
+
+	"checkpoint"
+	{
+		"navfile"   		"clean_sweep_night_coop_ws"
+		"nightlighting"		"1"
+		"AttackingTeam"		"security"
+		"controlpoint"		"cp_a"
+		"controlpoint"		"cp_b"
+		"controlpoint"		"cp_c"
+		"controlpoint"		"cp_d"
+		"controlpoint"		"cachepoint_e"
+		"controlpoint"		"cp_f"
+		"controlpoint"		"cp_g"
+		"controlpoint"		"cp_h"
+
+		"spawnzones"
+		{
+			"0"  "spawnzone_a"
+			"1"  "spawnzone_b"
+			"2"  "spawnzone_c"
+			"3"  "spawnzone_d"
+			"4"  "spawnzone_e"
+			"5"  "spawnzone_f"
+			"6"  "spawnzone_g"
+			"7"  "spawnzone_h"
+
+		}
+		"entities"
+		{
+			// Cache e
+			"obj_weapon_cache"
+			{
+				"origin"		"2322 5483 100"
+				"angles"		"0 180 0"
+				"targetname"	"cache_e"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_e"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"2322 5483 100"
+				"angles"		"0 180 0"
+				"targetname"	"cachepoint_e" 
+			}	
+		}
+	}
+}

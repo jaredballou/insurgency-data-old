@@ -1,0 +1,111 @@
+"cpsetup.txt"
+{		
+	// Market supported modes:	
+	// - Skirmish
+	// - Firefight
+	// - push
+	
+	"skirmish"
+	{		
+		"controlpoint"		"cachepoint_a"
+		//"controlpoint"	"cap_2"
+		"controlpoint"		"cap_3"
+		"controlpoint"		"cap_1" 
+		"controlpoint"		"cap_5" 
+		//"controlpoint"	"cap_4" 
+		"controlpoint"		"cachepoint_e"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_neutral"
+		}
+		
+		"entities"
+		{	
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"9734 64 16"
+				"angles"		"0 0 0"
+				"targetname"	"cache_a"
+				"teamnumber"	"2"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-2970 994 350"
+				"angles"		"0 0 0"
+				"targetname"	"cachepoint_a"
+			}	
+			
+			// Cache E
+			"obj_weapon_cache"
+			{
+				"origin"		"3772 -244 193"
+				"angles"		"0.000000 90 0.000000"
+				"targetname"	"cache_e"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_e"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"3772 -244 248"
+				"angles"		"0.000000 90 0.000000"
+				"targetname"	"cachepoint_e"
+			}
+		}
+	}
+	
+	"firefight"	
+	{
+		"controlpoint"		"cap_3"
+		"controlpoint"		"cap_1" 
+		"controlpoint"		"cap_5"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_neutral"
+		}
+	}
+
+	"push"
+	{
+		"AttackingTeam"		"insurgents"
+		"controlpoint"		"push_cap_a"
+		"controlpoint"		"push_cap_b"
+		"controlpoint"		"push_cap_c"
+		"controlpoint"		"cachepoint_final"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_1"
+			"1"  "spawnzone_2"
+			"2"  "spawnzone_3"
+		}	
+			"entities"
+		{
+			// Final Cache
+			"obj_weapon_cache"
+			{
+				"origin"		"123 761 34"
+				"angles"		"0.000000 90 0.5"
+				"targetname"	"cache_final"
+				"teamnumber"	"2"
+				"ControlPoint"	"cachepoint_final"
+				"TakeDamageBullets" "0"
+				"DestructibleWhenActiveOnly" "1"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"-4994 1880 64"
+				"angles"		"0.000000 0 0.5"
+				"targetname"	"cachepoint_final"
+			}	
+	   }			
+   } 
+}

@@ -1,0 +1,31 @@
+"cpsetup.txt"
+{	
+	"battle"
+	{
+		"controlpoint"		"cap_4"
+		"controlpoint"		"cap_5"
+		"controlpoint"		"cap_1" 
+		"controlpoint"		"cap_3" 
+		"controlpoint"		"cap_2"
+		
+		"spawnzones"
+		{
+			"0"  "spawnzone_ins_advance"
+			"1"  "spawnzone_neutral"
+			"2"  "spawnzone_sec_advance"
+		}
+	}
+	"skirmish"
+	{
+		"controlpoint"		"cap_4"
+		"controlpoint"		"cap_5"
+		"controlpoint"		"cap_1" 
+		"controlpoint"		"cap_3" 
+		"controlpoint"		"cap_2"
+
+		"spawnzones"
+		{
+			"0" "spawnzone_neutral"
+		}
+	}
+}

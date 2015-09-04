@@ -1,0 +1,108 @@
+{
+	"gametypes": {
+		"hunt": {
+			"nightlighting": "1",
+			"attackingteam": "security",
+			"controlpoint": {
+				"A": {
+					"pos_x": 323,
+					"pos_y": 634,
+					"pos_classname": "obj_weapon_cache",
+					"pos_type": "obj_weapon_cache",
+					"pos_team": 3,
+					"pos_name": "A"
+				},
+				"B": {
+					"pos_x": 779,
+					"pos_y": 382,
+					"pos_classname": "obj_weapon_cache",
+					"pos_type": "obj_weapon_cache",
+					"pos_team": 3,
+					"pos_name": "B"
+				},
+				"C": {
+					"pos_x": 692,
+					"pos_y": 541,
+					"pos_classname": "obj_weapon_cache",
+					"pos_type": "obj_weapon_cache",
+					"pos_team": 3,
+					"pos_name": "C"
+				}
+			},
+			"spawnzones": {
+				"disablespawns": "1",
+				"spawnzone_hunt": {
+					"spawnzone_hunt_team2": {
+						"pos_classname": "ins_spawnzone",
+						"pos_type": "area",
+						"pos_team": 2,
+						"pos_name": "spawnzone_hunt_team2",
+						"pos_x": 0,
+						"pos_y": 0
+					},
+					"spawnzone_hunt_team3": {
+						"pos_classname": "ins_spawnzone",
+						"pos_type": "area",
+						"pos_team": 3,
+						"pos_name": "spawnzone_hunt_team3",
+						"pos_x": 0,
+						"pos_y": 0
+					}
+				}
+			}
+		}
+	},
+	"theater_conditions": {
+		"?nightmap": "1"
+	},
+	"overview": {
+		"material": "overviews\/tunnel_rats_night_hunt",
+		"pos_x": -3708,
+		"pos_y": 4233,
+		"scale": 12,
+		"rotate": 0,
+		"zoom": 1
+	},
+	"points": {
+		"spawnzone_hunt_team2": {
+			"pos_classname": "ins_spawnzone",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "spawnzone_hunt_team2",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"spawnzone_hunt_team3": {
+			"pos_classname": "ins_spawnzone",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "spawnzone_hunt_team3",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"cachepoint_a": {
+			"pos_x": 323,
+			"pos_y": 634,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "cachepoint_a",
+			"pos_team": 0
+		},
+		"cachepoint_b": {
+			"pos_x": 779,
+			"pos_y": 382,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "cachepoint_b",
+			"pos_team": 0
+		},
+		"cachepoint_c": {
+			"pos_x": 692,
+			"pos_y": 541,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "cachepoint_c",
+			"pos_team": 0
+		}
+	}
+}

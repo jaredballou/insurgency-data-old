@@ -1,0 +1,49 @@
+"cpsetup.txt"
+{
+	//"skirmish"
+	//{
+	//	"controlpoint"		"cp_1"
+	//	"controlpoint"		"cp_2" 
+	//	"controlpoint"		"cp_3"
+//
+      //  "spawnzones"
+	//	{
+	//		"disablespawns" "1"
+	//		"0"  "spawnzone_neutral"
+	//	}
+	//
+	"firefight"
+	{
+		"controlpoint"		"cp_1"
+		"controlpoint"		"cp_2" 
+		"controlpoint"		"cp_3"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_neutral"
+		}
+	}
+	
+	"vendetta"
+	{
+		"controlpoint"		"patrol" 
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_neutral"
+		}
+	}
+	
+	"occupy"
+	{
+		"controlpoint"		"patrol" 
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_neutral"
+		}
+	}		
+} 

@@ -1,0 +1,81 @@
+"cpsetup.txt"
+{
+	// Embassy supported modes:
+	// - Firefight
+	// - Skirmish
+	// - Occupy
+	
+	"firefight"
+	{
+		"controlpoint"		"ff_cp_1"
+		"controlpoint"		"ff_cp_2" 
+		"controlpoint"		"ff_cp_3"
+
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_firefight"
+		}
+	}
+	"skirmish"
+	{
+		"controlpoint"		"cachepoint_a"
+		"controlpoint"		"ff_cp_1"
+		"controlpoint"		"ff_cp_2" 
+		"controlpoint"		"ff_cp_3"
+		"controlpoint"		"cachepoint_e"
+
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_firefight"
+		}
+		
+		"entities"
+		{	
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"0 1837 -992"
+				"angles"		"0 0 0"
+				"targetname"	"cache_a"
+				"teamnumber"	"2"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"0 1837 -964"
+				"angles"		"0 0 0"
+				"targetname"	"cachepoint_a"
+			}	
+			
+			// Cache E
+			"obj_weapon_cache"
+			{
+				"origin"		"2 -1836 -991"
+				"angles"		"0 0 0"
+				"targetname"	"cache_e"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_e"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"2 -1836 -966"
+				"angles"		"0 0 0"
+				"targetname"	"cachepoint_e"
+			}	
+		}
+	}
+	"occupy"
+	{
+		"controlpoint"		"ff_cp_2" 
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_firefight"
+		}
+	}	
+}

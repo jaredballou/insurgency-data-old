@@ -1,0 +1,12 @@
+contact ambush
+market ambush
+market_night ambush
+revolt ambush
+revolt_night ambush
+siege ambush
+station ambush
+station_night ambush
+tell ambush
+verticality ambush
+verticality_night ambush
+

@@ -1,0 +1,64 @@
+"cpsetup.txt"
+{
+	"checkpoint"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"cachepoint_1"
+		"controlpoint"		"coop_cp_02"
+		"controlpoint"		"coop_cp_03"
+		"controlpoint"		"cachepoint_4"
+		"controlpoint"		"coop_cp_05"
+		"controlpoint"		"coop_cp_06"
+		"controlpoint"		"coop_cp_07"
+ 
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "coop_sz_01"
+			"1"  "coop_sz_02"
+			"2"  "coop_sz_03"
+			"3"  "coop_sz_04"
+			"4"  "coop_sz_05"
+			"5"  "coop_sz_06"
+			"6"  "coop_sz_07"
+		}
+		
+
+		"entities"
+		{
+			// Cache 1
+			"obj_weapon_cache"
+			{
+				"origin"        "2350 10440 -30"
+				"angles"        "0.000000 0.00000 0.000000"
+				"targetname"    "cache_1"
+				"teamnumber"    "3"
+				"ControlPoint"    "cachepoint_1"
+				"TakeDamageBullets" "0"
+			}                 
+       			"point_controlpoint"
+			{
+				"origin"        "2350 10440 0"
+				"angles"        "0.000000 0.00000 0.000000"
+				"targetname"    "cachepoint_1"
+			}
+			
+			// Cache 4
+			"obj_weapon_cache"
+			{
+				"origin"        "11243 12132 -195"
+				"angles"        "0.000000 142.5 0.000000"
+				"targetname"    "cache_4"
+				"teamnumber"    "3"
+				"ControlPoint"    "cachepoint_4"
+				"TakeDamageBullets" "0"
+			}                 
+       			"point_controlpoint"
+			{
+				"origin"        "11243 12132 -171"
+				"angles"        "0.000000 0.00000 0.000000"
+				"targetname"    "cachepoint_4"
+			}
+		}
+	}
+}

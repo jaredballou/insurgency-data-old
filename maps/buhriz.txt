@@ -1,0 +1,104 @@
+"cpsetup.txt"
+{
+	// Buhriz supported modes:
+	// - Push
+	// - Occupy
+	// - Strike
+	
+	"push"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"pushpoint_01"
+		"controlpoint"		"pushpoint_02b"
+		"controlpoint"		"pushpoint_03"
+		"controlpoint"		"cachepoint_final"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_1"
+			"1"  "spawnzone_2"
+			"2"  "spawnzone_3"
+		}
+		
+		"entities"
+		{
+			// Final Cache
+			"obj_weapon_cache"
+			{
+				"origin"		"882 5983 109"
+				"angles"		"0.000000 0 0.000000"
+				"targetname"	"cache_final"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_final"
+				"TakeDamageBullets" "0"
+				"DestructibleWhenActiveOnly" "1"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"882 5983 200"
+				"angles"		"0.000000 0 0.000000"
+				"targetname"	"cachepoint_final"
+			}	
+		}
+	}
+	
+	"occupy"
+	{
+		"controlpoint"		"pushpoint_02b" 
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_2"
+		}
+	}
+	
+	"strike"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"cachepoint_a"
+		"controlpoint"		"cachepoint_b"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_strike"
+		}
+		
+		"entities"
+		{				
+			"obj_weapon_cache"
+			{
+				"origin"		"439.367096 2163.003174 -5.822027"
+				"angles"		"0.000000 -90.469322 0.000000"
+				"targetname"	"cache_a"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}		
+			"point_controlpoint"
+			{
+				"origin"		"439.367096 2163.003174 67.822027"
+				"angles"		"0.000000 -90.469322 0.000000"
+				"targetname"	"cachepoint_a"
+			}		
+			
+			"obj_weapon_cache"
+			{
+				"origin"		"-1802.116943 1662.534058 176.031250"
+				"angles"		"0.000000 2.975417 0.000000"
+				"targetname"	"cache_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_b"
+				"TakeDamageBullets" "0"
+			}						
+			"point_controlpoint"
+			{
+				"origin"		"-1802.116943 1662.534058 248.031250"
+				"angles"		"0.000000 2.975417 0.000000"
+				"targetname"	"cachepoint_b"
+			}		
+		}
+	}
+}

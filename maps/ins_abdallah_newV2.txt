@@ -1,0 +1,78 @@
+"cpsetup.txt"
+{
+	// ins_abdallah_new_Contest 2014 supported modes:
+	// - Firefight +
+	// - Push
+	// - Ambush +
+
+	"firefight"
+	{
+		"controlpoint"		"A"
+		"controlpoint"		"B" 
+		"controlpoint"		"C"
+
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_firefight"
+		}
+	}
+
+	"ambush"
+	{
+		"AttackingTeam"		"insurgents"
+		"controlpoint" 		"vip_cap_1"
+		//"controlpoint" 		"vip_cap_2" 
+
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_ambush"
+		}
+	
+	"occupy"
+	{
+		"controlpoint"		"B"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_firefight"
+		}
+
+	"push"
+	{
+		"AttackingTeam"		"insurgents"
+		"controlpoint"		"Push_A"
+		"controlpoint"		"Push_B"
+		"controlpoint"		"cachepoint_final"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_firefight"
+			"1"  "spawnzone_firefight"
+			"2"  "spawnzone_firefight"
+		}	
+			"entities"
+		{
+			// Final Cache
+			"obj_weapon_cache"
+			{
+				"origin"		"-4994 1880 5"
+				"angles"		"0.000000 90 0.5"
+				"targetname"	"cache_final"
+				"teamnumber"	"2"
+				"ControlPoint"	"cachepoint_final"
+				"TakeDamageBullets" "0"
+				"DestructibleWhenActiveOnly" "1"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"-4994 1880 64"
+				"angles"		"0.000000 0 0.5"
+				"targetname"	"cachepoint_final"
+			}	
+	   }			
+   } 
+}

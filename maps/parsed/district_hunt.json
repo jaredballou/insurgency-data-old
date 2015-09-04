@@ -1,0 +1,97 @@
+{
+	"gametypes": {
+		"hunt": {
+			"navfile": "district",
+			"nightlighting": "1",
+			"attackingteam": "security",
+			"controlpoint": {
+				"A": {
+					"pos_x": 653,
+					"pos_y": 660,
+					"pos_classname": "obj_weapon_cache",
+					"pos_type": "obj_weapon_cache",
+					"pos_team": 3,
+					"pos_name": "A"
+				},
+				"B": {
+					"pos_x": 629,
+					"pos_y": 716,
+					"pos_classname": "obj_weapon_cache",
+					"pos_type": "obj_weapon_cache",
+					"pos_team": 3,
+					"pos_name": "B"
+				},
+				"C": {
+					"pos_x": 778,
+					"pos_y": 678,
+					"pos_classname": "obj_weapon_cache",
+					"pos_type": "obj_weapon_cache",
+					"pos_team": 3,
+					"pos_name": "C"
+				}
+			},
+			"spawnzones": {
+				"disablespawns": "1",
+				"spawnzone_hunt": {
+					"spawnzone_hunt_team2": {
+						"pos_classname": "ins_spawnzone",
+						"pos_type": "area",
+						"pos_team": 2,
+						"pos_name": "spawnzone_hunt_team2",
+						"pos_x": 253,
+						"pos_y": 244,
+						"pos_width": 20,
+						"pos_height": 49,
+						"pos_shape": "rect"
+					},
+					"spawnzone_hunt_team3": {
+						"pos_classname": "ins_spawnzone",
+						"pos_type": "area",
+						"pos_team": 3,
+						"pos_name": "spawnzone_hunt_team3",
+						"pos_x": 395,
+						"pos_y": 212,
+						"pos_width": 626,
+						"pos_height": 640,
+						"pos_shape": "rect"
+					}
+				}
+			}
+		}
+	},
+	"theater_conditions": {
+		"?nightmap": "1"
+	},
+	"overview": {
+		"material": "overviews\/district_night",
+		"pos_x": -10963,
+		"pos_y": 10178,
+		"scale": 13,
+		"rotate": 0,
+		"zoom": 1
+	},
+	"points": {
+		"spawnzone_hunt_team3": {
+			"pos_classname": "ins_spawnzone",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "spawnzone_hunt_team3",
+			"pos_x": 395,
+			"pos_y": 212,
+			"pos_width": 626,
+			"pos_height": 640,
+			"pos_shape": "rect"
+		},
+		"spawnzone_hunt_team2": {
+			"pos_classname": "ins_spawnzone",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "spawnzone_hunt_team2",
+			"pos_x": 253,
+			"pos_y": 244,
+			"pos_width": 20,
+			"pos_height": 49,
+			"pos_shape": "rect"
+		}
+	}
+}

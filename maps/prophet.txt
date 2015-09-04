@@ -1,0 +1,69 @@
+"cpsetup.txt"
+{	
+
+
+        "firefight"
+        {
+                      "controlpoint" "cp_a"
+                      "controlpoint" "cp_b"
+                      "controlpoint" "cp_c"
+
+                      "spawnzones"
+                     {
+                               "0" "spawnzone_1"
+                     }
+        }	
+
+	
+	"skirmish"
+	{
+			"controlpoint" "cp_cache_sec"
+			"controlpoint" "cp_sec"
+			"controlpoint" "cp_B"
+			"controlpoint" "cp_ins"
+			"controlpoint" "cp_cache_ins"
+			
+			"spawnzones"
+                     {
+                               "0" "spawnzone_1"
+                     }
+
+
+			"entities"
+		{	
+			// Cache sec
+			"obj_weapon_cache"
+			{
+				"origin"		"2326 2688 -30"
+				"angles"		"0.000000 90 0.000000"
+				"targetname"	"cache_sec"
+				"teamnumber"	"2"
+				"ControlPoint"	"cp_cache_sec"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"2326 2688 -15"
+				"angles"		"0.000000 90 0.000000"
+				"targetname"	"cp_cache_sec"
+			}	
+			
+			// Cache ins
+			"obj_weapon_cache"
+			{
+				"origin"		"2238 -2684 18"
+				"angles"		"0.000000 90 0.000000"
+				"targetname"	"cache_ins"
+				"teamnumber"	"3"
+				"ControlPoint"	"cp_cache_ins"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"2238 -2684 33"
+				"angles"		"0.000000 90 0.000000"
+				"targetname"	"cp_cache_ins"
+			}	
+		}
+	}
+}

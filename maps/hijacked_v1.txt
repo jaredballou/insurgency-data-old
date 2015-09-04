@@ -1,0 +1,53 @@
+"hijacked_b3.txt"
+{	
+	//models by oskutin, gas helmet, nmrih
+	
+	"checkpoint"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"cp1"
+		"controlpoint"		"cp2"
+		"controlpoint"		"cp3"
+		"controlpoint"		"cp4"
+		"controlpoint"		"cp5"
+		"controlpoint"		"cp6"
+		"controlpoint"		"cp7"
+		"controlpoint"		"cp8"
+		"controlpoint"		"cachepoint"
+		
+		"spawnzones"
+		{
+			
+			"disablespawns" "1" 
+			"0"  "spawnzone1"
+			"1"  "spawnzone2"
+			"2"  "spawnzone3"
+			"3"  "spawnzone4"
+			"4"  "spawnzone5"
+			"5"  "spawnzone6"
+			"6"  "spawnzone7"
+			"7"  "spawnzone8"
+			"8"  "spawnzone9"
+		}
+		"entities"
+		{
+			// Cache 
+			"obj_weapon_cache"
+			{
+				"origin"		"9243 -1193 -166"
+				"angles"		"0 0 0"
+				"targetname"	"cache"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint"
+				"TakeDamageBullets" "1"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"9243 -1193 -166"
+				"angles"		"0 0 0"
+				"targetname"	"cachepoint" 
+			}	
+		}
+		
+	}
+}

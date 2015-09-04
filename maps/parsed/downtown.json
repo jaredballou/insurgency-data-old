@@ -1,0 +1,169 @@
+{
+	"gametypes": {
+		"firefight": {
+			"controlpoint": {
+				"A": {
+					"pos_x": 1000,
+					"pos_y": 3969,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
+					"pos_name": "A",
+					"pos_team": 2
+				},
+				"B": {
+					"pos_x": 904,
+					"pos_y": 1473,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
+					"pos_name": "B",
+					"pos_team": 0
+				},
+				"C": {
+					"pos_x": 360,
+					"pos_y": 1663,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
+					"pos_name": "C",
+					"pos_team": 3
+				}
+			},
+			"spawnzones": {
+				"disablespawns": "1",
+				"spawnzone_neutral": [
+				]
+			}
+		},
+		"skirmish": {
+			"controlpoint": {
+				"A": {
+					"pos_x": 1122,
+					"pos_y": 1361,
+					"pos_classname": "obj_weapon_cache",
+					"pos_type": "obj_weapon_cache",
+					"pos_team": 2,
+					"pos_name": "A"
+				},
+				"B": {
+					"pos_x": 1000,
+					"pos_y": 3969,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
+					"pos_name": "B",
+					"pos_team": 2
+				},
+				"C": {
+					"pos_x": 904,
+					"pos_y": 1473,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
+					"pos_name": "C",
+					"pos_team": 0
+				},
+				"D": {
+					"pos_x": 360,
+					"pos_y": 1663,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
+					"pos_name": "D",
+					"pos_team": 3
+				},
+				"E": {
+					"pos_x": 1278,
+					"pos_y": 159,
+					"pos_classname": "obj_weapon_cache",
+					"pos_type": "obj_weapon_cache",
+					"pos_team": 3,
+					"pos_name": "E"
+				}
+			},
+			"spawnzones": {
+				"disablespawns": "1",
+				"spawnzone_neutral": [
+				]
+			}
+		},
+		"occupy": {
+			"controlpoint": {
+				"A": {
+					"pos_x": 904,
+					"pos_y": 1473,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
+					"pos_name": "A",
+					"pos_team": 0
+				}
+			},
+			"spawnzones": {
+				"disabledspawns": "1",
+				"spawnzone_neutral": [
+				]
+			}
+		}
+	},
+	"overview": {
+		"material": "overviews\/downtown",
+		"pos_x": -744,
+		"pos_y": 1409,
+		"scale": 1,
+		"rotate": 0,
+		"zoom": 1.3
+	},
+	"points": {
+		"": {
+			"pos_classname": "ins_blockzone",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_x": 1432,
+			"pos_y": 959,
+			"pos_width": 1664,
+			"pos_height": 450,
+			"pos_shape": "rect"
+		},
+		"_team2": {
+			"pos_classname": "ins_spawnzone",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "_team2",
+			"pos_x": 1944,
+			"pos_y": 927,
+			"pos_width": 1152,
+			"pos_height": 482,
+			"pos_shape": "rect"
+		},
+		"_team3": {
+			"pos_classname": "ins_spawnzone",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "_team3",
+			"pos_x": 3048,
+			"pos_y": 127,
+			"pos_width": 512,
+			"pos_height": 514,
+			"pos_shape": "rect"
+		},
+		"occupy_cap": {
+			"pos_x": 904,
+			"pos_y": 1473,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "occupy_cap",
+			"pos_team": 0
+		},
+		"firefight_cap_c": {
+			"pos_x": 360,
+			"pos_y": 1663,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "firefight_cap_c",
+			"pos_team": 0
+		},
+		"firefight_cap_a": {
+			"pos_x": 1000,
+			"pos_y": 3969,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "firefight_cap_a",
+			"pos_team": 0
+		}
+	}
+}

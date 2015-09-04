@@ -1,0 +1,124 @@
+"cpsetup.txt"
+{
+    //  Supported modes:
+    // - Push
+    // - Firefight
+    // - Skrimish
+    // - Occupy
+
+"push"
+{
+    "AttackingTeam"       "security"
+    "controlpoint"        "push_cap_a"
+    "controlpoint"        "push_cap_b"
+    "controlpoint"        "push_cap_c"
+    "controlpoint"        "cachepoint_d"
+
+    "spawnzones"
+    {
+	"disablespawns" "1"
+        "0"  "spawnzone_01"
+	"1"  "spawnzone_02"
+	"2"  "spawnzone_03"
+    }
+    "entities"
+    {
+        // Cache D
+        "obj_weapon_cache"
+        {
+            "origin"        	"1398 7272 108"
+            "angles"        	"0.000000 90 0.000000"
+            "targetname"    	"cache_d"
+            "teamnumber"    	"3" // Ins
+            "ControlPoint"    	"cachepoint_d"
+            "TakeDamageBullets" "0"
+	    "DestructibleWhenActiveOnly" "1"
+        }
+        "point_controlpoint"
+        {
+            "origin"        "1392 7272 156"
+            "angles"        "0.000000 90 0.000000"
+            "targetname"    "cachepoint_d"
+        }  
+    }      
+}
+
+"firefight"
+{
+    "controlpoint"        "firefight_cap_a"
+    "controlpoint"        "push_cap_b"
+    "controlpoint"        "firefight_cap_c"
+
+    "spawnzones"
+    {
+	"disablespawns" "1"
+        "0"  "spawnzone_neutral"
+    }
+}
+
+"skirmish"
+{
+    "controlpoint"    "cachepoint_a"   
+    "controlpoint"    "firefight_cap_a"
+    "controlpoint"    "push_cap_b"
+    "controlpoint"    "firefight_cap_c"
+    "controlpoint"    "cachepoint_e"
+
+    "spawnzones"
+    {
+        "disablespawns" "1"
+        "0" "spawnzone_skirmish"
+    }
+
+    "entities"
+    {
+        // Cache A
+        "obj_weapon_cache"
+        {
+            "origin"        "5074 1496 274"
+            "angles"        "0.000000 90 0.000000"
+            "targetname"    "cache_a"
+            "teamnumber"    "2" // SEC
+            "ControlPoint"    "cachepoint_a"
+            "TakeDamageBullets" "0"
+	    "DestructibleWhenActiveOnly" "1"
+        }                
+        "point_controlpoint"
+        {
+            "origin"        "5074 1496 314"
+            "angles"        "0.000000 90 0.000000"
+            "targetname"    "cachepoint_a"
+        }
+        // Cache E
+        "obj_weapon_cache"
+        {
+            "origin"        "3298 5352 276"
+            "angles"        "0.000000 90 0.000000"
+            "targetname"    "cache_e"
+            "teamnumber"    "3" // Insurgents
+            "ControlPoint"    "cachepoint_e"
+            "TakeDamageBullets" "0"
+	    "DestructibleWhenActiveOnly" "1"
+        }                
+        "point_controlpoint"
+        {
+            "origin"        "3298 5352 324"
+            "angles"        "0.000000 90 0.000000"
+            "targetname"    "cachepoint_e"
+        }
+    }
+}
+
+"occupy"
+{
+
+    "controlpoint"    "push_cap_b"
+
+    "spawnzones"
+    {
+        "disablespawns" "1"
+        "0" "spawnzone_neutral"
+    }
+}
+
+}

@@ -1,0 +1,210 @@
+{
+	"gametypes": {
+		"occupy": {
+			"navfile": "uprising",
+			"nightlighting": "1",
+			"controlpoint": {
+				"A": {
+					"pos_x": 558,
+					"pos_y": 631,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
+					"pos_name": "A",
+					"pos_team": 0
+				}
+			},
+			"spawnzones": {
+				"disablespawns": "1",
+				"spawnzone_1": {
+					"spawnzone_1_team2": {
+						"pos_classname": "ins_spawnzone",
+						"pos_blockzone": "bz_security",
+						"pos_type": "area",
+						"pos_team": 2,
+						"pos_name": "spawnzone_1_team2",
+						"pos_x": 0,
+						"pos_y": 0
+					},
+					"spawnzone_1_team3": {
+						"pos_classname": "ins_spawnzone",
+						"pos_blockzone": "bz_insurgents",
+						"pos_type": "area",
+						"pos_team": 3,
+						"pos_name": "spawnzone_1_team3",
+						"pos_x": 0,
+						"pos_y": 0
+					}
+				}
+			}
+		},
+		"firefight": {
+			"navfile": "uprising",
+			"nightlighting": "1",
+			"controlpoint": {
+				"A": {
+					"pos_x": 566,
+					"pos_y": 800,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
+					"pos_name": "A",
+					"pos_team": 2
+				},
+				"B": {
+					"pos_x": 558,
+					"pos_y": 631,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
+					"pos_name": "B",
+					"pos_team": 0
+				},
+				"C": {
+					"pos_x": 531,
+					"pos_y": 506,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
+					"pos_name": "C",
+					"pos_team": 3
+				}
+			},
+			"spawnzones": {
+				"disablespawns": "1",
+				"spawnzone_1": {
+					"spawnzone_1_team2": {
+						"pos_classname": "ins_spawnzone",
+						"pos_blockzone": "bz_security",
+						"pos_type": "area",
+						"pos_team": 2,
+						"pos_name": "spawnzone_1_team2",
+						"pos_x": 0,
+						"pos_y": 0
+					},
+					"spawnzone_1_team3": {
+						"pos_classname": "ins_spawnzone",
+						"pos_blockzone": "bz_insurgents",
+						"pos_type": "area",
+						"pos_team": 3,
+						"pos_name": "spawnzone_1_team3",
+						"pos_x": 0,
+						"pos_y": 0
+					}
+				}
+			}
+		},
+		"infiltrate": {
+			"navfile": "uprising",
+			"nightlighting": "1",
+			"controlpoint": {
+				"A": {
+					"pos_x": 445,
+					"pos_y": 510,
+					"pos_classname": "obj_terminal",
+					"pos_type": "obj_terminal",
+					"pos_team": 2,
+					"pos_name": "A"
+				},
+				"B": {
+					"pos_x": 759,
+					"pos_y": 854,
+					"pos_classname": "obj_terminal",
+					"pos_type": "obj_terminal",
+					"pos_team": 3,
+					"pos_name": "B"
+				}
+			},
+			"spawnzones": {
+				"disablespawns": "1",
+				"spawnzone_1": {
+					"spawnzone_1_team2": {
+						"pos_classname": "ins_spawnzone",
+						"pos_blockzone": "bz_security",
+						"pos_type": "area",
+						"pos_team": 2,
+						"pos_name": "spawnzone_1_team2",
+						"pos_x": 0,
+						"pos_y": 0
+					},
+					"spawnzone_1_team3": {
+						"pos_classname": "ins_spawnzone",
+						"pos_blockzone": "bz_insurgents",
+						"pos_type": "area",
+						"pos_team": 3,
+						"pos_name": "spawnzone_1_team3",
+						"pos_x": 0,
+						"pos_y": 0
+					}
+				}
+			}
+		}
+	},
+	"theater_conditions": {
+		"?nightmap": "1"
+	},
+	"overview": {
+		"material": "overviews\/uprising_hunt",
+		"pos_x": -4322,
+		"pos_y": 4902,
+		"scale": 8,
+		"rotate": 0,
+		"zoom": 1
+	},
+	"points": {
+		"bz_security": {
+			"pos_classname": "ins_blockzone",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "bz_security",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"cap2": {
+			"pos_x": 566,
+			"pos_y": 800,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "cap2",
+			"pos_team": 0
+		},
+		"cap3": {
+			"pos_x": 531,
+			"pos_y": 506,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "cap3",
+			"pos_team": 0
+		},
+		"cap1": {
+			"pos_x": 558,
+			"pos_y": 631,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "cap1",
+			"pos_team": 0
+		},
+		"bz_insurgents": {
+			"pos_classname": "ins_blockzone",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "bz_insurgents",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"spawnzone_1_team3": {
+			"pos_classname": "ins_spawnzone",
+			"pos_blockzone": "bz_insurgents",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "spawnzone_1_team3",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"spawnzone_1_team2": {
+			"pos_classname": "ins_spawnzone",
+			"pos_blockzone": "bz_security",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "spawnzone_1_team2",
+			"pos_x": 0,
+			"pos_y": 0
+		}
+	}
+}

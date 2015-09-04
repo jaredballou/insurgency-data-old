@@ -1,0 +1,171 @@
+"cpsetup.txt"
+{
+	// Station supported modes:
+	// - Push
+	// - Occupy
+	// - Firefight
+	// - Strike
+	
+	"push"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"c1"
+		"controlpoint"		"c2"
+		"controlpoint"		"c3"
+		"controlpoint"		"cachepoint_final"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_01"
+			"1"  "spawnzone_02"
+			"2"  "spawnzone_03"
+		}
+		"entities"
+		{
+			// Final Cache
+			"obj_weapon_cache"
+			{
+				"origin"		"-1408 6016 402"
+				"angles"		"0 0 0"
+				"targetname"	"cache_final"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_final"
+				"TakeDamageBullets" "0"
+				"DestructibleWhenActiveOnly" "1"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"-1408 6016 452"
+				"angles"		"0 0 0"
+				"targetname"	"cachepoint_final"
+			}	
+		}
+	}
+	"occupy"
+	{
+		"controlpoint"		"c2"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "occupy_spawnzone"
+		}
+	}
+	
+	"firefight"	
+	{
+		"controlpoint"		"ca"
+		"controlpoint"		"cb"
+		"controlpoint"		"cc"
+
+        	"spawnzones"
+			{
+				"disablespawns" "1"
+				"0"  "firefight_spawnzone"
+			}
+	}
+	"strike"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"cachepoint_a"
+		"controlpoint"		"cachepoint_b"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_strike"
+		}
+		
+		"entities"
+		{				
+			"obj_weapon_cache"
+			{
+				"origin"		"-339 2262 433"
+				"angles"		"0 90 0"
+				"targetname"	"cache_a"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}		
+			"point_controlpoint"
+			{
+				"origin"		"-345 2262 496"
+				"angles"		"0 90 0"
+				"targetname"	"cachepoint_a"
+			}		
+			
+			"obj_weapon_cache"
+			{
+				"origin"		"746 2169 530"
+				"angles"		"0 0 0"
+				"targetname"	"cache_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_b"
+				"TakeDamageBullets" "0"
+			}						
+			"point_controlpoint"
+			{
+				"origin"		"746 2169 594"
+				"angles"		"0 0 0"
+				"targetname"	"cachepoint_b"
+			}		
+		}
+	}
+	"checkpoint"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"cc1"
+		"controlpoint"		"cc2"
+		"controlpoint"		"cc3"
+		"controlpoint"		"cc4"
+		"controlpoint"		"cc5"
+
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "c_spawnzone_1"
+			"1"  "c_spawnzone_2"
+			"2"  "c_spawnzone_3"
+			"3"  "c_spawnzone_4"
+			"4"  "c_spawnzone_5"
+		}
+		"entities"
+		{
+			// Cache b
+			"obj_weapon_cache"
+			{
+				"origin"		"-739 1001 455"
+				"angles"		"0 90 0"
+				"targetname"	"cache_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"cc2"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-744 1001 500"
+				"angles"		"0 90 0"
+				"targetname"	"cc2" 
+			}
+
+
+			// Cache g
+			"obj_weapon_cache"
+			{
+				"origin"		"127 -1571 66"
+				"angles"		"0 270 0"
+				"targetname"	"cache_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"cc5"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"127 -1571 100"
+				"angles"		"0 270 0"
+				"targetname"	"cc5" 
+			}	
+		}
+	}
+}

@@ -1,0 +1,97 @@
+{
+	"gametypes": {
+		"hunt": {
+			"navfile": "peak",
+			"nightlighting": "1",
+			"attackingteam": "security",
+			"controlpoint": {
+				"A": {
+					"pos_x": 777,
+					"pos_y": 457,
+					"pos_classname": "obj_weapon_cache",
+					"pos_type": "obj_weapon_cache",
+					"pos_team": 3,
+					"pos_name": "A"
+				},
+				"B": {
+					"pos_x": 619,
+					"pos_y": 701,
+					"pos_classname": "obj_weapon_cache",
+					"pos_type": "obj_weapon_cache",
+					"pos_team": 3,
+					"pos_name": "B"
+				},
+				"C": {
+					"pos_x": 287,
+					"pos_y": 491,
+					"pos_classname": "obj_weapon_cache",
+					"pos_type": "obj_weapon_cache",
+					"pos_team": 3,
+					"pos_name": "C"
+				}
+			},
+			"spawnzones": {
+				"disablespawns": "1",
+				"spawnzone_1": {
+					"spawnzone_1_team2": {
+						"pos_classname": "ins_spawnzone",
+						"pos_type": "area",
+						"pos_team": 2,
+						"pos_name": "spawnzone_1_team2",
+						"pos_x": 501,
+						"pos_y": 497,
+						"pos_width": 53,
+						"pos_height": 51,
+						"pos_shape": "rect"
+					},
+					"spawnzone_1_team3": {
+						"pos_classname": "ins_spawnzone",
+						"pos_type": "area",
+						"pos_team": 3,
+						"pos_name": "spawnzone_1_team3",
+						"pos_x": 21,
+						"pos_y": 246,
+						"pos_width": 844,
+						"pos_height": 512,
+						"pos_shape": "rect"
+					}
+				}
+			}
+		}
+	},
+	"theater_conditions": {
+		"?nightmap": "1"
+	},
+	"overview": {
+		"material": "overviews\/peak_night",
+		"pos_x": -8812,
+		"pos_y": 8534,
+		"scale": 17,
+		"rotate": 0,
+		"zoom": 1
+	},
+	"points": {
+		"spawnzone_1_team2": {
+			"pos_classname": "ins_spawnzone",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "spawnzone_1_team2",
+			"pos_x": 501,
+			"pos_y": 497,
+			"pos_width": 53,
+			"pos_height": 51,
+			"pos_shape": "rect"
+		},
+		"spawnzone_1_team3": {
+			"pos_classname": "ins_spawnzone",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "spawnzone_1_team3",
+			"pos_x": 21,
+			"pos_y": 246,
+			"pos_width": 844,
+			"pos_height": 512,
+			"pos_shape": "rect"
+		}
+	}
+}

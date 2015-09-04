@@ -1,0 +1,21 @@
+{
+	"pvp": [
+		"ambush",
+		"battle",
+		"elimination",
+		"firefight",
+		"flashpoint",
+		"infiltrate",
+		"occupy",
+		"push",
+		"skirmish",
+		"strike",
+		"vendetta",
+		"vip"
+	],
+	"coop": [
+		"checkpoint",
+		"hunt",
+		"survival"
+	]
+}

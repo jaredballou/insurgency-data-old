@@ -1,0 +1,65 @@
+{
+	"gametypes": {
+		"checkpoint": {
+			"attackingteam": "security",
+			"controlpoint": {
+				"A": {
+					"pos_name": "A",
+					"pos_team": 3
+				},
+				"B": {
+					"pos_name": "B",
+					"pos_team": 3
+				},
+				"C": {
+					"pos_name": "C",
+					"pos_team": 3
+				},
+				"D": {
+					"pos_name": "D",
+					"pos_team": 3
+				},
+				"E": {
+					"pos_name": "E",
+					"pos_team": 3
+				},
+				"F": {
+					"pos_x": 346,
+					"pos_y": 128,
+					"pos_classname": "obj_weapon_cache",
+					"pos_type": "obj_weapon_cache",
+					"pos_team": 3,
+					"pos_name": "F"
+				},
+				"G": {
+					"pos_name": "G",
+					"pos_team": 3
+				}
+			},
+			"spawnzones": {
+				"spawnzone_a": [
+				],
+				"spawnzone_b": [
+				],
+				"spawnzone_c": [
+				],
+				"spawnzone_d": [
+				],
+				"spawnzone_e": [
+				],
+				"spawnzone_f": [
+				],
+				"spawnzone_g": [
+				]
+			}
+		}
+	},
+	"overview": {
+		"material": "overviews\/invasion_coop_beta2",
+		"pos_x": -8534,
+		"pos_y": 15278,
+		"scale": 16,
+		"rotate": 0,
+		"zoom": 1
+	}
+}

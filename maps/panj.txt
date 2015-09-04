@@ -1,0 +1,131 @@
+"cpsetup.txt"
+{
+	// Panj supported modes:
+	// - Skirmish
+	// - Firefight
+	// - Occupy
+	// - Push	
+	
+	"skirmish"
+	{
+		"navfile"   		"panj"
+		"nightlighting"		"0"
+		"controlpoint"	"cachepoint_a"
+		"controlpoint" 	"firefight_cap_a"
+		"controlpoint" 	"occupy_cap"
+		"controlpoint" 	"firefight_cap_c"
+		"controlpoint"	"cachepoint_e"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0" "spawnzone_neutral"
+		}
+		
+		"entities"
+		{
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"1602 -1358 16"
+				"angles"		"0.000000 90 0.000000"
+				"targetname"	"cache_a"
+				"teamnumber"	"2"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"1602 -1358 70"
+				"angles"		"0.000000 90 0.000000"
+				"targetname"	"cachepoint_a"
+			}		
+			
+			// Cache E
+			"obj_weapon_cache"
+			{
+				"origin"		"-1498 1466 -32"
+				"angles"		"0.000000 90 0.000000"
+				"targetname"	"cache_e"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_e"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-1498 1466 50"
+				"angles"		"0.000000 90 0.000000"
+				"targetname"	"cachepoint_e"
+			}
+		}
+	}
+	
+	"firefight"
+	{
+		"navfile"   		"panj"
+		"nightlighting"		"0"
+		"controlpoint" "firefight_cap_a"
+		"controlpoint" "occupy_cap"
+		"controlpoint" "firefight_cap_c"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0" "spawnzone_neutral"
+		}
+	}
+	
+	"occupy"
+	{
+		"navfile"   		"panj"
+		"nightlighting"		"0"
+		"controlpoint" "occupy_cap"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0" "spawnzone_occupy"
+		}
+	}
+	
+	"push"
+	{
+		"navfile"   		"panj"
+		"nightlighting"		"0"
+		"AttackingTeam"		"security"
+		"controlpoint"		"push_cap_a"
+		"controlpoint"		"occupy_cap"
+		"controlpoint"		"push_cap_c"
+		"controlpoint"		"cachepoint_final"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_1"
+			"1"  "spawnzone_2"
+			"2"  "spawnzone_3"
+		}
+		
+		"entities"
+		{
+			// Final Cache
+			"obj_weapon_cache"
+			{
+				"origin"		"-4635 2839 208.031250"
+				"angles"		"0.000000 89.430779 0.000000"
+				"targetname"	"cache_final"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_final"
+				"TakeDamageBullets" "0"
+				"DestructibleWhenActiveOnly" "1"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"-4635 2839 280.031250"
+				"angles"		"0.000000 89.430779 0.000000"
+				"targetname"	"cachepoint_final"
+			}	
+		}			
+	}
+}
+	

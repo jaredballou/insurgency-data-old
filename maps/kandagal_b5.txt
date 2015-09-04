@@ -1,0 +1,110 @@
+"cpsetup.txt"
+{		
+	// Kandagal supported modes:	
+	// - push
+	// - skirmish
+	// - firefight
+	// - occupy
+
+
+	"push"
+	{
+		"navfile"   		"kandagal_b5"
+		"AttackingTeam"		"insurgents"
+		"controlpoint"		"m_push_point1"
+		"controlpoint"		"m_push_point2"
+		"controlpoint"		"m_push_point3"
+		
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "m_spawn1"
+			"1"  "m_spawn2"
+			"2"  "m_spawn3"
+			
+			 
+		}	
+					
+   } 
+	
+	"skirmish"
+	{
+		"navfile"   		"kandagal_b5"
+		"controlpoint"    "cachepoint_e"
+		//"controlpoint"		"m_cahce_point_sec"
+		"controlpoint"		"m_push_point3"
+		"controlpoint"		"m_push_point2"
+		"controlpoint"		"m_push_point1"
+		//"controlpoint"		"m_cahce_point_ins"
+		"controlpoint"    "cachepoint_a" 
+
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "m_skirmish_spawn1"
+		}
+		
+		"entities"
+		{	
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"-26 -1472 -175"
+				"angles"		"0 0 0"
+				"targetname"	"cache_a"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-26 -1472 -161"
+				"angles"		"0 0 0"
+				"targetname"	"cachepoint_a"
+			}	
+			
+			// Cache E
+			"obj_weapon_cache"
+			{
+				"origin"		"388 3516 -36"
+				"angles"		"0 285 0"
+				"targetname"	"cache_e"
+				"teamnumber"	"2"
+				"ControlPoint"	"cachepoint_e"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"388 3516 35"
+				"angles"		"0 285 0"
+				"targetname"	"cachepoint_e"
+			}	
+		}
+	}
+
+	"firefight"
+    	{
+		"navfile"   		"kandagal_b5"
+        	"controlpoint" "m_push_point1"
+        	"controlpoint" "m_firefight_point1"
+        	"controlpoint" "m_push_point2"
+
+        	"spawnzones"
+        	{
+            		"disablespawns" "1"
+            		"0" "m_skirmish_spawn1"
+        	}
+    	}
+	"occupy"
+	{
+    		"controlpoint" "m_push_point2"
+
+    		“spawnzones”
+    		{
+         		“disabledspawns” “1”
+          		"0" "m_skirmish_spawn1"
+        	}
+	}
+
+}

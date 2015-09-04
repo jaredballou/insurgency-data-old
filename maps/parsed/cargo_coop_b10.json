@@ -1,0 +1,68 @@
+{
+	"gametypes": {
+		"checkpoint": {
+			"attackingteam": "security",
+			"controlpoint": {
+				"A": {
+					"pos_name": "A",
+					"pos_team": 3
+				},
+				"B": {
+					"pos_name": "B",
+					"pos_team": 3
+				},
+				"C": {
+					"pos_name": "C",
+					"pos_team": 3
+				},
+				"D": {
+					"pos_name": "D",
+					"pos_team": 3
+				},
+				"E": {
+					"pos_name": "E",
+					"pos_team": 3
+				},
+				"F": {
+					"pos_name": "F",
+					"pos_team": 3
+				},
+				"G": {
+					"pos_name": "G",
+					"pos_team": 3
+				},
+				"H": {
+					"pos_name": "H",
+					"pos_team": 3
+				}
+			},
+			"spawnzones": {
+				"disablespawns": "1",
+				"spawnzone1": [
+				],
+				"spawnzone2": [
+				],
+				"spawnzone3": [
+				],
+				"spawnzone4": [
+				],
+				"spawnzone5": [
+				],
+				"spawnzone6": [
+				],
+				"spawnzone7": [
+				],
+				"spawnzone8": [
+				]
+			}
+		}
+	},
+	"overview": {
+		"material": "overviews\/cargo_coop_b10",
+		"pos_x": -3019,
+		"pos_y": 2889,
+		"scale": 5.5,
+		"rotate": 0,
+		"zoom": 1
+	}
+}

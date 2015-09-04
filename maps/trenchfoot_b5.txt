@@ -1,0 +1,31 @@
+"cpsetup.txt"
+{
+
+	"skirmish"
+	{
+		"controlpoint"		"ff_cap1"	// A
+		"controlpoint"		"ff_cap2"	// B
+		"controlpoint"		"ff_cap3"	// C
+	}
+
+	"firefight"
+	{
+		"controlpoint"		"skirmish_cap1"	// A
+		"controlpoint"		"skirmish_cap2"	// B
+		"controlpoint"		"ff_cap2"	// C
+		"controlpoint"		"skirmish_cap3"	// D
+		"controlpoint"		"skirmish_cap4"	// E
+	}
+
+	"vip"
+	{
+		"controlpoint"		"vip_cap1"	// A  Random point chosen, create atleast 2
+		"controlpoint"		"ff_cap2"	// B
+		"controlpoint"		"vip_cap2"	// C
+	}
+
+
+	
+	
+
+} 

@@ -1,0 +1,86 @@
+ "cpsetup.txt"
+{		
+	// Uprising supported modes:	
+	// - Occupy
+	// - firefight
+	// - infiltrate
+	
+	
+	"occupy"
+	{
+		"navfile"   		"uprising"
+		"nightlighting"		"0"
+		"controlpoint"		"cap1"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_1"
+		}
+	}
+
+"firefight"
+	{
+		"navfile"   		"uprising"
+		"nightlighting"		"0"
+		"controlpoint"		"cap2"
+		"controlpoint"		"cap1"
+		"controlpoint"		"cap3"
+
+        "spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_1"
+		}
+	  }
+	  "infiltrate"
+	{		
+		"navfile"   		"uprising"
+		"nightlighting"		"0"
+		"controlpoint"		"terminalpoint_a"
+		"controlpoint"		"terminalpoint_b"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_1"
+		}
+		
+		"entities"
+		{
+			// Terminal A
+			"obj_terminal"
+			{
+				"origin"		"-760 824 60"
+				"angles"		"0.000000 180 0.000000"
+				"targetname"	"terminal_a"
+				"teamnumber"	"2"
+				"ControlPoint"	"terminalpoint_a"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-760 824 120"
+				"angles"		"0.000000 30 0.000000"
+				"targetname"	"terminalpoint_a"
+			}	
+			
+			// Terminal B
+			"obj_terminal"
+			{
+				"origin"		"1749 -1928 9"
+				"angles"		"0.000000 -90 0.000000"
+				"targetname"	"terminal_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"terminalpoint_b"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"1749 -1928 100"
+				"angles"		"0.000000 -90 0.000000"
+				"targetname"	"terminalpoint_b"
+			}		
+     }
+   }
+}

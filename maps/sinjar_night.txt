@@ -1,0 +1,185 @@
+"cpsetup.txt"
+{
+		"theater_conditions"
+	{
+		"?nightmap"		"1"
+	}
+	// Sinjar supported modes:
+	// - Push
+	// - Skirmish
+	// - Occupy
+	// - Firefight
+	// - Strike
+	
+	"push"
+	{
+		"navfile"   		"sinjar"
+		"nightlighting"		"1"
+		"AttackingTeam"		"security"
+		"controlpoint"		"pushpoint_01"
+		"controlpoint"		"pushpoint_02"
+		"controlpoint"		"pushpoint_03"
+		"controlpoint"		"cachepoint_final"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_1"
+			"1"  "spawnzone_2"
+			"2"  "spawnzone_3"
+		}
+		
+		"entities"
+		{
+			// Final Cache
+			"obj_weapon_cache"
+			{
+				"origin"		"4907.199707 -746.253357 -351.785126"
+				"angles"		"0.000000 -91.272324 0.000000"
+				"targetname"	"cache_final"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_final"
+				"TakeDamageBullets" "0"
+				"DestructibleWhenActiveOnly" "1"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"4907.199707 -746.253357 -279.785126"
+				"angles"		"0.000000 -91.272324 0.000000"
+				"targetname"	"cachepoint_final"
+			}	
+		}
+	}
+	
+	//"skirmish"
+	//{
+	//	"navfile"   		"sinjar"
+	//	"nightlighting"		"1"
+	//	"controlpoint"	"cachepoint_a"
+	//	"controlpoint" 	"firefightpoint_2"
+	//	"controlpoint" 	"occupypoint_01"
+	//	"controlpoint" 	"firefightpoint_1"
+	//	"controlpoint"	"cachepoint_e"
+		
+	//	"spawnzones"
+	//	{
+	//		"disablespawns" "1"
+	//		"0" "spawnzone_firefight"
+	//	}
+		
+	//	"entities"
+	//	{
+	//		// Cache A
+	//		"obj_weapon_cache"
+	//		{
+	//			"origin"		"-1649 4643 -754"
+	//			"angles"		"0.000000 182 0.000000"
+	//			"targetname"	"cache_a"
+	//			"teamnumber"	"2"
+	//			"ControlPoint"	"cachepoint_a"
+	//			"TakeDamageBullets" "0"
+	//		}
+	//		"point_controlpoint"
+	//		{
+	//			"origin"		"-1649 4643 -710"
+	//			"angles"		"0.000000 182 0.000000"
+	//			"targetname"	"cachepoint_a"
+	//		}		
+			
+			// Cache E
+	//		"obj_weapon_cache"
+	//		{
+	//			"origin"		"3305.641357 1545.851440 -93.979576"
+	//			"angles"		"0.000000 179.752594 0.000000"
+	//			"targetname"	"cache_e"
+	//			"teamnumber"	"3"
+	//			"ControlPoint"	"cachepoint_e"
+	//			"TakeDamageBullets" "0"
+	//		}				
+	//		"point_controlpoint"
+	//		{
+	//			"origin"		"3305.641357 1545.851440 -21.979576"
+	//			"angles"		"0.000000 179.752594 0.000000"
+	//			"targetname"	"cachepoint_e"
+	//		}
+	//	}
+	//}
+	
+	//"occupy"
+	//{
+	//	"controlpoint" "occupypoint_01"
+	//	
+	//	"spawnzones"
+	//	{
+	//		"disablespawns" "1"
+	//		"0" "spawnzone_firefight"
+	//	}
+	//}
+	
+	"firefight"
+	{
+		"navfile"   		"sinjar"
+		"nightlighting"		"1"
+		"controlpoint" "firefightpoint_2"
+		"controlpoint" "occupypoint_01"
+		"controlpoint" "firefightpoint_1"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0" "spawnzone_firefight"
+		}
+	}
+	
+	"strike"
+	{
+		"navfile"   		"sinjar"
+		"nightlighting"		"1"
+		"AttackingTeam"		"security"
+		"controlpoint"		"cachepoint_a"
+		"controlpoint"		"cachepoint_b"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0" "spawnzone_snd"
+		}
+		
+		"entities"
+		{
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"-434.283966 -839.028748 -583.968750"
+				"angles"		"0.000000 -0.599626 0.000000"
+				"targetname"	"cache_a"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"-434.283966 -839.028748 -511.968750"
+				"angles"		"0.000000 -0.599626 0.000000"
+				"targetname"	"cachepoint_a"
+			}		
+			
+			// Cache B
+			"obj_weapon_cache"
+			{
+				"origin"		"279.842041 2112.694092 -347.968750"
+				"angles"		"0.000000 179.502716 0.000000"
+				"targetname"	"cache_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_b"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"279.842041 2112.694092 -275.968750"
+				"angles"		"0.000000 179.502716 0.000000"
+				"targetname"	"cachepoint_b"
+			}
+		}
+	}
+}

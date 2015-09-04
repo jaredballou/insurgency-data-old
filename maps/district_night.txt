@@ -1,0 +1,189 @@
+"cpsetup.txt"
+{	
+	"theater_conditions"
+	{
+		"?nightmap"		"1"
+	}
+	
+	// District_night supported modes:
+	// - Skirmish
+	// - Firefight
+	// - Push
+	// - Infiltrate
+	// - Occupy
+	
+	"skirmish"
+	{
+		"navfile"   		"district"
+		"nightlighting"		"1"
+		"controlpoint"		"cachepoint_a"
+		//"controlpoint"	"cap_3"
+		"controlpoint"		"cap_4"
+		"controlpoint"		"cap_5" 
+		"controlpoint"		"cap_2"
+		//"controlpoint"	"cap_1"
+		"controlpoint"		"cachepoint_e"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_neutral"
+		}
+		
+		"entities"
+		{	
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"-7617.589355 6498.022949 64.031250"
+				"angles"		"0.000000 -91.955719 0.000000"
+				"targetname"	"cache_a"
+				"teamnumber"	"2"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-7617.589355 6498.022949 136.031250"
+				"angles"		"0.000000 -91.955719 0.000000"
+				"targetname"	"cachepoint_a"
+			}	
+			
+			// Cache E
+			"obj_weapon_cache"
+			{
+				"origin"		"-14.143190 825.771362 67.883842"
+				"angles"		"0.000000 89.227516 0.000000"
+				"targetname"	"cache_e"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_e"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-14.143190 825.771362 139.883842"
+				"angles"		"0.000000 89.227516 0.000000"
+				"targetname"	"cachepoint_e"
+			}	
+		}
+	}
+	
+	"firefight"
+	{
+		"navfile"   		"district"
+		"nightlighting"		"1"
+		"controlpoint"		"cap_4"
+		"controlpoint"		"cap_5" 
+		"controlpoint"		"cap_2"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_neutral"
+		}
+	}	
+	
+	"push"
+	{
+		"navfile"   		"district"
+		"nightlighting"		"1"
+		"AttackingTeam"		"insurgents"
+		"controlpoint"		"cap_5"
+		"controlpoint"		"cap_4"
+		"controlpoint"		"cap_3"
+		"controlpoint"		"cachepoint_final"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_push_a"
+			"1"  "spawnzone_push_b"
+			"2"  "spawnzone_push_c"
+		}
+		
+		"entities"
+		{
+			// Final Cache
+			"obj_weapon_cache"
+			{
+				"origin"		"-8229.898438 6416.617188 45.058945"
+				"angles"		"0.000000 88.952087 0.000000"
+				"targetname"	"cache_final"
+				"teamnumber"	"2"
+				"ControlPoint"	"cachepoint_final"
+				"TakeDamageBullets" "0"
+				"DestructibleWhenActiveOnly" "1"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"-8229.898438 6416.617188 117.058945"
+				"angles"		"0.000000 88.952087 0.000000"
+				"targetname"	"cachepoint_final"
+			}	
+		}
+	}
+	
+	"infiltrate"
+	{			
+		"navfile"   		"district"
+		"nightlighting"		"1"
+		"controlpoint"		"terminalpoint_a"
+		"controlpoint"		"terminalpoint_b"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_neutral"
+		}
+		
+		"entities"
+		{	
+			// Terminal A
+			"obj_terminal"
+			{
+				"origin"		"-7151.398438 6193.128906 105.070068"
+				"angles"		"0.000000 -167.681992 0.000000"
+				"targetname"	"terminal_a"
+				"teamnumber"	"2"
+				"ControlPoint"	"terminalpoint_a"
+				"TakeDamageBullets" "1"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-7151.398438 6193.128906 177.070068"
+				"angles"		"0.000000 -167.681992 0.000000"
+				"targetname"	"terminalpoint_a"
+			}	
+			
+			// Terminal B
+			"obj_terminal"
+			{
+				"origin"		"12.497774 1332.293457 256.031250"
+				"angles"		"0.000000 1.412689 0.000000"
+				"targetname"	"terminal_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"terminalpoint_b"
+				"TakeDamageBullets" "1"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"12.497774 1332.293457 328.031250"
+				"angles"		"0.000000 1.412689 0.000000"
+				"targetname"	"terminalpoint_b"
+			}	
+		}
+	}
+	
+	"occupy"
+	{
+		"navfile"   		"district"
+		"nightlighting"		"1"
+		"controlpoint"		"cap_5"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_neutral"
+		}
+	}
+}

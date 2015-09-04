@@ -1,0 +1,49 @@
+"cpsetup.txt"
+{	
+	"checkpoint"
+	{
+		
+		"AttackingTeam"		"security"
+		"controlpoint"		"m_skirmish_point1"
+		"controlpoint"		"m_coop_point1"
+		"controlpoint"		"m_coop_point6"
+		"controlpoint"		"m_coop_point4"
+		"controlpoint"		"cachepoint_c"
+		"controlpoint"		"m_coop_point5"
+		"controlpoint"		"m_coop_point3"
+		"controlpoint"		"m_coop_point2"
+		
+
+		"spawnzones"
+		{
+			"0"  "COOP_Spawn1"
+			"1"  "COOP_Spawn2"
+			"2"  "COOP_Spawn2"
+			"3"  "COOP_Spawn3"
+			"4"  "COOP_Spawn3"
+			"5"  "COOP_Spawn4"
+		}
+		"entities"
+		{
+			// Cache c
+			"obj_weapon_cache"
+			{
+				"origin"		"-1146 3200 -15"
+				"angles"		"0 0 0"
+				"targetname"	"cache_c"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_c"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-1146 3200 -15"
+				"angles"		"0 0 0"
+				"targetname"	"cachepoint_c" 
+			}	
+		}
+	}
+
+
+
+}

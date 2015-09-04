@@ -1,0 +1,68 @@
+ "cpsetup.txt"
+{
+	"theater_conditions"
+	{
+		"?nightmap"		"1"
+	}
+	
+	"survival"
+	{
+		"navfile"   		"verticality"
+		"nightlighting"		"1"
+		"AttackingTeam"		"security"
+		"controlpoint"		"cachepoint_a"
+		"controlpoint"		"cachepoint_b"
+		"controlpoint"		"cachepoint_c"
+		"controlpoint"		"cachepoint_d"
+		"controlpoint"		"cachepoint_e"
+		"controlpoint"		"cachepoint_f"
+		"controlpoint"		"cachepoint_g"
+		
+		// spawn zones here correlate to safehouses above
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  	"spawnzone_cache_a"
+			"1"  	"spawnzone_cache_b"
+			"2"  	"spawnzone_cache_c"
+			"3"  	"spawnzone_cache_d"
+			"4"  	"spawnzone_cache_e"
+			"5"  	"spawnzone_cache_f"
+			"6"  	"spawnzone_cache_g"
+		}
+		
+		"settings"
+		{
+			// bot attack/patrol spawn points
+			"attack_spawns"
+			{
+				"7"  	"spawnzone_attack_01"
+				"8"  	"spawnzone_attack_02"
+				"9"  	"spawnzone_attack_03"
+				"10"  	"spawnzone_attack_04"
+				"11"  	"spawnzone_attack_05"
+				"12"  	"spawnzone_attack_06"
+				"13"  	"spawnzone_attack_07"
+				"14"  	"spawnzone_attack_08"
+				"15"  	"spawnzone_attack_09"
+				"16"  	"spawnzone_attack_10"
+				"17"  	"spawnzone_attack_11"
+				"18"  	"spawnzone_attack_12"
+				"19"  	"spawnzone_attack_13"
+				"20"  	"spawnzone_attack_14"
+				"21"  	"spawnzone_attack_15"
+				"22"  	"spawnzone_attack_16"
+				"23"  	"spawnzone_attack_17"
+				"24"  	"spawnzone_attack_18"
+				"25"  	"spawnzone_attack_19"
+				"26"  	"spawnzone_attack_20"
+				"27"  	"spawnzone_attack_21"
+				"28"  	"spawnzone_attack_22"
+				"29"  	"spawnzone_attack_23"
+				"30"  	"spawnzone_attack_24"
+				"31"  	"spawnzone_attack_25"
+				"32"  	"spawnzone_attack_26"
+			}
+		}
+	}
+} 

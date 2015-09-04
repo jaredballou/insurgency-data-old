@@ -1,0 +1,46 @@
+"cpsetup.txt"
+{	
+	"checkpoint"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"cp_sec"
+		"controlpoint"		"cp_sewer"
+		"controlpoint"		"cp_ins"
+		"controlpoint"		"cp_cache_ins"
+		"controlpoint"		"cp_b"
+		"controlpoint"		"cp_a"
+
+		
+		"entities"
+		{
+			// Cache
+			"obj_weapon_cache"
+			{
+				"origin"		"2238 -2684 33"
+				"angles"		"0 90 0"
+				"targetname"	"cache_ins"
+				"teamnumber"	"3"
+				"ControlPoint"	"cp_cache_ins"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"2233 -2684 50"
+				"angles"		"0 90 0"
+				"targetname"	"cp_cache_ins"
+			}
+		}
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_1"
+			"1"  "spawnzone_2"
+			"2"  "spawnzone_3"
+			"3"  "spawnzone_4"
+			"4"  "spawnzone_5"
+			"5"  "spawnzone_6"
+			"6"  "spawnzone_7"
+		}
+	}
+} 

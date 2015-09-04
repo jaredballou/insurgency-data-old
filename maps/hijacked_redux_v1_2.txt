@@ -1,0 +1,55 @@
+"cpsetup.txt"
+{	
+	//models by oskutin, gas helmet, nmrih
+	
+	"checkpoint"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"cp1"
+		"controlpoint"		"cp2"
+		"controlpoint"		"cp3"
+		"controlpoint"		"cp4"
+		"controlpoint"		"cp5"
+		"controlpoint"		"cp6"
+		"controlpoint"		"cp7"
+		"controlpoint"		"cp8"
+		"controlpoint"		"cachepoint9"
+		"controlpoint"		"cp10"
+		
+		"spawnzones"
+		{
+			
+			"disablespawns" "1" 
+			"0"  "spawnzone1"
+			"1"  "spawnzone2"
+			"2"  "spawnzone3"
+			"3"  "spawnzone4"
+			"4"  "spawnzone5"
+			"5"  "spawnzone6"
+			"6"  "spawnzone7"
+			"7"  "spawnzone8"
+			"8"  "spawnzone9"
+			"9"  "spawnzone10"
+		}
+		"entities"
+		{
+			// Cache 
+			"obj_weapon_cache"
+			{
+				"origin"		"9241 2910 -128"
+				"angles"		"0 270 0"
+				"targetname"	"cachepoint9"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint9"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"9241 2910 -128"
+				"angles"		"0 270 0"
+				"targetname"	"cachepoint9" 
+			}	
+		}
+		
+	}
+}

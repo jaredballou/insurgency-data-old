@@ -1,0 +1,11 @@
+"cpsetup.txt"
+{
+	"push"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"pushpoint_01"
+		"controlpoint"		"pushpoint_02"
+		"controlpoint"		"pushpoint_03"
+		"controlpoint"		"pushpoint_04"
+	}
+} 

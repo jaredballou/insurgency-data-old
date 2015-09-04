@@ -1,0 +1,21 @@
+"cpsetup.txt"
+{
+      Supported modes:
+     - Firefight
+
+
+"firefight"
+    {
+        "controlpoint" "cap_a"
+        "controlpoint" "cap_b"
+        "controlpoint" "cap_c"
+
+        "spawnzones"
+        {
+            "disablespawns" "1"
+            "0" "spawnzone_neutral"
+        }
+  }
+
+
+}

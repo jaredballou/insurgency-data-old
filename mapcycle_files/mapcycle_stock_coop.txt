@@ -1,0 +1,23 @@
+buhriz_coop checkpoint
+buhriz_hunt hunt
+contact_coop checkpoint
+contact_hunt hunt
+district_coop checkpoint
+district_hunt hunt
+heights_coop checkpoint
+heights_hunt hunt
+market_coop checkpoint
+market_hunt hunt
+ministry_coop checkpoint
+ministry_hunt hunt
+panj_hunt hunt
+peak_hunt hunt
+revolt_coop checkpoint
+revolt_hunt hunt
+siege_coop checkpoint
+sinjar_coop checkpoint
+sinjar_hunt hunt
+station_hunt hunt
+uprising_hunt hunt
+verticality_hunt hunt
+

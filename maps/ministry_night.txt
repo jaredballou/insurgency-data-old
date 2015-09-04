@@ -1,0 +1,146 @@
+"cpsetup.txt"
+{
+	"theater_conditions"
+	{
+		"?nightmap"		"1"
+	}
+
+	// Ministry supported modes:	
+	// - Skirmish
+	// - Firefight
+	// - Infiltrate
+	// - Occupy
+	
+	"skirmish"
+	{
+		"navfile"   		"ministry"
+		"nightlighting"		"1"
+		"controlpoint"	"cachepoint_a"
+		"controlpoint"	"cap2"
+		"controlpoint"	"cap4"
+		"controlpoint"  "cap3"
+		"controlpoint"	"cachepoint_e"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_skirmish"
+		}
+		
+		"entities"
+		{	
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"2264.121582 -1006.681885 32.031250"
+				"angles"		"0.000000 92.265541 0.000000"
+				"targetname"	"cache_a"
+				"teamnumber"	"2"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"2264.121582 -1006.681885 104.031250"
+				"angles"		"0.000000 92.265541 0.000000"
+				"targetname"	"cachepoint_a"
+			}	
+			
+			// Cache E
+			"obj_weapon_cache"
+			{
+				"origin"		"-2459.721191 -1095.478149 32.031250"
+				"angles"		"0.000000 1.678212 0.000000"
+				"targetname"	"cache_e"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_e"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-2459.721191 -1095.478149 104.031250"
+				"angles"		"0.000000 1.678212 0.000000"
+				"targetname"	"cachepoint_e"
+			}	
+		}
+	}
+	
+	"firefight"
+	{
+		"navfile"   		"ministry"
+		"nightlighting"		"1"
+		"controlpoint"	"cap2"
+		"controlpoint"	"cap4"
+		"controlpoint"  "cap3"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_skirmish"
+		}
+	}
+	
+	"infiltrate"
+	{
+		"navfile"   		"ministry"
+		"nightlighting"		"1"	
+		"controlpoint"		"terminalpoint_a"
+		"controlpoint"		"terminalpoint_b"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_skirmish"
+		}
+		
+		"entities"
+		{	
+			// Terminal A
+			"obj_terminal"
+			{
+				"origin"		"2327.014648 -1139.164917 72.495476"
+				"angles"		"0.000000 2.255866 0.000000"
+				"targetname"	"terminal_a"
+				"teamnumber"	"2"
+				"ControlPoint"	"terminalpoint_a"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"2327.014648 -1139.164917 144.495476"
+				"angles"		"0.000000 2.255866 0.000000"
+				"targetname"	"terminalpoint_a"
+			}	
+			
+			// Terminal B
+			"obj_terminal"
+			{
+				"origin"		"-2725.647949 -1103.459473 32.031250"
+				"angles"		"0.000000 88.456772 0.000000"
+				"targetname"	"terminal_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"terminalpoint_b"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-2725.647949 -1103.459473 104.031250"
+				"angles"		"0.000000 88.456772 0.000000"
+				"targetname"	"terminalpoint_b"
+			}	
+		}
+	}
+	
+	"occupy"
+	{
+		"navfile"   		"ministry"
+		"nightlighting"		"1"
+		"controlpoint"	"cap4"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_skirmish"
+		}
+	}
+}

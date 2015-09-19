@@ -1,10 +1,12 @@
 "cpsetup.txt"
 {	
+
+	"navfile"   		"sinjar"
+		
 	"outpost"
 	{
-		"navfile"   		"sinjar"
+
 		"AttackingTeam"		"insurgents"
-		
 		"controlpoint"		"cachepoint_friendly"
 		
 		"spawnzones"

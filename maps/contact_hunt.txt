@@ -5,10 +5,11 @@
 		"?nightmap"		"1"
 	}
 	
+	"navfile"   		"contact"
+	"nightlighting"		"1"
+		
 	"hunt"
 	{
-		"navfile"   		"contact"
-		"nightlighting"		"1"
 		"AttackingTeam"		"security"
 		
 		"controlpoint"		"cachepoint_a"

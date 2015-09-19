@@ -1,5 +1,11 @@
  "cpsetup.txt"
-{		
+{	
+
+	"compassOffset" "270"
+
+	"navfile"   		"uprising"
+	"nightlighting"		"0"
+	
 	// Uprising supported modes:	
 	// - Occupy
 	// - firefight
@@ -8,8 +14,6 @@
 	
 	"occupy"
 	{
-		"navfile"   		"uprising"
-		"nightlighting"		"0"
 		"controlpoint"		"cap1"
 		
 		"spawnzones"
@@ -21,8 +25,6 @@
 
 "firefight"
 	{
-		"navfile"   		"uprising"
-		"nightlighting"		"0"
 		"controlpoint"		"cap2"
 		"controlpoint"		"cap1"
 		"controlpoint"		"cap3"
@@ -35,8 +37,6 @@
 	  }
 	  "infiltrate"
 	{		
-		"navfile"   		"uprising"
-		"nightlighting"		"0"
 		"controlpoint"		"terminalpoint_a"
 		"controlpoint"		"terminalpoint_b"
 		

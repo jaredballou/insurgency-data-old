@@ -1,8 +1,12 @@
 "cpsetup.txt"
 {	
+
+	"compassOffset" "180"
+
+	"navfile"   		"verticality"
+
 	"outpost"
 	{
-		"navfile"   		"verticality"
 		"AttackingTeam"		"insurgents"
 		
 		"controlpoint"		"cachepoint_friendly"

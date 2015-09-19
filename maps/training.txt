@@ -1,5 +1,7 @@
  "cpsetup.txt"
 {	
+	"compassOffset" "83"
+
 		"theater_conditions"
 	{
 		"?nightmap"		"1"

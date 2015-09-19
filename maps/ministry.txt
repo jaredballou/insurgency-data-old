@@ -1,5 +1,9 @@
 "cpsetup.txt"
 {
+
+	"navfile"   		"ministry"
+	"nightlighting"		"0"
+		
 	// Ministry supported modes:	
 	// - Skirmish
 	// - Firefight
@@ -8,8 +12,6 @@
 	
 	"skirmish"
 	{
-		"navfile"   		"ministry"
-		"nightlighting"		"0"
 		"controlpoint"	"cachepoint_a"
 		"controlpoint"	"cap2"
 		"controlpoint"	"cap4"
@@ -62,8 +64,6 @@
 	
 	"firefight"
 	{
-		"navfile"   		"ministry"
-		"nightlighting"		"0"
 		"controlpoint"	"cap2"
 		"controlpoint"	"cap4"
 		"controlpoint"  "cap3"
@@ -77,8 +77,6 @@
 	
 	"infiltrate"
 	{		
-		"navfile"   		"ministry"
-		"nightlighting"		"0"	
 		"controlpoint"		"terminalpoint_a"
 		"controlpoint"		"terminalpoint_b"
 		
@@ -128,8 +126,6 @@
 	
 	"occupy"
 	{
-		"navfile"   		"ministry"
-		"nightlighting"		"0"
 		"controlpoint"	"cap4"
 		
 		"spawnzones"

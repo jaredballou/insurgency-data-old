@@ -1,15 +1,21 @@
 "cpsetup.txt"
 {
+
+	"compassOffset" "180"
+
+
 	"theater_conditions"
 	{
 		"?nightmap"		"1"
 	}	
+
+	"navfile"   		"revolt"	
+	"nightlighting"		"1"
+	
 	"hunt"
 	{
-		"navfile"   		"revolt"
 		"AttackingTeam"		"security"
-		"nightlighting"		"1"
-		
+
 		"controlpoint"		"cachepoint_a"
 		"controlpoint"		"cachepoint_b"
 		"controlpoint"		"cachepoint_c"

@@ -1,9 +1,12 @@
 "cpsetup.txt"
 {
 
+	"compassOffset" "180"
+
+	"navfile"   		"station"
+		
 	"hunt"
 	{
-		"navfile"   		"station"
 		"AttackingTeam"		"security"
 		
 		"controlpoint"		"cachepoint_a"

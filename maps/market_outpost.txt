@@ -1,10 +1,13 @@
 "cpsetup.txt"
 {	
+
+	"compassOffset" "180"
+
+	"navfile"   		"market"
+
 	"outpost"
 	{
-		"navfile"   		"market"
 		"AttackingTeam"		"insurgents"
-		
 		"controlpoint"		"cachepoint_friendly"
 		
 		"spawnzones"

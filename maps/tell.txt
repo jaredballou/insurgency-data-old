@@ -6,7 +6,9 @@
 	// - Occupy
 	// - Elimination
 
-
+	"navfile"   		"tell"
+	"nightlighting"		"0"
+		
 	"push"
 	{
 		"AttackingTeam"		"security"
@@ -28,7 +30,7 @@
 			// Final Cache
 			"obj_weapon_cache"
 			{
-				"origin"		"-3655.027832 2194.665039 1183.031250"
+				"origin"		"-3715.9 2185.5 1183"
 				"angles"		"0.000000 -91.272324 0.000000"
 				"targetname"	"cache_final"
 				"teamnumber"	"3"
@@ -38,7 +40,7 @@
 			}
 			"point_controlpoint"
 			{
-				"origin"		"-3655.027832 2194.665039 1243.031250"
+				"origin"		"-3715.9 2185.5 1243"
 				"angles"		"0.000000 -91.272324 0.000000"
 				"targetname"	"cachepoint_final"
 			}	
@@ -47,8 +49,6 @@
 	
     "ambush"
 	{
-		"navfile"   		"tell"
-		"nightlighting"		"0"
 		"AttackingTeam"		"security"
 		"controlpoint" 		"vip_cap_1"
 		"controlpoint" 		"vip_cap_2" 
@@ -62,8 +62,6 @@
 	
 	"occupy"
 	{
-		"navfile" 			"tell"
-		"nightlighting"		"0"
 		"controlpoint"		"occupy_cap"
 		
 		"spawnzones"

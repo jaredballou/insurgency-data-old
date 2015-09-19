@@ -6,6 +6,7 @@
 		<script type="text/javascript" src="js/marked.js"></script>
 		<script type="text/javascript" src="js/date.format.js"></script>
 
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="css/ins.css">
 	</head>
 
@@ -15,12 +16,12 @@
 
 			<div id="bottom-container">
 				<div id="story-container" data-bind="with: active">
-					<div class="article-image" data-bind="style: { 'background-image': $parent.getThumbnail($data) }"></div>
+					<div class="article-image" data-bind="style: { 'background-image': $parent.getArticleHero($data) }"></div>
 
 					<div id="story-contents">
 						<h1 class="article-title" data-bind="text: title"></h1>
 						<p class="article-details">
-							By <span class="article-author" data-bind="text: author"></span>, posted <span class="article-date" data-bind="dateString: date"></span>
+							By <span class="article-author" data-bind="text: author.first_name + ' ' + author.last_name"></span>, posted <span class="article-date" data-bind="dateString: date"></span>
 						</p>
 
 						<article data-bind="html: bodymd">

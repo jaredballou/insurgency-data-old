@@ -390,3 +390,37 @@ article blockquote + p {padding: 0 10% 20px;}
     text-transform: uppercase;
     font-size: 12px;
 }
+.play-button {
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-size: 64px;
+    position: relative;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+a.play-button {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fffefe;
+    max-width: 250px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.play-button i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -32px 0 0 -32px;
+    font-size: 36px;
+    margin-left: -18px;
+    margin-top: -18px;
+}
+.bb_link_host {
+    color: #aaa;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5px;
+}

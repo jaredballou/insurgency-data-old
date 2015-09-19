@@ -16,29 +16,6 @@
 		"PaintBackgroundType"	"0"
 	}
 
-	// "LblTitle"
-	// {	
-		// "ControlName"			"Label"
-		// "fieldName"				"LblTitle"
-		// "xpos"					"0"
-		// "ypos"					"0"
-		// "wide"					"462"	[$WIN32WIDE]
-
-		// Non-Widescreen
-		// "wide"					"400"	[!$WIN32WIDE]
-
-		// "tall"					"32"
-		// "visible"				"1"
-		// "enabled"				"1"
-		// "tabPosition"			"0"
-		// "paintbackground"		"0"
-		// "labelText"				"#GameUI_AdvancedVideo"
-		// "textinsetx"			"45"
-		// "textinsety"			"0"
-		// "textAlignment"			"west"
-		// "font"					"MainMenuTitle"
-	// }
-
 	"DrpCsmShadows"
 	{
 		"ControlName"		"HybridButton"
@@ -53,7 +30,7 @@
 		"tall"				"24"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
+		"tabPosition"		"1"
 		"navUp"				"DrpPagedPoolMem"
 		"navDown"			"DrpModelDetail"
 		"labelText"			"#GameUI_Settings_CSM"
@@ -82,7 +59,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"navUp"				"CsmShadows"
+		"navUp"				"DrpCsmShadows"
 		"navDown"			"DrpShaderDetail"
 		"labelText"			"#GameUI_VideoOptions_Model_Texture_Detail"
 		"style"				"DialogListButton"
@@ -225,7 +202,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"navUp"				"DrpAntialias"
-		"navDown"			"FxAntialias"
+		"navDown"			"DrpFxAntialias"
 		"labelText"			"#GameUI_Filtering_Mode"
 		"style"				"DialogListButton"
 		"list"
@@ -282,7 +259,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"navUp"				"FxAntialias"
-		"navDown"			"MotionBlur"
+		"navDown"			"DrpMotionBlur"
 		"labelText"			"#GameUI_Wait_For_VSync"
 		"style"				"DialogListButton"
 		"list"
@@ -334,8 +311,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"navUp"				"MotionBlur"
-		"navDown"			"CsmShadows"
+		"navUp"				"DrpMotionBlur"
+		"navDown"			"DrpCsmShadows"
 		"labelText"			"#GameUI_VideoOptions_Paged_Pool_Mem"
 		"style"				"DialogListButton"
 		"list"

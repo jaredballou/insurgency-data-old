@@ -30,9 +30,9 @@
 		"tall"					"24"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
+		"tabPosition"			"1"
 		"wrap"					"1"
-		"navUp"					"BackButton"
+		"navUp"					"btnRadialControl"
 		"navDown"				"btnGameInstructor"
 		"labelText"				"#GameUI_Console"
 		"style"					"DialogListButton"
@@ -59,7 +59,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"wrap"					"1"
-		"navUp"					"BackButton"
+		"navUp"					"btnConsole"
 		"navDown"				"btnHQAnnouncer"
 		"labelText"				"#GameUI_GameInstructor"
 		"style"					"DialogListButton"
@@ -86,8 +86,8 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"wrap"					"1"
-		"navUp"					"BackButton"
-		"navDown"				"btnHQAnnouncer"
+		"navUp"					"btnGameInstructor"
+		"navDown"				"btnAutoBipod"
 		"labelText"				"#GameUI_HQAnnouncer"
 		"style"					"DialogListButton"
 		"list"
@@ -112,6 +112,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"wrap"					"1"
+		"tabPosition"			"0"
 		"navUp"					"btnHQAnnouncer"
 		"navDown"				"btnGrenadeAutoSwitch"
 		"labelText"				"#GameUI_AutoBipod"
@@ -140,6 +141,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"wrap"					"1"
+		"tabPosition"			"0"
 		"navUp"					"btnAutoBipod"
 		"navDown"				"btnVipPreference"
 		"labelText"				"#GameUI_GrenadeAutoSwitch"
@@ -166,6 +168,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"wrap"					"1"
+		"tabPosition"			"0"
 		"navUp"					"btnGrenadeAutoSwitch"
 		"navDown"				"btnUseOpensKit"
 		"labelText"				"#GameUI_VipPreference"
@@ -193,6 +196,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"wrap"					"1"
+		"tabPosition"			"0"
 		"navUp"					"btnVipPreference"
 		"navDown"				"btnHTMLMOTD"
 		"labelText"				"#GameUI_UseOpensKit"
@@ -219,14 +223,43 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"wrap"					"1"
+		"tabPosition"			"0"
 		"navUp"					"btnUseOpensKit"
-		"navDown"				"BackButton"
+		"navDown"				"btnRadialControl"
 		"labelText"				"#GameUI_HTMLMOTD"
 		"style"					"DialogListButton"
 		"list"
 		{
 			"#GameUI_Disable"		"HTMLMOTDDisabled"
 			"#GameUI_Enable"		"HTMLMOTDEnabled"
+		}
+	}
+	
+	"btnRadialControl"
+	{
+		"ControlName"			"HybridButton"
+		"fieldName"				"btnRadialControl"
+		"xpos"					"0"
+		"ypos"					"224"
+		"wide"					"462"	[$WIN32WIDE]
+
+		//Non-Widescreen
+		"wide"					"400"	[!$WIN32WIDE]
+
+		"tall"					"24"
+		"visible"				"1"
+		"enabled"				"1"
+		"wrap"					"1"
+		"tabPosition"			"0"
+		"navUp"					"btnHTMLMOTD"
+		"navDown"				"btnConsole"
+		"labelText"				"#GameUI_RadialControlStyle"
+		"style"					"DialogListButton"
+		"list"
+		{
+			"#GameUI_Default"		"RadialDefault"
+			"#GameUI_Scrolling"		"RadialScrolling"
+			"#GameUI_Numbered"		"RadialNumbered"
 		}
 	}
 }

@@ -1,10 +1,12 @@
 "cpsetup.txt"
 {	
+	"navfile"   		"heights"
+
+	"compassOffset" "180"
+
 	"outpost"
 	{
-		"navfile"   		"heights"
 		"AttackingTeam"		"insurgents"
-		
 		"controlpoint"		"cachepoint_friendly"
 		
 		"spawnzones"

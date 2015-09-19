@@ -1,5 +1,9 @@
 "cpsetup.txt"
 {	
+
+	"compassOffset" "180"
+
+
 	"checkpoint"
 	{
 		"AttackingTeam"		"security"
@@ -47,8 +51,8 @@
 			"obj_weapon_cache"
 			{
 
-				"origin"		"295 -2055 40"
-				"angles"		"0 175.5 0"
+				"origin"		"323 -2720 244"
+				"angles"		"0 285 0"
 				"targetname"	"cache_b"
 				"teamnumber"	"3"
 				"ControlPoint"	"cachepoint_b"
@@ -56,7 +60,7 @@
 			}				
 			"point_controlpoint"
 			{
-				"origin"		"295 -2055 100"
+				"origin"		"323 -2720 316"
 				"angles"		"0 0 0"
 				"targetname"	"cachepoint_b"
 			}
@@ -64,7 +68,7 @@
 			"obj_weapon_cache"
 			{
 				"origin"		"3643.817139 -227.373764 192.031250"
-				"angles"		"0 -1.822811 0"
+				"angles"		"0 285 0"
 				"targetname"	"cache_e"
 				"teamnumber"	"3"
 				"ControlPoint"	"cachepoint_e"

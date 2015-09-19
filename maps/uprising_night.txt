@@ -1,19 +1,23 @@
- "cpsetup.txt"
+"cpsetup.txt"
 {
+
+	"compassOffset" "270"
+
 	"theater_conditions"
 	{
 		"?nightmap"		"1"
 	}		
+	
+	"navfile"   		"uprising"
+	"nightlighting"		"1"
+	
 	// Uprising supported modes:	
 	// - Occupy
 	// - firefight
 	// - infiltrate
-	
-	
+		
 	"occupy"
 	{
-		"navfile"   		"uprising"
-		"nightlighting"		"1"
 		"controlpoint"		"cap1"
 		
 		"spawnzones"
@@ -25,8 +29,6 @@
 
 	"firefight"
 	{
-		"navfile"   		"uprising"
-		"nightlighting"		"1"
 		"controlpoint"		"cap2"
 		"controlpoint"		"cap1"
 		"controlpoint"		"cap3"
@@ -36,11 +38,10 @@
 			"disablespawns" "1"
 			"0"  "spawnzone_1"
 		}
-	  }
-	   "infiltrate"
+	}
+	
+	"infiltrate"
 	{		
-		"navfile"   		"uprising"
-		"nightlighting"		"1"
 		"controlpoint"		"terminalpoint_a"
 		"controlpoint"		"terminalpoint_b"
 		

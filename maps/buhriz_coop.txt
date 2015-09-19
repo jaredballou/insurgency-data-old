@@ -1,5 +1,7 @@
 "cpsetup.txt"
 {
+
+
 	"checkpoint"
 	{
 		"AttackingTeam"		"security"

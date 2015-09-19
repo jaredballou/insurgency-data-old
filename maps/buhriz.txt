@@ -1,5 +1,9 @@
 "cpsetup.txt"
 {
+
+	"navfile"   		"buhriz"
+	"nightlighting"		"0"
+		
 	// Buhriz supported modes:
 	// - Push
 	// - Occupy
@@ -57,8 +61,6 @@
 	
 	"strike"
 	{
-		"navfile"   		"buhriz"
-		"nightlighting"		"0"
 		"AttackingTeam"		"security"
 		"controlpoint"		"cachepoint_a" 
 		"controlpoint"		"cachepoint_b" 
@@ -129,8 +131,6 @@
 	
 	"elimination"
 	{
-		"navfile"   		"buhriz"
-		"nightlighting"		"0"
 		"AttackingTeam"		"security"
 		"controlpoint"		"cachepoint_a" 
 		"controlpoint"		"cachepoint_b" 

@@ -1,9 +1,14 @@
 "cpsetup.txt"
 {
+
 	"theater_conditions"
 	{
 		"?nightmap"		"1"
 	}
+	
+	"navfile"   		"buhriz"
+	"nightlighting"		"1"
+	
 	// Buhriz supported modes:
 	// - Push
 	// - Occupy
@@ -11,7 +16,6 @@
 	
 	"push"
 	{
-		"navfile"   		"buhriz"
 		"AttackingTeam"		"security"
 		"controlpoint"		"pushpoint_01"
 		"controlpoint"		"pushpoint_02b"
@@ -50,7 +54,6 @@
 	
 	"occupy"
 	{
-		"navfile"   		"buhriz"
 		"controlpoint"		"pushpoint_02b" 
 		
 		"spawnzones"
@@ -62,8 +65,6 @@
 	
 	"strike"
 	{
-		"navfile"   		"buhriz"
-		"nightlighting"		"1"
 		"AttackingTeam"		"security"
 		"controlpoint"		"cachepoint_a" 
 		"controlpoint"		"cachepoint_b" 
@@ -134,8 +135,6 @@
 	
 	"elimination"
 	{
-		"navfile"   		"buhriz"
-		"nightlighting"		"1"
 		"AttackingTeam"		"security"
 		"controlpoint"		"cachepoint_a" 
 		"controlpoint"		"cachepoint_b" 

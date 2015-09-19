@@ -1,5 +1,10 @@
 "cpsetup.txt"
 {
+
+	"compassOffset" "270"
+
+	"nightlighting"		"1"
+
 		"theater_conditions"
 	{
 		"?nightmap"		"1"
@@ -7,7 +12,6 @@
 	"hunt"
 	{
 		"AttackingTeam"		"security"
-		"nightlighting"		"1"
 		
 		"controlpoint"		"cachepoint_a"
 		"controlpoint"		"cachepoint_b"

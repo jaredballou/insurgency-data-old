@@ -5,6 +5,9 @@
 		"?nightmap"		"1"
 	}
 	
+	"navfile"   		"district"
+	"nightlighting"		"1"
+		
 	// District_night supported modes:
 	// - Skirmish
 	// - Firefight
@@ -14,8 +17,6 @@
 	
 	"skirmish"
 	{
-		"navfile"   		"district"
-		"nightlighting"		"1"
 		"controlpoint"		"cachepoint_a"
 		//"controlpoint"	"cap_3"
 		"controlpoint"		"cap_4"
@@ -70,8 +71,6 @@
 	
 	"firefight"
 	{
-		"navfile"   		"district"
-		"nightlighting"		"1"
 		"controlpoint"		"cap_4"
 		"controlpoint"		"cap_5" 
 		"controlpoint"		"cap_2"
@@ -85,8 +84,6 @@
 	
 	"push"
 	{
-		"navfile"   		"district"
-		"nightlighting"		"1"
 		"AttackingTeam"		"insurgents"
 		"controlpoint"		"cap_5"
 		"controlpoint"		"cap_4"
@@ -125,8 +122,6 @@
 	
 	"infiltrate"
 	{			
-		"navfile"   		"district"
-		"nightlighting"		"1"
 		"controlpoint"		"terminalpoint_a"
 		"controlpoint"		"terminalpoint_b"
 		
@@ -176,8 +171,6 @@
 	
 	"occupy"
 	{
-		"navfile"   		"district"
-		"nightlighting"		"1"
 		"controlpoint"		"cap_5"
 		
 		"spawnzones"
@@ -189,8 +182,6 @@
 	
 	"elimination"
 	{
-		"navfile"   		"district"
-		"nightlighting"		"1"
 		"AttackingTeam"		"security"
 		"controlpoint"		"cachepoint_a" 
 		"controlpoint"		"cachepoint_b" 
@@ -241,8 +232,6 @@
 		
 	"strike"
 	{
-		"navfile"   		"district"
-		"nightlighting"		"1"
 		"AttackingTeam"		"security"
 		"controlpoint"		"cachepoint_a" 
 		"controlpoint"		"cachepoint_b" 

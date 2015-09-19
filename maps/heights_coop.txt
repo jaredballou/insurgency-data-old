@@ -1,5 +1,7 @@
 "cpsetup.txt"
-{	
+{
+
+	"compassOffset" "180"
 
 	"checkpoint"
 	{

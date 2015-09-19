@@ -1,8 +1,12 @@
 "cpsetup.txt"
 {	
+
+	"compassOffset" "90"
+
+	"navfile"   		"panj"
+	
 	"outpost"
 	{
-		"navfile"   		"panj"
 		"AttackingTeam"		"insurgents"
 		
 		"controlpoint"		"cachepoint_friendly"

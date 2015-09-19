@@ -1,5 +1,9 @@
 "cpsetup.txt"
 {	
+
+	"compassOffset" "180"
+
+
 	// Revolt supported modes:
 	// - Skirmish
 	// - Firefight

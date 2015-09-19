@@ -220,7 +220,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"navUp"					"SldMusicVolume"
+		"navUp"					"SldVoiceVolume"
 		"navDown"				"DrpSoundQuality"
 		"labelText"				"#GameUI_SpeakerConfiguration"
 		"style"					"DialogListButton"

@@ -1,10 +1,16 @@
 "cpsetup.txt"
-{		
+{	
+
+	"compassOffset" "180"
+	
 	"theater_conditions"
 	{
 		"?nightmap"		"1"
 	}
 	
+	"navfile"   		"heights"
+	"nightlighting"		"1"
+		
 	// Heights supported modes:	
 	// - Push
 	// - Firefight
@@ -15,8 +21,6 @@
 	
 	"push"
 	{
-		"navfile"   		"heights"
-		"nightlighting"		"1"
 		"AttackingTeam"		"insurgents"
 		"controlpoint"		"skirmishpoint_d"
 		"controlpoint"		"pushpoint_02"
@@ -54,8 +58,6 @@
 	
 	"firefight"	
 	{
-		"navfile"   		"heights"
-		"nightlighting"		"1"
 		"controlpoint"		"cp_d5"
 		"controlpoint"		"cp_e4"
 		"controlpoint"		"skirmishpoint_d"
@@ -69,8 +71,6 @@
 	
 	"skirmish"
 	{
-		"navfile"   		"heights"
-		"nightlighting"		"1"
 		"controlpoint"		"cachepoint_a"
 		"controlpoint"		"cp_d5"
 		"controlpoint"		"cp_e4"
@@ -123,8 +123,6 @@
 	
 	"occupy"
 	{
-		"navfile"   		"heights"
-		"nightlighting"		"1"
 		"controlpoint"		"cp_e4"
 		
 		"spawnzones"
@@ -136,8 +134,6 @@
 
 	"strike"
 	{
-		"navfile"   		"heights"
-		"nightlighting"		"1"
 		"AttackingTeam"		"security"
 		"controlpoint"		"cachepoint_a" 
 		"controlpoint"		"cachepoint_b" 
@@ -243,8 +239,6 @@
 	
 	"flashpoint"
 	{
-		"navfile"   		"heights"	
-		"nightlighting"		"1"
 		"controlpoint"		"cachepoint_a"
 		"controlpoint"		"cachepoint_b"
 		"controlpoint"		"cp_e4"

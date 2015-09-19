@@ -1,14 +1,18 @@
 "cpsetup.txt"
 {
+
+
 	"theater_conditions"
 	{
 		"?nightmap"		"1"
-	}	
+	}
+
+	"navfile"   		"buhriz"
+	"nightlighting"		"1"
+		
 	"hunt"
 	{
-		"navfile"   		"buhriz"
 		"AttackingTeam"		"security"
-		"nightlighting"		"1"
 		
 		"controlpoint"		"cachepoint_a"
 		"controlpoint"		"cachepoint_b"

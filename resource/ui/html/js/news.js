@@ -1,4 +1,4 @@
-var API_BASE = "http://api-insurgency.newworldinteractive.com"
+var WP_BASE = "https://newworldinteractive.com/"
 
 // based on http://www.aaronkjackson.com/2012/04/formatting-dates-with-knockoutjs/
 ko.bindingHandlers.dateString = {
@@ -27,11 +27,11 @@ function NewsSummaryModel() {
 		this.active(data);
 		this.article();
 
-		$.getJSON(API_BASE + "/community/news/" + data.id + "/", function(bdata) {
+		$.getJSON(WP_BASE + "api/get_post/?id=" + data.id + "&exclude=categories,custom_fields,thumbnails,thumbnail_images,attachments,comments", function(bdata) {
 			data.loaded = true;
 			
 			// parse markdown
-			var bodyHtml = $( "<div>", { html: marked( bdata.body ) } );
+			var bodyHtml = $( "<div>", { html: bdata.post.content } );
 
 			// manipulate URLs
 			bodyHtml.find("a").each(function(key, elem) {
@@ -44,10 +44,21 @@ function NewsSummaryModel() {
 		});	
 	}
 
+	this.getArticleHero = function( data )
+	{
+		if( typeof( data.thumbnail_images ) != "undefined" && data.thumbnail_images != null )
+			return "url('" + data.thumbnail_images.full.url + "')";
+
+		return "url('media/img/articleplaceholder.png')";	
+	}
+
 	this.getThumbnail = function( data )
 	{
-		if( typeof( data.thumbnail ) != "undefined" && data.thumbnail != null && data.thumbnail != "" )
-			return "url('" + data.thumbnail + "')";
+		//if( typeof( data.thumbnail ) != "undefined" && data.thumbnail != null && data.thumbnail != "" )
+		//	return "url('" + data.thumbnail + "')";
+
+		if( typeof( data.thumbnail_images ) != "undefined" && data.thumbnail_images != null )
+			return "url('" + data.thumbnail_images.medium.url + "')";
 
 		return "url('media/img/articleplaceholder.png')";
 	}
@@ -71,12 +82,12 @@ ko.applyBindings(summaryModel);
 // DOM ready function
 $(function() {
 	// get stories from NWI API
-	$.getJSON(API_BASE + "/community/news/", function(data) {
-		summaryModel.stories(data);
+	$.getJSON(WP_BASE + "category/insurgency/?json=1&exclude=content,attachments,custom_fields,categories,comments_count,comments,comment_status", function(data) {
+		summaryModel.stories(data.posts);
 
 		if(data.length <= 0)
 			return;
 
-		summaryModel.viewNewsStory(data[0]);
+		summaryModel.viewNewsStory(data.posts[0]);
 	});				
 });

@@ -6,10 +6,11 @@
 	}
 //	"theaterFile"			"default_singleplayer"
 
-	"skirmish"
+	"push"
 	{
-		"AttackingTeam"		"security"
 		"controlpoint"		"cachepoint_a"
+		"controlpoint"		"cachepoint_b"
+		"controlpoint"		"cachepoint_c"
 		
 		"entities"
 		{
@@ -28,6 +29,38 @@
 				"origin"		"-4176 8104 685"
 				"angles"		"0 0 0"
 				"targetname"	"cachepoint_a"
+			}
+			// Cache
+			"obj_weapon_cache"
+			{
+				"origin"		"-4176 8104 641"
+				"angles"		"0 0 0"
+				"targetname"	"cache_b"
+				"teamnumber"	"2"
+				"ControlPoint"	"cachepoint_b"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-4176 8104 685"
+				"angles"		"0 0 0"
+				"targetname"	"cachepoint_b"
+			}
+			// Cache
+			"obj_weapon_cache"
+			{
+				"origin"		"-4176 8104 641"
+				"angles"		"0 0 0"
+				"targetname"	"cache_c"
+				"teamnumber"	"1"
+				"ControlPoint"	"cachepoint_c"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-4176 8104 685"
+				"angles"		"0 0 0"
+				"targetname"	"cachepoint_c"
 			}
 		}
 		"spawnzones"

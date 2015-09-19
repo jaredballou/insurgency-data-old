@@ -57,6 +57,9 @@ Scheme
 		"InsRed50"			"204 46 25 128"
 		"InsYellow"			"242 199 25 255"
 		"InsGreen"			"132 150 28 255"
+		"InsGreen25"		"132 150 28 64"
+		"InsGreen50"		"132 150 28 128"
+		"InsGreen75"		"132 150 28 192"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -338,8 +341,11 @@ Scheme
 		"InventoryWeaponPointer.Circle"					"InsLightGrey"
 				
 		// Radial menu
-		"RadialMenu.Text"								"InsLightGrey50"
+		"RadialMenu.Text"								"InsWhite"
 		"RadialMenu.TextHover"							"InsWhite"
+		"RadialMenu.BG"									"InsBlack75"
+		"RadialMenu.BGHover"							"InsGreen75"
+		
 		
 		// Floating Markers
 		"Markers.Enemy"								"InsEnemy"
@@ -356,6 +362,17 @@ Scheme
 		
 		// Floating markers
 		"FloatingHudMarker.TargetObjectiveColor"			"InsWhite" // Color of little arrows indicating targeted objective.
+	}
+	
+	//////////////////////// BITMAP FONT FILES /////////////////////////////
+	//
+	// Bitmap Fonts are ****VERY*** expensive static memory resources so they are purposely sparse
+	BitmapFontFiles
+	{
+		// UI buttons, custom font, (256x64)
+		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"      [!$PS3]
+		"Buttons"		"materials/vgui/fonts/buttons_ps3_32.vbf"  [$PS3 && !$INPUTSWAPAB]
+		"Buttons"		"materials/vgui/fonts/buttons_ps3_j_32.vbf"  [$PS3 && $INPUTSWAPAB]
 	}
 	
 	//////////////////////// FONTS /////////////////////////////
@@ -574,59 +591,6 @@ Scheme
 				"antialias"		"1"
 			}		
 		}
-
-		"InstructorTitle"
-		{
-			"1"
-			{
-				"name"			"FoundationSans-Cd"
-				"tall"			"18"
-				"weight"		"400"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		"InstructorTitle_ss"
-		{
-			"1"
-			{
-				"name"			"FoundationSans-Cd"
-				"tall"			"14"
-				"weight"		"400"
-				"antialias"		"1"
-				"dropshadow"	"1"
-			}
-		}
-		"InstructorButtons"
-		{
-			"1"
-			{
-				"bitmap"		"1"
-				"name"			"Buttons"
-				"scalex"		".5"
-				"scaley"		".5"
-			}
-		}
-		"InstructorButtons_ss"
-		{
-			"1"
-			{
-				"bitmap"		"1"
-				"name"			"Buttons"
-				"scalex"		"0.5"
-				"scaley"		"0.5"
-			}
-		}
-		"InstructorKeyBindings"
-		{
-			"1"
-			{
-				"name"			"FoundationSans-Bold"
-				"tall"			"12"
-				"weight"		"800"
-				"antialias"		"1"
-			}
-		}
 		
 	// this is the symbol font
 		"Marlett"
@@ -666,6 +630,16 @@ Scheme
 		//-------------------------------------------------------------------------------------------
 		// INSURGENCY FONTS
 		//-------------------------------------------------------------------------------------------
+		"FoundationSans6"
+		{
+			"1"
+			{
+				"name"			"FoundationSans-Cd"
+				"tall"			"6"
+				"antialias"		"1"
+			}
+		}
+
 		"FoundationSans7"
 		{
 			"1"
@@ -804,6 +778,38 @@ Scheme
 			}
 		}
 		
+		"OratorStd10Drop"
+		{
+			"1"
+			{
+				"name"			"OratorStd"
+				"tall"			"10"
+				"antialias"		"1"
+				dropshadow		1
+			}
+		}
+		
+		"OratorStd14"
+		{
+			"1"
+			{
+				"name"			"OratorStd"
+				"tall"			"14"
+				"antialias"		"1"
+			}
+		}
+
+		"OratorStd14Drop"
+		{
+			"1"
+			{
+				"name"			"OratorStd"
+				"tall"			"14"
+				"antialias"		"1"
+				dropshadow		1
+			}
+		}
+
 		"OratorStd16"
 		{
 			"1"
@@ -974,6 +980,15 @@ Scheme
 			{
 				"name"		"FoundationSans-Bold"
 				"tall"		"20"
+				"antialias"	"1"
+			}
+		}
+		"FoundationSansBold22"
+		{			
+			"1"
+			{
+				"name"		"FoundationSans-Bold"
+				"tall"		"22"
 				"antialias"	"1"
 			}
 		}
@@ -1481,6 +1496,146 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		
+
+//////////////////////// INSTRUCTOR /////////////////////////////
+
+		"InstructorTitle"
+		{
+			"isproportional"	"only"		
+			"1"
+			{
+				"name"			"FoundationSans-Cd"
+				"tall"			"16"
+				"weight"		"400"
+				"antialias"		"1"
+				"dropshadow"	"1"
+			}
+		}
+
+		"InstructorTitle_ss"
+		{
+			"isproportional"	"only"
+			"1"
+			{
+				"name"			"FoundationSans-Cd"
+				"tall"			"12"
+				"weight"		"400"
+				"antialias"		"1"
+				"dropshadow"	"1"
+			}
+		}
+		
+		"InstructorButtons"
+		{
+			"1"
+			{
+				"bitmap"	"1"
+				"name"		"Buttons"
+				"scalex"	"0.65"
+				"scaley"	"0.65"
+			}
+		}
+		
+		"InstructorButtons_ss"
+		{
+			"1"
+			{
+				"bitmap"	"1"
+				"name"		"Buttons"
+				"scalex"	"0.8" [$GAMECONSOLELODEF]
+				"scaley"	"0.8" [$GAMECONSOLELODEF]
+				"scalex"	"0.5" [$GAMECONSOLEHIDEF]
+				"scaley"	"0.5" [$GAMECONSOLEHIDEF]
+			}
+		}
+		
+		"InstructorKeyBindings"
+		{
+			"isproportional"	"only"
+			"1"
+			{
+				"name"			"FoundationSans-Bold"
+				"tall"			"12"
+				"weight"		"800"
+				"antialias"		"1"
+			}
+		}
+
+		"InstructorKeyBindingsSmall"
+		{
+			"isproportional"	"only"
+			"1"
+			{
+				"name"			"FoundationSans-Bold"
+				"tall"			"9"
+				"weight"		"800"
+				"antialias"		"1"
+			}
+		}
+		
+//////////////////////// CLOSE CAPTION /////////////////////////////
+
+		"CloseCaption_Normal" [!$GAMECONSOLE]
+		{
+			"isproportional"	"only"		
+			"1"
+			{
+				"name"			"FoundationSans-Cd"
+				"tall"			"16"
+				"weight"		"400"
+				"antialias"		"1"
+			}
+		}
+		
+		"CloseCaption_Italic"	[!$GAMECONSOLE]
+		{	
+			"1"
+			{
+				"name"		"UniversLTStd-Cn"
+				"tall"		"20"
+				"weight"	"500"
+				"italic"	"1"
+				"antialias"	"1"
+			}
+		}
+		
+		"CloseCaption_Bold" [!$GAMECONSOLE]
+		{		
+			"1"
+			{
+				"name"		"UniversLTStd-Cn"
+				"tall"		"20"
+				"weight"	"900"
+				"antialias"	"1"
+			}
+		}
+		
+		"CloseCaption_BoldItalic" [!$GAMECONSOLE]
+		{
+			"1"
+			{
+				"name"		"UniversLTStd-Cn"
+				"tall"		"20"
+				"weight"	"900"
+				"italic"	"1"
+				"antialias"	"1"
+			}
+		}
+
+		"CloseCaption_Console" [$GAMECONSOLE]
+		{
+			"isproportional"	"only"
+			"1"
+			{
+				"name"		"UniversLTStd-BoldCn"
+				"tall"		"20"
+				"weight"	"400"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+		}
+
 	}
 
 	//

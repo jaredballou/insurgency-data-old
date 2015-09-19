@@ -1,9 +1,15 @@
 "cpsetup.txt"
 {
+
+	"compassOffset" "180"
+
 	"theater_conditions"
 	{
 		"?nightmap"		"1"
 	}
+	
+	"navfile"   		"verticality"
+	"nightlighting"		"1"
 
 	// Verticality supported modes:
 	// - Skirmish
@@ -15,8 +21,6 @@
 	
 	"skirmish"
 	{
-		"navfile"   		"verticality"
-		"nightlighting"		"1"
 		"controlpoint"	"cachepoint_a"
 		"controlpoint" 	"firefight_cap_a"
 		"controlpoint" 	"occupy_cap"
@@ -69,8 +73,6 @@
 	
 	"firefight"
 	{
-		"navfile"   		"verticality"
-		"nightlighting"		"1"
 		"controlpoint" "firefight_cap_a"
 		"controlpoint" "occupy_cap"
 		"controlpoint" "firefight_cap_c"
@@ -84,8 +86,6 @@
 	
 	"occupy"
 	{
-		"navfile"   		"verticality"
-		"nightlighting"		"1"
 		"controlpoint" "occupy_cap"
 		
 		"spawnzones"
@@ -97,8 +97,6 @@
 
 	"push"
 	{
-		"navfile"   		"verticality"
-		"nightlighting"		"1"
 		"AttackingTeam"		"security"
 		"controlpoint"		"occupy_cap"
 		"controlpoint"		"push_cap_b"
@@ -136,8 +134,6 @@
    }
    	"ambush"
 	{
-		"navfile"   		"verticality"
-		"nightlighting"		"1"
 		"AttackingTeam"		"insurgents"
 		"controlpoint" 		"vip_cap_1"
 		"controlpoint" 		"vip_cap_2" 
@@ -150,8 +146,6 @@
     }
 	"infiltrate"
 	{		
-		"navfile"   		"verticality"
-		"nightlighting"		"1"
 		"controlpoint"		"terminalpoint_a"
 		"controlpoint"		"terminalpoint_b"
 		
@@ -201,8 +195,6 @@
 	
 	"strike"
 	{
-		"navfile"   		"verticality"
-		"nightlighting"		"1"
 		"AttackingTeam"		"insurgents"
 		"controlpoint"		"cachepoint_a" 
 		"controlpoint"		"cachepoint_b" 
@@ -271,8 +263,6 @@
 	
 	"elimination"
 	{
-		"navfile"   		"verticality"
-		"nightlighting"		"1"
 		"AttackingTeam"		"security"
 		"controlpoint"		"cachepoint_a" 
 		"controlpoint"		"cachepoint_b"

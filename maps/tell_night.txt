@@ -1,9 +1,13 @@
 "cpsetup.txt"
 {
-		"theater_conditions"
+	"theater_conditions"
 	{
 		"?nightmap"		"1"
 	}
+	
+	"nightlighting"		"1"
+	"navfile" 			"tell"
+		
 	//Tell supported modes:
 	// - Push
 	// - Strike
@@ -18,8 +22,6 @@
 		"controlpoint"		"cp_2"
 		"controlpoint"		"cp_3"
 		"controlpoint"		"cachepoint_final"
-		"nightlighting"		"1"
-		"navfile" 			"tell"
 		
 		"spawnzones"
 		{
@@ -53,8 +55,6 @@
     
 	"ambush"
 	{
-		"navfile"   		"tell"
-		"nightlighting"		"1"
 		"AttackingTeam"		"security"
 		"controlpoint" 		"vip_cap_1"
 		"controlpoint" 		"vip_cap_2" 
@@ -64,11 +64,10 @@
 			"disablespawns" "1"
 			"0"  "spawnzone_neutral"
 		}
-        }
+    }
+	
 	"occupy"
 	{
-		"navfile" 			"tell"
-		"nightlighting"		"0"
 		"controlpoint"		"occupy_cap"
 		
 		"spawnzones"
@@ -77,10 +76,9 @@
 			"0"  "occupy_spawnzone"
 		}
 	}
+	
 	"firefight"	
 	{
-		"navfile" 			"tell"
-		"nightlighting"		"1"
 		"controlpoint"		"ff_cp_1"
 		"controlpoint"		"ff_cp_2"
 		"controlpoint"		"ff_cp_3"

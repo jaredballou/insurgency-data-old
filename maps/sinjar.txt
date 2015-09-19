@@ -7,10 +7,11 @@
 	// - Firefight
 	// - Strike
 	
+	"navfile"   		"sinjar"
+	"nightlighting"		"0"
+	
 	"push"
 	{
-		"navfile"   		"sinjar"
-		"nightlighting"		"0"
 		"AttackingTeam"		"security"
 		"controlpoint"		"pushpoint_01"
 		"controlpoint"		"pushpoint_02"
@@ -49,8 +50,6 @@
 	
 	//"skirmish"
 	//{
-	//	"navfile"   		"sinjar"
-	//	"nightlighting"		"0"
 	//	"controlpoint"	"cachepoint_a"
 	//	"controlpoint" 	"firefightpoint_2"
 	//	"controlpoint" 	"occupypoint_01"
@@ -114,8 +113,6 @@
 	
 	"firefight"
 	{
-		"navfile"   		"sinjar"
-		"nightlighting"		"0"
 		"controlpoint" "firefightpoint_2"
 		"controlpoint" "occupypoint_01"
 		"controlpoint" "firefightpoint_1"
@@ -129,8 +126,6 @@
 	
 	"elimination"
 	{
-		"navfile"   		"sinjar"
-		"nightlighting"		"0"
 		"AttackingTeam"		"security"
 		"controlpoint"		"cachepoint_a"
 		"controlpoint"		"cachepoint_b"

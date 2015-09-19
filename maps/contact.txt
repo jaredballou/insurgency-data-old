@@ -4,7 +4,10 @@
 	{
 		"?nightmap"		"1"
 	}
-	
+
+	"navfile"   		"contact"
+	"nightlighting"		"1"
+		
 	// Contact supported modes:
 	// - Skirmish
 	// - Firefight
@@ -15,8 +18,6 @@
 	
 	"skirmish"
 	{
-		"navfile"   		"contact"
-		"nightlighting"		"1"
 		"controlpoint"		"cachepoint_a"
 		"controlpoint"		"cap_9"
 		"controlpoint"		"aux_cap_1" 
@@ -69,8 +70,6 @@
 	
 	"firefight"
 	{
-		"navfile"   		"contact"
-		"nightlighting"		"1"
 		"controlpoint"		"cap_9"
 		"controlpoint"		"aux_cap_1" 
 		"controlpoint"		"cap_10"
@@ -84,8 +83,6 @@
 	
 	"infiltrate"
 	{	
-		"navfile"   		"contact"		
-		"nightlighting"		"1"
 		"controlpoint"		"terminalpoint_a"
 		"controlpoint"		"terminalpoint_b"
 		
@@ -135,8 +132,6 @@
 
 	"flashpoint"
 	{
-		"navfile"   		"contact"
-		"nightlighting"		"1"
 		"controlpoint"		"cachepoint_a"
 		"controlpoint"		"cachepoint_b"
 		"controlpoint"		"aux_cap_1" 
@@ -223,8 +218,6 @@
 			
 	"elimination"
 	{
-		"navfile"   		"contact"
-		"nightlighting"		"1"
 		"AttackingTeam"		"security"
 		"controlpoint"		"cachepoint_a"
 		"controlpoint"		"cachepoint_b"
@@ -290,8 +283,6 @@
 	
 	"ambush"
 	{
-		"navfile"   		"contact"
-		"nightlighting"		"1"
 		"AttackingTeam"		"insurgents"
 		"controlpoint" 		"vip_cap_1"
 		"controlpoint" 		"vip_cap_2" 

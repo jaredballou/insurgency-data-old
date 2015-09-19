@@ -1,10 +1,17 @@
  "cpsetup.txt"
 {	
+
+	"compassOffset" "270"
+
+
 	"theater_conditions"
 	{
 		"?nightmap"		"1"
 	}
-	
+		
+	"navfile"   		"peak"
+	"nightlighting"		"1"
+		
 	// Peak supported modes:	
 	// - Skirmish
 	// - Firefight
@@ -13,8 +20,6 @@
 	
 	"skirmish"
 	{
-		"navfile"   		"peak"
-		"nightlighting"		"1"
 		"controlpoint"		"cachepoint_a"
 		"controlpoint"		"ff_cap4"
 		"controlpoint"		"occupy_cap"
@@ -67,8 +72,6 @@
 
 	"firefight"
 	{
-		"navfile"   		"peak"
-		"nightlighting"		"1"
 		"controlpoint"		"ff_cap4"
 		"controlpoint"		"occupy_cap"
 		"controlpoint"		"ff_cap5"
@@ -82,8 +85,6 @@
 	
 	"occupy"
 	{
-		"navfile"   		"peak"
-		"nightlighting"		"1"
 		"controlpoint"		"occupy_cap"
 		
 		"spawnzones"
@@ -95,8 +96,6 @@
 	
 	"flashpoint"
 	{
-		"navfile"   		"peak"
-		"nightlighting"		"1"
 		"controlpoint"		"cachepoint_a"
 		"controlpoint"		"cachepoint_b"
 		"controlpoint"		"occupy_cap"
@@ -183,8 +182,6 @@
 	
 	"strike"
 	{
-		"navfile"   		"peak"
-		"nightlighting"		"1"
 		"AttackingTeam"		"insurgents"
 		"controlpoint"		"cachepoint_a"
 		"controlpoint"		"cachepoint_b"
@@ -233,8 +230,6 @@
 	
 	"push"
 	{
-		"navfile"   		"peak"
-		"nightlighting"		"1"
 		"AttackingTeam"		"insurgents"
 		"controlpoint"		"ff_cap4"
 		"controlpoint"		"cap_b"

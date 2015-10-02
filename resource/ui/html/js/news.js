@@ -35,7 +35,7 @@ function NewsSummaryModel() {
 
 			// manipulate URLs
 			bodyHtml.find("a").each(function(key, elem) {
-				$(this).attr("href", "external://" + $(this).attr("href"));
+				$(this).attr("href", "external://" + $(this).attr("href")).attr("target", "_self");
 			});
 
 			data.bodymd = bodyHtml.html();

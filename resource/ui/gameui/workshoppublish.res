@@ -4,43 +4,21 @@
 	{	
 		"ControlName"			"Frame"
 		"fieldName"				"WorkshopPublish"
-		"xpos"					"50"
-		"ypos"					"50"
-		"zpos"					"-500"
-		"wide"					"f-100"
-		"tall"					"400"
+		xpos					485
+		ypos					100
+		wide					f545
+		tall					f130
+		proportionalToParent	1
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"PaintBackgroundType"	"0"
+
+		"navUp"					"BtnWorkshop"
 	}
 
-	"BackButton"
-	{	
-		"ControlName"			"Button"
-		"fieldName"				"BackButton"
-		"xpos"					"0"
-		"ypos"					"374"
-		"wide"					"20"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"paintbackground"		"1"
-		"bgcolor_override"		"255 255 255 255"
-		"labelText"				"#GameUI_Back"
-		"style"					"MainMenuButton"
-		"command"				"BtnBack"
-		"font"					"ButtonFont"
-		"tall"  				"16" 
-		"auto_wide_tocontents"  "1" 
-		"paintbackground"		"1"
-		"allcaps"				"1"
-		"textinsetx"			"15"
-		"textAlignment"			"center"
-	}
-	
 	"LblFilePath"
 	{
 		"ControlName"			"Label"
@@ -243,8 +221,8 @@
 		"fieldName"				"TagList"
 		"xpos"					"120"
 		"ypos"					"215"
-		"wide"					"100"
-		"tall"					"86"
+		"wide"					"200"
+		"tall"					"180"
 		"visible"				"1"
 		"enabled"				"1"	
 		
@@ -321,14 +299,10 @@
 		"ControlName"			"Button"
 		"fieldName"				"PublishButton"
 		"xpos"					"120"
-		"ypos"				"309"
-		
-		"?update_mode"
-		{
-			"ypos"				"342"	
-		}
-
+		"ypos"					"400"
 		"wide"					"20"
+		"tall"					"16"
+		proportionalToParent	1
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"6"
@@ -355,19 +329,21 @@
 		"ControlName"			"Label"
 		"fieldName"				"TxtPublishLegal"
 		"xpos"					"120"
-		"ypos"					"330"
+		"ypos"					"421"
+		"wide"					"f120"
+		"tall"					"32"
+		proportionalToParent	1
 		"visible"				"1"
 		"enabled"				"1"
+		"wrap"					"1"
 
 		"?update_mode"
 		{
 			"visible"			"0"
 		}
 		
-		"wide"					"250"
-		"tall"					"32"
-		"labelText"				"By submitting this item, you agree to the Workshop terms of service."
-		"font"					"FoundationSans10"
+		"labelText"				"#GameUI_Workshop_Legal"
+		"font"					"FoundationSans14"
 	}
 
 }

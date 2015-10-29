@@ -1,7 +1,7 @@
 "mapvote_static"
 {
-	"wide"		"240"
-	"tall"		"20"
+	"wide"		"360"
+	"tall"		"30"
 	
 	"VoteButton"
 	{
@@ -11,13 +11,13 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"160" [$WIN32WIDE]	
-		"wide"			"125" [!$WIN32WIDE]	
-		"tall"			"20"
+		"wide"			"f"	
+		"tall"			"f"
 		"textAlignment"	"center"
-		"font"			"HudImportantMessage"
+		"font"			"OratorStd20"
 		"defaultFgColor_override" "242 235 216 255"
 		"allcaps"		"1"
+		"proportionalToParent"	"1"	
 	}
 	
 	"VoteCounterLabel"
@@ -28,8 +28,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"20"
-		"tall"			"20"
+		"wide"			"30"
+		"tall"			"30"
 
 		"visible"		"1"
 		"enabled"		"1"		

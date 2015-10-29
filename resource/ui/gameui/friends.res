@@ -20,12 +20,12 @@
 			"paintbackground"	"1" // PH
 			"bgcolor_override"	"27 22 22 255" // PH
 			
-			"scrollbar_inset"			"3"
-			"panelBorder"				"2"
+			"scrollbar_inset"			"1"
+			"panelBorder"				"1"
 			
 			"ScrVerticalScroll"
 			{
-				"wide"			"1"
+				"wide"			"2"
 			}
 			
 			"Gradient"

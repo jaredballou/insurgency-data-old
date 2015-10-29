@@ -4,16 +4,17 @@
 	{	
 		"ControlName"			"Frame"
 		"fieldName"				"Video"
-		"xpos"					"190"
-		"ypos"					"c-130"
-		"wide"					"462"
-		"tall"					"300"
+		"xpos"					"485"
+		"ypos"					"100"
+		"wide"					"f545"
+		"tall"					"f200"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"PaintBackgroundType"	"0"
+		proportionalToParent	1
 	}
 
 	"SldBrightness"
@@ -34,7 +35,6 @@
 		"minValue"				"1.8"
 		"maxValue"				"2.6"
 		"stepSize"				"0.05"
-		"navUp"					"DrpSoftParticles"
 		"navDown"				"DrpAspectRatio"
 		"conCommand"			"mat_monitorgamma"
 		"inverseFill"			"1"

@@ -13,11 +13,10 @@
 		{
 			"ControlName"					"LocalPlayerInfo"
 			"fieldName"					"LocalPlayerInfo"
-			"xpos"						"c-340" [$WIN32WIDE]
-			"xpos"						"c-290" [!$WIN32WIDE]
-			"ypos"						"140"		
-			"wide"						"180"	
-			"tall"						"220"			
+			"xpos"						"c-510"
+			"ypos"						"210"		
+			"wide"						"270"	
+			"tall"						"440"			
 			"visible"					"1"
 			
 			"paintbackground"				"0"
@@ -30,11 +29,12 @@
 			{
 				"xpos"						"0" 
 				"ypos"						"0"		
-				"wide"						"200"	
-				"tall"						"30"			
+				"wide"						"f"	
+				"tall"						"45"			
 				"visible"					"1"
+				"proportionalToParent"	"1"	
 				
-				"font"						"HudCommonLarge"
+				"font"						"FoundationSansBold22"
 				"labelText"					"#prlobby_personal_stats"
 				"allcaps"					"1"
 				"textinsetx"					"0"
@@ -45,96 +45,102 @@
 			{
 				"ControlName"				"StatLabel"
 				"xpos"					"0"
-				"ypos"					"155"
-				"wide"					"180"
-				"tall"					"10"	
+				"ypos"					"233"
+				"wide"					"270"
+				"tall"					"15"	
 				
-				"font"					"EndRoundLobbyStatTitle"
+				"font"					"FoundationSansBold14"
 				"labelText"				"#prlobby_weapon_of_choice"
-				"textInsetX"				"10"
+				"textInsetX"				"0"
 				"allcaps"				"1"
 			}
 			
 			"WeaponImage"
 			{
-				"xpos"					"30"
-				"ypos"					"160"
-				"wide"					"120"
-				"tall"					"60"	
+				"xpos"					"35"
+				"ypos"					"250"
+				"wide"					"200"
+				"tall"					"100"	
 				"image"					""
+
 				"scaleImage"				"1"
+
+				"paintbackground"				"1"
+				//"PaintBackgroundType"			"1"
+				//"Texture1"					"vgui/backgrounds/background_ingame"
+				"bgcolor_override"			"255 0 0 255"
 			}
 			
 			// Stats
 			"Stat_1"
 			{
 				"xpos"						"0" 
-				"ypos"						"30"		
-				"wide"						"90"	
-				"tall"						"30"			
+				"ypos"						"45"		
+				"wide"						"135"	
+				"tall"						"45"			
 				"visible"					"1"
 			}
 			
 			"Stat_2"
 			{
-				"xpos"						"90" 
-				"ypos"						"30"		
-				"wide"						"90"	
-				"tall"						"30"			
+				"xpos"						"135" 
+				"ypos"						"45"		
+				"wide"						"135"	
+				"tall"						"45"			
 				"visible"					"1"
 			}
 			
 			"Stat_3"
 			{
 				"xpos"						"0" 
-				"ypos"						"60"		
-				"wide"						"90"	
-				"tall"						"30"			
+				"ypos"						"90"		
+				"wide"						"135"	
+				"tall"						"45"			
 				"visible"					"1"
 			}
 			
 			"Stat_4"
 			{
-				"xpos"						"90" 
-				"ypos"						"60"		
-				"wide"						"90"	
-				"tall"						"30"			
+				"xpos"						"135" 
+				"ypos"						"90"		
+				"wide"						"135"	
+				"tall"						"45"			
 				"visible"					"1"
 			}
 			
 			"Stat_5"
 			{
 				"xpos"						"0" 
-				"ypos"						"90"		
-				"wide"						"90"	
-				"tall"						"30"			
+				"ypos"						"135"		
+				"wide"						"135"	
+				"tall"						"45"			
 				"visible"					"1"
 			}
 			
 			"Stat_6"
 			{
-				"xpos"						"90" 
-				"ypos"						"90"		
-				"wide"						"90"	
-				"tall"						"30"			
+				"xpos"						"135" 
+				"ypos"						"135"		
+				"wide"						"135"	
+				"tall"						"45"			
 				"visible"					"1"
 			}
 			
 			"Stat_7"
 			{
 				"xpos"						"0" 
-				"ypos"						"120"		
-				"wide"						"90"	
-				"tall"						"30"			
+				"ypos"						"180"		
+				"wide"						"135"	
+				"tall"						"45"			
 				"visible"					"1"
 			}
 			
 			"Stat_8"
 			{
-				"xpos"						"90" 
-				"ypos"						"120"		
-				"wide"						"90"	
-				"tall"						"30"			
+				"xpos"						"135" 
+				"ypos"						"180"		
+				"wide"						"135"	
+				"tall"						"45"			
 				"visible"					"1"
 			}
 		}	
@@ -144,13 +150,10 @@
 		{
 			"ControlName"					"TeamInfo"
 			"fieldName"					"Team1Info"
-			"xpos"						"c-160" [$WIN32WIDE]
-			"xpos"						"c-110" [!$WIN32WIDE]
-			"ypos"						"140"		
-			"wide"						"250"	[$WIN32WIDE]
-			"tall"						"160"	[$WIN32WIDE]	
-			"wide"						"200"	[!$WIN32WIDE]
-			"tall"						"160"	[!$WIN32WIDE]	
+			"xpos"						"c-240" 
+			"ypos"						"210"		
+			"wide"						"375"
+			"tall"						"240"
 			"visible"					"1"
 			
 			"paintbackground"				"1"
@@ -163,25 +166,26 @@
 			{
 				"xpos"						"10" 
 				"ypos"						"0"		
-				"wide"						"200"	
-				"tall"						"30"			
+				"wide"						"f"	
+				"tall"						"45"			
 				"visible"					"1"
+				"proportionalToParent"		"1"	
 				
-				"font"						"HudCommonLarge"
+				"font"						"FoundationSansBold22"
 				"labelText"					"#prlobby_team1_stats"
 				"allcaps"					"1"
 				"textinsetx"					"0"
 			}	
 			
+			
 			"MVPPanel"
 			{
-				"xpos"						"10" 	[$WIN32WIDE]
-				"xpos"						"0" 	[!$WIN32WIDE]
-				"ypos"						"95"		
-				"wide"						"230"	[$WIN32WIDE]
-				"wide"						"200"	[!$WIN32WIDE]
-				"tall"						"64"			
+				"xpos"						"15" 
+				"ypos"						"142"		
+				"wide"						"345"
+				"tall"						"96"			
 				"visible"					"1"
+				"proportionalToParent"		"1"	
 				
 				"paintbackground"				"1"
 				"bgcolor_override"			"0 0 0 40"
@@ -191,99 +195,95 @@
 				{
 					"xpos"					"0"
 					"ypos"					"0"
-					"wide"					"64"	
-					"tall"					"64"	
+					"wide"					"96"	
+					"tall"					"96"	
 					"scaleImage"				"1"
 				}
 				
 				"Stat_1" // Name
 				{
-					"xpos"						"70" 
+					"xpos"						"105" 
 					"ypos"						"0"		
-					"wide"						"160"	
-					"tall"						"32"	
+					"wide"						"240"	
+					"tall"						"48"	
 					"visible"					"1"
 				}
 				
 				"Stat_2"
 				{
-					"xpos"						"70" 
-					"ypos"						"32"		
-					"wide"						"40"	
-					"tall"						"32"			
+					"xpos"						"105" 
+					"ypos"						"48"		
+					"wide"						"60"	
+					"tall"						"48"			
 					"visible"					"1"
-					"MaxWidth"					"75"	[$WIN32WIDE]
-					"MaxWidth"					"40"	[!$WIN32WIDE]
+					"MaxWidth"					"113"
 				}
 				
 				"Stat_3"
 				{
-					"xpos"						"110" 
-					"ypos"						"32"		
-					"wide"						"40"	
-					"tall"						"32"			
+					"xpos"						"165" 
+					"ypos"						"48"		
+					"wide"						"60"	
+					"tall"						"48"			
 					"visible"					"1"
-					"MaxWidth"					"75"	[$WIN32WIDE]
-					"MaxWidth"					"40"	[!$WIN32WIDE]
+					"MaxWidth"					"113"
 				}
 				
 				"Stat_4"
 				{
-					"xpos"						"150" 
-					"ypos"						"32"		
-					"wide"						"40"	
-					"tall"						"32"			
+					"xpos"						"225" 
+					"ypos"						"48"		
+					"wide"						"60"	
+					"tall"						"48"			
 					"visible"					"1"
-					"MaxWidth"					"75"	[$WIN32WIDE]
-					"MaxWidth"					"40"	[!$WIN32WIDE]
+					"MaxWidth"					"113"
 				}
 				
 				"Stat_5"
 				{
-					"xpos"						"190" 
-					"ypos"						"32"		
-					"wide"						"40"	
-					"tall"						"32"			
+					"xpos"						"285" 
+					"ypos"						"48"		
+					"wide"						"60"	
+					"tall"						"48"			
 					"visible"					"1"
-					"MaxWidth"					"75"	[$WIN32WIDE]
-					"MaxWidth"					"40"	[!$WIN32WIDE]
+					"MaxWidth"					"113"
 				}
 			}
 			
 			// Stats
 			"Stat_1"
 			{
-				"xpos"						"10" 
-				"ypos"						"30"		
-				"wide"						"100"	
-				"tall"						"30"			
+				"xpos"						"15" 
+				"ypos"						"45"		
+				"wide"						"150"	
+				"tall"						"68"			
 				"visible"					"1"
 			}
 			
 			"Stat_2"
 			{
-				"xpos"						"110" 
-				"ypos"						"30"		
-				"wide"						"100"	
-				"tall"						"30"			
+				"xpos"						"165" 
+				"ypos"						"45"		
+				"wide"						"150"	
+				"tall"						"68"			
 				"visible"					"1"
 			}
 			
 			"Stat_3"
 			{
-				"xpos"						"10" 
-				"ypos"						"60"		
-				"wide"						"100"	
-				"tall"						"30"			
+				"xpos"						"15" 
+				"ypos"						"90"		
+				"wide"						"150"	
+				"tall"						"45"			
 				"visible"					"1"
 			}
 			
 			"Stat_4"
 			{
-				"xpos"						"110" 
-				"ypos"						"60"		
-				"wide"						"100"	
-				"tall"						"30"			
+				"xpos"						"165" 
+				"ypos"						"90"		
+				"wide"						"150"	
+				"tall"						"68"			
 				"visible"					"1"
 			}
 		}	
@@ -293,12 +293,10 @@
 		{
 			"ControlName"					"TeamInfo"
 			"fieldName"					"Team2Info"
-			"xpos"						"c90" [$WIN32WIDE]
-			"xpos"						"c90" [!$WIN32WIDE]
-			"ypos"						"140"		
-			"wide"						"250"	[$WIN32WIDE]
-			"wide"						"200"	[!$WIN32WIDE]
-			"tall"						"160"	
+			"xpos"						"c135"
+			"ypos"						"210"	
+			"wide"						"375"
+			"tall"						"240"	
 			"visible"					"1"
 			
 			"paintbackground"				"1"
@@ -308,13 +306,14 @@
 			
 			"Title"
 			{
-				"xpos"						"10" 
+				"xpos"						"15" 
 				"ypos"						"0"		
-				"wide"						"200"	
-				"tall"						"30"			
+				"wide"						"f30"	
+				"tall"						"45"			
 				"visible"					"1"
+				"proportionalToParent"	"1"	
 				
-				"font"						"HudCommonLarge"
+				"font"						"FoundationSansBold22"
 				"labelText"					"#prlobby_team2_stats"
 				"allcaps"					"1"
 				"textinsetx"					"0"
@@ -322,13 +321,12 @@
 			
 			"MVPPanel"
 			{
-				"xpos"						"10" 	[$WIN32WIDE]
-				"xpos"						"2" 	[!$WIN32WIDE]
-				"ypos"						"95"		
-				"wide"						"230"	[$WIN32WIDE]
-				"wide"						"200"	[!$WIN32WIDE]
-				"tall"						"64"			
+				"xpos"						"15"
+				"ypos"						"142"		
+				"wide"						"345"
+				"tall"						"96"			
 				"visible"					"1"
+				"proportionalToParent"		"1"	
 				
 				"paintbackground"				"1"
 				"bgcolor_override"			"0 0 0 40"
@@ -338,99 +336,95 @@
 				{
 					"xpos"					"0"
 					"ypos"					"0"
-					"wide"					"64"	
-					"tall"					"64"	
+					"wide"					"96"	
+					"tall"					"96"	
 					"scaleImage"				"1"
 				}
 				
 				"Stat_1" // Name
 				{
-					"xpos"						"70" 
+					"xpos"						"105" 
 					"ypos"						"0"		
-					"wide"						"160"	
-					"tall"						"32"	
+					"wide"						"240"	
+					"tall"						"48"	
 					"visible"					"1"
 				}
 				
 				"Stat_2"
 				{
-					"xpos"						"70" 
-					"ypos"						"32"		
-					"wide"						"40"	
-					"tall"						"32"			
+					"xpos"						"105" 
+					"ypos"						"48"		
+					"wide"						"60"	
+					"tall"						"48"			
 					"visible"					"1"
-					"MaxWidth"					"75"	[$WIN32WIDE]
-					"MaxWidth"					"40"	[!$WIN32WIDE]
+					"MaxWidth"					"113"	
 				}
 				
 				"Stat_3"
 				{
-					"xpos"						"110" 
-					"ypos"						"32"		
-					"wide"						"40"	
-					"tall"						"32"			
+					"xpos"						"165" 
+					"ypos"						"48"		
+					"wide"						"60"	
+					"tall"						"48"			
 					"visible"					"1"
-					"MaxWidth"					"75"	[$WIN32WIDE]
-					"MaxWidth"					"40"	[!$WIN32WIDE]
+					"MaxWidth"					"113"
 				}
 				
 				"Stat_4"
 				{
-					"xpos"						"150" 
-					"ypos"						"32"		
-					"wide"						"40"	
-					"tall"						"32"			
+					"xpos"						"225" 
+					"ypos"						"48"		
+					"wide"						"60"	
+					"tall"						"48"			
 					"visible"					"1"
-					"MaxWidth"					"75"	[$WIN32WIDE]
-					"MaxWidth"					"40"	[!$WIN32WIDE]
+					"MaxWidth"					"113"
 				}
 				
 				"Stat_5"
 				{
-					"xpos"						"190" 
-					"ypos"						"32"		
-					"wide"						"40"	
-					"tall"						"32"			
+					"xpos"						"285" 
+					"ypos"						"48"		
+					"wide"						"60"	
+					"tall"						"48"			
 					"visible"					"1"
-					"MaxWidth"					"75"	[$WIN32WIDE]
-					"MaxWidth"					"40"	[!$WIN32WIDE]
+					"MaxWidth"					"113"
 				}
 			}
 			
 			// Stats
 			"Stat_1"
 			{
-				"xpos"						"10" 
-				"ypos"						"30"		
-				"wide"						"100"	
-				"tall"						"30"			
+				"xpos"						"15" 
+				"ypos"						"45"		
+				"wide"						"150"	
+				"tall"						"68"			
 				"visible"					"1"
 			}
 			
 			"Stat_2"
 			{
-				"xpos"						"110" 
-				"ypos"						"30"		
-				"wide"						"100"	
-				"tall"						"30"			
+				"xpos"						"165" 
+				"ypos"						"45"		
+				"wide"						"150"	
+				"tall"						"68"			
 				"visible"					"1"
 			}
 			
 			"Stat_3"
 			{
-				"xpos"						"10" 
-				"ypos"						"60"		
-				"wide"						"100"	
-				"tall"						"30"			
+				"xpos"						"15" 
+				"ypos"						"90"		
+				"wide"						"150"	
+				"tall"						"45"			
 				"visible"					"1"
 			}
 			
 			"Stat_4"
 			{
-				"xpos"						"110" 
-				"ypos"						"60"		
-				"wide"						"100"	
-				"tall"						"30"			
+				"xpos"						"165" 
+				"ypos"						"90"		
+				"wide"						"150"	
+				"tall"						"68"			
 				"visible"					"1"
 			}
 		}	
@@ -441,7 +435,7 @@
 			"xpos"						"0" 
 			"ypos"						"25"
 			"wide"						"f"	
-			"tall"						"50"			
+			"tall"						"100"			
 			"visible"					"1"
 			"textAlignment"				"center"
 			"font"						"EndRoundLobbyTitle"
@@ -451,14 +445,14 @@
 		
 		"VictorySubtitle"
 		{
-			"ControlName"					"StatLabel"
+			"ControlName"				"StatLabel"
 			"xpos"						"0" 
-			"ypos"						"65"
+			"ypos"						"95"
 			"wide"						"f"	
-			"tall"						"50"			
+			"tall"						"75"			
 			"visible"					"1"
 			"textAlignment"				"center"
-			"font"						"EndRoundLobbySubtitle"
+			"font"						"OratorStd24"
 			"labelText"					""
 			"allcaps"					"1"
 		}	
@@ -467,69 +461,64 @@
 		"RoundsWonTitle"
 		{
 			"ControlName"					"StatLabel"
-			"xpos"						"C-340" [$WIN32WIDE]
-			"xpos"						"C-290" [!$WIN32WIDE]
-			"ypos"						"110"
-			"wide"						"150"	
-			"tall"						"10"			
+			"xpos"						"C-510"
+			"ypos"						"165"
+			"wide"						"225"	
+			"tall"						"23"			
 			"visible"					"1"
-			"font"						"HudCommonLarge"
+			"font"						"FoundationSansBold22"
 			"labelText"					"#prlobby_rounds_won"
 			"allcaps"					"1"
+			"auto_wide_tocontents"			"1" 
 		}	
 		
 		// Securiy rounds
 		"RoundsWonSecurity"
 		{
 			"ControlName"					"StatLabel"
-			"xpos"						"C-340" [$WIN32WIDE]
-			"xpos"						"C-290" [!$WIN32WIDE]
-			"ypos"						"125"
-			"wide"						"55"	
-			"tall"						"10"			
+			"xpos"						"C-510"
+			"ypos"						"188"
+			"tall"						"15"			
 			"visible"					"1"
 			"font"						"HudCommonSmall"
 			"labelText"					"#prlobby_roundswon_team1"
 			"allcaps"					"1"
+			"auto_wide_tocontents"			"1"
 		}	
 		
 		"RoundsWonSecurityValue"
 		{
 			"ControlName"					"StatLabel"
-			"xpos"						"C-300" [$WIN32WIDE]
-			"xpos"						"C-250" [!$WIN32WIDE]
-			"ypos"						"125"
-			"wide"						"10"	
-			"tall"						"10"			
+			"xpos"						"C-435"
+			"ypos"						"188"
+			"tall"						"15"			
 			"visible"					"1"
 			"font"						"HudLabelSmall"
 			"labelText"					"69"
 			"allcaps"					"1"
+			"auto_wide_tocontents"			"1"
 		}	
 		
 		// Insurgents rounds
 		"RoundsWonInsurgents"
 		{
 			"ControlName"					"StatLabel"
-			"xpos"						"C-275" [$WIN32WIDE]
-			"xpos"						"C-235" [!$WIN32WIDE]
-			"ypos"						"125"
-			"wide"						"55"	
-			"tall"						"10"			
+			"xpos"						"C-413"
+			"ypos"						"188"
+			"tall"						"15"			
 			"visible"					"1"
 			"font"						"HudCommonSmall"
 			"labelText"					"#prlobby_roundswon_team2"
 			"allcaps"					"1"
+			"auto_wide_tocontents"			"1"
 		}	
 		
 		"RoundsWonInsurgentsValue"
 		{
 			"ControlName"					"StatLabel"
-			"xpos"						"C-225" [$WIN32WIDE]
-			"xpos"						"C-178" [!$WIN32WIDE]
-			"ypos"						"125"
-			"wide"						"20"	
-			"tall"						"10"			
+			"xpos"						"C-318"
+			"ypos"						"188"	
+			"tall"						"15"			
 			"visible"					"1"
 			"font"						"HudLabelSmall"
 			"labelText"					"69"
@@ -540,9 +529,9 @@
 		"LocationTitle"
 		{
 			"ControlName"					"StatLabel"
-			"ypos"						"127"
+			"ypos"						"191"
 			"wide"						"40"	
-			"tall"						"10"			
+			"tall"						"15"			
 			"visible"					"1"
 			"font"						"HudCommonSmall"
 			"labelText"					"#prlobby_location"
@@ -553,9 +542,9 @@
 		"LocationValue"
 		{
 			"ControlName"					"StatLabel"
-			"ypos"						"125"
-			"wide"						"80"	
-			"tall"						"10"			
+			"ypos"						"282"
+			"wide"						"120"	
+			"tall"						"15"			
 			"visible"					"1"
 			"font"						"HudLabelSmall"
 			"labelText"					"Training Warehouse"
@@ -566,10 +555,10 @@
 		// Gamemode
 		"GamemodeTitle"
 		{
-			"ControlName"					"StatLabel"
+			"ControlName"				"StatLabel"
 			"ypos"						"127"
 			"wide"						"33"	
-			"tall"						"10"			
+			"tall"						"15"			
 			"visible"					"1"
 			"font"						"HudCommonSmall"
 			"labelText"					"#prlobby_mission"
@@ -582,10 +571,10 @@
 			"ControlName"					"StatLabel"
 			"ypos"						"125"
 			"wide"						"20"	
-			"tall"						"10"			
+			"tall"						"15"			
 			"visible"					"1"
 			"font"						"HudLabelSmall"
-			"labelText"					"Search and Destroy"
+			"labelText"					""
 			"allcaps"					"1"
 			"auto_wide_tocontents"			"1"
 		}	
@@ -595,12 +584,10 @@
 			"ControlName"				"CMapVotePanel"
 			"fieldName"					"MapVotePanel"
 			
-			"xpos"						"c-160" [$WIN32WIDE]
-			"xpos"						"c-110" [!$WIN32WIDE]
-			"ypos"						"140"		
-			"wide"						"500"	[$WIN32WIDE]	
-			"wide"						"400"	[!$WIN32WIDE]
-			"tall"						"350"
+			"xpos"						"c-240" 
+			"ypos"						"212"		
+			"wide"						"750"	
+			"tall"						"525"
 			"visible"					"1"
 			"enabled"					"1"
 			

@@ -4,7 +4,7 @@
 	"MapRow"
 	{
 		"wide"				"f"
-		"tall"				"35"	
+		"tall"				"65"	
 		"proportionalToParent"	"1"	
 		
 		"Map1"
@@ -17,10 +17,11 @@
 						
 			"paintbackground"		"0" 
 			
-			"TextInsetX"			"2"
+			"TextInsetX"			"3"
 			"TextInsetY"			"1"
+			use_proportional_insets 	1
 			
-			"TitleFont"				"FoundationSans7"
+			"TitleFont"				"FoundationSans13"
 			
 			"sound_armed"			""
 			"sound_depressed"		"UI/menu_mark.wav"
@@ -36,10 +37,11 @@
 						
 			"paintbackground"		"0" 
 			
-			"TextInsetX"			"2"
+			"TextInsetX"			"3"
 			"TextInsetY"			"1"
+			use_proportional_insets 	1
 			
-			"TitleFont"				"FoundationSans7"
+			"TitleFont"				"FoundationSans13"
 
 			"sound_armed"			""
 			"sound_depressed"		"UI/menu_mark.wav"

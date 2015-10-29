@@ -10,11 +10,11 @@
 		
 		"?nonlocal_team"
 		{
-			"xpos"				"271"
+			"xpos"				"388"
 		}
 		
-		"wide"					"32"
-		"tall"					"32"
+		"wide"					"48"
+		"tall"					"48"
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"1"
@@ -27,7 +27,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"TeamNameLabel"
-		"xpos"					"30"
+		"xpos"					"50"
 		"ypos"					"0"
 		
 		"?nonlocal_team"
@@ -36,14 +36,14 @@
 			"textAlignment"		"east"
 		}
 		
-		"wide"					"275"
-		"tall"					"24"
+		"wide"					"388"
+		"tall"					"36"
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"0"
 		"LocalPlayer"			"1"
 		"textInsetX"			"10"
-		"font"					"FoundationSansBold14"
+		"font"					"FoundationSansBold20"
 		"allcaps"				"1"
 		"fgColor_override"		"242 235 216 255"
 	}
@@ -52,8 +52,8 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"ScoreLabel"
-		"xpos"					"30"
-		"ypos"					"13"
+		"xpos"					"50"
+		"ypos"					"18"
 		
 		"?nonlocal_team"
 		{
@@ -61,15 +61,15 @@
 			"textAlignment"		"east"
 		}
 		
-		"wide"					"275"
-		"tall"					"24"
+		"wide"					"388"
+		"tall"					"36"
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"LocalPlayer"			"1"
 		"textInsetX"			"10"
-		"font"					"OratorStd8"
+		"font"					"OratorStd12"
 		"allcaps"				"1"	
 		"fgColor_override"		"242 235 216 255"
 	}
@@ -78,13 +78,13 @@
 	{
 		"ControlName"			"TeamJoinButton"
 		"fieldName"				"TeamJoinButton"
-		"xpos"					"195"
-		"ypos"					"10"
-		"wide"					"105"
-		"tall"					"18"
+		"xpos"					"270"
+		"ypos"					"15"
+		"wide"					"170"
+		"tall"					"27"
 		"visible"				"1"
 		"enabled"				"1"
-		"font"					"OratorStd9"
+		"font"					"OratorStd14"
 		"textAlignment"			"center"
 		"defaultFgColor_override" "195 188 189 255"
 		"armedFgColor_override"	"242 235 216 255"
@@ -104,9 +104,9 @@
 		"ControlName"			"TeamPlayerList"
 		"fieldName"				"TeamLeftPlayerList"
 		"xpos"					"0"
-		"ypos"					"35"
-		"wide"					"300"	
-		"tall"					"320"
+		"ypos"					"53"
+		"wide"					"600"	
+		"tall"					"480"
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"1"
@@ -122,14 +122,14 @@
 		"font"					"HudDescriptiveTextSmall"
 		"bgColor_override"		"34 28 28 194"
 		"fgColor_override"		"242 235 216 255"
-		"linespacing"			"17"
-		"AvatarWidth"			"23"
-		"NameWidth"				"105"
-		"SpecialIconWidth"		"22"
-		"ScoreWidth"			"38"
-		"ObjectiveWidth"		"38"
-		"KillDeathWidth"		"38"
-		"VoipWidth"				"10"
-		"PingWidth"				"18"
+		"linespacing"			"25"
+		"AvatarWidth"			"34"
+		"NameWidth"				"158"
+		"SpecialIconWidth"		"26"
+		"ScoreWidth"			"57"
+		"ObjectiveWidth"		"57"
+		"KillDeathWidth"		"57"
+		"VoipWidth"				"15"
+		"PingWidth"				"27"
 	}
 }

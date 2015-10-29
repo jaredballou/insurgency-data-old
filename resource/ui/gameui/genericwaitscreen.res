@@ -9,6 +9,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"dialogstyle"		"3"
+		proportionalToParent		1
 	}
 
 //	"LblMessage"

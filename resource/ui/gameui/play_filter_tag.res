@@ -4,19 +4,19 @@
 	"FilterPanelTag"
 	{
 		"wide"				"f"
-		"tall"				"15"	
+		"tall"				"21"	
 		"proportionalToParent"	"1"	
 		
 			
 		"Header"
 		{
-			"xpos"					"5"
+			"xpos"					"7"
 			"ypos"					"0"
 			"wide"					"f25"
-			"tall"					"15"
+			"tall"					"21"
 			"proportionalToParent"	"1"	
 						
-			"Font"					"FoundationSans9"
+			"Font"					"FoundationSans14"
 			"allcaps"				"1"
 			"paintbackground"		"0" 
 			"textAlignment"			"west"
@@ -24,49 +24,14 @@
 		
 		"FilterButton"
 		{
-			"xpos"					"r20"
+			"xpos"					"r23"
 			"ypos"					"0"
-			"wide"					"15"
-			"tall"					"15"
+			"wide"					"21"
+			"tall"					"21"
 			"proportionalToParent"	"1"	
 
 		}
 			
 	}
 
-	"FilterPanelEmpty"
-	{
-		"wide"				"f"
-		"tall"				"15"	
-		"proportionalToParent"	"1"	
-		
-			
-		"Header"
-		{
-			"xpos"					"5"
-			"ypos"					"0"
-			"wide"					"f25"
-			"tall"					"15"
-			"proportionalToParent"	"1"	
-						
-			"Font"					"FoundationSans9"
-			"allcaps"				"1"
-			"paintbackground"		"0" 
-			"textAlignment"			"west"
-		}	
-		
-		"FilterButton"
-		{
-			"xpos"					"r20"
-			"ypos"					"0"
-			"wide"					"15"
-			"tall"					"15"
-			"proportionalToParent"	"1"	
-			
-			"sound_armed"			""
-			"sound_depressed"		"UI/menu_mark.wav"
-
-		}
-			
-	}
 }

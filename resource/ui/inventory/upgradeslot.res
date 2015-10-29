@@ -8,11 +8,11 @@
 		"enabled"					"1"
 		"xpos"						"0"
 		"ypos"						"0"
-		"wide"						"100"
-		"tall"						"100"
+		"wide"						"175"
+		"tall"						"175"
 		
-		"CaptionFont"					"OratorStd9"			
-		"ListStart"					"12"
+		"CaptionFont"					"OratorStd14"			
+		"ListStart"					"18"
 		"ButtonPadding"				"1"
 		"fgcolor_override"			"242 235 216 255"
 		

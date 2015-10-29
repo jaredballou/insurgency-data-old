@@ -9,6 +9,7 @@
 		"wide"					"f"
 		"tall"					"f"
 		"zpos"					"100"
+		proportionalToParent		1
 	}
 	
 	// used for background position
@@ -34,6 +35,7 @@
 		"image"					"gameui/notice_bg_lg"
 		"scaleImage"				"1"	
 		"drawColor"				"204 46 25 100"
+		proportionalToParent	1
 	}
 
 	"LblTitle"
@@ -47,6 +49,7 @@
 		"textAlignment"			"center"
 		"font"					"Misproject35"
 		"brighttext"				"1"
+		proportionalToParent	1
 	}
 	
 	"LblMessage"
@@ -61,6 +64,7 @@
 		"font"					"FoundationSansBold9"
 		"allcaps"				"1"		
 		"brighttext"				"1"
+		proportionalToParent	1
 	}
 	
 	"BtnCancel"
@@ -71,6 +75,10 @@
 		"ypos"					"c20"
 		"wide"					"70"
 		"tall"					"20"
+		proportionalToParent	1
+
+		"navLeft"				"BtnOK"
+		"navRight"				"BtnOK"
 		
 		"enabled"				"1"
 		"labelText"				"#GameUI_Cancel"
@@ -89,6 +97,12 @@
 		"ypos"					"c20"
 		"wide"					"50"
 		"tall"					"20"
+
+		"tabPosition"			"1"
+		"navLeft"				"BtnCancel"
+		"navRight"				"BtnCancel"
+
+		proportionalToParent	1
 		
 		"enabled"				"1"		
 		"labelText"				"#GameUI_OK"

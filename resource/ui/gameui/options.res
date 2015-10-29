@@ -1,137 +1,110 @@
 "Resource/UI/GameUI/Options.res"
-{
-	"Options"
+{	
+	Options
 	{	
-		"ControlName"			"Frame"
-		"fieldName"				"Options"
-		"xpos"					"50"
-		"ypos"					"c-75"
-		"wide"					"300"
-		"tall"					"370"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"PaintBackgroundType"	"0"
-	}
+		ControlName					Frame
+		fieldName					Options
+		xpos						485
+		ypos						27
+		wide						f545
+		tall						f77
+		proportionalToParent		1
+		autoResize				0
+		pinCorner				0
+		visible					1
+		enabled					1
+		PaintBackgroundType		0
+		proportionalToParent	1
 
-	"KeyboardMouseButton"
-	{	
-		"ControlName"			"Button"
-		"fieldName"				"KeyboardMouseButton"
-		"xpos"					"0"
-		"ypos"					"32"
-		"wide"					"300"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"paintbackground"		"1"
-		"bgcolor_override"		"255 255 255 255"
-		"labelText"				"#GameUI_KeyboardMouseSettings"
-		"command"				"BtnKeyboardMouse"
-		"font"					"ButtonFont"
-		"tall"  				"16" 
-		"auto_wide_tocontents"  "1" 
-		"paintbackground"		"1"
-		"allcaps"				"1"
-		"textinsetx"			"15"
-		"textAlignment"			"center"
-	}
+		navUp					BtnSettings
 
-	"GameSettingsButton"
-	{	
-		"ControlName"			"Button"
-		"fieldName"				"GameSettingsButton"
-		"xpos"					"0"
-		"ypos"					"49"
-		"wide"					"300"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"paintbackground"		"1"
-		"bgcolor_override"		"255 255 255 255"
-		"labelText"				"#GameUI_GameSettings"
-		"style"					"MainMenuButton"
-		"command"				"BtnGameSettings"
-		"font"					"ButtonFont"
-		"tall"  				"16" 
-		"auto_wide_tocontents"  "1" 
-		"paintbackground"		"1"
-		"allcaps"				"1"
-		"textinsetx"			"15"
-		"textAlignment"			"center"
-	}
+		TopButtons
+		{
+			ControlName				EditablePanelPassthrough
+			xpos					0
+			ypos					0
+			wide					f
+			tall					73
+			proportionalToParent	1	
+			paintbackground			0
+			tabPosition				1
 
-	"VideoSettingsButton"
-	{	
-		"ControlName"			"Button"
-		"fieldName"				"VideoSettingsButton"
-		"xpos"					"0"
-		"ypos"					"66"
-		"wide"					"300"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"paintbackground"		"1"
-		"bgcolor_override"		"255 255 255 255"
-		"labelText"				"#GameUI_VideoSettings"
-		"style"					"MainMenuButton"
-		"command"				"BtnVideoSettings"
-		"font"					"ButtonFont"
-		"tall"  				"16" 
-		"auto_wide_tocontents"  "1" 
-		"paintbackground"		"1"
-		"allcaps"				"1"
-		"textinsetx"			"15"
-		"textAlignment"			"center"
-	}
+			// Horizontal position & width applied programmatically 
+			Btn1
+			{	
+				ControlName				HybridButton	
+				xpos					0
+				ypos					0	
+				wide 					100	
+				tall  					f	
+				labelText				#GameUI_Game
+				style					MenuModeButton
+				command					BtnGameSettings
+				proportionalToParent	1
+				navLeft					Btn4
+				navRight				Btn2
+				tabPosition				1
+			}
 
-	"AudioSettingsButton"
-	{	
-		"ControlName"			"Button"
-		"fieldName"				"AudioSettingsButton"
-		"xpos"					"0"
-		"ypos"					"83"
-		"wide"					"300"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"paintbackground"		"1"
-		"bgcolor_override"		"255 255 255 255"
-		"labelText"				"#GameUI_AudioSettings"
-		"style"					"MainMenuButton"
-		"command"				"BtnAudioSettings"
-		"font"					"ButtonFont"
-		"tall"  				"16" 
-		"auto_wide_tocontents"  "1" 
-		"paintbackground"		"1"
-		"allcaps"				"1"
-		"textinsetx"			"15"
-		"textAlignment"			"center"
-	}
+			Btn2
+			{	
+				ControlName				HybridButton	
+				xpos					0
+				ypos					0	
+				wide 					100	
+				tall  					f	
+				labelText				#GameUI_KeyboardMouse
+				style					MenuModeButton
+				command					BtnKeyboardMouse
+				proportionalToParent	1
+				navLeft					Btn1
+				navRight				Btn3
+			}
 
-	"BackButton"
-	{	
-		"ControlName"			"Button"
-		"fieldName"				"BackButton"
-		"xpos"					"0"
-		"ypos"					"117"
-		"wide"					"300"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"paintbackground"		"1"
-		"bgcolor_override"		"255 255 255 255"
-		"labelText"				"#GameUI_Back"
-		"style"					"MainMenuButton"
-		"command"				"BtnBack"
-		"font"					"ButtonFont"
-		"tall"  				"16" 
-		"auto_wide_tocontents"  "1" 
-		"paintbackground"		"1"
-		"allcaps"				"1"
-		"textinsetx"			"15"
-		"textAlignment"			"center"
+			Btn3
+			{	
+				ControlName				HybridButton	
+				xpos					0
+				ypos					0	
+				wide 					100	
+				tall  					f	
+				labelText				#GameUI_Video
+				style					MenuModeButton
+				command					BtnVideoSettings
+				proportionalToParent	1
+				navLeft					Btn2
+				navRight				Btn4
+			}
+
+			Btn4
+			{	
+				ControlName				HybridButton	
+				xpos					0
+				ypos					0	
+				wide 					100	
+				tall  					f	
+				labelText				#GameUI_Audio
+				style					MenuModeButton
+				command					BtnAudioSettings
+				proportionalToParent	1
+				navLeft					Btn3
+				navRight				Btn1
+			}
+		}
+
+
+		BG
+		{	
+			ControlName				EditablePanelPassthrough
+			xpos						0				
+			ypos						73
+			zpos						-9
+			wide						f
+			tall						f73
+			proportionalToParent	1	
+
+			paintbackground			1
+			bgcolor_override  "34 28 28 128"
+		}
 	}
 }

@@ -5,28 +5,30 @@
 	"Title"
 	{
 		"xpos"						"0"
-		"ypos"						"5"
-		"wide"						"100"
-		"tall"						"10"
+		"ypos"						"8"
+		"wide"						"240"
+		"tall"						"15"
 		
 		"allcaps"					"1"
-		"font"						"EndRoundLobbyStatTitle"
+		"font"						"FoundationSansBold12"
 		"labelText"					"Stat Title"
 		"textInsetX"					"0"
+		"proportionalToParent"		"1"	
 	}	
 
 	// Actual value of the stat.
 	"Value"
 	{
 		"xpos"						"0"
-		"ypos"						"15"
-		"wide"						"100"
-		"tall"						"10"
+		"ypos"						"23"
+		"wide"						"240"
+		"tall"						"15"
 		
 		"allcaps"					"1"
 		"font"						"HudLabelSmall"
 		"labelText"					"Stat Value"
-		"textInsetX"					"0"
+		"textInsetX"				"0"
+		"proportionalToParent"		"1"	
 	}	
 
 }

@@ -1,273 +1,284 @@
-"Resource/UI/GameUI/BaseModPanel.res"
+Resource/UI/GameUI/BaseModPanel.res
 {
-	"BaseModPanel"
+	CBaseModPanel
 	{	
-		"ControlName"			"Frame"
-		"xpos"					"c-320"
-		"ypos"					"0"
-		"wide"					"640"
-		"tall"					"480"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"PaintBackgroundType"	"0"
-	}
-	
-	// Insurgency logo
-	"ProductLogo"
-	{
-		"ControlName"			"ScalableImagePanel"	
-		"xpos"					"c-370"[$WIN32WIDE]
-		"xpos"					"c-270"[!$WIN32WIDE]
-		"ypos"					"25"
-		"wide"					"140"
-		"tall"					"35"		
-		"image"					"gameui/productlogo"
-		"drawcolor"				"InsWhite"
-	}
-	
-	"ProductButton"
-	{	
-		"ControlName"			"Button"		
-		"xpos"					"c-370"[$WIN32WIDE]
-		"xpos"					"c-270"[!$WIN32WIDE]
-		"ypos"					"25"
-		"wide"					"140"
-		"tall"					"35"		
-		"zpos"					"1"		
-		"labelText"				""
-		"style"					""
-		"command"				"BtnHome"
-		"font"					""		
-		"paintbackground"		"0"
-		
-		"sound_armed"			"UI/menu_focus.wav"
-		"sound_depressed"		"UI/menu_click.wav"
-	}
-	
-	// X players currently playing
-	"CurrentPlayers"
-	{
-		"ControlName"		"TotalPlayers"
-		"xpos"				"c-370"
-		"ypos"				"55"			
-		"wide"				"170"
-		"tall"				"25"			
-		"labelText"			"#GameUI_Total_Players"
-		"font"				"Misproject14"
-		
-		// IntroX/Y = Where this panel is originally placed
-		// before animating to our intended position when ready
-		"IntroOffsetX"				"5"
-		"IntroOffsetY"				"0"		
-		"FadeInTime"				"0.5"
-	}
-	
-	// 
-	"LobbySidebar"
-	{
-		"ControlName"			"CLobbyPanel"
-		"xpos"					"c-370"		[$WIN32WIDE]
-		"xpos"					"c-300"		[!$WIN32WIDE]
-		"ypos"					"70"
-		"wide"					"160"
-		"tall"					"375"
-	}
+		ControlName			Frame
+		xpos					0
+		ypos					0
+		wide					#
+		tall					#
+		proportional 			1
+		proportionalToParent	1
+		applyAspectRatioOffsets	0
 
-	// 
-	"ProfileSidebar"
-	{
-		"ControlName"			"CProfileSidebarPanel"
-		"xpos"					"c210"[$WIN32WIDE]
-		"xpos"					"c135"[!$WIN32WIDE]
-		"ypos"					"65"
-		"wide"					"160"
-		"tall"					"380"
-	}
-	
-	// Header buttons	
-	"PlayButton"
-	{	
-		"ControlName"			"Button"
-		
-		"xpos"					"c-200"[$WIN32WIDE]
-		"xpos"					"c-100"[!$WIN32WIDE]
-		"ypos"					"35"
-		"wide"  				"80" 
-		"tall"  				"16" 
-		
-		"labelText"				"#GameUI_Play"
-		"command"				"BtnPlay"
-		"font"					"Misproject20"
-		
-		"paintbackground"		"0"
-		"allcaps"				"1"
-		"textAlignment"			"west"
-		
-		"defaultFgColor_override"	"242 235 216 200" // PH
-		"armedFgColor_override"  "242 235 216 255" // PH
-		
-		"sound_armed"			"UI/menu_focus.wav"
-		"sound_depressed"		"UI/menu_click.wav"
-	}
-	
-	"TrainingButton"
-	{	
-		"ControlName"			"Button"
-		
-		"xpos"					"c-120"[$WIN32WIDE]
-		"xpos"					"c-20"[!$WIN32WIDE]
-		"ypos"					"35"
-		"wide"  				"80" 
-		"tall"  				"16" 
-		
-		"labelText"				"#GameUI_Training"
-		"command"				"BtnTraining"
-		"font"					"Misproject20"
-		
-		"paintbackground"		"0"
-		"allcaps"				"1"
-		"textAlignment"			"west"
-		"brighttext"				"1"
+		// Empty model panel, used for fancy particles
+		AnimatedBG
+		{
+			ControlName					CINSPlayerModelPanel
+					
+			xpos						0				
+			ypos						0
+			zpos						-10	
+			wide						#
+			tall						#
+			proportionalToParent		1	
+			paintbackground				0
 
-		"defaultFgColor_override"	"242 235 216 200" // PH
-		"armedFgColor_override"  "242 235 216 255" // PH
-		
-		"sound_armed"			"UI/menu_focus.wav"
-		"sound_depressed"		"UI/menu_click.wav"
-	}
-	
-	"ServerBrowserButton"
-	{	
-		"ControlName"			"Button"
-		
-		"xpos"					"c-40" [$WIN32WIDE]
-		"xpos"					"c60" [!$WIN32WIDE]
-		"ypos"					"35"
-		"wide"  				"100" 
-		"tall"  				"16" 
-		
-		"labelText"				"#GameUI_ServerBrowser"
-		"command"				"BtnServerBrowser"
-		"font"					"Misproject20"
-		
-		"paintbackground"		"0"
-		"allcaps"				"1"
-		"textAlignment"			"west"
-		"dulltext"				"1"
+			default_model				"models/menu/prop_menuwall.mdl"
+			fov 						30
+			allow_rot					0
 
-		"defaultFgColor_override"	"242 235 216 200" // PH
-		"armedFgColor_override"  "242 235 216 255" // PH
-		
-		"sound_armed"			"UI/menu_focus.wav"
-		"sound_depressed"		"UI/menu_click.wav"
-	}
-	
-	//Buttons
-	"WorkshopButton"
-	{	
-		"ControlName"			"Button"
-		
-		"xpos"					"c200"
-		"ypos"					"35"
-		"wide"  				"45" 
-		"tall"  				"16" 
-		
-		"labelText"				"#GameUI_Workshop"
-		"style"					"MainMenuButton"
-		"command"				"BtnWorkshop"
-		"font"					"OratorStd9"
-		
-		"paintbackground"		"1"
-		"allcaps"				"1"
-		"textAlignment"			"center"
-		
-		"sound_armed"			"UI/menu_focus.wav"
-		"sound_depressed"		"UI/menu_click.wav"
-	}
-	
-	"ProfileButton"
-	{	
-		"ControlName"			"Button"
-		
-		"xpos"					"c250"
-		"ypos"					"35"
-		"wide"  				"40" 
-		"tall"  				"16" 
-		
-		"labelText"				"#GameUI_Profile"
-		"style"					"MainMenuButton"
-		"command"				"BtnProfile"
-		"font"					"OratorStd9"
-		
-		"enabled"			"0"
-		
-		"paintbackground"		"1"
-		"allcaps"				"1"
-		"textAlignment"			"center"
-		
-		"sound_armed"			"UI/menu_focus.wav"
-		"sound_depressed"		"UI/menu_click.wav"
-	}
-	
-	"OptionsButton"
-	{	
-		"ControlName"			"Button"
-		
-		"xpos"					"c295" 	[$WIN32WIDE]
-		"ypos"					"35"	[$WIN32WIDE]	
-		
-		"xpos"					"c200" 	[!$WIN32WIDE]
-		"ypos"					"15"	[!$WIN32WIDE]			
-		
-		"wide"  				"40" 		[$WIN32WIDE]
-		"tall"  				"16" 		[$WIN32WIDE]
-		
-		"wide"  				"45" 		[!$WIN32WIDE]
-		"tall"  				"16" 		[!$WIN32WIDE]
-		
-		"labelText"				"#GameUI_Options"
-		"style"					"MainMenuButton"
-		"command"				"BtnOptions"
-		"font"					"OratorStd9"
-		
-		"paintbackground"		"1"
-		"allcaps"				"1"
-		"textAlignment"			"center"
-		
-		"sound_armed"			"UI/menu_focus.wav"
-		"sound_depressed"		"UI/menu_click.wav"
-	}
-	
-	"QuitButton"
-	{	
-		"ControlName"			"Button"
-		
-		"xpos"					"c340"	[$WIN32WIDE]
-		"ypos"					"35"	[$WIN32WIDE]
-		
-		"xpos"					"c250" 	[!$WIN32WIDE]
-		"ypos"					"15"	[!$WIN32WIDE]		
-		
-		"wide"  				"30" 		[$WIN32WIDE]	
-		"tall"  				"16" 		[$WIN32WIDE]
-		
-		"wide"  				"40" 		[!$WIN32WIDE]	
-		"tall"  				"16" 		[!$WIN32WIDE]
-		
-		
-		"labelText"				"#GameUI_Quit"
-		"style"					"MainMenuButton"
-		"command"				"QuitGame"
-		"font"					"OratorStd9"
-		
-		"paintbackground"		"1"
-		"allcaps"				"1"
-		"textAlignment"			"center"
-		
-		"sound_armed"			"UI/menu_focus.wav"
-		"sound_depressed"		"UI/menu_open.wav"
+			cam_pos						"765 0 121"
+			cam_ang						"0 180 0"
+
+			clear_color					"0 0 0 10"
+			ambient_color					"0.5 0.5 .8"
+
+			model
+			{	
+				animation					
+				{
+					activity			ACT_STAND_IDLE_02_NPC_SHORTRIFLE
+					default				1
+				}
+
+				// Need to be 0, see cam_ offsets above
+				origin_x				0
+				origin_y				0
+				origin_z				0
+				frame_origin_x			0
+				frame_origin_y			0
+				frame_origin_z			0
+			}
+
+			lighting
+			{
+				point
+				{
+					position				"120 0 380"
+					color 				"190 233 233"
+					attenuation			"1 0.5 0.003"
+				}
+			}
+
+			particles
+			{
+				menu_embers
+				{
+					position			"560 0 90"
+				}
+			}
+		}
+
+		AnimatedBGOverlay
+		{	
+			ControlName				EditablePanelPassthrough
+			xpos						0				
+			ypos						0
+			zpos						-9
+			wide						#
+			tall						#
+
+			paintbackground			1
+			bgcolor_override		"0 0 0 180"
+		}
+
+		// Wrap our UI in this 1280x720 container, scaled up and offsets are applied so 
+		// aspect ratio is maintained.
+		RatioContainer
+		{	
+			ControlName				EditablePanelPassthrough
+			xpos					0
+			ypos					0
+			wide					1280
+			tall					720
+			proportional 			1
+			proportionalToParent	1
+			applyAspectRatioOffsets	1
+
+			navLeft					"LobbySidebar"
+
+			HeaderBG // Header background (black bar on top of screen)
+			{
+				ControlName				EditablePanelPassthrough
+				xpos					0
+				ypos					0
+				wide					f
+				tall					27
+				proportionalToParent	1	
+				paintbackground			1
+				bgcolor_override		"27 22 22 200"
+
+				LblStatus
+				{	
+					ControlName				TotalPlayers	
+					xpos					60
+					ypos					0	
+					wide 					200	
+					tall  					f	
+					labelText				"Loading..."
+					font					OratorStd12
+					command					QuitGame
+					proportionalToParent	1
+					auto_wide_tocontents	1
+					allcaps					1
+
+					IntroOffsetX				5
+					IntroOffsetY				0		
+					FadeInTime					0.5
+				}
+
+				// Header top-right buttons
+				// Horizontal position & width applied programmatically 
+				BtnQuit
+				{	
+					ControlName				HybridButton	
+					xpos					r110
+					ypos					0		
+					tall  					f	
+					labelText				#GameUI_Quit
+					style					MenuHeaderButton
+					command					QuitGame
+					proportionalToParent	1
+					navRight				BtnNews
+					navLeft					BtnHelp
+				}
+
+				BtnHelp
+				{	
+					ControlName				HybridButton	
+					xpos					r210		
+					ypos					0			
+					tall  					f	
+					labelText				#GameUI_Help
+					style					MenuHeaderButton
+					command					BtnHelp
+					proportionalToParent	1
+					navRight				BtnQuit
+					navLeft					BtnSettings
+				}
+
+				BtnSettings
+				{	
+					ControlName				HybridButton	
+					xpos					r160		
+					ypos					0			
+					tall  					f	
+					labelText				#GameUI_Options
+					style					MenuHeaderButton
+					command					BtnOptions
+					proportionalToParent	1
+					navRight				BtnHelp
+					navLeft					BtnWorkshop
+				}
+
+				BtnWorkshop
+				{	
+					ControlName				HybridButton	
+					xpos					r260		
+					ypos					0			
+					tall  					f	
+					labelText				#GameUI_Workshop
+					style					MenuHeaderButton
+					command					BtnWorkshop
+					proportionalToParent	1
+					navRight				BtnSettings
+					navLeft					BtnCommunity
+				}
+
+				BtnCommunity
+				{	
+					ControlName				HybridButton	
+					xpos					r310	
+					ypos					0			
+					tall  					f	
+					labelText				#GameUI_Community
+					style					MenuHeaderButton
+					command					BtnCommunity
+					proportionalToParent	1
+					navRight				BtnWorkshop
+					navLeft					BtnNews
+				}
+
+				BtnNews
+				{	
+					ControlName				HybridButton	
+					xpos					r310	
+					ypos					0			
+					tall  					f	
+					labelText				#GameUI_Main
+					style					MenuHeaderButton
+					command					BtnHome
+					proportionalToParent	1
+					tabPosition				1
+					navRight				BtnCommunity
+					navLeft					BtnQuit
+				}
+			}
+
+			ImgLogo
+			{
+				ControlName				ScalableImagePanel	
+				xpos					60
+				ypos					38
+				wide					200
+				tall					50		
+				image					gameui/productlogo
+				drawcolor				InsWhite
+			}
+			
+			ImgLogoButton
+			{	
+				ControlName				Button		
+				xpos					60
+				ypos					38
+				wide					200
+				tall					50			
+				zpos					1		
+				labelText				""
+				command					BtnHome
+				paintbackground			0			
+				sound_armed				UI/menu_focus.wav
+				sound_depressed			UI/menu_click.wav
+			}
+
+			// Needs to be in here as it's bigger than sidebar
+			LobbySidebar
+			{
+				ControlName				CLobbyPanel
+				xpos					0
+				ypos					60
+				wide					475
+				tall					f90
+				proportionalToParent	1
+			}
+
+			FooterBG 
+			{
+				ControlName				EditablePanelPassthrough
+				xpos					0
+				ypos					r25
+				wide					f
+				tall					25
+				proportionalToParent	1	
+				paintbackground			1
+				bgcolor_override		"27 22 22 200"
+
+				LblVersion
+				{	
+					ControlName				Label	
+					xpos					r360
+					ypos					0	
+					wide 					300	
+					tall  					f	
+					labelText				"123123123"
+					font					OratorStd12
+					proportionalToParent	1
+					allcaps					1
+					textAlignment			east
+					fgColor_override 		"242 235 216 180"
+				}
+			}
+		}
 	}
 }

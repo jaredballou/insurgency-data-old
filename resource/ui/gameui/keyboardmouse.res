@@ -4,9 +4,9 @@
 	{	
 		"ControlName"			"Frame"
 		"fieldName"				"keyboardmouse"
-		"xpos"					"190"
-		"ypos"					"c-130"
-		"wide"					"462"
+		"xpos"					"485"
+		"ypos"					"100"
+		"wide"					"f545"
 		"tall"					"248"
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -14,6 +14,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"PaintBackgroundType"	"0"
+		proportionalToParent	1
 	}
 
 	"DrpMouseYInvert"
@@ -22,10 +23,7 @@
 		"fieldName"				"DrpMouseYInvert"
 		"xpos"					"0"
 		"ypos"					"32"
-		"wide"					"462"	[$WIN32WIDE]
-
-		//Non-Widescreen
-		"wide"					"400"	[!$WIN32WIDE]
+		"wide"					"462"
 
 		"tall"					"24"
 		"visible"				"1"
@@ -35,7 +33,6 @@
 		"bgcolor_override"		"255 255 255 255"
 		"labelText"				"#GameUI_ReverseMouse"
 		"style"					"DialogListButton"
-		"navUp"					"SldMouseAccelerationSensitivity"
 		"navDown"				"SldMouseSensitivity"
 		"list"
 		{
@@ -50,10 +47,7 @@
 		"fieldName"				"SldMouseSensitivity"
 		"xpos"					"0"
 		"ypos"					"56"
-		"wide"					"462"	[$WIN32WIDE]
-
-		//Non-Widescreen
-		"wide"					"400"	[!$WIN32WIDE]
+		"wide"					"462"
 
 		"tall"					"24"
 		"visible"				"1"
@@ -107,11 +101,7 @@
 		"fieldName"				"SldIronSightMouseSensitivity"
 		"xpos"					"0"
 		"ypos"					"80"
-		"wide"					"462"	[$WIN32WIDE]
-
-		//Non-Widescreen
-		"wide"					"400"	[!$WIN32WIDE]
-
+		"wide"					"462"
 		"tall"					"24"
 		"visible"				"1"
 		"enabled"				"1"
@@ -164,10 +154,7 @@
 		"fieldName"				"SldSniperMouseSensitivity"
 		"xpos"					"0"
 		"ypos"					"104"
-		"wide"					"462"	[$WIN32WIDE]
-
-		//Non-Widescreen
-		"wide"					"400"	[!$WIN32WIDE]
+		"wide"					"462"
 
 		"tall"					"24"
 		"visible"				"1"
@@ -220,10 +207,7 @@
 		"fieldName"				"DrpRawInput"
 		"xpos"					"0"
 		"ypos"					"128"
-		"wide"					"462"	[$WIN32WIDE]
-
-		//Non-Widescreen
-		"wide"					"400"	[!$WIN32WIDE]
+		"wide"					"462"
 
 		"tall"					"24"
 		"visible"				"1"
@@ -248,10 +232,7 @@
 		"fieldName"				"DrpMouseAcceleration"
 		"xpos"					"0"
 		"ypos"					"152"
-		"wide"					"462"	[$WIN32WIDE]
-
-		//Non-Widescreen
-		"wide"					"400"	[!$WIN32WIDE]
+		"wide"					"462"
 
 		"tall"					"24"
 		"visible"				"1"
@@ -276,11 +257,7 @@
 		"fieldName"				"SldMouseAccelerationSensitivity"
 		"xpos"					"0"
 		"ypos"					"176"
-		"wide"					"462"	[$WIN32WIDE]
-
-		//Non-Widescreen
-		"wide"					"400"	[!$WIN32WIDE]
-
+		"wide"					"462"
 		"tall"					"24"
 		"visible"				"1"
 		"enabled"				"1"
@@ -301,11 +278,7 @@
 			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"0"
-			"wide"					"462"	[$WIN32WIDE]
-
-			//Non-Widescreen
-			"wide"					"400"	[!$WIN32WIDE]
-
+			"wide"					"462"
 			"tall"					"24"
 			"autoResize"			"1"
 			"pinCorner"				"0"
@@ -326,11 +299,7 @@
 		"fieldName"				"BtnKeyBindings"
 		"xpos"					"0"
 		"ypos"					"225"
-		"wide"					"462"	[$WIN32WIDE]
-
-		//Non-Widescreen
-		"wide"					"400"	[!$WIN32WIDE]
-
+		"wide"					"462"
 		"tall"					"24"
 		"visible"				"1"
 		"enabled"				"1"

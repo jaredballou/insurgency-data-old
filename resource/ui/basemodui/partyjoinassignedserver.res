@@ -4,13 +4,14 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"PartyJoinAssignedServer"
-		"wide"					"152"
-		"tall"					"20" // 18 + 1 for border
+		"wide"					"f"
+		"tall"					"25" // 24 + 1 for border
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
+		proportionalToParent	1
 		
 		"Button"
 		{	
@@ -20,7 +21,7 @@
 			"ypos"					"3"	
 			"zpos"					"10"
 			"wide"  				"f" 
-			"tall"  				"15" 
+			"tall"  				"f3" 
 			"proportionalToParent"	"1"
 			
 			"labelText"				"#GameUI_Party_JoinAssigned"

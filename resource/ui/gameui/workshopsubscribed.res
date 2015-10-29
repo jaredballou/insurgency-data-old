@@ -4,84 +4,40 @@
 	{	
 		"ControlName"			"Frame"
 		"fieldName"				"WorkshopSubscribed"
-		"xpos"					"50"
-		"ypos"					"50"
-		"zpos"					"-500"
-		"wide"					"f-100"
-		"tall"					"400"
+		"xpos"					"485"
+		"ypos"					"100"
+		"wide"					"f545"
+		"tall"					"f130"
+		proportionalToParent	1
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"PaintBackgroundType"	"0"
-	}
 
-	"BackButton"
-	{	
-		"ControlName"			"Button"
-		"fieldName"				"BackButton"
-		"xpos"					"0"
-		"ypos"					"374"
-		"wide"					"20"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"paintbackground"		"1"
-		"bgcolor_override"		"255 255 255 255"
-		"labelText"				"#GameUI_Back"
-		"style"					"MainMenuButton"
-		"command"				"BtnBack"
-		"font"					"ButtonFont"
-		"tall"  				"16" 
-		"auto_wide_tocontents"  "1" 
-		"paintbackground"		"1"
-		"allcaps"				"1"
-		"textinsetx"			"15"
-		"textAlignment"			"center"
-	}
+		"navUp"					"BtnWorkshop"
 
-	"OpenWorkshop"
-	{	
-		"ControlName"			"Button"
-		"fieldName"				"OpenWorkshop"
-		"xpos"					"50"
-		"ypos"					"374"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"				"1"
-		"bgcolor_override"		"255 255 255 255"
-		"labelText"				"#GameUI_CustomContent_OpenWorkshop"
-		"style"					"MainMenuButton"
-		"command"				"BtnOpenWorkshopOverlay"
-		"font"					"ButtonFont"
-		"tall"  					"16" 
-		"auto_wide_tocontents"  	"1" 
-		"paintbackground"			"1"
-		"allcaps"				"1"
-		"textinsetx"			"15"
-		"textAlignment"			"center"
+		"WorkshopInfoPanel"
+		{
+			"ControlName"			"WorkshopViewInfo"
+			"fieldName"				"WorkshopInfoPanel"
+			xpos					260
+			ypos					10
+			wide					490
+			tall					f
+			proportionalToParent	1
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"0"
+			"enabled"				"0"
+			"tabPosition"			"0"
+			"PaintBackgroundType"	"0"
+
+			"navUp"					"BtnWorkshop"
+			"navLeft"				"BtnWorkshopList"
+		}
 	}
-	
-	// "LblTitle"
-	// {	
-		// "ControlName"			"Label"
-		// "fieldName"				"LblTitle"
-		// "xpos"					"0"
-		// "ypos"					"0"
-		// "wide"					"462"
-		// "tall"					"32"
-		// "visible"				"1"
-		// "enabled"				"1"
-		// "tabPosition"			"0"
-		// "paintbackground"		"0"
-		// "bgcolor_override"		"255 255 255 0"
-		// "labelText"				"#GameUI_CustomContent_Title"
-		// "textinsetx"			"10"
-		// "textinsety"			"0"
-		// "textAlignment"			"west"
-		// "font"					"MainMenuTitle"
-	// }
 
 	"LblNoFiles"
 	{
@@ -100,67 +56,19 @@
 	{
 		"ControlName"			"CButtonList"
 		"fieldName"				"WorkshopList"
-		"xpos"					"5"
-		"ypos"					"45"
-		"wide"					"180"
-		"tall"					"300"
+		"xpos"					"10"
+		"ypos"					"10"
+		"wide"					"240"
+		"tall"					"f20"
+		proportionalToParent	1
 		"visible"				"1"
 		"enabled"				"1"
 		"bgcolor_override"		"27 22 22 0"
 		"ListStart"				"17"
 		"SectionSpacing"		"5"
 		"AutoResize"			"0"
-	}
+		"tabPosition"			"1"
 
-	"ImgSteamUpdating"
-	{	
-		"ControlName"			"ImagePanel"
-		"fieldName"				"ImgSteamUpdating"
-		"xpos"					"0"
-		"ypos"					"355"
-		"wide"					"5"
-		"tall"					"5"
-		"visible"				"0"
-		"enabled"				"1"
-		"image"					"gameui/spinner_16"
-		"scaleImage"			"1"	
+		"navUp"					"BtnWorkshop"
 	}
-
-	"LblSteamUpdating"
-	{
-		"ControlName"			"Label"
-		"fieldName"				"LblSteamUpdating"
-		"xpos"					"10"
-		"ypos"					"353"
-		"wide"					"f-100"
-		"tall"					"10"
-		"visible"				"0"
-		"enabled"				"1"
-		"labelText"				"#GameUI_CustomContent_RetrievingData"	
-		"font"					"BoldTitle"
-		"allcaps"				"1"
-	}
-	
-	"PublishAddon"
-	{
-		"ControlName"			"Button"
-		"fieldName"				"PublishAddon"
-		"xpos"					"250"
-		"ypos"					"374"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"				"1"
-		"bgcolor_override"		"255 255 255 255"
-		"labelText"				"#GameUI_CustomContent_PublishAddon"
-		"style"					"MainMenuButton"
-		"command"				"BtnPublishAddon"
-		"font"					"ButtonFont"
-		"tall"  					"16" 
-		"auto_wide_tocontents"  	"1" 
-		"paintbackground"			"1"
-		"allcaps"				"1"
-		"textinsetx"			"15"
-		"textAlignment"			"center"	
-	}
-
 }

@@ -1,29 +1,14 @@
 "Resource/UI/GameUI/WorkshopViewInfo.res"
 {
-	"WorkshopViewInfo"
-	{	
-		"ControlName"			"Frame"
-		"fieldName"				"WorkshopViewInfo"
-		"xpos"					"250"
-		"ypos"					"95"
-		"wide"					"f-280"
-		"tall"					"320"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"PaintBackgroundType"	"0"
-	}
-
 	"LblFileTitle"
 	{	
 		"ControlName"			"Label"
 		"fieldName"				"LblFileTitle"
 		"xpos"					"165"
 		"ypos"					"0"
-		"wide"					"f445"
+		"wide"					"310"
 		"tall"					"35"
+		proportionalToParent	1
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
@@ -44,8 +29,9 @@
 		"fieldName"				"LblFileAuthor"
 		"xpos"					"165"
 		"ypos"					"38"
-		"wide"					"200"
+		"wide"					"310"
 		"tall"					"14"
+		proportionalToParent	1
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
@@ -96,13 +82,6 @@
 		"wide"					"20"
 		"visible"				"0"
 		"enabled"				"0"
-
-		"?is_owner"
-		{
-			"visible"			"1"
-			"enabled"			"1"
-		}
-
 		"tabPosition"			"6"
 		"paintbackground"		"1"
 		"bgcolor_override"		"255 255 255 255"
@@ -157,8 +136,9 @@
 		"fieldName"				"LblFileDescription"
 		"xpos"					"0"
 		"ypos"					"100"
-		"wide"					"f332"
-		"tall"					"200"
+		"wide"					"465"
+		"tall"					"470"
+		proportionalToParent	1
 		"visible"				"1"
 		"enabled"				"1"
 		"font"					"FoundationSans12"

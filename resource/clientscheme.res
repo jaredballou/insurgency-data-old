@@ -48,7 +48,9 @@ Scheme
 		"InsLightGrey"		"195 188 189 255"
 		"InsLightGrey50"	"195 188 189 128"
 		"InsLightGrey25"	"195 188 189 64"
+		"InsLightGrey10"	"195 188 189 24"
 		"InsLightGrey5"		"195 188 189 12"
+		"InsLightGrey2"		"195 188 189 5"
 		"InsDarkGrey"		"62 53 53 255"
 		"InsDarkGrey25"		"62 53 53 64"
 		"InsEnemy"			"172 64 41 255"
@@ -60,6 +62,9 @@ Scheme
 		"InsGreen25"		"132 150 28 64"
 		"InsGreen50"		"132 150 28 128"
 		"InsGreen75"		"132 150 28 192"
+		"ScrollBarGrey"		"51 51 51 255"
+		"ScrollBarHilight"	"110 110 110 255"
+		"ScrollBarDark"		"38 38 38 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -165,15 +170,21 @@ Scheme
 		RichText.SelectedTextColor		"White"
 		RichText.SelectedBgColor		"Blank"
 
-		ScrollBarButton.FgColor				"Grey"
-		ScrollBarButton.BgColor				"Blank"
-		ScrollBarButton.ArmedFgColor		"White"
-		ScrollBarButton.ArmedBgColor		"Blank"
-		ScrollBarButton.DepressedFgColor	"Grey"
-		ScrollBarButton.DepressedBgColor	"Blank"
+		ScrollBar.Wide							"3"
+		ScrollBar.VerticalButtonInsetX			"0"
 
-		ScrollBarSlider.FgColor				"Blank"		// nob color
-		ScrollBarSlider.BgColor				"Blank"		// slider background color
+		ScrollBarButton.FgColor					"InsLightGrey50"
+		ScrollBarButton.BgColor					"Blank"
+		ScrollBarButton.ArmedFgColor			"White"
+		ScrollBarButton.ArmedBgColor			"Blank"
+		ScrollBarButton.DepressedFgColor		"White"
+		ScrollBarButton.DepressedBgColor		"Blank"
+
+		ScrollBarSlider.FgColor				"InsLightGrey50"			// nob color
+		ScrollBarSlider.BgColor				"InsLightGrey2"	// slider background color
+		ScrollBarSlider.NobFocusColor			"InsLightGrey"
+		ScrollBarSlider.NobDragColor			"InsLightGrey"
+		ScrollBarSlider.Inset					"0"
 
 		SectionedListPanel.HeaderTextColor	"White"
 		SectionedListPanel.HeaderBgColor	"Blank"
@@ -392,8 +403,7 @@ Scheme
 			"1"
 			{
 				"name"		"Courier New"
-				"tall"		"14"	[!$GAMECONSOLE]
-				"tall"		"18"	[$GAMECONSOLE]
+				"tall"		"24"
 				"weight"	"400"
 				"antialias" "1"
 			}
@@ -404,7 +414,7 @@ Scheme
 			"1"
 			{
 				"name"		"Courier New"
-				"tall"		"14"
+				"tall"		"28"
 				"weight"	"400"
 				"antialias" "1"
 			}
@@ -415,7 +425,7 @@ Scheme
 			"1"
 			{
 				"name"		"Courier New"
-				"tall"		"14"
+				"tall"		"24"
 				"weight"	"400"
 				"outline"	"1"
 			}
@@ -598,7 +608,7 @@ Scheme
 			"1"
 			{
 				"name"		"Marlett"
-				"tall"		"14"
+				"tall"		"5"
 				"weight"	"0"
 				"symbol"	"1"
 			}
@@ -700,6 +710,16 @@ Scheme
 			}
 		}
 		
+		"FoundationSans14"
+		{
+			"1"
+			{
+				"name"			"FoundationSans-Cd"
+				"tall"			"14"
+				"antialias"		"1"
+			}
+		}
+		
 		"FoundationSans16"
 		{
 			"1"
@@ -778,14 +798,23 @@ Scheme
 			}
 		}
 		
-		"OratorStd10Drop"
+		"OratorStd14"
 		{
 			"1"
 			{
 				"name"			"OratorStd"
-				"tall"			"10"
+				"tall"			"14"
 				"antialias"		"1"
-				dropshadow		1
+			}
+		}
+
+		"OratorStd12"
+		{
+			"1"
+			{
+				"name"			"OratorStd"
+				"tall"			"12"
+				"antialias"		"1"
 			}
 		}
 		
@@ -798,24 +827,75 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-
-		"OratorStd14Drop"
+		
+		"OratorStd15Drop"
 		{
 			"1"
 			{
 				"name"			"OratorStd"
-				"tall"			"14"
+				"tall"			"15"
 				"antialias"		"1"
 				dropshadow		1
 			}
 		}
-
+				
 		"OratorStd16"
 		{
 			"1"
 			{
 				"name"			"OratorStd"
 				"tall"			"16"
+				"antialias"		"1"
+			}
+		}
+				
+		"OratorStd16"
+		{
+			"1"
+			{
+				"name"			"OratorStd"
+				"tall"			"18"
+				"antialias"		"1"
+			}
+		}
+		
+		"OratorStd20"
+		{
+			"1"
+			{
+				"name"			"OratorStd"
+				"tall"			"20"
+				"antialias"		"1"
+			}
+		}
+
+		"OratorStd20Drop"
+		{
+			"1"
+			{
+				"name"			"OratorStd"
+				"tall"			"20"
+				"antialias"		"1"
+				dropshadow		1
+			}
+		}
+
+		"OratorStd22"
+		{
+			"1"
+			{
+				"name"			"OratorStd"
+				"tall"			"22"
+				"antialias"		"1"
+			}
+		}
+				
+		"OratorStd24"
+		{
+			"1"
+			{
+				"name"			"OratorStd"
+				"tall"			"24"
 				"antialias"		"1"
 			}
 		}
@@ -1010,6 +1090,24 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"FoundationSansBold30"
+		{			
+			"1"
+			{
+				"name"		"FoundationSans-Bold"
+				"tall"		"30"
+				"antialias"	"1"
+			}
+		}
+		"FoundationSansBold36"
+		{			
+			"1"
+			{
+				"name"		"FoundationSans-Bold"
+				"tall"		"36"
+				"antialias"	"1"
+			}
+		}
 		"ViewportMenuFont_Title"
 		{
 			"1"
@@ -1128,7 +1226,7 @@ Scheme
 			"1"
 			{
 				"name"		"Arial"
-				"tall"		"8"
+				"tall"		"12"
 				"weight"	"400"
 				"antialias" "1"
 			}
@@ -1139,7 +1237,7 @@ Scheme
 			"1"
 			{
 				"name"			"FoundationSans-Bold"
-				"tall"			"8"
+				"tall"			"12"
 				"weight"		"100"
 				"antialias" 	"1"
 			}		
@@ -1149,7 +1247,7 @@ Scheme
 			"1"
 			{
 				"name"			"FoundationSans-Bold"
-				"tall"			"7"
+				"tall"			"10"
 				"weight"		"100"
 				"antialias" 	"1"
 			}		
@@ -1161,7 +1259,7 @@ Scheme
 			"1"
 			{
 				"name"			"OratorStd"
-				"tall"			"5"
+				"tall"			"7"
 				"weight"		"500"
 				"antialias" 	"1"
 			}
@@ -1172,7 +1270,7 @@ Scheme
 			"1"
 			{
 				"name"			"FoundationSans-Bold"
-				"tall"			"8"
+				"tall"			"12"
 				"weight"		"100"
 				"antialias"		"1"
 				"additive"		"1"
@@ -1184,7 +1282,7 @@ Scheme
 			"1"
 			{
 				"name"			"FoundationSans-Bold"
-				"tall"			"12"
+				"tall"			"18"
 				"weight"		"100"
 				"antialias"		"1"
 			}		
@@ -1195,7 +1293,7 @@ Scheme
 			"1"
 			{
 				"name"			"FoundationSans-Bold"
-				"tall"			"9"
+				"tall"			"16"
 				"weight"		"100"
 				"antialias" 	"1"
 			}
@@ -1206,7 +1304,7 @@ Scheme
 			"1"
 			{
 				"name"			"OratorStd"
-				"tall"			"6"
+				"tall"			"14"
 				"weight"		"200"
 				"antialias" 	"1"
 			}
@@ -1217,7 +1315,7 @@ Scheme
 			"1"
 			{
 				"name"			"OratorStd"
-				"tall"			"8"
+				"tall"			"12"
 				"weight"		"500"
 				"antialias" 	"1"
 			}
@@ -1239,7 +1337,7 @@ Scheme
 			"1"
 			{
 				"name"			"OratorStd"
-				"tall"			"8"
+				"tall"			"12"
 				"weight"		"300"
 				"antialias" 	"1"
 			}
@@ -1273,7 +1371,7 @@ Scheme
 			"1"
 			{
 				"name"			"OratorStd"
-				"tall"			"10"
+				"tall"			"15"
 				"weight"		"500"
 				"antialias" 	"1"
 			}
@@ -1284,7 +1382,7 @@ Scheme
 			"1"
 			{
 				"name"			"FoundationSans-Cd"
-				"tall"			"12"
+				"tall"			"18"
 				"weight"		"100"
 				"antialias" 	"1"
 				"range"			"0x0000 0xFFFF"
@@ -1296,7 +1394,7 @@ Scheme
 			"1"
 			{
 				"name"			"FoundationSans-Cd"
-				"tall"			"11"
+				"tall"			"15"
 				"weight"		"100"
 				"antialias" 	"1"
 				"range"			"0x0000 0xFFFF"
@@ -1368,7 +1466,7 @@ Scheme
 			"1"
 			{
 				"name"			"FoundationSans-Bold"
-				"tall"			"15"
+				"tall"			"23"
 				"weight"		"250"
 				"antialias" 	"1"
 			}
@@ -1401,7 +1499,7 @@ Scheme
 			"1"
 			{
 				"name"			"OratorStd"
-				"tall"			"10"
+				"tall"			"14"
 				"weight"		"300"
 				"antialias"		"1"		
 			}
@@ -1412,7 +1510,7 @@ Scheme
 			"1"
 			{
 				"name"			"OratorStd"
-				"tall"			"9"
+				"tall"			"15"
 				"weight"		"300"
 				"antialias"		"1"
 			}
@@ -1463,17 +1561,6 @@ Scheme
 			}
 		}
 		
-		"EndRoundLobbyStatTitle"
-		{
-			"1"
-			{
-				"name"			"FoundationSans-Bold"
-				"tall"			"9"
-				"weight"			"250"
-				"antialias" 		"1"
-			}
-		}
-		
 		"EndRoundLobbyTitle"
 		{
 			"isproportional"	"only"
@@ -1486,18 +1573,6 @@ Scheme
 			}		
 		}
 		
-		"EndRoundLobbySubtitle"
-		{
-			"1"
-			{
-				"name"			"OratorStd"
-				"tall"			"16"
-				"weight"			"300"
-				"antialias"		"1"
-			}
-		}
-		
-
 //////////////////////// INSTRUCTOR /////////////////////////////
 
 		"InstructorTitle"

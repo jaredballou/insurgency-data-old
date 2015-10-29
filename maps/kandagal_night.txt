@@ -1,0 +1,12 @@
+"#base" "kandagal.txt"
+
+"cpsetup.txt"
+{
+	"theater_conditions"
+	{
+		"?nightmap"		"1"
+	}
+
+	"navfile"   		"kandagal"
+	"nightlighting"		"1"
+}

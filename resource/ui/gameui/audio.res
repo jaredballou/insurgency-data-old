@@ -4,20 +4,17 @@
 	{	
 		"ControlName"			"Frame"
 		"fieldName"				"Audio"
-		"xpos"					"190"
-		"ypos"					"c-130"
-		"wide"					"462"	[$WIN32WIDE]
+		"xpos"					"485"
+		"ypos"					"100"
+		"wide"					"f545"
 
-		//Non-Widescreen
-		"wide"					"400"	[!$WIN32WIDE]
-
-		"tall"					"280"
+		"tall"					"f200"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"PaintBackgroundType"	"0"
+		proportionalToParent	1
 	}
 
 	"SldGameVolume"
@@ -38,7 +35,6 @@
 		"minValue"				"0.0"
 		"maxValue"				"1.0"
 		"stepSize"				"0.05"
-		"navUp"					"BtnSetupMicrophone"
 		"navDown"				"SldMusicVolume"
 		"conCommand"			"volume"
 		"inverseFill"			"0"
@@ -61,7 +57,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"tabPosition"			"0"
+			"tabPosition"			"1"
 			"labelText"				"#GameUI_AudioOptions_Volume"
 			"style"					"LeftDialogButton"
 			"allcaps"				"1"
@@ -78,6 +74,7 @@
 			"wide"					"64"
 			"tall"					"24"
 			"labelText"				""
+			"fgcolor_override"		"242 235 216 255"
 		}
 	}
 
@@ -140,6 +137,7 @@
 			"wide"					"64"
 			"tall"					"24"
 			"labelText"				""
+			"fgcolor_override"		"242 235 216 255"
 		}
 	}
 
@@ -202,6 +200,7 @@
 			"wide"					"64"
 			"tall"					"24"
 			"labelText"				""
+			"fgcolor_override"		"242 235 216 255"
 		}
 	}
 	
@@ -301,7 +300,6 @@
 		"tall"					"24"
 		"visible"				"0"
 		"enabled"				"0"
-
 		"usetitlesafe"			"0"
 		"tabPosition"			"0"
 		"navUp"					"DrpCaptioning"

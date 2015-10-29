@@ -1,0 +1,12 @@
+"#base" "contact.txt"
+
+"cpsetup.txt"
+{
+	"theater_conditions"
+	{
+		"?nightmap"		"1"
+	}
+
+	"navfile"   		"contact"
+	"nightlighting"		"1"
+}

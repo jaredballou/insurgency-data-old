@@ -4,16 +4,17 @@
 	{	
 		"ControlName"			"Frame"
 		"fieldName"				"GameSettings"
-		"xpos"					"190"
-		"ypos"					"c-130"
-		"wide"					"462"
-		"tall"					"250"
+		"xpos"					"485"
+		"ypos"					"100"
+		"wide"					"500"
+		"tall"					"f200"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"PaintBackgroundType"	"0"
+		proportionalToParent	1
 	}
 
 	"btnConsole"
@@ -32,7 +33,6 @@
 		"enabled"				"1"
 		"tabPosition"			"1"
 		"wrap"					"1"
-		"navUp"					"btnRadialControl"
 		"navDown"				"btnGameInstructor"
 		"labelText"				"#GameUI_Console"
 		"style"					"DialogListButton"
@@ -232,6 +232,7 @@
 		{
 			"#GameUI_Disable"		"HTMLMOTDDisabled"
 			"#GameUI_Enable"		"HTMLMOTDEnabled"
+        
 		}
 	}
 	
@@ -260,6 +261,6 @@
 			"#GameUI_Default"		"RadialDefault"
 			"#GameUI_Scrolling"		"RadialScrolling"
 			"#GameUI_Numbered"		"RadialNumbered"
-		}
-	}
-}
+        }       
+    }
+}      

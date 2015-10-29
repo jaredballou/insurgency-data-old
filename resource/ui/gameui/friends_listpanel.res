@@ -4,8 +4,8 @@
 	{
 		"ControlName"					"Frame"
 		"fieldName"						"friends_listpanel"
-		"wide"							"160"
-		"tall"							"16"
+		"wide"							"198"
+		"tall"							"22"
 		"autoResize"					"0"
 		"pinCorner"						"0"
 		"visible"						"1"
@@ -14,14 +14,27 @@
 		"paintBorder"					"0"
 		"selected_color"				"195 188 189 12"
 		
+		BG
+		{
+			ControlName					EditablePanel
+			xpos						0
+			ypos						0
+			wide						f
+			tall						f
+			proportionalToParent		1
+			
+			paintbackground				1
+			bgcolor_override			"30 25 25 100"
+		}
+
 		"PnlAvatar"
 		{
 			"ControlName"					"CAvatarImagePanel"
 			"fieldName"						"PnlAvatar"
-			"xpos"							"3"
-			"ypos"							"1"
-			"wide"							"14"
-			"tall"							"14"    
+			"xpos"							"4"
+			"ypos"							"2"
+			"wide"							"18"
+			"tall"							"18"    
 			"visible"						"1"
 			"bgcolor_override"				"255 255 255 255"
 			"scaleImage"					"1"
@@ -31,10 +44,10 @@
 		{
 			"ControlName"					"Label"
 			"fieldName"						"LblPlayerName"
-			"xpos"							"20"
+			"xpos"							"26"
 			"ypos"							"0"
-			"wide"							"f20"
-			"tall"							"10"
+			"wide"							"150"
+			"tall"							"14"
 			
 			"visible"						"1"
 			"enabled"						"1"
@@ -43,7 +56,7 @@
 			"labelText"						"Name"
 			"textAlignment"					"west"
 			"proportionalToParent"			"1"
-			"font"							"FoundationSans9"
+			"font"							"FoundationSans14"
 			
 		}
 		
@@ -51,17 +64,17 @@
 		{
 			"ControlName"					"Marquee"
 			"fieldName"						"LblPlayerStatus"
-			"xpos"							"20"
-			"ypos"							"9"
-			"wide"							"f30"
-			"tall"							"6"
+			"xpos"							"26"
+			"ypos"							"14"
+			"wide"							"150"
+			"tall"							"8"
 			"visible"						"1"
 			"enabled"						"1"
 			
 			"labelText"						""
 			"textAlignment"					"west"
 			"proportionalToParent"			"1"
-			"font"							"OratorStd6"
+			"font"							"OratorStd9"
 			"allcaps"						"1"
 		}
 	}

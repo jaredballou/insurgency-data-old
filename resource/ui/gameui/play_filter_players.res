@@ -4,7 +4,7 @@
 	"FilterPanelPlayers"
 	{
 		"wide"				"f"
-		"tall"				"48"	
+		"tall"				"72"	
 		"proportionalToParent"	"1"	
 		
 		"paintbackground"		"1" 
@@ -14,14 +14,14 @@
 		{
 			"ControlName"			"Label"
 
-			"xpos"					"5"
-			"ypos"					"3"
-			"wide"					"f"
+			"xpos"					"7"
+			"ypos"					"9"
+			"wide"					"f14"
 			"tall"					"12"
 			"proportionalToParent"	"1"	
 						
 			"labelText"				"#GameUI_mm_filter_minplayers"
-			"Font"					"FoundationSans9"
+			"Font"					"FoundationSans14"
 			"allcaps"				"1"
 			"paintbackground"		"0" 
 			"textAlignment"			"west"
@@ -29,10 +29,10 @@
 		
 		"MinSlider"
 		{
-			"xpos"					"5"
-			"ypos"					"15"
-			"wide"					"f10"
-			"tall"					"6"
+			"xpos"					"7"
+			"ypos"					"26"
+			"wide"					"f14"
+			"tall"					"10"
 			"proportionalToParent"	"1"	
 						
 			"paintbackground"		"0" 
@@ -44,15 +44,15 @@
 			
 			"LblValue"
 			{
-				"xpos"					"r15"
+				"xpos"					"r12"
 				"ypos"					"0"
-				"wide"					"15"
-				"tall"					"6"
+				"wide"					"12"
+				"tall"					"f"
 				"proportionalToParent"	"1"	
 							
 				"ControlName"			"Label"
 				"labelText"				""
-				"Font"					"FoundationSans9"
+				"Font"					"FoundationSans14"
 				"allcaps"				"1"
 				"textAlignment"			"center"
 			}
@@ -62,9 +62,9 @@
 				"fieldName"						"PrgValue"
 				"xpos"							"0"
 				"ypos"							"0"
-				"zpos"							"5"
+				"zpos"							"6"
 				"wide"							"f17"
-				"tall"							"6"
+				"tall"							"f"
 				"autoResize"					"0"
 				"pinCorner"						"1"
 				"visible"						"1"
@@ -80,14 +80,14 @@
 		{
 			"ControlName"			"Label"
 
-			"xpos"					"5"
-			"ypos"					"25"
+			"xpos"					"7"
+			"ypos"					"40"
 			"wide"					"f"
 			"tall"					"12"
 			"proportionalToParent"	"1"	
 						
 			"labelText"				"#GameUI_mm_filter_maxplayers"
-			"Font"					"FoundationSans9"
+			"Font"					"FoundationSans14"
 			"allcaps"				"1"
 			"paintbackground"		"0" 
 			"textAlignment"			"west"
@@ -95,10 +95,10 @@
 
 		"MaxSlider"
 		{
-			"xpos"					"5"
-			"ypos"					"37"
-			"wide"					"f10"
-			"tall"					"6"
+			"xpos"					"7"
+			"ypos"					"59"
+			"wide"					"f14"
+			"tall"					"10"
 			"proportionalToParent"	"1"	
 						
 			"paintbackground"		"0" 
@@ -110,15 +110,15 @@
 			
 			"LblValue"
 			{
-				"xpos"					"r15"
+				"xpos"					"r12"
 				"ypos"					"0"
-				"wide"					"15"
-				"tall"					"6"
+				"wide"					"12"
+				"tall"					"f"
 				"proportionalToParent"	"1"	
 							
 				"ControlName"			"Label"
 				"labelText"				""
-				"Font"					"FoundationSans9"
+				"Font"					"FoundationSans14"
 				"allcaps"				"1"
 				"textAlignment"			"center"
 			}
@@ -130,7 +130,7 @@
 				"ypos"							"0"
 				"zpos"							"5"
 				"wide"							"f17"
-				"tall"							"6"
+				"tall"							"f"
 				"autoResize"					"0"
 				"pinCorner"						"1"
 				"visible"						"1"

@@ -132,4 +132,22 @@
 			}
 		}
 	}
+	
+	"conquer"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"cp_a"
+		"controlpoint"		"cp_b"
+		"controlpoint"		"cp_c"
+		"controlpoint"		"cp_d"
+		"controlpoint"		"cp_e"
+		"controlpoint"		"cp_f"
+		"controlpoint"		"cp_g"
+		"controlpoint"		"cp_h"
+		"controlpoint"		"cp_i"
+		"controlpoint"		"cp_j"
+		"controlpoint"		"cp_k"
+		"controlpoint"		"cp_l"
+		"controlpoint"		"cp_m"
+	}
 } 

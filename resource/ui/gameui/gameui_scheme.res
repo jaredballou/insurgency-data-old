@@ -118,6 +118,7 @@ Scheme
 		
 		CheckButton.TextColor					"InsLightGrey"
 		CheckButton.SelectedTextColor			"InsWhite"
+		CheckButton.HighlightFgColor			"InsGreen"
 		CheckButton.BgColor						"InsBlack50"
 		CheckButton.Border1  					"Blank" 		// the left checkbutton border
 		CheckButton.Border2  					"Blank"		// the right checkbutton border
@@ -155,7 +156,7 @@ Scheme
 		GraphPanel.BgColor						"TransparentBlack"
 
 		Label.TextDullColor						"InsLightGrey5"
-		Label.TextColor							"InsLightGrey"
+		Label.TextColor							"InsWhite"
 		Label.TextBrightColor					"InsWhite"
 		Label.SelectedTextColor					"InsWhite"
 		Label.FgColor							"InsLightGrey"
@@ -265,7 +266,7 @@ Scheme
 
 		FooterPanel.ButtonGapX					"10"
 		FooterPanel.ButtonGapY					"0"
-		FooterPanel.ButtonPaddingLeft			"200"
+		FooterPanel.ButtonPaddingLeft			"20"
 		FooterPanel.ButtonPaddingRight			"10"
 			
 		SliderControl.InsetX					"-60"
@@ -279,11 +280,11 @@ Scheme
 
 		KeyBindings.ActionColumnWidth			"175"
 		KeyBindings.KeyColumnWidth				"100"
-		KeyBindings.HeaderFont					"MainMenuSmall"
-		KeyBindings.KeyFont						"UiCondSmall"
+		KeyBindings.HeaderFont					"FoundationSans16"
+		KeyBindings.KeyFont						"FoundationSans13"
 
 	//////////////////////// KEYBINDING STYLES /////////////////////////////
-		ScrollBar.Wide							1
+		ScrollBar.Wide							3
 		ScrollBar.VerticalButtonInsetX				0
 
 		ScrollBarButton.FgColor					"LightBlue"
@@ -323,7 +324,7 @@ Scheme
 	//
 	// Custom styles for use with HybridButtons
 		// HybridButton - Dialog List
-		DefaultButton.TextColor					"InsLightGrey"
+		DefaultButton.TextColor					"InsWhite75"
 		DefaultButton.TextColor_Armed			"InsWhite"
 		DefaultButton.TextColorGlow_Armed		"255 255 255 0"
 		DefaultButton.TextColor_Disabled		"InsLightGrey25"
@@ -345,7 +346,7 @@ Scheme
 		DefaultButton.TextBrightColor			"InsWhite"
 
 		// HybridButton - MainMenu
-		MainMenuButton.TextColor				"InsLightGrey"
+		MainMenuButton.TextColor				"InsWhite75"
 		MainMenuButton.TextColor_Armed			"InsWhite"
 		MainMenuButton.TextColorGlow_Armed		"255 255 255 0"
 		MainMenuButton.DisabledTextColor		"InsLightGrey5"
@@ -366,7 +367,7 @@ Scheme
 		MainMenuButton.TextMinWidthDialog		"0"
 
 		// HybridButton - Footer
-		FooterButton.TextColor					"InsLightGrey"
+		FooterButton.TextColor					"InsWhite75"
 		FooterButton.TextColor_Armed			"InsRed"
 		FooterButton.TextColorGlow_Armed		"InsRed50"
 		FooterButton.TextColor_Disabled			"128 128 128 128"
@@ -387,7 +388,7 @@ Scheme
 		FooterButton.TextMinWidthDialog			"0"
 
 		// HybridButton - Dialog List
-		DialogListButton.TextColor				"InsLightGrey"
+		DialogListButton.TextColor				"InsWhite75"
 		DialogListButton.TextColor_Armed		"InsWhite"
 		DialogListButton.TextColorGlow_Armed	"255 255 255 0"
 		DialogListButton.TextColor_Disabled		"InsLightGrey25"
@@ -408,7 +409,7 @@ Scheme
 		DialogListButton.TextMinWidthDialog		"200"
 
 		// HybridButton - Dialog List
-		LeftDialogButton.TextColor				"InsLightGrey"
+		LeftDialogButton.TextColor				"InsWhite75"
 		LeftDialogButton.TextColor_Armed		"InsWhite"
 		LeftDialogButton.TextColorGlow_Armed	"255 255 255 0"
 		LeftDialogButton.TextColor_Disabled		"InsLightGrey25"
@@ -437,9 +438,9 @@ Scheme
 		PlaylistButton.ColorDepressed		"InsRed"
 		PlaylistButton.ColorHighlighted		"InsRed"
 		PlaylistButton.HighlightedWidth		1
-		PlaylistButton.Height				30
-		PlaylistButton.TitleHeight			12
-		PlaylistButton.TickWidth			20
+		PlaylistButton.Height				45
+		PlaylistButton.TitleHeight			17
+		PlaylistButton.TickWidth			30
 
 		PlaylistButton.SeperatorHeight		12
 		PlaylistButton.SeperatorLineHeight	1
@@ -451,9 +452,9 @@ Scheme
 		GamemodeButton.ColorArmedDepressed	"InsRed75"
 		GamemodeButton.ColorDepressed		"InsRed"
 		GamemodeButton.ColorHighlighted		"InsRed"
-		GamemodeButton.Height				30
-		GamemodeButton.HeightLarger			40
-		GamemodeButton.TitleHeight			12
+		GamemodeButton.Height				45
+		GamemodeButton.HeightLarger			60
+		GamemodeButton.TitleHeight			17
 
 		MapButton.Color						"InsBlack50"
 		MapButton.ColorArmed				"InsRed"
@@ -496,7 +497,54 @@ Scheme
 		
 		// Dropdown Menu
 		DropdownMenuFont						"DropdownFont"
+
+		// NEW menu
+		// MenuHeaderButton + quit variant, buttons placed in the header
+		MenuHeaderButtonQuit.TextColor				InsRed
+		MenuHeaderButtonQuit.TextColor_Armed		InsRed50
+		MenuHeaderButtonQuit.TextColor_Pressed		InsWhite
+		MenuHeaderButtonQuit.Font					FoundationSansBold12
+		MenuHeaderButtonQuit.TextAlignment			center
+		MenuHeaderButtonQuit.AllCaps				1
+		MenuHeaderButtonQuit.SoundArmed				UI/menu_focus.wav
+		MenuHeaderButtonQuit.SoundDepressed			UI/menu_open.wav
+
+		MenuHeaderButton.TextColor					InsWhite75
+		MenuHeaderButton.TextColor_Armed			InsWhite
+		MenuHeaderButton.TextColor_Pressed			InsWhite50
+		MenuHeaderButton.TextColor_Disabled			InsWhite25
+		MenuHeaderButton.Font						FoundationSansBold12
+		MenuHeaderButton.TextAlignment				center
+		MenuHeaderButton.AllCaps					1
+		MenuHeaderButton.SoundArmed					UI/menu_focus.wav
+		MenuHeaderButton.SoundDepressed				UI/menu_open.wav
+
+		MenuHeaderButton.AlignPadding				18 // Padding used between top-right buttons
+
+		// Mode buttons (training/compete/multiplayer/coop)
+		MenuModeButton.TextColor					InsWhite75
+		MenuModeButton.TextColor_Armed				InsWhite
+		MenuModeButton.TextColor_Pressed			InsWhite50
+		MenuModeButton.TextColor_Disabled			InsWhite25
+		MenuModeButton.Font							FoundationSansBold18
+		MenuModeButton.TextAlignment				center
+		MenuModeButton.AllCaps						1
+		MenuModeButton.SoundArmed					UI/menu_focus.wav
+		MenuModeButton.SoundDepressed				UI/menu_open.wav
+		MenuModeButton.AlignPadding					38 // Padding between buttons
+
+		// Small Header Button (above, but small)
+		SmallHeaderButton.TextColor					InsWhite
+		SmallHeaderButton.TextColor_Armed			InsWhite75
+		SmallHeaderButton.TextColor_Pressed			InsWhite50
+		SmallHeaderButton.TextColor_Disabled		InsWhite25
+		SmallHeaderButton.Font						FoundationSansBold10
+		SmallHeaderButton.TextAlignment				east
+		SmallHeaderButton.AllCaps					1
+		SmallHeaderButton.SoundArmed				UI/menu_focus.wav
+		SmallHeaderButton.SoundDepressed			UI/menu_open.wav
 	}
+	
 
 
 	//////////////////////// CRITICAL FONTS ////////////////////////////////
@@ -954,6 +1002,16 @@ Scheme
 			}
 		}
 		
+		"FoundationSans14"
+		{
+			"1"
+			{
+				"name"			"FoundationSans-Cd"
+				"tall"			"14"
+				"antialias"		"1"
+			}
+		}
+		
 		"FoundationSans16"
 		{
 			"1"
@@ -1032,12 +1090,32 @@ Scheme
 			}
 		}
 		
+		"OratorStd11"
+		{
+			"1"
+			{
+				"name"			"OratorStd"
+				"tall"			"11"
+				"antialias"		"1"
+			}
+		}
+		
 		"OratorStd12"
 		{
 			"1"
 			{
 				"name"			"OratorStd"
 				"tall"			"12"
+				"antialias"		"1"
+			}
+		}
+		
+		"OratorStd13"
+		{
+			"1"
+			{
+				"name"			"OratorStd"
+				"tall"			"13"
 				"antialias"		"1"
 			}
 		}
@@ -1061,6 +1139,16 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		
+		"OratorStd18"
+		{
+			"1"
+			{
+				"name"			"OratorStd"
+				"tall"			"18"
+				"antialias"		"1"
+			}
+		}		
 		
 		"Misproject14"
 		{			
@@ -1138,6 +1226,36 @@ Scheme
 			}
 		}
 		
+		"Misproject40"
+		{			
+			"1"
+			{
+				"name"		"misproject"
+				"tall"		"40"
+				"antialias"	"1"
+			}
+		}
+		
+		"Misproject45"
+		{			
+			"1"
+			{
+				"name"		"misproject"
+				"tall"		"45"
+				"antialias"	"1"
+			}
+		}
+		
+		"Misproject50"
+		{			
+			"1"
+			{
+				"name"		"misproject"
+				"tall"		"50"
+				"antialias"	"1"
+			}
+		}
+		
 		"FoundationSansBold7"
 		{			
 			"1"
@@ -1178,6 +1296,16 @@ Scheme
 			}
 		}
 		
+		"FoundationSansBold11"
+		{			
+			"1"
+			{
+				"name"		"FoundationSans-Bold"
+				"tall"		"11"
+				"antialias"	"1"
+			}
+		}
+		
 		"FoundationSansBold12"
 		{			
 			"1"
@@ -1198,6 +1326,16 @@ Scheme
 			}
 		}
 		
+		"FoundationSansBold15"
+		{			
+			"1"
+			{
+				"name"		"FoundationSans-Bold"
+				"tall"		"15"
+				"antialias"	"1"
+			}
+		}
+		
 		"FoundationSansBold16"
 		{			
 			"1"
@@ -1208,12 +1346,53 @@ Scheme
 			}
 		}
 		
+		"FoundationSansBold18"
+		{			
+			"1"
+			{
+				"name"		"FoundationSans-Bold"
+				"tall"		"18"
+				"antialias"	"1"
+			}
+		}
+		
+		"FoundationSansBold20"
+		{			
+			"1"
+			{
+				"name"		"FoundationSans-Bold"
+				"tall"		"20"
+				"antialias"	"1"
+			}
+		}
+		
+		"FoundationSansBold28"
+		{			
+			"1"
+			{
+				"name"		"FoundationSans-Bold"
+				"tall"		"28"
+				"antialias"	"1"
+			}
+		}
+		
 		"ChatFont"
 		{
 			"1"
 			{
 				"name"			"FoundationSans-Cd"
-				"tall"			"20"
+				"tall"			"17"
+				"antialias"		"1"
+			}
+		}
+		
+		// used by the steamworks HTML panel
+		"HTMLContextMenu"
+		{
+			"1"
+			{
+				"name"			"FoundationSans-Cd"
+				"tall"			"14"
 				"antialias"		"1"
 			}
 		}

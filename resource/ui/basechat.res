@@ -7,9 +7,9 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"0"
-		"ypos"			"r100"
-		"wide"	 		"190"
-		"tall"	 		"70"
+		"ypos"			"r140"
+		"wide"	 		"345"
+		"tall"	 		"130"
 		"PaintBackgroundType"	"0"
 		"PaintBackground"	"1"
 		"paintborder"			"0"
@@ -21,11 +21,11 @@
 		"fieldName" 		ChatInputLine
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"18"	[$WIN32]
-		"xpos"			"42"	[$GAMECONSOLE]
+		"xpos"			"18"
 		"ypos"			"395"
-		"wide"	 		"154"
+		"wide"	 		"f40"
 		"tall"	 		"2"
+		"proportionalToParent"		"1"
 		"PaintBackgroundType"	"0"
 		"PaintBackground"	"0"
 	}
@@ -40,10 +40,10 @@
 		"tall"			"15"
 		"autoResize"		"1"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labelText"		"#chat_filterbutton"
+		"labelText"			"#chat_filterbutton"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
@@ -55,12 +55,11 @@
 	{
 		"ControlName"		"RichText"
 		"fieldName"		"HudChatHistory"
-		"xpos"			"18"	[$WIN32]
-		"ypos"			"10"	[$WIN32]
-		"xpos"			"18"	[$GAMECONSOLE]
-		"ypos"			"10"	[$GAMECONSOLE]
-		"wide"	 		"154"
+		"xpos"			"18"
+		"ypos"			"10"
+		"wide"	 		"f40"
 		"tall"			"75"
+		"proportionalToParent"		"1"
 		"wrap"			"1"
 		"autoResize"		"1"
 		"pinCorner"		"1"

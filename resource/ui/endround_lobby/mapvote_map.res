@@ -1,7 +1,7 @@
 "mapvote_map"
 {
-	"wide"		"160"
-	"tall"		"90"
+	"wide"		"240"
+	"tall"		"135"
 	
 	"VoteButton"
 	{
@@ -11,9 +11,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"160" [$WIN32WIDE]	
-		"wide"			"125" [!$WIN32WIDE]	
-		"tall"			"80"
+		"wide"			"240"
+		"tall"			"120"
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -34,8 +33,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"20"
-		"tall"			"20"
+		"wide"			"30"
+		"tall"			"30"
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -51,11 +50,10 @@
 		"ControlName"	"Label"
 		
 		"xpos"			"0"
-		"ypos"			"55"
+		"ypos"			"90"
 		"zpos"			"-1"
-		"wide"			"160" [$WIN32WIDE]	
-		"wide"			"125" [!$WIN32WIDE]	
-		"tall"			"25"
+		"wide"			"240"
+		"tall"			"38"
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -64,7 +62,7 @@
 		"allcaps"		"1"
 		"fgcolor_override" "255 255 255 120"
 		"bgcolor_override" "0 0 0 0"
-		"textinsetx"	"10"
+		"textinsetx"	"15"
 		"use_proportional_insets" "1"
 	}
 	
@@ -73,12 +71,11 @@
 		"fieldName"		"ImagePanel"
 		"ControlName"	"ImagePanel"
 		
-		"xpos"			"0" [$WIN32WIDE]
-		"xpos"			"-30" [!$WIN32WIDE]
+		"xpos"			"0" 
 		"ypos"			"0"
 		"zpos"			"-10"
-		"wide"			"160"
-		"tall"			"80"
+		"wide"			"240"
+		"tall"			"120"
 		
 		"visible"		"1"
 		"enabled"		"1"

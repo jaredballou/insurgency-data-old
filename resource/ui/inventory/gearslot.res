@@ -8,8 +8,7 @@
 		
 		"xpos"						"0"
 		"ypos"						"0"
-		"wide"						"110" [$WIN32WIDE]
-		"wide"						"80" [!$WIN32WIDE]
+		"wide"						"110" 
 		"tall"						"10"
 		"visible"					"1"
 		"enabled"					"1"
@@ -25,8 +24,7 @@
 		"fieldName"					"EquippedItem"
 		
 		"xpos"						"12"
-		"wide"						"110" [$WIN32WIDE]
-		"wide"						"80" [!$WIN32WIDE]
+		"wide"						"110"
 		"tall"						"12"
 
 		"visible"					"0"
@@ -55,8 +53,7 @@
 		"xpos"						"0"
 		"ypos"						"20"
 
-		"wide"						"110" [$WIN32WIDE]
-		"wide"						"80" [!$WIN32WIDE]
+		"wide"						"110"
 		"tall"						"12"
 		
 		"allcaps"					"1"
@@ -73,8 +70,7 @@
 		
 		"xpos"						"0"
 		"ypos"						"40"
-		"wide"						"110" [$WIN32WIDE]
-		"wide"						"80" [!$WIN32WIDE]
+		"wide"						"110"
 		"tall"						"12"
 		"visible"					"0"
 		"enabled"					"1"
@@ -95,8 +91,7 @@
 		
 		"xpos"						"0"
 		"ypos"						"50"
-		"wide"						"110" [$WIN32WIDE]
-		"wide"						"80" [!$WIN32WIDE]
+		"wide"						"110"
 		"tall"						"70"
 		"visible"					"0"
 		"enabled"					"1"

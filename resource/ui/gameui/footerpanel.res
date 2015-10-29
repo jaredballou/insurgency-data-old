@@ -4,16 +4,17 @@
 	{
 		"ControlName"			"Frame"
 		"fieldName"				"FooterPanel"
-		"xpos"					"0"
+		"xpos"					"485"
 		"ypos"					"r50"	
-		"wide"					"f0"
-		"tall"					"60"	
+		"wide"					"735"
+		"tall"					"30"	
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"paintbackground"		"0"
+		proportionalToParent	1
+		paintbackground			0
 	}
 
 	"Btn0"

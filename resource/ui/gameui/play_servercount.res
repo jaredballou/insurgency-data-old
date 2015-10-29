@@ -2,20 +2,20 @@
 {
 	"ServerCountPanel"
 	{
-		"wide"					"136"
-		"tall"					"15"
+		"wide"					"220"
+		"tall"					"22"
 
 		"Text"
 		{
-			"xpos"					"5"
+			"xpos"					"7"
 			"ypos"					"0"
 			"wide"					"f50"
-			"tall"					"15"
+			"tall"					"f"
 			"proportionalToParent"	"1"	
 						
 			"ControlName"			"Label"
 			"labelText"				"#GameUI_mm_servers_matched"
-			"Font"					"FoundationSans9"
+			"Font"					"FoundationSans14"
 			"allcaps"				"1"
 			"textAlignment"			"west"
 		}
@@ -24,14 +24,14 @@
 		{
 			"ypos"					"0"
 			"wide"					"50"
-			"tall"					"15"
+			"tall"					"f"
 			"proportionalToParent"	"1"	
 						
 			"ControlName"			"Label"
-			"Font"					"FoundationSans9"
+			"Font"					"FoundationSans14"
 			"allcaps"				"1"
 			"textAlignment"			"east"
-			"textInsetX"			"5"
+			"textInsetX"			"7"
 			"labelText"				""
 		}
 
@@ -39,8 +39,8 @@
 		{	
 			"ControlName"			"ImagePanel"
 			"ypos"					"3"
-			"wide"					"8"
-			"tall"					"8"
+			"wide"					"16"
+			"tall"					"16"
 			"proportionalToParent"	"1"	
 		
 			"image"					"gameui/spinner_16"

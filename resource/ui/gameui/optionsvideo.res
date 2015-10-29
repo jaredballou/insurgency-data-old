@@ -4,7 +4,7 @@
 	{	
 		"ControlName"			"Frame"
 		"fieldName"				"OptionsVideo"
-		"xpos"					"c-150"
+		"xpos"					"650"
 		"ypos"					"c-120"
 		"wide"					"300"
 		"tall"					"236"
@@ -14,6 +14,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"PaintBackgroundType"	"0"
+		proportionalToParent	1
 	}
 
 	"LblTitle"

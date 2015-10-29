@@ -9,8 +9,8 @@
 		
 		"xpos"						"0"
 		"ypos"						"0"
-		"wide"						"320"
-		"tall"						"30"
+		"wide"						"750" 
+		"tall"						"45"
 		
 		"allcaps"					"1"
 		"font"						"HudCommonLarge"
@@ -23,18 +23,17 @@
 		"fieldName"					"Timer"
 		"ControlName"				"Label"
 		
-		"xpos"						"330" [$WIN32WIDE]	
-		"xpos"						"260" [!$WIN32WIDE]
+		"xpos"						"0"
 		"ypos"						"0"
-		"wide"						"160" [$WIN32WIDE]
-		"wide"						"125" [!$WIN32WIDE]
-		"tall"						"30"
+		"wide"						"750" 
+		"tall"						"45"
 		
 		"allcaps"					"1"
 		"font"						"HudCommonLarge"
 		"labelText"					"0:00"
 		"textInsetX"				"0"
 		"textAlignment"				"east"
+		"proportionalToParent"		"1"	
 	}	
 	
 	"MapButton0"
@@ -43,10 +42,9 @@
 		"ControlName"	"CMapVoteButton"
 		
 		"xpos"			"0"
-		"ypos"			"35"
-		"wide"			"160" [$WIN32WIDE]	
-		"wide"			"125" [!$WIN32WIDE]	
-		"tall"			"80"
+		"ypos"			"53"
+		"wide"			"240" 
+		"tall"			"120"
 		
 		"enabled"		"1"
 		"visible"		"1"
@@ -57,12 +55,10 @@
 		"fieldName"		"MapButton1"
 		"ControlName"	"CMapVoteButton"
 		
-		"xpos"			"165" [$WIN32WIDE]
-		"xpos"			"130" [!$WIN32WIDE]
-		"ypos"			"35"
-		"wide"			"160" [$WIN32WIDE]	
-		"wide"			"125" [!$WIN32WIDE]	
-		"tall"			"80"
+		"xpos"			"248"
+		"ypos"			"53"
+		"wide"			"240"
+		"tall"			"120"
 		
 		"enabled"		"1"
 		"visible"		"1"
@@ -73,12 +69,10 @@
 		"fieldName"		"MapButton2"
 		"ControlName"	"CMapVoteButton"
 		
-		"xpos"			"330" [$WIN32WIDE]
-		"xpos"			"260" [!$WIN32WIDE]
-		"ypos"			"35"
-		"wide"			"160" [$WIN32WIDE]	
-		"wide"			"125" [!$WIN32WIDE]	
-		"tall"			"80"
+		"xpos"			"495"
+		"ypos"			"53"
+		"wide"			"240" 
+		"tall"			"120"
 		
 		"enabled"		"1"
 		"visible"		"1"
@@ -90,10 +84,9 @@
 		"ControlName"	"CMapVoteButton"
 		
 		"xpos"			"0"
-		"ypos"			"120"
-		"wide"			"160" [$WIN32WIDE]	
-		"wide"			"125" [!$WIN32WIDE]	
-		"tall"			"80"
+		"ypos"			"180"
+		"wide"			"240"
+		"tall"			"120"
 		
 		"enabled"		"1"
 		"visible"		"1"
@@ -104,12 +97,10 @@
 		"fieldName"		"MapButton4"
 		"ControlName"	"CMapVoteButton"
 		
-		"xpos"			"165" [$WIN32WIDE]
-		"xpos"			"130" [!$WIN32WIDE]
-		"ypos"			"120"
-		"wide"			"160" [$WIN32WIDE]	
-		"wide"			"125" [!$WIN32WIDE]	
-		"tall"			"80"
+		"xpos"			"248"
+		"ypos"			"180"
+		"wide"			"240"	
+		"tall"			"120"
 		
 		"enabled"		"1"
 		"visible"		"1"
@@ -120,12 +111,10 @@
 		"fieldName"		"MapButton5"
 		"ControlName"	"CMapVoteButton"
 		
-		"xpos"			"330" [$WIN32WIDE]
-		"xpos"			"260" [!$WIN32WIDE]
-		"ypos"			"120"
-		"wide"			"160" [$WIN32WIDE]	
-		"wide"			"125" [!$WIN32WIDE]	
-		"tall"			"80"
+		"xpos"			"495"
+		"ypos"			"180"
+		"wide"			"240"
+		"tall"			"120"
 		
 		"enabled"		"1"
 		"visible"		"1"
@@ -137,10 +126,9 @@
 		"ControlName"	"CMapVoteButton"
 		
 		"xpos"			"0"
-		"ypos"			"205"
-		"wide"			"160" [$WIN32WIDE]	
-		"wide"			"125" [!$WIN32WIDE]	
-		"tall"			"20"
+		"ypos"			"308"
+		"wide"			"240"
+		"tall"			"30"
 		
 		"enabled"		"1"
 		"visible"		"1"
@@ -161,12 +149,10 @@
 		"fieldName"		"ShuffleButton"
 		"ControlName"	"CMapVoteButton"
 		
-		"xpos"			"165" [$WIN32WIDE]
-		"xpos"			"130" [!$WIN32WIDE]
-		"ypos"			"205"
-		"wide"			"160" [$WIN32WIDE]	
-		"wide"			"125" [!$WIN32WIDE]	
-		"tall"			"20"
+		"xpos"			"248" 
+		"ypos"			"308"
+		"wide"			"240"	
+		"tall"			"30"
 		
 		"enabled"		"1"
 		"visible"		"1"
@@ -187,12 +173,10 @@
 		"fieldName"		"RandomButton"
 		"ControlName"	"CMapVoteButton"
 		
-		"xpos"			"330" [$WIN32WIDE]
-		"xpos"			"260" [!$WIN32WIDE]
-		"ypos"			"205"
-		"wide"			"160" [$WIN32WIDE]	
-		"wide"			"125" [!$WIN32WIDE]	
-		"tall"			"20"
+		"xpos"			"495"
+		"ypos"			"308"
+		"wide"			"240"
+		"tall"			"30"
 		
 		"enabled"		"1"
 		"visible"		"1"

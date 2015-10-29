@@ -2,60 +2,123 @@
 {
 	"Matchmaking"
 	{	
-		"ControlName"			"Frame"
-		"xpos"					"c-206"	[$WIN32WIDE]
-		"xpos"					"c-140"	[!$WIN32WIDE]
-		"ypos"					"65"
-		"wide"					"412" [$WIN32WIDE]
-		"wide"					"275" [!$WIN32WIDE]
-		"tall"					"380" [$WIN32WIDE]
-		"tall"					"380" [!$WIN32WIDE]
+		"ControlName"				"Frame"
+		xpos						485
+		ypos						27
+		wide						735
+		tall						f57
+		proportionalToParent		1
 		
 		"BackgroundPerson"
 		{
 			"visible"			"0"
 		}
 		
+		TopButtons
+		{
+			ControlName				EditablePanelPassthrough
+			xpos					0
+			ypos					0
+			wide					f
+			tall					73
+			proportionalToParent	1	
+			paintbackground			0
+
+			// Horizontal position & width applied programmatically 
+			Btn1
+			{	
+				ControlName				HybridButton	
+				xpos					0
+				ypos					0	
+				wide 					100	
+				tall  					f	
+				labelText				#GameUI_Solo
+				style					MenuModeButton
+				command					BtnTraining
+				proportionalToParent	1
+				navLeft					Btn5
+				navRight				Btn2
+			}
+
+			Btn2
+			{	
+				ControlName				HybridButton	
+				xpos					0
+				ypos					0	
+				wide 					100	
+				tall  					f	
+				labelText				#GameUI_Coop
+				style					MenuModeButton
+				command					BtnCoop
+				proportionalToParent	1
+				tabPosition				1
+				navLeft					Btn1
+				navRight				Btn4
+			}
+
+			Btn4
+			{	
+				ControlName				HybridButton	
+				xpos					0
+				ypos					0	
+				wide 					100	
+				tall  					f	
+				labelText				#GameUI_Multiplayer
+				style					MenuModeButton
+				command					BtnMultiplayer
+				proportionalToParent	1
+				navLeft					Btn2
+				navRight				Btn5
+			}
+
+			Btn5
+			{	
+				ControlName				HybridButton	
+				xpos					0
+				ypos					0	
+				wide 					100	
+				tall  					f	
+				labelText				#GameUI_OpenServerBrowser
+				style					MenuModeButton
+				command					BtnServerBrowser
+				proportionalToParent	1
+				navLeft					Btn4
+				navRight				Btn1
+			}
+		}
+		
 		// Columns
 		"Playlists"
 		{
 			"xpos"					"0"
-			"ypos"					"0"
-			"wide"					"120" [$WIN32WIDE]
-			"tall"					"f" 	[$WIN32WIDE]
-			"wide"					"135" [!$WIN32WIDE]
-			"tall"					"219" [!$WIN32WIDE]
+			"ypos"					"73"
+			"wide"					"190"
+			"tall"					"f73"
 
 			"proportionalToParent"	"1"	
 			"zpos"	"1"
+			
+			"tabPosition"			"1"
+			"navRight"				"Gamemodes"
 			
 			"AutoResize"			"0"
 			
 			"paintbackground"		"1" 
 			"bgcolor_override"		"34 28 28 128" // PH
 			
-			"scrollbar_inset"			"3"
+			"scrollbar_inset"			"1"
 			"panelBorder"				"1"
-			
-			"ScrVerticalScroll"
-			{
-				"wide"			"1"
-			}
-			
+						
 		}
 		
 		"Gamemodes"
 		{
-			"xpos"					"122" 	[$WIN32WIDE]
-			"ypos"					"0" 	[$WIN32WIDE]
-			"wide"					"142"	[$WIN32WIDE]
-			//"tall"					"f109" [$WIN32WIDE]
-
-
-			"xpos"					"0" 	[!$WIN32WIDE]
-			"ypos"					"220" 	[!$WIN32WIDE]
-			"wide"					"135" 	[!$WIN32WIDE]
-			"tall"					"160" 	[!$WIN32WIDE]
+			"xpos"					"192"
+			"ypos"					"73" 
+			"wide"					"230"
+			"tall"					"f73"
+			"navDown"				"Filters"
+			"navRight"				"Maps"
 
 			"proportionalToParent"	"1"
 
@@ -66,24 +129,17 @@
 			
 			"scrollbar_inset"			"1"
 			"panelBorder"				"1"
-			
-			"ScrVerticalScroll"
-			{
-				"wide"			"1"
-			}
 		}
 		
 		"Filters"
 		{
-			"xpos"					"122"		[$WIN32WIDE]
-			"ypos"					"r107"		[$WIN32WIDE]
-			"wide"					"142"		[$WIN32WIDE]
-			//"tall"					"90"	[$WIN32WIDE]
+			"xpos"					"192"
+			"ypos"					"r107"
+			"wide"					"230"
+			//"tall"					"90"
 
-			"xpos"					"r140"		[!$WIN32WIDE]
-			"ypos"					"255"		[!$WIN32WIDE]
-			"wide"					"140"		[!$WIN32WIDE]
-			"tall"					"95"		[!$WIN32WIDE]
+			"navUp"					"Gamemodes"
+			"navRight"				"Reset"
 
 			"proportionalToParent"	"1"	
 						
@@ -100,17 +156,34 @@
 				"wide"			"1"
 			}
 		}
+
+		"Maps"
+		{
+			"xpos"					"423"
+			"ypos"					"73"
+			"wide"					"f423"
+			"tall"					"f97"
+
+			"navLeft"				"Gamemodes"
+			"navDown"				"FindGame"
+
+			"proportionalToParent"	"1"	
+			
+			"AutoResize"			"0"
+			
+			"paintbackground"		"1" 
+			"bgcolor_override"		"34 28 28 128" // PH
+			
+			"scrollbar_inset"			"1"
+			"panelBorder"				"1"
+		}
 		
 		"ServerCountPanel"
 		{
-			"xpos"					"122"	[$WIN32WIDE]
-			"ypos"					"r15"	[$WIN32WIDE]
-			"wide"					"142"	[$WIN32WIDE]
-			"tall"					"15"	[$WIN32WIDE]
-			"xpos"					"r140"	[!$WIN32WIDE]
-			"ypos"					"r30"	[!$WIN32WIDE]
-			"wide"					"140"	[!$WIN32WIDE]
-			"tall"					"15"	[!$WIN32WIDE]
+			"xpos"					"192"
+			"ypos"					"r22"
+			"wide"					"230"
+			"tall"					"22"
 
 			"proportionalToParent"	"1"	
 				
@@ -121,31 +194,32 @@
 		"ButtonBG"
 		{
 			"ControlName"			"EditablePanel"
-			"xpos"					"r147"
-			"ypos"					"r28"
-			"wide"					"147"
-			"tall"					"12"
+			"xpos"					"423"
+			"ypos"					"r22" 
+			"wide"					"f424"
+			"tall"					"22"
 			"zpos"					"-5"
 			"proportionalToParent"	"1"	
 			
-			"visible"				"1"
+			"visible"				"0"
 			"enabled"				"1"
 			
 			"paintbackground"			"1"
-			"bgcolor_override"  "34 28 28 128`"
+			"bgcolor_override"  "34 28 28 128"
 		}
 
 		"Reset"
 		{	
 			"ControlName"			"Button"
 
-			"xpos"					"r147" [$WIN32WIDE]
-			"xpos"					"r140" [!$WIN32WIDE]
-			"ypos"					"r28"
-			"wide"					"40" [$WIN32WIDE]
-			"wide"					"30" [!$WIN32WIDE]
-			"tall"					"12"
+			"xpos"					"403"
+			"ypos"					"r22"
+			"wide"					"45"
+			"tall"					"22"
 			"proportionalToParent"	"1"	
+			
+			"navLeft"				"Filters"
+			"navRight"				"DeselectAll"
 			
 			"visible"				"1"
 			"enabled"				"1"
@@ -160,7 +234,7 @@
 			
 			"labelText"				"#GameUI_mm_reset"
 			"command"				"Reset"
-			"font"					"OratorStd8"
+			"font"					"OratorStd12"
 			
 			"paintbackground"		"1"
 			"allcaps"				"1"
@@ -173,17 +247,15 @@
 		{	
 			"ControlName"			"Button"
 
-			"xpos"					"r106"	[$WIN32WIDE]
-			"ypos"					"r28"		[$WIN32WIDE]
-			"wide"					"53"	[$WIN32WIDE]
-			"tall"					"12"	[$WIN32WIDE]
-
-			"xpos"					"r110"	[!$WIN32WIDE]
-			"ypos"					"0"		[!$WIN32WIDE]
-			"wide"					"55"	[!$WIN32WIDE]
-			"tall"					"12"	[!$WIN32WIDE]
+			"xpos"					"449"
+			"ypos"					"r22"
+			"wide"					"76"
+			"tall"					"22"
 
 			"proportionalToParent"	"1"	
+			
+			"navLeft"				"Reset"
+			"navRight"				"SelectAll"
 			
 			"visible"				"1"
 			"enabled"				"1"
@@ -198,7 +270,7 @@
 			
 			"labelText"				"#GameUI_mm_deselect_all"
 			"command"				"DeselectAllMaps"
-			"font"					"OratorStd8"
+			"font"					"OratorStd12"
 			
 			"paintbackground"		"1"
 			"allcaps"				"1"
@@ -212,13 +284,14 @@
 		{	
 			"ControlName"			"Button"
 
-			"xpos"					"r52" [$WIN32WIDE]
-			"xpos"					"r55" [!$WIN32WIDE]
-			"ypos"					"r28"
-			"wide"					"52" [$WIN32WIDE]
-			"wide"					"55" [!$WIN32WIDE]
-			"tall"					"12"
+			"xpos"					"526"
+			"ypos"					"r22"
+			"wide"					"76"
+			"tall"					"22"
 			"proportionalToParent"	"1"	
+			
+			"navLeft"				"DeselectAll"
+			"navRight"				"FindGame"
 			
 			"visible"				"1"
 			"enabled"				"1"
@@ -233,7 +306,7 @@
 			
 			"labelText"				"#GameUI_mm_select_all"
 			"command"				"SelectAllMaps"
-			"font"					"OratorStd8"
+			"font"					"OratorStd12"
 			
 			"paintbackground"		"1"
 			"allcaps"				"1"
@@ -242,45 +315,16 @@
 			"sound_depressed"		"UI/menu_join.wav"
 		}
 		
-		"Maps"
-		{
-			"xpos"					"r147"	[$WIN32WIDE]
-			"ypos"					"0"	[$WIN32WIDE]
-			"wide"					"147"	[$WIN32WIDE]
-			"tall"					"f29"	[$WIN32WIDE]
-
-			"xpos"					"r140"	[!$WIN32WIDE]
-			"ypos"					"0"	[!$WIN32WIDE]
-			"wide"					"140"	[!$WIN32WIDE]
-			"tall"					"242"	[!$WIN32WIDE]
-
-			"proportionalToParent"	"1"	
-			
-			"AutoResize"			"0"
-			
-			"paintbackground"		"1" 
-			"bgcolor_override"		"34 28 28 128" // PH
-			
-			"scrollbar_inset"			"2"
-			"panelBorder"				"2"
-			
-			"ScrVerticalScroll"
-			{
-				"wide"			"1"
-			}
-		}
-
-
 		"FindGame"
 		{	
 			"fieldName"				"FindGame"
 			
-			"xpos"					"r147" 	[$WIN32WIDE]
-			"xpos"					"r140" 	[!$WIN32WIDE]
-			"ypos"					"r15"
-			"wide"					"147"	[$WIN32WIDE]
-			"wide"					"140"	[!$WIN32WIDE]
-			"tall"  					"15" 
+			"navLeft"				"SelectAll"
+			
+			"xpos"					"603"
+			"ypos"					"r22"
+			"wide"					"f603"
+			"tall"  					"22" 
 			"proportionalToParent"		"1"
 			
 			"visible"				"1"
@@ -296,7 +340,7 @@
 			
 			"labelText"				"#GameUI_mm_find_game"
 			"command"				"FindGame"
-			"font"					"OratorStd8"
+			"font"					"OratorStd12"
 			
 			"paintbackground"		"1"
 			"allcaps"				"1"

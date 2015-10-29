@@ -4,13 +4,14 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"PartyPlayerListItem"
-		"wide"					"152"
-		"tall"					"16" // 18 + 1 for border
+		"wide"					"f"
+		"tall"					"25" // 24 + 1 for border
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
+		proportionalToParent	1
 	
 		"Background"
 		{
@@ -30,9 +31,9 @@
 		{
 			"ControlName"			"ScalableImagePanel"	
 			"xpos"					"0"
-			"ypos"					"1"
-			"wide"					"14"
-			"tall"					"14"
+			"ypos"					"2"
+			"wide"					"20"
+			"tall"					"20"
 			
 			"image"					"add"
 		}
@@ -41,15 +42,16 @@
 		{
 			"ControlName"		"Label"
 			"proportionalToParent"	"1"
-			"xpos"				"16"
-			"ypos"				"1"			
-			"wide"				"f16"
-			"tall"				"14"	
+			"xpos"				"24"
+			"ypos"				"0"			
+			"wide"				"f24"
+			"tall"				"f"	
+			proportionalToParent	1
 			
 			"labelText"			"#GameUI_Party_AddInvite"
 			"textAlignment"		"West"
 			"textInsetX"		"4"
-			"font"				"FoundationSans10"
+			"font"				"FoundationSans14"
 			"fgcolor_override"	"242 235 216 255"
 		}
 		

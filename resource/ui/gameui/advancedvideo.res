@@ -4,16 +4,17 @@
 	{
 		"ControlName"			"Frame"
 		"fieldName"				"AdvancedVideo"
-		"xpos"					"190"
-		"ypos"					"c-130"
-		"wide"					"462"
-		"tall"					"300"
+		"xpos"					"485"
+		"ypos"					"100"
+		"wide"					"f545"
+		"tall"					"f200"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"PaintBackgroundType"	"0"
+		proportionalToParent	1
 	}
 
 	"DrpCsmShadows"
@@ -31,7 +32,6 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"1"
-		"navUp"				"DrpPagedPoolMem"
 		"navDown"			"DrpModelDetail"
 		"labelText"			"#GameUI_Settings_CSM"
 		"style"				"DialogListButton"

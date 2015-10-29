@@ -15,6 +15,7 @@
 	],
 	"coop": [
 		"checkpoint",
+		"conquest",
 		"hunt",
 		"survival"
 	]

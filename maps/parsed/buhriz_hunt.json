@@ -1,9 +1,9 @@
 {
 	"gametypes": {
+		"navfile": "Auhriz",
+		"nightlighting": "A",
 		"hunt": {
-			"navfile": "buhriz",
 			"attackingteam": "security",
-			"nightlighting": "1",
 			"controlpoint": {
 				"A": {
 					"pos_x": 623,
@@ -38,22 +38,16 @@
 						"pos_type": "area",
 						"pos_team": 2,
 						"pos_name": "spawnzone_1_team2",
-						"pos_x": 355,
-						"pos_y": 841,
-						"pos_width": 62,
-						"pos_height": 51,
-						"pos_shape": "rect"
+						"pos_x": 0,
+						"pos_y": 0
 					},
 					"spawnzone_1_team3": {
 						"pos_classname": "ins_spawnzone",
 						"pos_type": "area",
 						"pos_team": 3,
 						"pos_name": "spawnzone_1_team3",
-						"pos_x": 262,
-						"pos_y": 28,
-						"pos_width": 740,
-						"pos_height": 705,
-						"pos_shape": "rect"
+						"pos_x": 0,
+						"pos_y": 0
 					}
 				}
 			}
@@ -76,22 +70,16 @@
 			"pos_type": "area",
 			"pos_team": 2,
 			"pos_name": "spawnzone_1_team2",
-			"pos_x": 355,
-			"pos_y": 841,
-			"pos_width": 62,
-			"pos_height": 51,
-			"pos_shape": "rect"
+			"pos_x": 0,
+			"pos_y": 0
 		},
 		"spawnzone_1_team3": {
 			"pos_classname": "ins_spawnzone",
 			"pos_type": "area",
 			"pos_team": 3,
 			"pos_name": "spawnzone_1_team3",
-			"pos_x": 262,
-			"pos_y": 28,
-			"pos_width": 740,
-			"pos_height": 705,
-			"pos_shape": "rect"
+			"pos_x": 0,
+			"pos_y": 0
 		}
 	}
 }

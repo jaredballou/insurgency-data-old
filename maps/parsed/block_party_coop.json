@@ -1,0 +1,83 @@
+{
+	"gametypes": {
+		"checkpoint": {
+			"attackingteam": "security",
+			"controlpoint": {
+				"A": {
+					"pos_name": "A",
+					"pos_team": 3
+				},
+				"B": {
+					"pos_name": "B",
+					"pos_team": 3
+				},
+				"C": {
+					"pos_name": "C",
+					"pos_team": 3
+				},
+				"D": {
+					"pos_x": 765,
+					"pos_y": 483,
+					"pos_classname": "obj_weapon_cache",
+					"pos_type": "obj_weapon_cache",
+					"pos_team": 3,
+					"pos_name": "D"
+				},
+				"E": {
+					"pos_name": "E",
+					"pos_team": 3
+				},
+				"F": {
+					"pos_name": "F",
+					"pos_team": 3
+				},
+				"G": {
+					"pos_name": "G",
+					"pos_team": 3
+				},
+				"H": {
+					"pos_name": "H",
+					"pos_team": 3
+				},
+				"I": {
+					"pos_name": "I",
+					"pos_team": 3
+				},
+				"J": {
+					"pos_name": "J",
+					"pos_team": 3
+				}
+			},
+			"spawnzones": {
+				"spawnzone_a": [
+				],
+				"spawnzone_b": [
+				],
+				"spawnzone_c": [
+				],
+				"spawnzone_d": [
+				],
+				"spawnzone_e": [
+				],
+				"spawnzone_f": [
+				],
+				"spawnzone_g": [
+				],
+				"spawnzone_h": [
+				],
+				"spawnzone_i": [
+				],
+				"spawnzone_j": [
+				]
+			}
+		}
+	},
+	"overview": {
+		"material": "overviews\/block_party_coop",
+		"pos_x": -2888,
+		"pos_y": 2497,
+		"scale": 6,
+		"rotate": 0,
+		"zoom": 1
+	}
+}

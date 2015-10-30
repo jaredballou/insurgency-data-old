@@ -1,0 +1,12 @@
+{
+	"gametypes": "contact.txt",
+	"theater_conditions": "c",
+	"overview": {
+		"material": "overviews\/contact_night",
+		"pos_x": -4377,
+		"pos_y": 4091,
+		"scale": 9,
+		"rotate": 0,
+		"zoom": 1
+	}
+}

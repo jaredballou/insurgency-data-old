@@ -1,8 +1,8 @@
 {
 	"gametypes": {
+		"navfile": "Aontact",
+		"nightlighting": "A",
 		"hunt": {
-			"navfile": "contact",
-			"nightlighting": "1",
 			"attackingteam": "security",
 			"controlpoint": {
 				"A": {
@@ -38,22 +38,16 @@
 						"pos_type": "area",
 						"pos_team": 2,
 						"pos_name": "spawnzone_hunt_team2",
-						"pos_x": 783,
-						"pos_y": 132,
-						"pos_width": 57,
-						"pos_height": 96,
-						"pos_shape": "rect"
+						"pos_x": 0,
+						"pos_y": 0
 					},
 					"spawnzone_hunt_team3": {
 						"pos_classname": "ins_spawnzone",
 						"pos_type": "area",
 						"pos_team": 3,
 						"pos_name": "spawnzone_hunt_team3",
-						"pos_x": 338,
-						"pos_y": 239,
-						"pos_width": 570,
-						"pos_height": 719,
-						"pos_shape": "rect"
+						"pos_x": 0,
+						"pos_y": 0
 					}
 				}
 			}
@@ -76,22 +70,16 @@
 			"pos_type": "area",
 			"pos_team": 2,
 			"pos_name": "spawnzone_hunt_team2",
-			"pos_x": 783,
-			"pos_y": 132,
-			"pos_width": 57,
-			"pos_height": 96,
-			"pos_shape": "rect"
+			"pos_x": 0,
+			"pos_y": 0
 		},
 		"spawnzone_hunt_team3": {
 			"pos_classname": "ins_spawnzone",
 			"pos_type": "area",
 			"pos_team": 3,
 			"pos_name": "spawnzone_hunt_team3",
-			"pos_x": 338,
-			"pos_y": 239,
-			"pos_width": 570,
-			"pos_height": 719,
-			"pos_shape": "rect"
+			"pos_x": 0,
+			"pos_y": 0
 		}
 	}
 }

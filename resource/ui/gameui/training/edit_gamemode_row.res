@@ -15,7 +15,7 @@ res
 			tall  					f5	
 			proportionalToParent	1
 			labelText				"< Gamemode Name >"
-			font					FoundationSans17
+			font					FoundationSans18
 			allcaps					1
 			textInsetX				42
 			use_proportional_insets 1
@@ -61,7 +61,7 @@ res
 			tall  					f5
 			proportionalToParent	1
 			labelText				"< Gamemode Name >"
-			font					FoundationSans16
+			font					FoundationSans18
 			allcaps					1
 			textInsetX				42
 			use_proportional_insets 1

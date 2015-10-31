@@ -121,7 +121,7 @@ resource/UI/gameui/lobby.res
 					proportionalToParent		1	
 					paintbackground				0
 
-					default_model				"models/characters/security_specialist.mdl"
+					default_model				"models/characters/security_rifleman.mdl"
 					fov 						11
 					allow_rot					1
 					useparentbg					0
@@ -154,7 +154,6 @@ resource/UI/gameui/lobby.res
 					// Weapons to attach
 					bonemerge
 					{
-						model 					models/characters/us_cap_specialist.mdl
 						model 					models/weapons/w_galil.mdl
 					}
 
@@ -747,9 +746,10 @@ resource/UI/gameui/lobby.res
 				tall				20			
 				labelText			#GameUI_Party
 				
-				textInsetX			15
+				textInsetX			8
 				allcaps				1
 				font				FoundationSans14
+				use_proportional_insets 1
 			}
 			
 			LobbyCount
@@ -763,8 +763,9 @@ resource/UI/gameui/lobby.res
 				
 				labelText				""
 				textAlignment			east
-				textInsetX				50
+				textInsetX				36
 				font					OratorStd14
+				use_proportional_insets 1
 			}
 			
 			PartyPlayerList
@@ -774,7 +775,7 @@ resource/UI/gameui/lobby.res
 				xpos					8
 				ypos					30
 				wide					f14
-				tall					150
+				tall					254
 				
 				paintbackground			0			
 				proportionalToParent	1
@@ -883,11 +884,12 @@ resource/UI/gameui/lobby.res
 				wide					f
 				tall					20
 					
-				textInsetX 				10
+				textInsetX 				8
 				labelText				"#GameUI_Friends"
 				textAlignment			west
 				font					FoundationSans14
 				allcaps					1
+				use_proportional_insets 1
 			}
 
 			TabFriends

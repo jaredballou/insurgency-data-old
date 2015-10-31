@@ -3,7 +3,7 @@ res
 	PlaylistRow
 	{
 		wide					f
-		tall					40	
+		tall					35
 		proportionalToParent	1	
 		
 		Icon

@@ -203,13 +203,6 @@
 		"paintbackground"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"labelText"				"#GameUI_CustomContent_Tags"
-		
-		"?update_mode"
-		{
-			"visible"		"0"
-			"enabled"		"0"				
-		}
-		
 		"textinsetx"			"10"
 		"textinsety"			"0"
 		"textAlignment"			"east"
@@ -222,15 +215,23 @@
 		"xpos"					"120"
 		"ypos"					"215"
 		"wide"					"200"
-		"tall"					"180"
+		"tall"					"150"
 		"visible"				"1"
 		"enabled"				"1"	
-		
-		"?update_mode"
-		{
-			"visible"		"0"
-			"enabled"		"0"				
-		}
+	}
+
+	"LblTagsGenerated"
+	{
+		"ControlName"			"Label"
+		"fieldName"				"LblTagsGenerated"
+		"xpos"					"120"
+		"ypos"					"215"
+		"wide"					"250"
+		"tall"					"32"
+		"visible"				"0"
+		"enabled"				"1"
+		"textAlignment"			"north-west"	
+		"wrap"					"1"
 	}
 	
 	"LblChangeNotes"
@@ -238,9 +239,9 @@
 		"ControlName"			"Label"
 		"fieldName"				"LblChangeNotes"
 		"xpos"					"0"
-		"ypos"					"235"
+		"ypos"					"370"
 		"wide"					"120"
-		"tall"					"12"
+		"tall"					"24"
 		"visible"				"0"
 		"enabled"				"0"
 
@@ -264,7 +265,7 @@
 		"ControlName"			"TextEntry"
 		"fieldName"				"TxtChangeNotes"
 		"xpos"					"120"
-		"ypos"					"235"
+		"ypos"					"370"
 		"wide"					"250"
 		"tall"					"102"
 		"visible"				"0"
@@ -299,7 +300,7 @@
 		"ControlName"			"Button"
 		"fieldName"				"PublishButton"
 		"xpos"					"120"
-		"ypos"					"400"
+		"ypos"					"370"
 		"wide"					"20"
 		"tall"					"16"
 		proportionalToParent	1
@@ -322,6 +323,11 @@
 		"allcaps"				"1"
 		"textinsetx"			"15"
 		"textAlignment"			"center"
+
+		"?update_mode"
+		{
+			"ypos"				"482"			
+		}
 	}
 	
 	"TxtPublishLegal"
@@ -329,7 +335,7 @@
 		"ControlName"			"Label"
 		"fieldName"				"TxtPublishLegal"
 		"xpos"					"120"
-		"ypos"					"421"
+		"ypos"					"391"
 		"wide"					"f120"
 		"tall"					"32"
 		proportionalToParent	1
@@ -339,7 +345,7 @@
 
 		"?update_mode"
 		{
-			"visible"			"0"
+			"ypos"				"503"
 		}
 		
 		"labelText"				"#GameUI_Workshop_Legal"

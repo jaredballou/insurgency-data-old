@@ -216,7 +216,7 @@
 			"ypos"					"170"
 			"zpos"					"5"
 			"wide"					"360"
-			"tall"					"120"
+			"tall"					"f170"
 			"visible"				"0"
 			"enabled"				"1"
 			"wrap"					"1"

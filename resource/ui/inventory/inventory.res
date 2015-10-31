@@ -203,7 +203,7 @@
 			"ControlName"					"Panel"		
 			"xpos"						"r383"
 			"ypos"						"629"
-			"zpos"						"1"
+			"zpos"						"2"
 			"wide"						"225"
 			"tall"						"8"
 			"visible"					"1"

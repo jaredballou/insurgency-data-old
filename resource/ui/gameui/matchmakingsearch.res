@@ -3,13 +3,11 @@
 	"MatchmakingSearch"
 	{	
 		"ControlName"				"Frame"
-		"xpos"					"c-205"	[$WIN32WIDE]
-		"xpos"					"c-140"	[!$WIN32WIDE]
-		"ypos"					"65"
-		"wide"					"410" [$WIN32WIDE]
-		"wide"					"275" [!$WIN32WIDE]
-		"tall"					"380" [$WIN32WIDE]
-		"tall"					"380" [!$WIN32WIDE]
+		xpos						485
+		ypos						27
+		wide						f545
+		tall						f57
+		proportionalToParent		1
 
 		"BackButton"
 		{	

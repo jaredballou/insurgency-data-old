@@ -3,7 +3,7 @@ res
 	PlaylistRowModSeperator
 	{
 		wide					f
-		tall					30	
+		tall					25	
 		proportionalToParent	1	
 		
 		LblMods

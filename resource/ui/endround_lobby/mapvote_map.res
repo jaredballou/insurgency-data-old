@@ -50,10 +50,10 @@
 		"ControlName"	"Label"
 		
 		"xpos"			"0"
-		"ypos"			"90"
+		"ypos"			"87"
 		"zpos"			"-1"
 		"wide"			"240"
-		"tall"			"38"
+		"tall"			"24"
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -62,7 +62,7 @@
 		"allcaps"		"1"
 		"fgcolor_override" "255 255 255 120"
 		"bgcolor_override" "0 0 0 0"
-		"textinsetx"	"15"
+		"textinsetx"	"10"
 		"use_proportional_insets" "1"
 	}
 	

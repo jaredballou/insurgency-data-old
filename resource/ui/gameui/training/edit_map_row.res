@@ -215,7 +215,7 @@ res
 				use_proportional_insets 1
 				textAlignment			center
 				forceBaseColor			1
-				command					"Select1"
+				command					"Select2"
 
 				defaultBgColor_override		"27 23 23 0"	
 				defaultFgColor_override		"242 235 216 255"
@@ -364,7 +364,7 @@ res
 				use_proportional_insets 1
 				textAlignment			center
 				forceBaseColor			1
-				command					"Select1"
+				command					"Select3"
 
 				defaultBgColor_override		"27 23 23 0"	
 				defaultFgColor_override		"242 235 216 255"

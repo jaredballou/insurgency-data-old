@@ -1,0 +1,97 @@
+{
+	"gametypes": {
+		"checkpoint": {
+			"attackingteam": "security",
+			"controlpoint": {
+				"A": {
+					"pos_name": "A",
+					"pos_team": 3
+				},
+				"B": {
+					"pos_name": "B",
+					"pos_team": 3
+				},
+				"C": {
+					"pos_name": "C",
+					"pos_team": 3
+				},
+				"D": {
+					"pos_name": "D",
+					"pos_team": 3
+				},
+				"E": {
+					"pos_x": 908,
+					"pos_y": 939,
+					"pos_classname": "obj_weapon_cache",
+					"pos_type": "obj_weapon_cache",
+					"pos_team": 3,
+					"pos_name": "E"
+				},
+				"F": {
+					"pos_name": "F",
+					"pos_team": 3
+				},
+				"G": {
+					"pos_x": 189,
+					"pos_y": 817,
+					"pos_classname": "obj_weapon_cache",
+					"pos_type": "obj_weapon_cache",
+					"pos_team": 3,
+					"pos_name": "G"
+				},
+				"H": {
+					"pos_name": "H",
+					"pos_team": 3
+				},
+				"I": {
+					"pos_name": "I",
+					"pos_team": 3
+				},
+				"J": {
+					"pos_x": 487,
+					"pos_y": 137,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
+					"pos_name": "J",
+					"pos_team": 3
+				},
+				"K": {
+					"pos_name": "K",
+					"pos_team": 3
+				}
+			},
+			"spawnzones": {
+				"spawnzone1": [
+				],
+				"spawnzone2": [
+				],
+				"spawnzone3": [
+				],
+				"spawnzone4": [
+				],
+				"spawnzone5": [
+				],
+				"spawnzone6": [
+				],
+				"spawnzone7": [
+				],
+				"spawnzone8": [
+				],
+				"spawnzone9": [
+				],
+				"spawnzone10": [
+				],
+				"spawnzone11": [
+				]
+			}
+		}
+	},
+	"overview": {
+		"material": "overviews\/dry_canal_coop",
+		"pos_x": 3750,
+		"pos_y": -1300,
+		"scale": 10.3,
+		"rotate": 0,
+		"zoom": 1
+	}
+}

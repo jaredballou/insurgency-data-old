@@ -1,8 +1,9 @@
 {
 	"gametypes": {
+		"compassoffset": "A70",
+		"nightlighting": "A",
 		"hunt": {
 			"attackingteam": "security",
-			"nightlighting": "1",
 			"controlpoint": {
 				"A": {
 					"pos_x": 692,
@@ -56,7 +57,7 @@
 		"?nightmap": "1"
 	},
 	"overview": {
-		"material": "overviews\/uprising_hunt",
+		"material": "overviews\/uprising_night",
 		"pos_x": -4322,
 		"pos_y": 4902,
 		"scale": 8,

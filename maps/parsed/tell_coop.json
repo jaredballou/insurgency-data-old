@@ -356,6 +356,91 @@
 					}
 				}
 			}
+		},
+		"conquer": {
+			"attackingteam": "security",
+			"controlpoint": {
+				"A": {
+					"pos_name": "A",
+					"pos_team": 3
+				},
+				"B": {
+					"pos_x": 818,
+					"pos_y": 550,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
+					"pos_name": "B",
+					"pos_team": 3
+				},
+				"C": {
+					"pos_name": "C",
+					"pos_team": 3
+				},
+				"D": {
+					"pos_name": "D",
+					"pos_team": 3
+				},
+				"E": {
+					"pos_x": 268,
+					"pos_y": 642,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
+					"pos_name": "E",
+					"pos_team": 3
+				},
+				"F": {
+					"pos_name": "F",
+					"pos_team": 3
+				},
+				"G": {
+					"pos_x": 213,
+					"pos_y": 240,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
+					"pos_name": "G",
+					"pos_team": 3
+				},
+				"H": {
+					"pos_name": "H",
+					"pos_team": 3
+				},
+				"I": {
+					"pos_name": "I",
+					"pos_team": 3
+				},
+				"J": {
+					"pos_x": 213,
+					"pos_y": 550,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
+					"pos_name": "J",
+					"pos_team": 3
+				},
+				"K": {
+					"pos_x": 434,
+					"pos_y": 527,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
+					"pos_name": "K",
+					"pos_team": 3
+				},
+				"L": {
+					"pos_x": 669,
+					"pos_y": 504,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
+					"pos_name": "L",
+					"pos_team": 3
+				},
+				"M": {
+					"pos_x": 812,
+					"pos_y": 642,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
+					"pos_name": "M",
+					"pos_team": 3
+				}
+			}
 		}
 	},
 	"overview": {
@@ -364,7 +449,8 @@
 		"pos_y": 2360,
 		"scale": 10,
 		"rotate": 0,
-		"zoom": 1
+		"zoom": 1,
+		"grid_divisions": 12
 	},
 	"points": {
 		"cp_m": {

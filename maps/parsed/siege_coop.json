@@ -257,7 +257,8 @@
 		"pos_y": 4110,
 		"scale": 8,
 		"rotate": 0,
-		"zoom": 1
+		"zoom": 1,
+		"grid_dark": 1
 	},
 	"points": {
 		"spawnzone_1_team3": {

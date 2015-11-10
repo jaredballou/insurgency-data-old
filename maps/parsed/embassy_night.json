@@ -1,0 +1,12 @@
+{
+	"gametypes": "embassy.txt",
+	"theater_conditions": "e",
+	"overview": {
+		"material": "overviews\/embassy_night",
+		"pos_x": -5994,
+		"pos_y": 4684,
+		"scale": 9.35,
+		"rotate": 0,
+		"zoom": 1
+	}
+}

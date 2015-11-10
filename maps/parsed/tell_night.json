@@ -1,0 +1,273 @@
+{
+	"gametypes": "tell.txt",
+	"theater_conditions": "t",
+	"overview": {
+		"material": "overviews\/tell_night",
+		"pos_x": -7642,
+		"pos_y": 2559,
+		"scale": 11.5,
+		"rotate": 0,
+		"zoom": 1,
+		"grid_divisions": 12
+	},
+	"points": {
+		"spawnzone_03_team3": {
+			"pos_classname": "ins_spawnzone",
+			"pos_blockzone": "bz_ins_3",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "spawnzone_03_team3",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"spawnzone_ff_team3": {
+			"pos_classname": "ins_spawnzone",
+			"pos_blockzone": "bz_ff_ins",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "spawnzone_ff_team3",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"spawnzone_ff_team2": {
+			"pos_classname": "ins_spawnzone",
+			"pos_blockzone": "bz_ff_sec",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "spawnzone_ff_team2",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"ff_cp_1": {
+			"pos_x": 437,
+			"pos_y": 570,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "ff_cp_1",
+			"pos_team": 0
+		},
+		"ff_cp_2": {
+			"pos_x": 242,
+			"pos_y": 580,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "ff_cp_2",
+			"pos_team": 0
+		},
+		"ff_cp_3": {
+			"pos_x": 258,
+			"pos_y": 344,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "ff_cp_3",
+			"pos_team": 0
+		},
+		"occ_sec": {
+			"pos_classname": "ins_blockzone",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "occ_sec",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"occ_ins": {
+			"pos_classname": "ins_blockzone",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "occ_ins",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"occupy_spawnzone_team3": {
+			"pos_classname": "ins_spawnzone",
+			"pos_blockzone": "occ_ins",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "occupy_spawnzone_team3",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"occupy_spawnzone_team2": {
+			"pos_classname": "ins_spawnzone",
+			"pos_blockzone": "occ_sec",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "occupy_spawnzone_team2",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"occupy_cap": {
+			"pos_x": 296,
+			"pos_y": 575,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "occupy_cap",
+			"pos_team": 0
+		},
+		"vip_cap_2": {
+			"pos_x": 455,
+			"pos_y": 651,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "vip_cap_2",
+			"pos_team": 0
+		},
+		"vip_cap_1": {
+			"pos_x": 565,
+			"pos_y": 426,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "vip_cap_1",
+			"pos_team": 0
+		},
+		"spawnzone_neutral_team3": {
+			"pos_classname": "ins_spawnzone",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "spawnzone_neutral_team3",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"spawnzone_neutral_team2": {
+			"pos_classname": "ins_spawnzone",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "spawnzone_neutral_team2",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"strike_spawn_team3": {
+			"pos_classname": "ins_spawnzone",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "strike_spawn_team3",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"strike_spawn_team2": {
+			"pos_classname": "ins_spawnzone",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "strike_spawn_team2",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"bz_sec_1": {
+			"pos_classname": "ins_blockzone",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "bz_sec_1",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"bz_sec_3": {
+			"pos_classname": "ins_blockzone",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "bz_sec_3",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"bz_ins_3": {
+			"pos_classname": "ins_blockzone",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "bz_ins_3",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"bz_sec_2": {
+			"pos_classname": "ins_blockzone",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "bz_sec_2",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"cp_3": {
+			"pos_x": 249,
+			"pos_y": 287,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "cp_3",
+			"pos_team": 0
+		},
+		"spawnzone_02_team3": {
+			"pos_classname": "ins_spawnzone",
+			"pos_blockzone": "bz_ins_2",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "spawnzone_02_team3",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"spawnzone_03_team2": {
+			"pos_classname": "ins_spawnzone",
+			"pos_blockzone": "bz_sec_3",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "spawnzone_03_team2",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"bz_ins_2": {
+			"pos_classname": "ins_blockzone",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "bz_ins_2",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"cp_2": {
+			"pos_x": 300,
+			"pos_y": 566,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "cp_2",
+			"pos_team": 0
+		},
+		"spawnzone_01_team3": {
+			"pos_classname": "ins_spawnzone",
+			"pos_blockzone": "bz_ins_1",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "spawnzone_01_team3",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"spawnzone_02_team2": {
+			"pos_classname": "ins_spawnzone",
+			"pos_blockzone": "bz_sec_2",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "spawnzone_02_team2",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"spawnzone_01_team2": {
+			"pos_classname": "ins_spawnzone",
+			"pos_blockzone": "bz_sec_1",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "spawnzone_01_team2",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"cp_1": {
+			"pos_x": 644,
+			"pos_y": 455,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "cp_1",
+			"pos_team": 0
+		},
+		"bz_ins_1": {
+			"pos_classname": "ins_blockzone",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "bz_ins_1",
+			"pos_x": 0,
+			"pos_y": 0
+		}
+	}
+}

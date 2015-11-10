@@ -1,0 +1,12 @@
+{
+	"gametypes": "kandagal.txt",
+	"theater_conditions": "k",
+	"overview": {
+		"material": "overviews\/kandagal_night",
+		"pos_x": -6194,
+		"pos_y": 7425,
+		"scale": 11,
+		"rotate": 0,
+		"zoom": 1
+	}
+}

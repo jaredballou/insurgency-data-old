@@ -1,9 +1,10 @@
 {
 	"gametypes": {
+		"compassoffset": "A80",
+		"navfile": "Aerticality",
+		"nightlighting": "A",
 		"hunt": {
-			"navfile": "verticality",
 			"attackingteam": "security",
-			"nightlighting": "1",
 			"controlpoint": {
 				"A": {
 					"pos_x": 565,

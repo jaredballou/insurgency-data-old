@@ -1,8 +1,8 @@
 {
 	"gametypes": {
+		"navfile": "Ainjar",
+		"nightlighting": "A",
 		"survival": {
-			"navfile": "sinjar",
-			"nightlighting": "1",
 			"attackingteam": "security",
 			"controlpoint": {
 				"A": {
@@ -183,7 +183,8 @@
 		"pos_y": 8007,
 		"scale": 13.5,
 		"rotate": 0,
-		"zoom": 1
+		"zoom": 1,
+		"grid_divisions": 12
 	},
 	"points": {
 		"spawnzone_cache_a_team3": {

@@ -1,8 +1,9 @@
 {
 	"gametypes": {
+		"compassoffset": "A80",
+		"navfile": "Aerticality",
+		"nightlighting": "A",
 		"survival": {
-			"navfile": "verticality",
-			"nightlighting": "1",
 			"attackingteam": "security",
 			"controlpoint": {
 				"A": {

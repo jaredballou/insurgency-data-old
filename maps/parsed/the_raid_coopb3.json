@@ -1,0 +1,50 @@
+{
+	"gametypes": {
+		"checkpoint": {
+			"attackingteam": "security",
+			"controlpoint": {
+				"A": {
+					"pos_name": "A",
+					"pos_team": 3
+				},
+				"B": {
+					"pos_name": "B",
+					"pos_team": 3
+				},
+				"C": {
+					"pos_name": "C",
+					"pos_team": 3
+				},
+				"D": {
+					"pos_name": "D",
+					"pos_team": 3
+				},
+				"E": {
+					"pos_name": "E",
+					"pos_team": 3
+				}
+			},
+			"spawnzones": {
+				"disablespawns": "1",
+				"spawnzone_a": [
+				],
+				"spawnzone_b": [
+				],
+				"spawnzone_c": [
+				],
+				"spawnzone_d": [
+				],
+				"spawnzone_e": [
+				]
+			}
+		}
+	},
+	"overview": {
+		"material": "overviews\/the_raid_coopb3",
+		"pos_x": 5457,
+		"pos_y": -10369,
+		"scale": 4.4,
+		"rotate": 0,
+		"zoom": 1
+	}
+}

@@ -1,0 +1,88 @@
+{
+	"gametypes": {
+		"compassoffset": "A80",
+		"navfile": "Aerticality",
+		"nightlighting": "A",
+		"checkpoint": {
+			"attackingteam": "security",
+			"controlpoint": {
+				"A": {
+					"pos_name": "A",
+					"pos_team": 3
+				},
+				"B": {
+					"pos_name": "B",
+					"pos_team": 3
+				},
+				"C": {
+					"pos_x": 525,
+					"pos_y": 668,
+					"pos_classname": "obj_weapon_cache",
+					"pos_type": "obj_weapon_cache",
+					"pos_team": 3,
+					"pos_name": "C"
+				},
+				"D": {
+					"pos_name": "D",
+					"pos_team": 3
+				},
+				"E": {
+					"pos_x": 470,
+					"pos_y": 388,
+					"pos_classname": "obj_weapon_cache",
+					"pos_type": "obj_weapon_cache",
+					"pos_team": 3,
+					"pos_name": "E"
+				},
+				"F": {
+					"pos_name": "F",
+					"pos_team": 3
+				},
+				"G": {
+					"pos_name": "G",
+					"pos_team": 3
+				},
+				"H": {
+					"pos_x": 60,
+					"pos_y": 595,
+					"pos_classname": "obj_weapon_cache",
+					"pos_type": "obj_weapon_cache",
+					"pos_team": 3,
+					"pos_name": "H"
+				}
+			},
+			"spawnzones": {
+				"spawnzone_1": [
+				],
+				"spawnzone_2": [
+				],
+				"spawnzone_3": [
+				],
+				"spawnzone_4": [
+				],
+				"spawnzone_5": [
+				],
+				"spawnzone_6": [
+				],
+				"spawnzone_7": [
+				],
+				"spawnzone_8": [
+				]
+			},
+			"settings": {
+				"counterattack_chance": {
+					"7": "1.0"
+				}
+			}
+		}
+	},
+	"overview": {
+		"material": "overviews\/verticality",
+		"pos_x": -7124,
+		"pos_y": 6169,
+		"scale": 12,
+		"rotate": 0,
+		"zoom": 1,
+		"grid_dark": 1
+	}
+}

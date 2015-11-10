@@ -1,7 +1,8 @@
 {
 	"gametypes": {
+		"compassoffset": "A80",
+		"navfile": "Atation",
 		"hunt": {
-			"navfile": "station",
 			"attackingteam": "security",
 			"controlpoint": {
 				"A": {

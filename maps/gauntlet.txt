@@ -1,9 +1,0 @@
-"cpsetup.txt"
-{
-	"push"
-	{
-		"AttackingTeam"		"security"
-		"controlpoint"		"pushpoint_01"
-		"controlpoint"		"pushpoint_02"
-	}
-} 

@@ -34,8 +34,9 @@
 			"disablespawns" "1"
 			"0"  "spawnzone_1"
 		}
-	  }
-	  "infiltrate"
+	}
+	
+	"infiltrate"
 	{		
 		"controlpoint"		"terminalpoint_a"
 		"controlpoint"		"terminalpoint_b"
@@ -81,11 +82,11 @@
 				"angles"		"0 -90 0"
 				"targetname"	"terminalpoint_b"
 			}		
-     }
-
-   }
-		"survival"
-		{
+		}
+	}
+	
+	"survival"
+	{
 		"AttackingTeam"		"security"		
 		
 		"controlpoint"	"cachepoint_a"
@@ -100,6 +101,7 @@
 		{
 			"mp_survival_nav_spawning"	"1"
 		}
+		
 		"entities"
 		{
 			// Cache A
@@ -244,7 +246,7 @@
 		{
 			"navspawn"
 			{
-				"origin"		"2116 1848 8"
+				"origin"		"2116 1848 18"
 				"teamnumber"	"2"
 				"bonus" 		"0"
 				"expandtype"	"box"
@@ -361,8 +363,8 @@
 	{
 		"AttackingTeam"		"security"
 		
-		"controlpoint"		"cap3"
-		"controlpoint"		"cap2"
+		"controlpoint"		"cap_conq_a"
+		"controlpoint"		"cap_conq_b"
 		"controlpoint"		"cap_conq_c"
 		"controlpoint"		"cachepoint_a"
 		"controlpoint"		"cachepoint_b"
@@ -384,7 +386,7 @@
 		{
 			"navspawn"
 			{
-				"origin"		"-2788 -95 18"
+				"origin"		"2116 1848 18"
 				"teamnumber"	"2"
 				"bonus" 		"0"
 				"expandtype"	"box"
@@ -393,13 +395,18 @@
 			}
 		}
 		
+		"cvars"
+		{
+			"nav_spawn_enemy_minimum_distance_frac_conquer_start"		"1.5"
+		}
+		
 		"entities"
 		{		
 			// Cache A
 			"obj_weapon_cache"
 			{
-				"origin"		"-1053 -1244 17"
-				"angles"		"0 90 0"
+				"origin"		"129 -967 8"
+				"angles"		"0 180 0"
 				"targetname"	"cache_a"
 				"teamnumber"	"3"
 				"ControlPoint"	"cachepoint_a"
@@ -407,8 +414,8 @@
 			}
 			"point_controlpoint"
 			{
-				"origin"		"-1053 -1244 89"
-				"angles"		"0 90 0"
+				"origin"		"129 -967 80"
+				"angles"		"0 180 0"
 				"targetname"	"cachepoint_a"
 			}	
 			

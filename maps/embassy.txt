@@ -818,7 +818,7 @@
 			// Cache I
 			"obj_weapon_cache"
 			{
-				"origin"		"-231 -961 -896"
+				"origin"		"-282 -1084 -896"
 				"angles"		"0 90 0"
 				"targetname"	"cache_i"
 				"teamnumber"	"3"
@@ -827,7 +827,7 @@
 			}	
 			"point_controlpoint"
 			{
-				"origin"		"-231 -961 -824"
+				"origin"		"-282 -1084 -824"
 				"angles"		"0 90 0"
 				"targetname"	"cachepoint_i"
 			}	

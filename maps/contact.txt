@@ -80,7 +80,7 @@
 		"spawnzones"
 		{
 			"disablespawns" "1"
-			"0"   "spawnzone_ff"
+			"0"   "spawnzone_occupy"
 		}
 	}
 

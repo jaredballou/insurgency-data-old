@@ -1,0 +1,9 @@
+"bunker_busting_coopv1_3"
+{
+	material	overviews/bunker_busting_coopv1_3       	// texture file
+	pos_x		"-4413"			// X coordinate
+	pos_y		"931"			// Y coordinate
+	scale		"8.0" 			// scale used when taking the screenshot
+	rotate		"0"			// map was rotated by 90 degrees in image editor
+	zoom		1			// optimal zoom factor if map is shown in full size
+}

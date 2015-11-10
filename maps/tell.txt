@@ -420,13 +420,18 @@
 		{
 			"navspawn"
 			{
-				"origin"		"2119.358887 -6393.246582 14.924232"
+				"origin"		"832 -6521 151"
 				"teamnumber"	"2"
 				"bonus" 		"0"
 				"expandtype"	"box"
-				"expandradius"	"600.0"
+				"expandradius"	"1000.0"
 				"playerspread"	"48"
 			}
+		}
+		
+		"cvars"
+		{
+			"nav_spawn_enemy_minimum_distance_frac_conquer_start"	"3"
 		}
 		
 		"entities"

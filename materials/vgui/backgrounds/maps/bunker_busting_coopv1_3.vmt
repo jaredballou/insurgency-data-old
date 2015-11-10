@@ -1,0 +1,13 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/backgrounds/maps/bunker_busting_coopv1_3"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$ignorez" 1
+	"$no_fullbright" "1"
+	"$nolod" "1"
+	"%keywords" "gameui"
+
+	"$SHADERSRGBREAD360" 1
+}
+

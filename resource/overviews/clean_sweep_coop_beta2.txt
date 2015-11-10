@@ -1,0 +1,9 @@
+"clean_sweep_coop_beta2"
+{
+	material	overviews/clean_sweep_coop_beta2       	// texture file
+	pos_x		"-4700"			// X coordinate
+	pos_y		"8424"			// Y coordinate
+	scale		"11.0" 			// scale used when taking the screenshot
+	rotate		"0"			// map was rotated by 90 degrees in image editor
+	zoom		1			// optimal zoom factor if map is shown in full size
+}

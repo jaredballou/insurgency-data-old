@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "overviews/docks"
+	"$nolod" 1
+	"$translucent" 1
+}

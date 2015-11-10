@@ -790,6 +790,11 @@
 			}
 		}
 		
+		"cvars"
+		{
+			"nav_spawn_enemy_minimum_distance_frac_conquer_start"	"3"
+		}
+		
 		"entities"
 		{			
 			// Cache A
@@ -872,7 +877,7 @@
 			}	
 			"point_controlpoint"
 			{
-				"origin"		1468 1590 72"
+				"origin"		"1468 1590 72"
 				"angles"		"0 0 0"
 				"targetname"	"cachepoint_e"
 			}

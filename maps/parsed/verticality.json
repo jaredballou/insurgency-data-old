@@ -415,8 +415,8 @@
 					"pos_name": "A"
 				},
 				"B": {
-					"pos_x": 577,
-					"pos_y": 397,
+					"pos_x": 571,
+					"pos_y": 387,
 					"pos_classname": "obj_weapon_cache",
 					"pos_type": "obj_weapon_cache",
 					"pos_team": 3,

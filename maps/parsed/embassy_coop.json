@@ -1,0 +1,65 @@
+{
+	"gametypes": {
+		"checkpoint": {
+			"attackingteam": "security",
+			"controlpoint": {
+				"A": {
+					"pos_name": "A",
+					"pos_team": 3
+				},
+				"B": {
+					"pos_name": "B",
+					"pos_team": 3
+				},
+				"C": {
+					"pos_x": 404,
+					"pos_y": 764,
+					"pos_classname": "obj_weapon_cache",
+					"pos_type": "obj_weapon_cache",
+					"pos_team": 3,
+					"pos_name": "C"
+				},
+				"D": {
+					"pos_name": "D",
+					"pos_team": 3
+				},
+				"E": {
+					"pos_name": "E",
+					"pos_team": 3
+				},
+				"F": {
+					"pos_name": "F",
+					"pos_team": 3
+				},
+				"G": {
+					"pos_name": "G",
+					"pos_team": 3
+				}
+			},
+			"spawnzones": {
+				"spawnzone_1": [
+				],
+				"spawnzone_2": [
+				],
+				"spawnzone_3": [
+				],
+				"spawnzone_4": [
+				],
+				"spawnzone_5": [
+				],
+				"spawnzone_6": [
+				],
+				"spawnzone_7": [
+				]
+			}
+		}
+	},
+	"overview": {
+		"material": "overviews\/embassy",
+		"pos_x": -5156,
+		"pos_y": 4771,
+		"scale": 9.35,
+		"rotate": 0,
+		"zoom": 1
+	}
+}

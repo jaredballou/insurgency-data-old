@@ -278,7 +278,7 @@
 			"controlpoint": {
 				"A": {
 					"pos_x": 465,
-					"pos_y": 744,
+					"pos_y": 745,
 					"pos_classname": "obj_weapon_cache",
 					"pos_type": "obj_weapon_cache",
 					"pos_team": 3,
@@ -286,7 +286,7 @@
 				},
 				"B": {
 					"pos_x": 557,
-					"pos_y": 707,
+					"pos_y": 708,
 					"pos_classname": "obj_weapon_cache",
 					"pos_type": "obj_weapon_cache",
 					"pos_team": 3,
@@ -498,8 +498,8 @@
 					"pos_name": "K"
 				},
 				"L": {
-					"pos_x": 527,
-					"pos_y": 285,
+					"pos_x": 526,
+					"pos_y": 287,
 					"pos_classname": "obj_weapon_cache",
 					"pos_type": "obj_weapon_cache",
 					"pos_team": 3,
@@ -530,6 +530,9 @@
 					"expandradius": "600.0",
 					"playerspread": "48"
 				}
+			},
+			"cvars": {
+				"nav_spawn_enemy_minimum_distance_frac_conquer_start": "3"
 			}
 		}
 	},

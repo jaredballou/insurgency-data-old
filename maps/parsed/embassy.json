@@ -479,8 +479,8 @@
 					"pos_name": "K"
 				},
 				"L": {
-					"pos_x": 527,
-					"pos_y": 613,
+					"pos_x": 521,
+					"pos_y": 626,
 					"pos_classname": "obj_weapon_cache",
 					"pos_type": "obj_weapon_cache",
 					"pos_team": 3,

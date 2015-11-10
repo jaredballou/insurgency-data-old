@@ -129,25 +129,8 @@
 			},
 			"spawnzones": {
 				"disablespawns": "1",
-				"spawnzone_ff": {
-					"spawnzone_ff_team2": {
-						"pos_classname": "ins_spawnzone",
-						"pos_blockzone": "blockzone_ff_sec",
-						"pos_type": "area",
-						"pos_team": 2,
-						"pos_name": "spawnzone_ff_team2",
-						"pos_x": 0,
-						"pos_y": 0
-					},
-					"spawnzone_ff_team3": {
-						"pos_classname": "ins_spawnzone",
-						"pos_type": "area",
-						"pos_team": 3,
-						"pos_name": "spawnzone_ff_team3",
-						"pos_x": 0,
-						"pos_y": 0
-					}
-				}
+				"spawnzone_occupy": [
+				]
 			}
 		},
 		"push": {

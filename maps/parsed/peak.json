@@ -542,6 +542,9 @@
 					"expandradius": "600.0",
 					"playerspread": "48"
 				}
+			},
+			"cvars": {
+				"nav_spawn_enemy_minimum_distance_frac_conquer_start": "4"
 			}
 		}
 	},

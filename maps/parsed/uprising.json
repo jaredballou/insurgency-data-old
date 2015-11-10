@@ -232,7 +232,7 @@
 			},
 			"navspawns": {
 				"navspawn": {
-					"origin": "2116 1848 8",
+					"origin": "2116 1848 18",
 					"teamnumber": "2",
 					"bonus": "0",
 					"expandtype": "box",
@@ -269,18 +269,10 @@
 			"attackingteam": "security",
 			"controlpoint": {
 				"A": {
-					"pos_x": 490,
-					"pos_y": 457,
-					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
 					"pos_name": "A",
 					"pos_team": 3
 				},
 				"B": {
-					"pos_x": 529,
-					"pos_y": 793,
-					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
 					"pos_name": "B",
 					"pos_team": 3
 				},
@@ -289,8 +281,8 @@
 					"pos_team": 3
 				},
 				"D": {
-					"pos_x": 349,
-					"pos_y": 757,
+					"pos_x": 518,
+					"pos_y": 717,
 					"pos_classname": "obj_weapon_cache",
 					"pos_type": "obj_weapon_cache",
 					"pos_team": 3,
@@ -374,13 +366,16 @@
 			},
 			"navspawns": {
 				"navspawn": {
-					"origin": "-2788 -95 18",
+					"origin": "2116 1848 18",
 					"teamnumber": "2",
 					"bonus": "0",
 					"expandtype": "box",
 					"expandradius": "600.0",
 					"playerspread": "48"
 				}
+			},
+			"cvars": {
+				"nav_spawn_enemy_minimum_distance_frac_conquer_start": "1.5"
 			}
 		}
 	},

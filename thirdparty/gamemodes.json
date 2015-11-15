@@ -15,8 +15,10 @@
 	],
 	"coop": [
 		"checkpoint",
-		"conquest",
+		"conquer",
 		"hunt",
+		"outpost",
 		"survival"
 	]
 }
+

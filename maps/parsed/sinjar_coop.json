@@ -286,7 +286,7 @@
 			"pos_classname": "point_controlpoint",
 			"pos_type": "point_controlpoint",
 			"pos_name": "cachepoint_f",
-			"pos_team": 3
+			"pos_team": 0
 		},
 		"spawnzone_3_team2": {
 			"pos_classname": "ins_spawnzone",
@@ -380,7 +380,7 @@
 			"pos_classname": "point_controlpoint",
 			"pos_type": "point_controlpoint",
 			"pos_name": "cachepoint_d",
-			"pos_team": 3
+			"pos_team": 0
 		},
 		"cachepoint_c": {
 			"pos_x": 800,

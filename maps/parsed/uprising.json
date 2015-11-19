@@ -1,8 +1,8 @@
 {
+	"compassoffset": "270",
+	"navfile": "uprising",
+	"nightlighting": "0",
 	"gametypes": {
-		"compassoffset": "A70",
-		"navfile": "Aprising",
-		"nightlighting": "A",
 		"occupy": {
 			"controlpoint": {
 				"A": {

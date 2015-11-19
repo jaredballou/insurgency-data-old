@@ -1,8 +1,8 @@
 {
+	"compassoffset": "235",
+	"navfile": "kandagal",
+	"nightlighting": "0",
 	"gametypes": {
-		"compassoffset": "A35",
-		"navfile": "Aandagal",
-		"nightlighting": "A",
 		"push": {
 			"attackingteam": "insurgents",
 			"controlpoint": {

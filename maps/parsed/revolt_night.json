@@ -1,6 +1,4 @@
 {
-	"gametypes": "revolt.txt",
-	"theater_conditions": "r",
 	"overview": {
 		"material": "overviews\/revolt_night",
 		"pos_x": -5763,

@@ -1,6 +1,4 @@
 {
-	"gametypes": "ministry.txt",
-	"theater_conditions": "m",
 	"overview": {
 		"material": "overviews\/ministry_night",
 		"pos_x": -6520,

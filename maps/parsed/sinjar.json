@@ -1,7 +1,7 @@
 {
+	"navfile": "sinjar",
+	"nightlighting": "0",
 	"gametypes": {
-		"navfile": "Ainjar",
-		"nightlighting": "A",
 		"push": {
 			"attackingteam": "security",
 			"controlpoint": {

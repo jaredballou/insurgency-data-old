@@ -1,6 +1,6 @@
 {
+	"compassoffset": "180",
 	"gametypes": {
-		"compassoffset": "A80",
 		"checkpoint": {
 			"attackingteam": "security",
 			"controlpoint": {

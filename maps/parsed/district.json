@@ -1,7 +1,7 @@
 {
+	"navfile": "district",
+	"nightlighting": "0",
 	"gametypes": {
-		"navfile": "Aistrict",
-		"nightlighting": "A",
 		"skirmish": {
 			"controlpoint": {
 				"A": {

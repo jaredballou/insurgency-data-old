@@ -1,6 +1,4 @@
 {
-	"gametypes": "buhriz.txt",
-	"theater_conditions": "b",
 	"overview": {
 		"material": "overviews\/buhriz_night",
 		"pos_x": -11500,

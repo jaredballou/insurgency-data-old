@@ -1,6 +1,4 @@
 {
-	"gametypes": "district.txt",
-	"theater_conditions": "d",
 	"overview": {
 		"material": "overviews\/district_night",
 		"pos_x": -10963,

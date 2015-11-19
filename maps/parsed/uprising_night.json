@@ -1,6 +1,4 @@
 {
-	"gametypes": "uprising.txt",
-	"theater_conditions": "u",
 	"overview": {
 		"material": "overviews\/uprising_night",
 		"pos_x": -4322,

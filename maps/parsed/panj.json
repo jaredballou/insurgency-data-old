@@ -1,8 +1,8 @@
 {
+	"compassoffset": "90",
+	"navfile": "panj",
+	"nightlighting": "0",
 	"gametypes": {
-		"compassoffset": "A0",
-		"navfile": "Aanj",
-		"nightlighting": "A",
 		"skirmish": {
 			"controlpoint": {
 				"A": {

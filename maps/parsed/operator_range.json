@@ -1,4 +1,7 @@
 {
+	"theater_conditions": {
+		"?nightmap": "1"
+	},
 	"gametypes": {
 		"push": {
 			"controlpoint": {
@@ -49,9 +52,6 @@
 				}
 			}
 		}
-	},
-	"theater_conditions": {
-		"?nightmap": "1"
 	},
 	"overview": {
 		"material": "overviews\/operator_range",

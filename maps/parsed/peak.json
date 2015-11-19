@@ -1,8 +1,8 @@
 {
+	"compassoffset": "270",
+	"navfile": "peak",
+	"nightlighting": "0",
 	"gametypes": {
-		"compassoffset": "A70",
-		"navfile": "Aeak",
-		"nightlighting": "A",
 		"skirmish": {
 			"controlpoint": {
 				"A": {

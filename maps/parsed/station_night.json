@@ -1,6 +1,4 @@
 {
-	"gametypes": "station.txt",
-	"theater_conditions": "s",
 	"overview": {
 		"material": "overviews\/station_night",
 		"pos_x": -6534,

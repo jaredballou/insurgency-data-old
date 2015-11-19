@@ -1,6 +1,4 @@
 {
-	"gametypes": "verticality.txt",
-	"theater_conditions": "v",
 	"overview": {
 		"material": "overviews\/verticality_night",
 		"pos_x": -7078,

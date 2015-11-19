@@ -1,8 +1,8 @@
 {
+	"compassoffset": "180",
+	"navfile": "market",
+	"nightlighting": "0",
 	"gametypes": {
-		"compassoffset": "A80",
-		"navfile": "Aarket",
-		"nightlighting": "A",
 		"skirmish": {
 			"controlpoint": {
 				"A": {

@@ -1,6 +1,4 @@
 {
-	"gametypes": "panj.txt",
-	"theater_conditions": "p",
 	"overview": {
 		"material": "overviews\/panj_night",
 		"pos_x": -5374,

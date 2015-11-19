@@ -1,6 +1,4 @@
 {
-	"gametypes": "embassy.txt",
-	"theater_conditions": "e",
 	"overview": {
 		"material": "overviews\/embassy_night",
 		"pos_x": -5994,

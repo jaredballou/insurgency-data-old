@@ -1,6 +1,4 @@
 {
-	"gametypes": "heights.txt",
-	"theater_conditions": "h",
 	"overview": {
 		"material": "overviews\/heights_night",
 		"pos_x": -7352,

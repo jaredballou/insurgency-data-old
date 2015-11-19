@@ -1,6 +1,4 @@
 {
-	"gametypes": "tell.txt",
-	"theater_conditions": "t",
 	"overview": {
 		"material": "overviews\/tell_night",
 		"pos_x": -7642,

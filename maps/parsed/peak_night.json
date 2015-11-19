@@ -1,6 +1,4 @@
 {
-	"gametypes": "peak.txt",
-	"theater_conditions": "p",
 	"overview": {
 		"material": "overviews\/peak_night",
 		"pos_x": -8812,

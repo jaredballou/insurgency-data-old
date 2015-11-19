@@ -1,6 +1,4 @@
 {
-	"gametypes": "sinjar.txt",
-	"theater_conditions": "s",
 	"overview": {
 		"material": "overviews\/sinjar_night",
 		"pos_x": -7351,

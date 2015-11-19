@@ -1,7 +1,7 @@
 {
+	"navfile": "ministry",
+	"nightlighting": "0",
 	"gametypes": {
-		"navfile": "Ainistry",
-		"nightlighting": "A",
 		"skirmish": {
 			"controlpoint": {
 				"A": {

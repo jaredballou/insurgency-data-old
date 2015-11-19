@@ -1,8 +1,8 @@
 {
+	"compassoffset": "180",
+	"navfile": "station",
+	"nightlighting": "0",
 	"gametypes": {
-		"compassoffset": "A80",
-		"navfile": "Atation",
-		"nightlighting": "A",
 		"push": {
 			"attackingteam": "security",
 			"controlpoint": {

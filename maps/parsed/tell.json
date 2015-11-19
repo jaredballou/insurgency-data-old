@@ -1,7 +1,7 @@
 {
+	"navfile": "tell",
+	"nightlighting": "0",
 	"gametypes": {
-		"navfile": "Aell",
-		"nightlighting": "A",
 		"push": {
 			"attackingteam": "security",
 			"controlpoint": {

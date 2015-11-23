@@ -241,6 +241,11 @@
 		{
 			"mp_hunt_nav_spawning"	"1"
 		}
+		
+		"cvars"
+		{
+			"nav_spawn_enemy_minimum_distance_frac_hunt_start"		"0.4"
+		}
 
 		"navspawns"
 		{

@@ -52,21 +52,7 @@
 			// Spawn Prop Caches
 
 			// Security Spawn
-			"obj_weapon_cache"
-			{
-				"origin"		"1577 -5917 370"
-				"angles"		"-3 45 4"
-				"teamnumber"	"2"
-				"TakeDamageBullets" "0"
-			}
 
-			"obj_weapon_cache"
-			{
-				"origin"		"1779 -4890 380"
-				"angles"		"1 30 -5"
-				"teamnumber"	"2"
-				"TakeDamageBullets" "0"
-			}
 
 			// Insurgent Spawn
 			"obj_weapon_cache"

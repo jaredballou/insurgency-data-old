@@ -359,12 +359,12 @@
 		}
 		
 		"entities"
-		{				
+		{		
 			// Cache A
 			"obj_weapon_cache"
 			{
-				"origin"		"1044 -26 232"
-				"angles"		"0 90 0"
+				"origin"		"-604.628296 837.671509 33.031250"
+				"angles"		"0.000000 89.667809 0.000000"
 				"targetname"	"cache_a"
 				"teamnumber"	"2"
 				"ControlPoint"	"cachepoint_a"
@@ -372,16 +372,16 @@
 			}	
 			"point_controlpoint"
 			{
-				"origin"		"1044 -26 304"
-				"angles"		"0 90 0"
+				"origin"		"-604.628296 837.671509 105.031250"
+				"angles"		"0.000000 89.667809 0.000000"
 				"targetname"	"cachepoint_a"
 			}
 			
 			// Cache B
 			"obj_weapon_cache"
 			{
-				"origin"		"-1 -3525 0"
-				"angles"		"0 0 0"
+				"origin"		"840.215210 76.775383 16.031250"
+				"angles"		"0.000000 -90.739059 0.000000"
 				"targetname"	"cache_b"
 				"teamnumber"	"2"
 				"ControlPoint"	"cachepoint_b"
@@ -389,8 +389,8 @@
 			}	
 			"point_controlpoint"
 			{
-				"origin"		"-1 -3525 72"
-				"angles"		"0 0 0"
+				"origin"		"840.215210 76.775383 88.031250"
+				"angles"		"0.000000 -90.739059 0.000000"
 				"targetname"	"cachepoint_b"
 			}
 		}

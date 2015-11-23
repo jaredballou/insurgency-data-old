@@ -80,18 +80,7 @@
 				"angles"		"0 330 -7"
 				"teamnumber"	"2"
 				"TakeDamageBullets" "0"
-			}
-			
-			// Insurgent Spawn
-			
-			"obj_weapon_cache"
-			{
-				"origin"		"1814 8190 194"
-				"angles"		"4 0 13"
-				"teamnumber"	"3"
-				"TakeDamageBullets" "0"
-			}
-
+			}			
 		}
 	}
 	

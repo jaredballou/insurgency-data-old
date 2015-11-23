@@ -505,9 +505,10 @@
 				"ControlPoint"	"cachepoint_g"
 				"TakeDamageBullets" "0"
 			}
+
 			"point_controlpoint"
 			{
-				"origin"		"69 -12 -929"
+				"origin"		"-3321 -2840 -125"
 				"angles"		"0 90 0"
 				"targetname"	"cachepoint_g"
 			}

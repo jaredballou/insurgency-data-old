@@ -68,6 +68,8 @@ res
 
 			defaultBgColor_override	"0 0 0 0"
 			ArmedBgColor_override  	"242 235 216 6"
+
+			sound_depressed			UI/menu_mark.wav
 		}
 
 		NameBackground
@@ -264,6 +266,9 @@ res
 					ypos					16
 					tall					14
 				}
+
+				sound_armed				UI/menu_focus.wav
+				sound_depressed			UI/menu_mark.wav
 			}
 					
 			BtnRemove
@@ -288,6 +293,9 @@ res
 					ypos					30
 					tall					14
 				}
+
+				sound_armed				UI/menu_focus.wav
+				sound_depressed			UI/menu_mark.wav
 			}
 					
 			BtnDown
@@ -312,6 +320,9 @@ res
 					ypos					44
 					tall					14
 				}
+
+				sound_armed				UI/menu_focus.wav
+				sound_depressed			UI/menu_mark.wav
 			}
 		}
 	}

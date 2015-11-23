@@ -111,7 +111,7 @@ resource/UI/gameui/lobby.res
 
 				3DPlayer
 				{
-					ControlName					CINSPlayerModelPanel
+					//ControlName					CINSPlayerModelPanel
 							
 					xpos						0				
 					ypos						6
@@ -121,7 +121,8 @@ resource/UI/gameui/lobby.res
 					proportionalToParent		1	
 					paintbackground				0
 
-					default_model				"models/characters/security_rifleman.mdl"
+					// Model is set below in the menu_settings block
+					//default_model				"models/characters/security_rifleman.mdl"
 					fov 						11
 					allow_rot					1
 					useparentbg					0
@@ -154,7 +155,7 @@ resource/UI/gameui/lobby.res
 					// Weapons to attach
 					bonemerge
 					{
-						model 					models/weapons/w_galil.mdl
+						// See the menu_settings block below
 					}
 
 					lighting
@@ -183,6 +184,32 @@ resource/UI/gameui/lobby.res
 						//	position			"-200 0 0"
 						//}
 					}
+
+					// Custom block for the main menu, here we set the coop and pvp specific models
+					menu_settings
+					{
+						coop
+						{
+							model				"models/characters/security_rifleman.mdl"
+
+							bonemerge
+							{
+								model 					models/characters/us_helmet_head.mdl
+								model 					models/weapons/w_galil.mdl
+							}
+						}
+
+						pvp
+						{
+							model				"models/characters/insurgent_standard.mdl"
+
+							bonemerge
+							{
+								model 					models/weapons/w_akm.mdl
+							}
+						}						
+					}
+
 				}
 
 				LblLevelProgress

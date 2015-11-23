@@ -5,16 +5,33 @@
 		"ControlName"			"Frame"
 		"fieldName"				"Audio"
 		"xpos"					"485"
-		"ypos"					"100"
-		"wide"					"f545"
-
-		"tall"					"f200"
+		"ypos"					"110"
+		"wide"					"f555"
+		"tall"					"248"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
+		"PaintBackgroundType"	"0"
 		proportionalToParent	1
+
+		LblTitle
+		{
+			ControlName				Label
+			proportionalToParent	1
+			xpos					0
+			ypos					0
+			wide					f
+			tall					30
+			
+			labelText				"#GameUI_Audio"
+			textAlignment			west
+			font					FoundationSans20
+			textInsetX				20
+			use_proportional_insets 1
+			allcaps					1
+		}
 	}
 
 	"SldGameVolume"

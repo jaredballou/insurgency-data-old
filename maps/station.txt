@@ -315,7 +315,7 @@
 			}
 			"point_controlpoint"
 			{
-				"origin"		"1784 1412 500"
+				"origin"		"1784 1412 474"
 				"angles"		"0 90 0"
 				"targetname"	"cachepoint_a"
 			}	
@@ -332,7 +332,7 @@
 			}
 			"point_controlpoint"
 			{
-				"origin"		"-1274 1704 735"
+				"origin"		"-1274 1704 712"
 				"angles"		"0 180 0"
 				"targetname"	"cachepoint_b"
 			}	
@@ -349,7 +349,7 @@
 			}
 			"point_controlpoint"
 			{
-				"origin"		"-660 4216 675"
+				"origin"		"-660 4216 665"
 				"angles"		"0 0 0"
 				"targetname"	"cachepoint_c"
 			}	

@@ -88,12 +88,33 @@
 		"textInsetY"				"8"
 	}
 
+	"KeyBindingsLabel"
+	{
+		"ControlName"				"Label"
+		"fieldName"					"KeyBindingsLabel"
+		"xpos"						"0"
+		"ypos"						"463"
+		"wide"						"f0"
+		"tall"						"18"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"textAlignment"				"center"
+		"font"						"OratorStd10"
+		"fgcolor_override"			"242 235 216 255"
+		"bgcolor_override"			"0 0 0 0"
+		"paintbackground"			"1"
+		"allcaps"					"1"
+	}
+	
 	"RespawnLabel"
 	{
 		"ControlName"				"Label"
 		"fieldName"					"RespawnLabel"
 		"xpos"						"c-120"
-		"ypos"						"470"
+		"ypos"						"480"
 		"wide"						"240"
 		"tall"						"21"
 		"autoResize"				"0"
@@ -103,11 +124,12 @@
 		"tabPosition"				"0"
 		"textAlignment"				"center"
 		"font"						"HudWeaponInfoSmall"
-		"fgcolor_override"			"255 255 255 255"
+		"fgcolor_override"			"242 235 216 255"
 		"bgcolor_override"			"0 0 0 128"
 		"paintbackground"			"1"
 		"textInsetX"				"20"
 		"textInsetY"				"1"
 		"auto_wide_tocontents" 		"1"
+		"allcaps"					"1"
 	}
 }

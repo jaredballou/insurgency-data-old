@@ -357,7 +357,7 @@
 			}
 			"point_controlpoint"
 			{
-				"origin"		"3153.133301 4967.018066 -529.968750"
+				"origin"		"3153.133301 4967.018066 -457.968750"
 				"angles"		"0 -1 0"
 				"targetname"	"cachepoint_a"
 			}	
@@ -521,7 +521,7 @@
 			}
 			"point_controlpoint"
 			{
-				"origin"		"-2951 3939 -765"
+				"origin"		"-2951 3939 -693"
 				"angles"		"0 90 0"
 				"targetname"	"cachepoint_a"
 			}	
@@ -538,7 +538,7 @@
 			}
 			"point_controlpoint"
 			{
-				"origin"		"3153 4967-529"
+				"origin"		"3153 4967 -457"
 				"angles"		"0 -1 0"
 				"targetname"	"cachepoint_b"
 			}	
@@ -555,7 +555,7 @@
 			}
 			"point_controlpoint"
 			{
-				"origin"		"4617 2557 -93"
+				"origin"		"4617 2557 -21"
 				"angles"		"0 270 0"
 				"targetname"	"cachepoint_c"
 			}
@@ -572,7 +572,7 @@
 			}	
 			"point_controlpoint"
 			{
-				"origin"		"2404 -324 -433"
+				"origin"		"2404 -324 -361"
 				"angles"		"0 -90 0"
 				"targetname"	"cachepoint_d"
 			}
@@ -589,7 +589,7 @@
 			}	
 			"point_controlpoint"
 			{
-				"origin"		"5577 -499 -355"
+				"origin"		"5577 -499 -283"
 				"angles"		"0 90 0"
 				"targetname"	"cachepoint_e"
 			}	

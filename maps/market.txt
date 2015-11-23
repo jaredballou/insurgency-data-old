@@ -691,7 +691,7 @@
 			}
 			"point_controlpoint"
 			{
-				"origin"		"-118.194611 -884.572205 240.031250"
+				"origin"		"-118.194611 -884.572205 312.031250"
 				"angles"		"0.000000 -89.628746 0.000000"
 				"targetname"	"cachepoint_a"
 			}
@@ -708,7 +708,7 @@
 			}	
 			"point_controlpoint"
 			{
-				"origin"		"963.380066 1001.552002 208.031250"
+				"origin"		"963.380066 1001.552002 280.031250"
 				"angles"		"0.000000 89.146935 0.000000"
 				"targetname"	"cachepoint_b"
 			}	
@@ -725,7 +725,7 @@
 			}
 			"point_controlpoint"
 			{
-				"origin"		"-1615.736450 1870.241211 256.031250"
+				"origin"		"-1615.736450 1870.241211 328.031250"
 				"angles"		"0.000000 179.217377 0.000000"
 				"targetname"	"cachepoint_c"
 			}	
@@ -758,7 +758,7 @@
 			}	
 			"point_controlpoint"
 			{
-				"origin"		"-3727.754150 243.197021 256.031250"
+				"origin"		"-3727.754150 243.197021 328.031250"
 				"angles"		"0.000000 1.176701 0.000000"
 				"targetname"	"cachepoint_a"
 			}
@@ -775,7 +775,7 @@
 			}	
 			"point_controlpoint"
 			{
-				"origin"		"511.051697 357.526764 2.459839"
+				"origin"		"511.051697 357.526764 74.459839"
 				"angles"		"0.000000 -179.470718 0.000000"
 				"targetname"	"cachepoint_b"
 			}
@@ -792,7 +792,7 @@
 			}	
 			"point_controlpoint"
 			{
-				"origin"		"3462.920410 121.432976 192.031250"
+				"origin"		"3462.920410 121.432976 264.031250"
 				"angles"		"0.000000 -91.899445 0.000000"
 				"targetname"	"cachepoint_c"
 			}
@@ -849,7 +849,7 @@
 			}
 			"point_controlpoint"
 			{
-				"origin"		"-1615.736450 1870.241211 256.031250"
+				"origin"		"-1615.736450 1870.241211 328.031250"
 				"angles"		"0.000000 179.217377 0.000000"
 				"targetname"	"cachepoint_a"
 			}	
@@ -866,7 +866,7 @@
 			}
 			"point_controlpoint"
 			{
-				"origin"		"-118.194611 -884.572205 240.031250"
+				"origin"		"-118.194611 -884.572205 312.031250"
 				"angles"		"0.000000 -89.628746 0.000000"
 				"targetname"	"cachepoint_b"
 			}	
@@ -883,7 +883,7 @@
 			}
 			"point_controlpoint"
 			{
-				"origin"		"2092.076904 -1251.404907 64.031250"
+				"origin"		"2092.076904 -1251.404907 136.031250"
 				"angles"		"0.000000 -179.886246 0.000000"
 				"targetname"	"cachepoint_c"
 			}
@@ -900,7 +900,7 @@
 			}	
 			"point_controlpoint"
 			{
-				"origin"		"963.380066 1001.552002 208.031250"
+				"origin"		"963.380066 1001.552002 280.031250"
 				"angles"		"0.000000 89.146935 0.000000"
 				"targetname"	"cachepoint_d"
 			}
@@ -917,7 +917,7 @@
 			}	
 			"point_controlpoint"
 			{
-				"origin"		"3766.832275 -283.076233 192.031250"
+				"origin"		"3766.832275 -283.076233 264.031250"
 				"angles"		"0.000000 89.254395 0.000000"
 				"targetname"	"cachepoint_e"
 			}	

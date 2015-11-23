@@ -466,7 +466,7 @@
 			}
 			"point_controlpoint"
 			{
-				"origin"		"-329 2907 864"
+				"origin"		"-329 2907 936"
 				"angles"		"0 87 0"
 				"targetname"	"cachepoint_b"
 			}	

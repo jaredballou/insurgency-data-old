@@ -266,23 +266,8 @@
 				"TakeDamageBullets" "0"
 			}
 
-			// Insurgent Spawn
+			// Insurgent Spawn		
 			
-			"obj_weapon_cache"
-			{
-				"origin"		"-4640 2792 208"
-				"angles"		"0 0 0"
-				"teamnumber"	"3"
-				"TakeDamageBullets" "0"
-			}
-			
-			"obj_weapon_cache"
-			{
-				"origin"		"-4438 2295 51"
-				"angles"		"0 0 0"
-				"teamnumber"	"3"
-				"TakeDamageBullets" "0"
-			}
 		}			
 	}
 	
@@ -809,7 +794,7 @@
 			}
 			"point_controlpoint"
 			{
-				"origin"		"-356.029358 -3609.788330 16"
+				"origin"		"-356.029358 -3609.788330 88"
 				"angles"		"0 90 0"
 				"targetname"	"cachepoint_a"
 			}	
@@ -826,7 +811,7 @@
 			}
 			"point_controlpoint"
 			{
-				"origin"		"3637.186279 3444.449951 120"
+				"origin"		"3637.186279 3444.449951 192"
 				"angles"		"0 -1.343322 0"
 				"targetname"	"cachepoint_b"
 			}	
@@ -843,7 +828,7 @@
 			}
 			"point_controlpoint"
 			{
-				"origin"		"-4023.697754 -601.177490 0"
+				"origin"		"-4023.697754 -601.177490 72"
 				"angles"		"0 87.112160 0"
 				"targetname"	"cachepoint_c"
 			}
@@ -860,7 +845,7 @@
 			}	
 			"point_controlpoint"
 			{
-				"origin"		"-3400.848877 -3305.844971 67"
+				"origin"		"-3400.848877 -3305.844971 139"
 				"angles"		"0 82.754272 0"
 				"targetname"	"cachepoint_d"
 			}

@@ -15,6 +15,7 @@
 		
 		"spawnzones"
 		{
+			"disablespawns" "1"
 			"0"  "spawnzone1"
 			"1"  "spawnzone2"
 			"2"  "spawnzone3"

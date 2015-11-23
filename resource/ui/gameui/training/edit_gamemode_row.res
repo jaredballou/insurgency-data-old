@@ -27,6 +27,9 @@ res
 
 			depressedBgColor_override	"107 99 96 255"
 			depressedFgColor_override	"19 17 18 255"
+				
+			sound_armed				UI/menu_focus.wav
+			sound_depressed			UI/menu_mark.wav
 		}
 		
 		Button2
@@ -50,6 +53,9 @@ res
 
 			depressedBgColor_override	"107 99 96 255"
 			depressedFgColor_override	"19 17 18 255"
+				
+			sound_armed				UI/menu_focus.wav
+			sound_depressed			UI/menu_mark.wav
 		}
 		
 		Button3
@@ -73,6 +79,9 @@ res
 
 			depressedBgColor_override	"107 99 96 255"
 			depressedFgColor_override	"19 17 18 255"
+				
+			sound_armed				UI/menu_focus.wav
+			sound_depressed			UI/menu_mark.wav
 		}
 	}
 }

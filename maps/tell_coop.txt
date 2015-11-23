@@ -19,6 +19,7 @@
 		
 		"spawnzones"
 		{
+			"disablespawns" "1"
 			"0"  "sz_a"
 			"1"  "sz_b"
 			"2"  "sz_c"

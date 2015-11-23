@@ -10,6 +10,7 @@ Resource/UI/GameUI/MainMenu.res
 		proportionalToParent		1
 
 		navUp						BtnNews
+		navDown						Btn1
 
 		TopButtons
 		{

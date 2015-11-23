@@ -109,6 +109,7 @@
 			"scrollbar_inset"			"1"
 			"panelBorder"				"1"
 						
+			"navRight"				"Gamemodes"
 		}
 		
 		"Gamemodes"
@@ -119,6 +120,7 @@
 			"tall"					"f73"
 			"navDown"				"Filters"
 			"navRight"				"Maps"
+			"navLeft"				"Playlists"
 
 			"proportionalToParent"	"1"
 
@@ -138,6 +140,7 @@
 			"wide"					"230"
 			//"tall"					"90"
 
+			"navLeft"				"Playlists"
 			"navUp"					"Gamemodes"
 			"navRight"				"Reset"
 

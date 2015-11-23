@@ -227,6 +227,9 @@ Resource/UI/GameUI/Training.res
 					
 					defaultBgColor_override	"0 0 0 0"
 					ArmedBgColor_override  	"242 235 216 10"
+				
+					sound_armed				UI/menu_focus.wav
+					sound_depressed			UI/menu_mark.wav
 				}
 
 				ImgHideEditCycle
@@ -246,14 +249,62 @@ Resource/UI/GameUI/Training.res
 					scaleImage				1
 				}
 
+				BtnResetCycle
+				{	
+					ControlName				Button
+					
+					xpos					0
+					ypos					30
+					zpos					1
+					wide 					124
+					tall  					22	
+					proportionalToParent	1
+					
+					labelText				"#GameUI_mm_reset"
+					command					ResetCycle
+					font					OratorStd12
+					allcaps					1
+					textAlignment 			center
+					
+					defaultBgColor_override		"27 23 23 255"	
+					ArmedBgColor_override  	"242 235 216 10"
+				
+					sound_armed				UI/menu_focus.wav
+					sound_depressed			UI/menu_mark.wav
+				}
+
+				BtnClearCycle
+				{	
+					ControlName				Button
+					
+					xpos					125
+					ypos					30
+					zpos					1
+					wide 					125
+					tall  					22	
+					proportionalToParent	1
+					
+					labelText				"#GameUI_Clear"
+					command					ClearCycle
+					font					OratorStd12
+					allcaps					1
+					textAlignment 			center
+					
+					defaultBgColor_override		"27 23 23 255"	
+					ArmedBgColor_override  		"242 235 216 10"
+				
+					sound_armed				UI/menu_focus.wav
+					sound_depressed			UI/menu_mark.wav
+				}
+
 				EditMapCycle
 				{
 					ControlName				EditablePanelPassthrough
 
 					xpos					0
-					ypos					30
+					ypos					54
 					wide					f
-					tall					f30
+					tall					f54
 					proportionalToParent	1	
 					
 					paintbackground			0
@@ -514,6 +565,9 @@ Resource/UI/GameUI/Training.res
 						
 						defaultBgColor_override	"0 0 0 0"
 						ArmedBgColor_override  	"242 235 216 10"
+				
+						sound_armed				UI/menu_focus.wav
+						sound_depressed			UI/menu_mark.wav
 					}
 				}
 

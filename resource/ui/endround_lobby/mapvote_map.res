@@ -19,7 +19,7 @@
 		"allcaps"		"1"
 		"font"			"HudHintText"
 		"defaultFgColor_override" "255 255 255 255"
-		"textinsety"	"37"
+		"textinsety"	"35"
 		"textinsetx"	"10"
 		"textAlignment"	"east"
 		"use_proportional_insets" "1"
@@ -50,10 +50,10 @@
 		"ControlName"	"Label"
 		
 		"xpos"			"0"
-		"ypos"			"87"
+		"ypos"			"100"
 		"zpos"			"-1"
 		"wide"			"240"
-		"tall"			"24"
+		"tall"			"14"
 		
 		"visible"		"1"
 		"enabled"		"1"

@@ -52,6 +52,7 @@
 				}
 			},
 			"spawnzones": {
+				"disablespawns": "1",
 				"spawnzone_1": [
 				],
 				"spawnzone_2": [

@@ -228,7 +228,13 @@
 				"disablespawns": "1"
 			},
 			"cvars": {
-				"mp_hunt_nav_spawning": "1"
+				"is_multiple_array": 1,
+				"0": {
+					"mp_hunt_nav_spawning": "1"
+				},
+				"1": {
+					"nav_spawn_enemy_minimum_distance_frac_hunt_start": "0.4"
+				}
 			},
 			"navspawns": {
 				"navspawn": {

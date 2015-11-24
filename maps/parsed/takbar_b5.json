@@ -1,0 +1,133 @@
+{
+	"gametypes": {
+		"ambush": {
+			"attackingteam": "insurgents",
+			"controlpoint": {
+				"A": {
+					"pos_name": "A",
+					"pos_team": 2
+				},
+				"B": {
+					"pos_name": "B",
+					"pos_team": 2
+				}
+			},
+			"spawnzones": {
+				"disablespawns": "1",
+				"spawnzone_firefight": [
+				]
+			}
+		},
+		"firefight": {
+			"controlpoint": {
+				"A": {
+					"pos_name": "A",
+					"pos_team": 2
+				},
+				"B": {
+					"pos_name": "B"
+				},
+				"C": {
+					"pos_name": "C",
+					"pos_team": 3
+				}
+			},
+			"spawnzones": {
+				"disablespawns": "1",
+				"spawnzone_firefight": [
+				]
+			}
+		},
+		"push": {
+			"attackingteam": "security",
+			"controlpoint": {
+				"A": {
+					"pos_name": "A",
+					"pos_team": 3
+				},
+				"B": {
+					"pos_name": "B",
+					"pos_team": 3
+				},
+				"C": {
+					"pos_name": "C",
+					"pos_team": 3
+				},
+				"D": {
+					"pos_x": 471,
+					"pos_y": 961,
+					"pos_classname": "obj_weapon_cache",
+					"pos_type": "obj_weapon_cache",
+					"pos_team": 3,
+					"pos_name": "D"
+				}
+			},
+			"spawnzones": {
+				"disablespawns": "1",
+				"spawnzone_push1": [
+				],
+				"spawnzone_push2": [
+				],
+				"spawnzone_push3": [
+				]
+			}
+		},
+		"checkpoint": {
+			"attackingteam": "security",
+			"controlpoint": {
+				"A": {
+					"pos_name": "A",
+					"pos_team": 3
+				},
+				"B": {
+					"pos_name": "B",
+					"pos_team": 3
+				},
+				"C": {
+					"pos_name": "C",
+					"pos_team": 3
+				},
+				"D": {
+					"pos_name": "D",
+					"pos_team": 3
+				},
+				"E": {
+					"pos_name": "E",
+					"pos_team": 3
+				},
+				"F": {
+					"pos_name": "F",
+					"pos_team": 3
+				},
+				"G": {
+					"pos_name": "G",
+					"pos_team": 3
+				}
+			},
+			"spawnzones": {
+				"spawnzone1": [
+				],
+				"spawnzone2": [
+				],
+				"spawnzone3": [
+				],
+				"spawnzone4": [
+				],
+				"spawnzone5": [
+				],
+				"spawnzone6": [
+				],
+				"spawnzone7": [
+				]
+			}
+		}
+	},
+	"overview": {
+		"material": "overviews\/takbar_b5",
+		"pos_x": -8397,
+		"pos_y": 7486,
+		"scale": 16,
+		"rotate": 0,
+		"zoom": 1
+	}
+}

@@ -53,6 +53,7 @@
 				}
 			},
 			"spawnzones": {
+				"disablespawns": "1",
 				"spawnzone_1": {
 					"spawnzone_1_team2": {
 						"pos_classname": "ins_spawnzone",

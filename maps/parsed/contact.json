@@ -280,16 +280,16 @@
 			"attackingteam": "insurgents",
 			"controlpoint": {
 				"A": {
-					"pos_x": 632,
-					"pos_y": 436,
+					"pos_x": 449,
+					"pos_y": 340,
 					"pos_classname": "obj_weapon_cache",
 					"pos_type": "obj_weapon_cache",
 					"pos_team": 2,
 					"pos_name": "A"
 				},
 				"B": {
-					"pos_x": 516,
-					"pos_y": 825,
+					"pos_x": 610,
+					"pos_y": 425,
 					"pos_classname": "obj_weapon_cache",
 					"pos_type": "obj_weapon_cache",
 					"pos_team": 2,

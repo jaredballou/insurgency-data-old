@@ -1,0 +1,7 @@
+station ambush
+station_night ambush
+tell ambush
+market ambush
+siege ambush
+contact ambush
+revolt ambush

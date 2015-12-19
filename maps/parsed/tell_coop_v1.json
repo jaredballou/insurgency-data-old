@@ -4,64 +4,71 @@
 			"attackingteam": "security",
 			"controlpoint": {
 				"A": {
-					"pos_x": 315,
-					"pos_y": 270,
+					"pos_x": 974,
+					"pos_y": 469,
 					"pos_classname": "point_controlpoint",
 					"pos_type": "point_controlpoint",
 					"pos_name": "A",
 					"pos_team": 3
 				},
 				"B": {
-					"pos_x": 758,
-					"pos_y": 210,
+					"pos_x": 847,
+					"pos_y": 561,
 					"pos_classname": "point_controlpoint",
 					"pos_type": "point_controlpoint",
 					"pos_name": "B",
 					"pos_team": 3
 				},
 				"C": {
-					"pos_x": 800,
-					"pos_y": 437,
-					"pos_classname": "obj_weapon_cache",
-					"pos_type": "obj_weapon_cache",
-					"pos_team": 3,
-					"pos_name": "C"
+					"pos_x": 569,
+					"pos_y": 619,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
+					"pos_name": "C",
+					"pos_team": 3
 				},
 				"D": {
-					"pos_x": 952,
-					"pos_y": 637,
+					"pos_x": 583,
+					"pos_y": 456,
 					"pos_classname": "point_controlpoint",
 					"pos_type": "point_controlpoint",
 					"pos_name": "D",
 					"pos_team": 3
 				},
 				"E": {
-					"pos_x": 792,
-					"pos_y": 544,
+					"pos_x": 437,
+					"pos_y": 630,
 					"pos_classname": "point_controlpoint",
 					"pos_type": "point_controlpoint",
 					"pos_name": "E",
 					"pos_team": 3
 				},
 				"F": {
-					"pos_x": 505,
-					"pos_y": 651,
+					"pos_x": 174,
+					"pos_y": 568,
 					"pos_classname": "point_controlpoint",
 					"pos_type": "point_controlpoint",
 					"pos_name": "F",
 					"pos_team": 3
 				},
 				"G": {
-					"pos_x": 465,
-					"pos_y": 444,
+					"pos_x": 144,
+					"pos_y": 364,
 					"pos_classname": "point_controlpoint",
 					"pos_type": "point_controlpoint",
 					"pos_name": "G",
 					"pos_team": 3
+				},
+				"H": {
+					"pos_x": 370,
+					"pos_y": 202,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
+					"pos_name": "H",
+					"pos_team": 3
 				}
 			},
 			"spawnzones": {
-				"disablespawns": "1",
 				"spawnzone_1": {
 					"spawnzone_1_team2": {
 						"pos_classname": "ins_spawnzone",
@@ -161,43 +168,32 @@
 					},
 					"spawnzone_7_team3": {
 						"pos_classname": "ins_spawnzone",
+						"pos_blockzone": "bz7",
 						"pos_type": "area",
 						"pos_team": 3,
 						"pos_name": "spawnzone_7_team3"
+					}
+				},
+				"spawnzone_8": {
+					"spawnzone_8_team3": {
+						"pos_classname": "ins_spawnzone",
+						"pos_type": "area",
+						"pos_team": 3,
+						"pos_name": "spawnzone_8_team3"
 					}
 				}
 			}
 		}
 	},
 	"overview": {
-		"material": "overviews\/sinjar",
-		"pos_x": -7351,
-		"pos_y": 8007,
-		"scale": 13.5,
+		"material": "overviews\/tell_act",
+		"pos_x": -7073,
+		"pos_y": 1981,
+		"scale": 10,
 		"rotate": 0,
-		"zoom": 1,
-		"grid_divisions": 12,
-		"grid_dark": 1
+		"zoom": 1
 	},
 	"points": {
-		"spawnzone_7_team2": {
-			"pos_classname": "ins_spawnzone",
-			"pos_type": "area",
-			"pos_team": 2,
-			"pos_name": "spawnzone_7_team2"
-		},
-		"bz2": {
-			"pos_classname": "ins_blockzone",
-			"pos_type": "area",
-			"pos_team": 3,
-			"pos_name": "bz2"
-		},
-		"bz3": {
-			"pos_classname": "ins_blockzone",
-			"pos_type": "area",
-			"pos_team": 3,
-			"pos_name": "bz3"
-		},
 		"bz4": {
 			"pos_classname": "ins_blockzone",
 			"pos_type": "area",
@@ -210,77 +206,23 @@
 			"pos_team": 3,
 			"pos_name": "bz5"
 		},
-		"cp_7": {
-			"pos_x": 465,
-			"pos_y": 444,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "cp_7",
-			"pos_team": 0
-		},
 		"bz6": {
 			"pos_classname": "ins_blockzone",
 			"pos_type": "area",
 			"pos_team": 3,
 			"pos_name": "bz6"
 		},
-		"spawnzone_7_team3": {
-			"pos_classname": "ins_spawnzone",
-			"pos_type": "area",
-			"pos_team": 3,
-			"pos_name": "spawnzone_7_team3"
-		},
-		"bz1": {
+		"bz7": {
 			"pos_classname": "ins_blockzone",
 			"pos_type": "area",
 			"pos_team": 3,
-			"pos_name": "bz1"
-		},
-		"cachepoint_f": {
-			"pos_x": 505,
-			"pos_y": 651,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "cachepoint_f",
-			"pos_team": 0
-		},
-		"spawnzone_3_team2": {
-			"pos_classname": "ins_spawnzone",
-			"pos_type": "area",
-			"pos_team": 2,
-			"pos_name": "spawnzone_3_team2"
+			"pos_name": "bz7"
 		},
 		"spawnzone_4_team2": {
 			"pos_classname": "ins_spawnzone",
 			"pos_type": "area",
 			"pos_team": 2,
 			"pos_name": "spawnzone_4_team2"
-		},
-		"spawnzone_5_team2": {
-			"pos_classname": "ins_spawnzone",
-			"pos_type": "area",
-			"pos_team": 2,
-			"pos_name": "spawnzone_5_team2"
-		},
-		"spawnzone_6_team2": {
-			"pos_classname": "ins_spawnzone",
-			"pos_type": "area",
-			"pos_team": 2,
-			"pos_name": "spawnzone_6_team2"
-		},
-		"spawnzone_4_team3": {
-			"pos_classname": "ins_spawnzone",
-			"pos_blockzone": "bz4",
-			"pos_type": "area",
-			"pos_team": 3,
-			"pos_name": "spawnzone_4_team3"
-		},
-		"spawnzone_5_team3": {
-			"pos_classname": "ins_spawnzone",
-			"pos_blockzone": "bz5",
-			"pos_type": "area",
-			"pos_team": 3,
-			"pos_name": "spawnzone_5_team3"
 		},
 		"spawnzone_3_team3": {
 			"pos_classname": "ins_spawnzone",
@@ -289,12 +231,75 @@
 			"pos_team": 3,
 			"pos_name": "spawnzone_3_team3"
 		},
-		"spawnzone_2_team3": {
-			"pos_classname": "ins_spawnzone",
-			"pos_blockzone": "bz2",
+		"bz3": {
+			"pos_classname": "ins_blockzone",
 			"pos_type": "area",
 			"pos_team": 3,
-			"pos_name": "spawnzone_2_team3"
+			"pos_name": "bz3"
+		},
+		"spawnzone_3_team2": {
+			"pos_classname": "ins_spawnzone",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "spawnzone_3_team2"
+		},
+		"spawnzone_4_team3": {
+			"pos_classname": "ins_spawnzone",
+			"pos_blockzone": "bz4",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "spawnzone_4_team3"
+		},
+		"cp_3": {
+			"pos_x": 569,
+			"pos_y": 619,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "cp_3",
+			"pos_team": 0
+		},
+		"cp_4": {
+			"pos_x": 583,
+			"pos_y": 456,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "cp_4",
+			"pos_team": 0
+		},
+		"cp_5": {
+			"pos_x": 437,
+			"pos_y": 630,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "cp_5",
+			"pos_team": 0
+		},
+		"spawnzone_5_team3": {
+			"pos_classname": "ins_spawnzone",
+			"pos_blockzone": "bz5",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "spawnzone_5_team3"
+		},
+		"spawnzone_5_team2": {
+			"pos_classname": "ins_spawnzone",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "spawnzone_5_team2"
+		},
+		"spawnzone_1_team2": {
+			"pos_classname": "ins_spawnzone",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "spawnzone_1_team2"
+		},
+		"cp_1": {
+			"pos_x": 974,
+			"pos_y": 469,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "cp_1",
+			"pos_team": 0
 		},
 		"spawnzone_1_team3": {
 			"pos_classname": "ins_spawnzone",
@@ -303,35 +308,18 @@
 			"pos_team": 3,
 			"pos_name": "spawnzone_1_team3"
 		},
-		"spawnzone_6_team3": {
-			"pos_classname": "ins_spawnzone",
-			"pos_blockzone": "bz6",
+		"bz1": {
+			"pos_classname": "ins_blockzone",
 			"pos_type": "area",
 			"pos_team": 3,
-			"pos_name": "spawnzone_6_team3"
+			"pos_name": "bz1"
 		},
-		"cachepoint_d": {
-			"pos_x": 952,
-			"pos_y": 637,
+		"cachepoint_b": {
+			"pos_x": 842,
+			"pos_y": 543,
 			"pos_classname": "point_controlpoint",
 			"pos_type": "point_controlpoint",
-			"pos_name": "cachepoint_d",
-			"pos_team": 0
-		},
-		"cachepoint_c": {
-			"pos_x": 800,
-			"pos_y": 437,
-			"pos_classname": "obj_weapon_cache",
-			"pos_type": "obj_weapon_cache",
-			"pos_team": 3,
-			"pos_name": "cachepoint_c"
-		},
-		"cp_1": {
-			"pos_x": 315,
-			"pos_y": 270,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "cp_1",
+			"pos_name": "cachepoint_b",
 			"pos_team": 0
 		},
 		"spawnzone_2_team2": {
@@ -340,27 +328,82 @@
 			"pos_team": 2,
 			"pos_name": "spawnzone_2_team2"
 		},
-		"spawnzone_1_team2": {
+		"spawnzone_2_team3": {
 			"pos_classname": "ins_spawnzone",
+			"pos_blockzone": "bz2",
 			"pos_type": "area",
-			"pos_team": 2,
-			"pos_name": "spawnzone_1_team2"
-		},
-		"cp_5": {
-			"pos_x": 792,
-			"pos_y": 544,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "cp_5",
-			"pos_team": 0
+			"pos_team": 3,
+			"pos_name": "spawnzone_2_team3"
 		},
 		"cp_2": {
-			"pos_x": 758,
-			"pos_y": 210,
+			"pos_x": 847,
+			"pos_y": 561,
 			"pos_classname": "point_controlpoint",
 			"pos_type": "point_controlpoint",
 			"pos_name": "cp_2",
 			"pos_team": 0
+		},
+		"bz2": {
+			"pos_classname": "ins_blockzone",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "bz2"
+		},
+		"spawnzone_6_team2": {
+			"pos_classname": "ins_spawnzone",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "spawnzone_6_team2"
+		},
+		"spawnzone_6_team3": {
+			"pos_classname": "ins_spawnzone",
+			"pos_blockzone": "bz6",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "spawnzone_6_team3"
+		},
+		"cp_6": {
+			"pos_x": 174,
+			"pos_y": 568,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "cp_6",
+			"pos_team": 0
+		},
+		"spawnzone_7_team2": {
+			"pos_classname": "ins_spawnzone",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "spawnzone_7_team2"
+		},
+		"cp_7": {
+			"pos_x": 144,
+			"pos_y": 364,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "cp_7",
+			"pos_team": 0
+		},
+		"spawnzone_7_team3": {
+			"pos_classname": "ins_spawnzone",
+			"pos_blockzone": "bz7",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "spawnzone_7_team3"
+		},
+		"cp_8": {
+			"pos_x": 370,
+			"pos_y": 202,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "cp_8",
+			"pos_team": 0
+		},
+		"spawnzone_8_team3": {
+			"pos_classname": "ins_spawnzone",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "spawnzone_8_team3"
 		}
 	}
 }

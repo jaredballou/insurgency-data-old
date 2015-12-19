@@ -22,18 +22,14 @@
 						"pos_blockzone": "bz_security",
 						"pos_type": "area",
 						"pos_team": 2,
-						"pos_name": "spawnzone_1_team2",
-						"pos_x": 0,
-						"pos_y": 0
+						"pos_name": "spawnzone_1_team2"
 					},
 					"spawnzone_1_team3": {
 						"pos_classname": "ins_spawnzone",
 						"pos_blockzone": "bz_insurgents",
 						"pos_type": "area",
 						"pos_team": 3,
-						"pos_name": "spawnzone_1_team3",
-						"pos_x": 0,
-						"pos_y": 0
+						"pos_name": "spawnzone_1_team3"
 					}
 				}
 			}
@@ -73,18 +69,14 @@
 						"pos_blockzone": "bz_security",
 						"pos_type": "area",
 						"pos_team": 2,
-						"pos_name": "spawnzone_1_team2",
-						"pos_x": 0,
-						"pos_y": 0
+						"pos_name": "spawnzone_1_team2"
 					},
 					"spawnzone_1_team3": {
 						"pos_classname": "ins_spawnzone",
 						"pos_blockzone": "bz_insurgents",
 						"pos_type": "area",
 						"pos_team": 3,
-						"pos_name": "spawnzone_1_team3",
-						"pos_x": 0,
-						"pos_y": 0
+						"pos_name": "spawnzone_1_team3"
 					}
 				}
 			}
@@ -116,18 +108,14 @@
 						"pos_blockzone": "bz_security",
 						"pos_type": "area",
 						"pos_team": 2,
-						"pos_name": "spawnzone_1_team2",
-						"pos_x": 0,
-						"pos_y": 0
+						"pos_name": "spawnzone_1_team2"
 					},
 					"spawnzone_1_team3": {
 						"pos_classname": "ins_spawnzone",
 						"pos_blockzone": "bz_insurgents",
 						"pos_type": "area",
 						"pos_team": 3,
-						"pos_name": "spawnzone_1_team3",
-						"pos_x": 0,
-						"pos_y": 0
+						"pos_name": "spawnzone_1_team3"
 					}
 				}
 			}
@@ -275,14 +263,26 @@
 			"attackingteam": "security",
 			"controlpoint": {
 				"A": {
+					"pos_x": 899,
+					"pos_y": 608,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
 					"pos_name": "A",
 					"pos_team": 3
 				},
 				"B": {
+					"pos_x": 471,
+					"pos_y": 510,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
 					"pos_name": "B",
 					"pos_team": 3
 				},
 				"C": {
+					"pos_x": 334,
+					"pos_y": 678,
+					"pos_classname": "point_controlpoint",
+					"pos_type": "point_controlpoint",
 					"pos_name": "C",
 					"pos_team": 3
 				},
@@ -394,13 +394,35 @@
 		"zoom": 1
 	},
 	"points": {
+		"cap_conq_b": {
+			"pos_x": 471,
+			"pos_y": 510,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "cap_conq_b",
+			"pos_team": 0
+		},
+		"cap_conq_c": {
+			"pos_x": 334,
+			"pos_y": 678,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "cap_conq_c",
+			"pos_team": 0
+		},
+		"cap_conq_a": {
+			"pos_x": 899,
+			"pos_y": 608,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "point_controlpoint",
+			"pos_name": "cap_conq_a",
+			"pos_team": 0
+		},
 		"bz_security": {
 			"pos_classname": "ins_blockzone",
 			"pos_type": "area",
 			"pos_team": 2,
-			"pos_name": "bz_security",
-			"pos_x": 0,
-			"pos_y": 0
+			"pos_name": "bz_security"
 		},
 		"cap2": {
 			"pos_x": 529,
@@ -430,27 +452,21 @@
 			"pos_classname": "ins_blockzone",
 			"pos_type": "area",
 			"pos_team": 3,
-			"pos_name": "bz_insurgents",
-			"pos_x": 0,
-			"pos_y": 0
+			"pos_name": "bz_insurgents"
 		},
 		"spawnzone_1_team3": {
 			"pos_classname": "ins_spawnzone",
 			"pos_blockzone": "bz_insurgents",
 			"pos_type": "area",
 			"pos_team": 3,
-			"pos_name": "spawnzone_1_team3",
-			"pos_x": 0,
-			"pos_y": 0
+			"pos_name": "spawnzone_1_team3"
 		},
 		"spawnzone_1_team2": {
 			"pos_classname": "ins_spawnzone",
 			"pos_blockzone": "bz_security",
 			"pos_type": "area",
 			"pos_team": 2,
-			"pos_name": "spawnzone_1_team2",
-			"pos_x": 0,
-			"pos_y": 0
+			"pos_name": "spawnzone_1_team2"
 		}
 	}
 }

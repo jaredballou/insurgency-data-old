@@ -49,21 +49,21 @@
 				"disablespawns": "1",
 				"spawnzone_skirmish": {
 					"spawnzone_skirmish_team2": {
+						"pos_x": 873,
+						"pos_y": 450,
 						"pos_classname": "ins_spawnzone",
 						"pos_blockzone": "blockzone_skirmish",
 						"pos_type": "area",
 						"pos_team": 2,
-						"pos_name": "spawnzone_skirmish_team2",
-						"pos_x": 0,
-						"pos_y": 0
+						"pos_name": "spawnzone_skirmish_team2"
 					},
 					"spawnzone_skirmish_team3": {
+						"pos_x": 205,
+						"pos_y": 452,
 						"pos_classname": "ins_spawnzone",
 						"pos_type": "area",
 						"pos_team": 3,
-						"pos_name": "spawnzone_skirmish_team3",
-						"pos_x": 0,
-						"pos_y": 0
+						"pos_name": "spawnzone_skirmish_team3"
 					}
 				}
 			}
@@ -99,21 +99,21 @@
 				"disablespawns": "1",
 				"spawnzone_skirmish": {
 					"spawnzone_skirmish_team2": {
+						"pos_x": 873,
+						"pos_y": 450,
 						"pos_classname": "ins_spawnzone",
 						"pos_blockzone": "blockzone_skirmish",
 						"pos_type": "area",
 						"pos_team": 2,
-						"pos_name": "spawnzone_skirmish_team2",
-						"pos_x": 0,
-						"pos_y": 0
+						"pos_name": "spawnzone_skirmish_team2"
 					},
 					"spawnzone_skirmish_team3": {
+						"pos_x": 205,
+						"pos_y": 452,
 						"pos_classname": "ins_spawnzone",
 						"pos_type": "area",
 						"pos_team": 3,
-						"pos_name": "spawnzone_skirmish_team3",
-						"pos_x": 0,
-						"pos_y": 0
+						"pos_name": "spawnzone_skirmish_team3"
 					}
 				}
 			}
@@ -141,21 +141,21 @@
 				"disablespawns": "1",
 				"spawnzone_skirmish": {
 					"spawnzone_skirmish_team2": {
+						"pos_x": 873,
+						"pos_y": 450,
 						"pos_classname": "ins_spawnzone",
 						"pos_blockzone": "blockzone_skirmish",
 						"pos_type": "area",
 						"pos_team": 2,
-						"pos_name": "spawnzone_skirmish_team2",
-						"pos_x": 0,
-						"pos_y": 0
+						"pos_name": "spawnzone_skirmish_team2"
 					},
 					"spawnzone_skirmish_team3": {
+						"pos_x": 205,
+						"pos_y": 452,
 						"pos_classname": "ins_spawnzone",
 						"pos_type": "area",
 						"pos_team": 3,
-						"pos_name": "spawnzone_skirmish_team3",
-						"pos_x": 0,
-						"pos_y": 0
+						"pos_name": "spawnzone_skirmish_team3"
 					}
 				}
 			}
@@ -175,21 +175,21 @@
 				"disablespawns": "1",
 				"spawnzone_skirmish": {
 					"spawnzone_skirmish_team2": {
+						"pos_x": 873,
+						"pos_y": 450,
 						"pos_classname": "ins_spawnzone",
 						"pos_blockzone": "blockzone_skirmish",
 						"pos_type": "area",
 						"pos_team": 2,
-						"pos_name": "spawnzone_skirmish_team2",
-						"pos_x": 0,
-						"pos_y": 0
+						"pos_name": "spawnzone_skirmish_team2"
 					},
 					"spawnzone_skirmish_team3": {
+						"pos_x": 205,
+						"pos_y": 452,
 						"pos_classname": "ins_spawnzone",
 						"pos_type": "area",
 						"pos_team": 3,
-						"pos_name": "spawnzone_skirmish_team3",
-						"pos_x": 0,
-						"pos_y": 0
+						"pos_name": "spawnzone_skirmish_team3"
 					}
 				}
 			}
@@ -460,20 +460,20 @@
 	},
 	"points": {
 		"spawnzone_ambush_team2": {
+			"pos_x": 713,
+			"pos_y": 441,
 			"pos_classname": "ins_spawnzone",
 			"pos_type": "area",
 			"pos_team": 2,
-			"pos_name": "spawnzone_ambush_team2",
-			"pos_x": 0,
-			"pos_y": 0
+			"pos_name": "spawnzone_ambush_team2"
 		},
 		"spawnzone_ambush_team3": {
+			"pos_x": 360,
+			"pos_y": 615,
 			"pos_classname": "ins_spawnzone",
 			"pos_type": "area",
 			"pos_team": 3,
-			"pos_name": "spawnzone_ambush_team3",
-			"pos_x": 0,
-			"pos_y": 0
+			"pos_name": "spawnzone_ambush_team3"
 		},
 		"extract1": {
 			"pos_x": 425,
@@ -492,12 +492,12 @@
 			"pos_team": 0
 		},
 		"blockzone_skirmish": {
+			"pos_x": 821,
+			"pos_y": 497,
 			"pos_classname": "ins_blockzone",
 			"pos_type": "area",
 			"pos_team": 2,
-			"pos_name": "blockzone_skirmish",
-			"pos_x": 0,
-			"pos_y": 0
+			"pos_name": "blockzone_skirmish"
 		},
 		"cap4": {
 			"pos_x": 538,
@@ -540,21 +540,21 @@
 			"pos_team": 0
 		},
 		"spawnzone_skirmish_team2": {
+			"pos_x": 873,
+			"pos_y": 450,
 			"pos_classname": "ins_spawnzone",
 			"pos_blockzone": "blockzone_skirmish",
 			"pos_type": "area",
 			"pos_team": 2,
-			"pos_name": "spawnzone_skirmish_team2",
-			"pos_x": 0,
-			"pos_y": 0
+			"pos_name": "spawnzone_skirmish_team2"
 		},
 		"spawnzone_skirmish_team3": {
+			"pos_x": 205,
+			"pos_y": 452,
 			"pos_classname": "ins_spawnzone",
 			"pos_type": "area",
 			"pos_team": 3,
-			"pos_name": "spawnzone_skirmish_team3",
-			"pos_x": 0,
-			"pos_y": 0
+			"pos_name": "spawnzone_skirmish_team3"
 		}
 	}
 }

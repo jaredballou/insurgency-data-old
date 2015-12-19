@@ -372,8 +372,26 @@
 			},
 			"spawnzones": {
 				"disablespawns": "1",
-				"spawnzone_strike": [
-				]
+				"spawnzone_strike": {
+					"spawnzone_strike_team2": {
+						"pos_classname": "ins_spawnzone",
+						"pos_blockzone": "blockzone_sec_strike",
+						"pos_type": "area",
+						"pos_team": 2,
+						"pos_name": "spawnzone_strike_team2",
+						"pos_x": 0,
+						"pos_y": 0
+					},
+					"spawnzone_strike_team3": {
+						"pos_classname": "ins_spawnzone",
+						"pos_blockzone": "blockzone_ins_back",
+						"pos_type": "area",
+						"pos_team": 3,
+						"pos_name": "spawnzone_strike_team3",
+						"pos_x": 0,
+						"pos_y": 0
+					}
+				}
 			}
 		},
 		"conquer": {
@@ -641,6 +659,32 @@
 		"zoom": 1
 	},
 	"points": {
+		"spawnzone_strike_team2": {
+			"pos_classname": "ins_spawnzone",
+			"pos_blockzone": "blockzone_sec_strike",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "spawnzone_strike_team2",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"blockzone_sec_strike": {
+			"pos_classname": "ins_blockzone",
+			"pos_type": "area",
+			"pos_team": 2,
+			"pos_name": "blockzone_sec_strike",
+			"pos_x": 0,
+			"pos_y": 0
+		},
+		"spawnzone_strike_team3": {
+			"pos_classname": "ins_spawnzone",
+			"pos_blockzone": "blockzone_ins_back",
+			"pos_type": "area",
+			"pos_team": 3,
+			"pos_name": "spawnzone_strike_team3",
+			"pos_x": 0,
+			"pos_y": 0
+		},
 		"spawnzone_push_a_team2": {
 			"pos_classname": "ins_spawnzone",
 			"pos_blockzone": "blockzone_sec_push_a",

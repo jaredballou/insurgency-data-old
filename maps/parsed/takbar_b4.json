@@ -245,6 +245,7 @@
 					},
 					"spawnzone1_team3": {
 						"pos_classname": "ins_spawnzone",
+						"pos_blockzone": "bz1",
 						"pos_type": "area",
 						"pos_team": 3,
 						"pos_name": "spawnzone1_team3"
@@ -343,7 +344,7 @@
 		}
 	},
 	"overview": {
-		"material": "overviews\/takbar_b5",
+		"material": "overviews\/takbar_b4",
 		"pos_x": -8397,
 		"pos_y": 7486,
 		"scale": 16,
@@ -538,6 +539,7 @@
 		},
 		"spawnzone1_team3": {
 			"pos_classname": "ins_spawnzone",
+			"pos_blockzone": "bz1",
 			"pos_type": "area",
 			"pos_team": 3,
 			"pos_name": "spawnzone1_team3"

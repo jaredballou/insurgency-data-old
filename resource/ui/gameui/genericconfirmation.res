@@ -42,7 +42,7 @@
 	{
 		"ControlName"				"Label"
 		"xpos"					"0"
-		"ypos"					"c-35"
+		"ypos"					"c-39"
 		"wide"					"f"
 		"tall"					"30"
 		
@@ -58,7 +58,7 @@
 		"xpos"					"0"
 		"ypos"					"c-5"
 		"wide"					"f"
-		"tall"					"20"
+		"tall"					"24"
 		
 		"textAlignment"			"north"		
 		"font"					"FoundationSansBold9"
@@ -72,7 +72,7 @@
 		"ControlName"				"MainMenuButton"
 		"fieldName"				"BtnCancel"
 		"xpos"					"c-70"
-		"ypos"					"c20"
+		"ypos"					"c24"
 		"wide"					"70"
 		"tall"					"20"
 		proportionalToParent	1
@@ -94,7 +94,7 @@
 		"ControlName"				"MainMenuButton"
 		"fieldName"				"BtnOK"
 		"xpos"					"c"
-		"ypos"					"c20"
+		"ypos"					"c24"
 		"wide"					"50"
 		"tall"					"20"
 

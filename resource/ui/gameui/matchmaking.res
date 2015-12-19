@@ -9,6 +9,8 @@
 		tall						f57
 		proportionalToParent		1
 		
+		navUp						BtnNews
+		
 		"BackgroundPerson"
 		{
 			"visible"			"0"

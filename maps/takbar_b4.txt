@@ -1,0 +1,100 @@
+"cpsetup.txt"
+{
+
+	// TakBar Supported Modes:
+	// - Ambush
+	// - Firefight
+	// - Push
+	// - Occupy(null)
+	// - Strike(null)
+	// - Checkpoint
+	
+	"ambush"
+	{
+		"AttackingTeam"		"insurgents"
+		"controlpoint" 		"cp_vip1"
+		"controlpoint" 		"cp_vip2" 
+
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_firefight"
+		}
+   	}
+	"firefight"	
+	{
+		"controlpoint"		"cp1"
+		"controlpoint"		"cp3"
+		"controlpoint"		"cp5"
+
+        	"spawnzones"
+			{
+				"disablespawns" "1"
+				"0"  "spawnzone_firefight"
+			}
+	}
+	"push"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"cp1"
+		"controlpoint"		"cp2"
+		"controlpoint"		"cp5"
+		"controlpoint"		"cachepoint_final"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_push1"
+			"1"  "spawnzone_push2"
+			"2"  "spawnzone_push3"
+		}
+		
+		"entities"
+		{
+			// Final Cache
+			"obj_weapon_cache"
+			{
+				"origin"		"-856 -7888 -127"
+				"angles"		"0.000000 0 0.000000"
+				"targetname"	"cachepoint_g"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_final"
+				"TakeDamageBullets" "0"
+				"DestructibleWhenActiveOnly" "1"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"-856 -7888 -44"
+				"angles"		"0.000000 0 0.000000"
+				"targetname"	"cachepoint_final"
+			}	
+		}
+	}
+
+	"checkpoint"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"cp1"
+		"controlpoint"		"cp2"
+		"controlpoint"		"cp3"
+		"controlpoint"		"cp4"
+		"controlpoint"		"cp5"
+		"controlpoint"		"cp6"
+		"controlpoint"		"cp7"
+
+		
+		"spawnzones"
+		{
+			"0"  "spawnzone1"
+			"1"  "spawnzone2"
+			"2"  "spawnzone3"
+			"3"  "spawnzone4"
+			"4"  "spawnzone5"
+			"5"  "spawnzone6"
+			"6"  "spawnzone7"
+
+		}
+
+
+	}
+} 

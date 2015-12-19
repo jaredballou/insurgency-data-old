@@ -1,0 +1,9 @@
+tell_v1
+{
+	material	overviews/tell_act	// texture file
+	pos_x		-7073		// X coordinate
+	pos_y		1981			// Y coordinate
+	scale		10 			// scale used when taking the screenshot
+	rotate		0			// map was rotated by 90 degrees in image editor
+	zoom		1			// optimal zoom factor if map is shown in full size
+}

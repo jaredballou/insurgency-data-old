@@ -41,7 +41,7 @@
 				style					MenuModeButton
 				command					BtnGameSettings
 				proportionalToParent	1
-				navLeft					Btn4
+				navLeft					Btn5
 				navRight				Btn2
 				tabPosition				1
 			}
@@ -53,9 +53,9 @@
 				ypos					0	
 				wide 					100	
 				tall  					f	
-				labelText				#GameUI_KeyboardMouse
+				labelText				#GameUI_KeyBindings
 				style					MenuModeButton
-				command					BtnKeyboardMouse
+				command					BtnKeyBindings
 				proportionalToParent	1
 				navLeft					Btn1
 				navRight				Btn3
@@ -68,9 +68,9 @@
 				ypos					0	
 				wide 					100	
 				tall  					f	
-				labelText				#GameUI_Video
+				labelText				#GameUI_KeyboardMouse
 				style					MenuModeButton
-				command					BtnVideoSettings
+				command					BtnKeyboardMouse
 				proportionalToParent	1
 				navLeft					Btn2
 				navRight				Btn4
@@ -83,11 +83,26 @@
 				ypos					0	
 				wide 					100	
 				tall  					f	
+				labelText				#GameUI_Video
+				style					MenuModeButton
+				command					BtnVideoSettings
+				proportionalToParent	1
+				navLeft					Btn3
+				navRight				Btn5
+			}
+
+			Btn5
+			{	
+				ControlName				HybridButton	
+				xpos					0
+				ypos					0	
+				wide 					100	
+				tall  					f	
 				labelText				#GameUI_Audio
 				style					MenuModeButton
 				command					BtnAudioSettings
 				proportionalToParent	1
-				navLeft					Btn3
+				navLeft					Btn4
 				navRight				Btn1
 			}
 		}

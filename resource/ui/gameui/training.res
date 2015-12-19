@@ -8,6 +8,9 @@ Resource/UI/GameUI/Training.res
 		wide						735
 		tall						f57
 		proportionalToParent		1
+		
+		navUp						BtnNews
+		navDown						MapCycle
 
 		TopButtons
 		{
@@ -33,6 +36,7 @@ Resource/UI/GameUI/Training.res
 				proportionalToParent	1
 				navLeft					Btn5
 				navRight				Btn2
+		navDown						MapCycle
 			}
 
 			Btn2

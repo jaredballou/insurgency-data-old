@@ -1,0 +1,93 @@
+"cpsetup.txt"
+{
+	// Zagros_convoy supported modes:
+	// - Push
+	// - Checkpoint	
+
+
+	"push"
+	{
+		"nightlighting"		"0"
+		"AttackingTeam"		"security"
+		"controlpoint"		"push_a"
+		"controlpoint"		"push_b"
+		"controlpoint"		"push_c"
+		"controlpoint"		"cachepoint_final"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_push_a"
+			"1"  "spawnzone_push_b"
+			"2"  "spawnzone_push_c"
+		}
+		
+		"entities"
+		{
+			// Final Cache
+			"obj_weapon_cache"
+			{
+				"origin"		"5101 -1048 -2105"
+				"angles"		"0 0 0"
+				"targetname"	"cache_final"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_final"
+				"TakeDamageBullets" "0"
+				"DestructibleWhenActiveOnly" "1"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"5102 -1045 -2045"
+				"angles"		"0 0 0"
+				"targetname"	"cachepoint_final"
+			}		
+	   }
+	}
+	
+
+	"checkpoint"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"check_a"
+		"controlpoint"		"check_b"
+		"controlpoint"		"check_c"
+		"controlpoint"		"check_d"
+		"controlpoint"		"check_e"
+		"controlpoint"		"check_f"
+
+		
+		"spawnzones"
+		{
+			"0"  "spawn_check_a"
+			"1"  "spawn_check_b"
+			"2"  "spawn_check_c"
+			"3"  "spawn_check_d"
+			"4"  "spawn_check_e"
+			"5"  "spawn_check_f"
+
+		}
+
+		"entities"
+		{
+			"obj_weapon_cache"
+			{
+				"origin"		"5344 -753 -2074"
+				"angles"		"-12.5659 323.491 9.14855"
+				"targetname"	""
+				"teamnumber"	"3"
+				"ControlPoint"	"check_f"
+				"TakeDamageBullets" "0"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"5339 -753 -2034"
+				"angles"		"0 0 0"
+				"targetname"	"check_f"
+			}
+
+
+		}
+	}
+
+
+}

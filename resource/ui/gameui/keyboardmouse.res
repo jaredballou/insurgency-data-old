@@ -7,7 +7,7 @@
 		"xpos"					"485"
 		"ypos"					"110"
 		"wide"					"f555"
-		"tall"					"248"
+		"tall"					"f200"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -25,7 +25,7 @@
 			wide					f
 			tall					30
 			
-			labelText				"#GameUI_Controls"
+			labelText				"#GameUI_Keyboard_Mouse"
 			textAlignment			west
 			font					FoundationSans20
 			textInsetX				20
@@ -322,9 +322,44 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"navUp"					"SldMouseAccelerationSensitivity"
-		"navDown"				"DrpMouseYInvert"
+		"navDown"				"BtnToggleController"
 		"labelText"				"#GameUI_Controller_Edit_Keys_Buttons"
 		"style"					"LeftDialogButton"
 		"command"				"BtnKeyBindings"
+	}
+
+	LblTitle2
+	{
+		ControlName				Label
+		proportionalToParent	1
+		xpos					0
+		ypos					274
+		wide					f
+		tall					30
+		
+		labelText				"#GameUI_Controller"
+		textAlignment			west
+		font					FoundationSans20
+		textInsetX				20
+		use_proportional_insets 1
+		allcaps					1
+	}
+
+	"BtnToggleController"
+	{
+		"ControlName"			"HybridButton"
+		"fieldName"				"BtnToggleController"
+		"xpos"					"0"
+		"ypos"					"304"
+		"wide"					"462"
+		"tall"					"24"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"navUp"					"BtnKeyBindings"
+		"navDown"				"DrpMouseYInvert"
+		"labelText"				"#GameUI_EnableController"
+		"style"					"LeftDialogButton"
+		"command"				"BtnToggleController"
 	}
 }

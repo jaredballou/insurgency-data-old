@@ -1,0 +1,9 @@
+"launch_control_coopv1_5"
+{
+	material	overviews/launch_control_coopv1_5       	// texture file
+	pos_x		"-3183"			// X coordinate
+	pos_y		"3136"			// Y coordinate
+	scale		"4.0" 			// scale used when taking the screenshot
+	rotate		"0"			// map was rotated by 90 degrees in image editor
+	zoom		1			// optimal zoom factor if map is shown in full size
+}

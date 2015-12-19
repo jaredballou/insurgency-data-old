@@ -1,0 +1,90 @@
+"cpsetup.txt"
+{
+
+	//  Supported modes:
+
+	// - Checkpoint
+
+		"navfile"   		"badlands_coop_b1"
+	
+	"checkpoint"
+	{	
+		"AttackingTeam"		"security"
+		"controlpoint"		"cp1"
+		"controlpoint"		"cp2"
+		"controlpoint"		"cp3"
+		"controlpoint"		"cp4"
+		"controlpoint"		"cp5"
+		"controlpoint"		"cp6"
+		"controlpoint"		"cp7"
+		"controlpoint"		"cp8"
+		"controlpoint"		"cp9"
+
+		"spawnzones"
+		{
+			"0"  "spawn1"
+			"1"  "spawn2"
+			"2"  "spawn3"
+			"3"  "spawn4"
+			"4"  "spawn5"
+			"5"  "spawn6"
+			"6"  "spawn7"
+			"7"  "spawn8"
+			"8"  "spawn9"
+		}	
+		
+		"entities"
+		{
+			// Cache
+			"obj_weapon_cache"
+			{
+				"origin"		"3028 -1207 180"
+				"angles"		"0 90 0"
+				"targetname"		"cache_1"
+				"teamnumber"		"3"
+				"ControlPoint"		"cp3"
+				"TakeDamageBullets" 	"0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"3022 -1208 230"
+				"angles"		"0 90 0"
+				"targetname"		"cp3"
+			}
+
+			// Cache
+			"obj_weapon_cache"
+			{
+				"origin"		"792 -302 177"
+				"angles"		"0 96 0"
+				"targetname"		"cache_2"
+				"teamnumber"		"3"
+				"ControlPoint"		"cp5"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"787 -303 224"
+				"angles"		"0 96 0"
+				"targetname"		"cp5"
+			}
+
+			// Cache
+			"obj_weapon_cache"
+			{
+				"origin"		"-4200 1919 208"
+				"angles"		"0 272 0"
+				"targetname"		"cache_3"
+				"teamnumber"		"3"
+				"ControlPoint"		"cp7"
+				"TakeDamageBullets" 	"0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-4206 1920 254"
+				"angles"		"0 272 0"
+				"targetname"		"cp7"
+			}
+		}	
+	}
+}

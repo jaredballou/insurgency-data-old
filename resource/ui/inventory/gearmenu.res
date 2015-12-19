@@ -30,5 +30,7 @@
 			
 			"allcaps"					"1"
 		}
+
+		navRight					InventoryList
 	}
 }

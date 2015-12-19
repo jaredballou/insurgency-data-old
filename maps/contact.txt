@@ -3,9 +3,14 @@
 	// Contact supported modes:
 	// - Skirmish
 	// - Firefight
-	// - Infiltrate
-	// - Flashpoint
-	// - Strike
+	// - Occupy
+	// - Push
+	// - Survival
+	// - Hunt
+	// - Outpost
+	// - Conquer
+	// - Strike 
+	// - Elimination
 	// - Ambush
 	
 	"skirmish"
@@ -105,7 +110,7 @@
 			// Final Cache
 			"obj_weapon_cache"
 			{
-				"origin"        "-1474 -3467 209"
+				"origin"        "2964 -4044 0"
 				"angles"        "0 270 0"
 				"targetname"    "cache_final"
 				"teamnumber"    "3"
@@ -116,12 +121,12 @@
 
 			"point_controlpoint"
 			{
-				"origin"        "-1474 -3467 250"
+				"origin"        "2964 -4044 50"
 				"angles"        "0 270 0"
 				"targetname"    "cachepoint_final"
             		}        
        		}
-    	} 
+    } 
 	
 	"survival"
 	{
@@ -672,5 +677,67 @@
 				"targetname"	"cachepoint_c"
 			}	
 		}
-        }
-}
+    }
+"elimination"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"cachepoint_a" 
+		"controlpoint"		"cachepoint_b" 
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_ff"
+		}
+		
+		"entities"
+		{
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"1588 -2936 0"
+				"angles"		"0 270 0"
+				"targetname"	"cache_a"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"1588 -2936 50"
+				"angles"		"0 270 0"
+				"targetname"	"cachepoint_a"
+			}
+
+			// Cache B
+			"obj_weapon_cache"
+			{
+				"origin"		"-1482 -3490 208"
+				"angles"		"0 0 0"
+				"targetname"	"cache_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_b"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-1482 -3490 258"
+				"angles"		"0 0 0"
+				"targetname"	"cachepoint_b"
+			}		
+		}
+	}
+	"ambush"
+	{
+		"controlpoint"		"extract_1"
+		"controlpoint" 		"extract_2"
+
+		"AttackingTeam"		"insurgents"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_ambush"
+		}		
+	  }
+   }

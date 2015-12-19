@@ -696,6 +696,8 @@
 				"fgcolor_override"		"242 235 216 255"
 				"proportionalToParent"	"1"		
 			}
+
+			navLeft						"GearMenu"
 		}
 		
 		// Button to sell all items

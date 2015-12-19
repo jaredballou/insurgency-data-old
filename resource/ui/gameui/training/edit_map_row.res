@@ -158,6 +158,98 @@ res
 				bgcolor_override 	 	"27 23 23 255"	
 				noMouseInput			0
 			}
+
+			BtnDay
+			{	
+				ControlName				Button
+				xpos					3
+				ypos					r15	
+				zpos					9
+				wide 					30
+				tall  					15	
+				proportionalToParent	1
+
+				forceBaseColor			1
+				defaultBgColor_override		"0 0 0 0"	
+				defaultFgColor_override		"242 235 216 80"
+				ArmedBgColor_override  		"0 0 0 0"
+				ArmedFgColor_override  		"242 235 216 255"
+				disabledFgColor1_override	"0 0 0 0"
+				disabledFgColor2_override	"242 235 216 255"
+
+				labelText				"#GameUI_Day"
+				font					OratorStd11
+				allcaps					1
+				textAlignment			center
+
+				command					"ToggleDay 0"
+
+				sound_armed				UI/menu_focus.wav
+				sound_depressed			UI/menu_mark.wav
+			}
+
+			LblDayNightSlash
+			{	
+				ControlName				Label	
+				xpos					28
+				ypos					r15
+				zpos					9
+				wide 					5
+				tall  					15	
+				proportionalToParent	1
+				labelText				"/"
+				font					OratorStd11
+				allcaps					1
+				textAlignment			center
+				noMouseInput			1
+				FgColor_override		"242 235 216 80"
+			}
+
+			BtnNight
+			{	
+				ControlName				Button
+				xpos					32
+				ypos					r15
+				zpos					9
+				wide 					40
+				tall  					15	
+				proportionalToParent	1
+				
+				forceBaseColor			1
+				defaultBgColor_override		"0 0 0 0"	
+				defaultFgColor_override		"242 235 216 80"
+				ArmedBgColor_override  		"0 0 0 0"
+				ArmedFgColor_override  		"242 235 216 255"
+				disabledFgColor1_override	"0 0 0 0"
+				disabledFgColor2_override	"242 235 216 255"
+
+				labelText				"#GameUI_Night"
+				font					OratorStd11
+				allcaps					1
+				textAlignment			center
+
+				command					"ToggleNight 0"
+
+				sound_armed				UI/menu_focus.wav
+				sound_depressed			UI/menu_mark.wav
+			}
+
+			PnlDayNightBG
+			{
+				ControlName				EditablePanelPassthrough
+				xpos					0
+				ypos					0
+				wide					20
+				tall					20
+				zpos					8
+				proportional 			1
+				proportionalToParent	1
+
+				paintbackground			1 
+				bgcolor_override		"25 20 20 150"
+				noMouseInput			1
+			}
+			
 		}
 
 		Button2Container
@@ -311,6 +403,97 @@ res
 				bgcolor_override 	 	"27 23 23 255"	
 				noMouseInput			0
 			}
+
+			BtnDay
+			{	
+				ControlName				Button
+				xpos					3
+				ypos					r15	
+				zpos					9
+				wide 					30
+				tall  					15	
+				proportionalToParent	1
+				
+				forceBaseColor			1
+				defaultBgColor_override		"0 0 0 0"	
+				defaultFgColor_override		"242 235 216 80"
+				ArmedBgColor_override  		"0 0 0 0"
+				ArmedFgColor_override  		"242 235 216 255"
+				disabledFgColor1_override	"0 0 0 0"
+				disabledFgColor2_override	"242 235 216 255"
+
+				labelText				"#GameUI_Day"
+				font					OratorStd11
+				allcaps					1
+				textAlignment			center
+
+				command					"ToggleDay 1"
+
+				sound_armed				UI/menu_focus.wav
+				sound_depressed			UI/menu_mark.wav
+			}
+
+			LblDayNightSlash
+			{	
+				ControlName				Label	
+				xpos					28
+				ypos					r15
+				zpos					9
+				wide 					5
+				tall  					15	
+				proportionalToParent	1
+				labelText				"/"
+				font					OratorStd11
+				allcaps					1
+				textAlignment			center
+				noMouseInput			1
+				FgColor_override		"242 235 216 80"
+			}
+
+			BtnNight
+			{	
+				ControlName				Button
+				xpos					32
+				ypos					r15
+				zpos					9
+				wide 					40
+				tall  					15	
+				proportionalToParent	1
+				
+				forceBaseColor			1
+				defaultBgColor_override		"0 0 0 0"	
+				defaultFgColor_override		"242 235 216 80"
+				ArmedBgColor_override  		"0 0 0 0"
+				ArmedFgColor_override  		"242 235 216 255"
+				disabledFgColor1_override	"0 0 0 0"
+				disabledFgColor2_override	"242 235 216 255"
+
+				labelText				"#GameUI_Night"
+				font					OratorStd11
+				allcaps					1
+				textAlignment			center
+
+				command					"ToggleNight 1"
+
+				sound_armed				UI/menu_focus.wav
+				sound_depressed			UI/menu_mark.wav
+			}
+
+			PnlDayNightBG
+			{
+				ControlName				EditablePanelPassthrough
+				xpos					0
+				ypos					0
+				wide					20
+				tall					20
+				zpos					8
+				proportional 			1
+				proportionalToParent	1
+
+				paintbackground			1 
+				bgcolor_override		"25 20 20 150"
+				noMouseInput			1
+			}
 		}
 
 		Button3Container
@@ -462,6 +645,97 @@ res
 				paintbackground			1 
 				bgcolor_override 	 	"27 23 23 255"	
 				noMouseInput			0
+			}
+
+			BtnDay
+			{	
+				ControlName				Button
+				xpos					3
+				ypos					r15	
+				zpos					9
+				wide 					30
+				tall  					15	
+				proportionalToParent	1
+				
+				forceBaseColor			1
+				defaultBgColor_override		"0 0 0 0"	
+				defaultFgColor_override		"242 235 216 80"
+				ArmedBgColor_override  		"0 0 0 0"
+				ArmedFgColor_override  		"242 235 216 255"
+				disabledFgColor1_override	"0 0 0 0"
+				disabledFgColor2_override	"242 235 216 255"
+
+				labelText				"#GameUI_Day"
+				font					OratorStd11
+				allcaps					1
+				textAlignment			center
+
+				command					"ToggleDay 2"
+
+				sound_armed				UI/menu_focus.wav
+				sound_depressed			UI/menu_mark.wav
+			}
+
+			LblDayNightSlash
+			{	
+				ControlName				Label	
+				xpos					28
+				ypos					r15
+				zpos					9
+				wide 					5
+				tall  					15	
+				proportionalToParent	1
+				labelText				"/"
+				font					OratorStd11
+				allcaps					1
+				textAlignment			center
+				noMouseInput			1
+				FgColor_override		"242 235 216 80"
+			}
+
+			BtnNight
+			{	
+				ControlName				Button
+				xpos					32
+				ypos					r15
+				zpos					9
+				wide 					40
+				tall  					15	
+				proportionalToParent	1
+				
+				forceBaseColor			1
+				defaultBgColor_override		"0 0 0 0"	
+				defaultFgColor_override		"242 235 216 80"
+				ArmedBgColor_override  		"0 0 0 0"
+				ArmedFgColor_override  		"242 235 216 255"
+				disabledFgColor1_override	"0 0 0 0"
+				disabledFgColor2_override	"242 235 216 255"
+
+				labelText				"#GameUI_Night"
+				font					OratorStd11
+				allcaps					1
+				textAlignment			center
+
+				command					"ToggleNight 2"
+
+				sound_armed				UI/menu_focus.wav
+				sound_depressed			UI/menu_mark.wav
+			}
+			
+			PnlDayNightBG
+			{
+				ControlName				EditablePanelPassthrough
+				xpos					0
+				ypos					0
+				wide					20
+				tall					20
+				zpos					8
+				proportional 			1
+				proportionalToParent	1
+
+				paintbackground			1 
+				bgcolor_override		"25 20 20 150"
+				noMouseInput			1
 			}
 		}
 		

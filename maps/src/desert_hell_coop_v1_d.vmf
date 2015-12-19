@@ -1,0 +1,3855 @@
+world
+{
+	"id" "1"
+	"timeofday" "5"
+	"skyname" "sky_buhriz_"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"comment" "Decompiled by BSPSource v1.3.17 from ins_desert"
+	"mapversion" "74"
+	"comment" "Decompiled by BSPSource v1.3.17 from desert_hell_coop_v1"
+	"classname" "worldspawn"
+}
+entity
+{
+	"id" "14094"
+	"origin" "-909.429 -5405.01 65"
+	"angles" "0 0 0"
+	"classname" "info_player_start"
+}
+entity
+{
+	"id" "11055"
+	"origin" "3336.1 -1970.92 161.912"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11057"
+	"origin" "3208.1 -1970.92 158.114"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11059"
+	"origin" "3286.97 -1983.05 158.114"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11061"
+	"origin" "3208.1 -2034.92 158.114"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11063"
+	"origin" "3208.1 -2098.92 158.114"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11065"
+	"origin" "3272.1 -2098.92 158.114"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11067"
+	"origin" "3336.1 -2098.92 162.299"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11069"
+	"origin" "3336.1 -2162.92 161.906"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11071"
+	"origin" "3272.1 -2162.92 158.114"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11073"
+	"origin" "3208.1 -2162.92 158.114"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11075"
+	"TeamNum" "3"
+	"targetname" "spawnzone_5"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"classname" "ins_spawnzone"
+	solid
+	{
+		"id" "2"
+		side
+		{
+			"id" "3"
+			"plane" "(3016.1003 -3904.0 508.51202) (3016.1003 -3904.0 128.0) (3016.1003 -1714.9202 128.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 12] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -13] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(5696.0 -1714.9202 508.51202) (5696.0 -1714.9202 128.0) (5696.0 -3904.0 128.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 12] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -13] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(5696.0 -3904.0 508.51202) (5696.0 -3904.0 128.0) (3016.1003 -3904.0 128.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 -32] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -13] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(3016.1003 -1714.9202 508.51202) (3016.1003 -1714.9202 128.0) (5696.0 -1714.9202 128.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 -32] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -13] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "7"
+			"plane" "(3016.1003 -1714.9202 128.0) (3016.1003 -3904.0 128.0) (5696.0 -3904.0 128.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 -32] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 -12] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "8"
+			"plane" "(3016.1003 -3904.0 508.51202) (3016.1003 -1714.9202 508.51202) (5696.0 -1714.9202 508.51202)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 -32] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 -12] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "11146"
+	"origin" "3840 -4416 136.195"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11148"
+	"origin" "3349.33 -4499.69 128.838"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11150"
+	"origin" "3515.84 -4524.88 128.838"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11152"
+	"origin" "3520 -4992 128.838"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11154"
+	"origin" "3349.33 -4765.54 128.838"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11156"
+	"origin" "3484.44 -4765.54 128.838"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11158"
+	"origin" "3619.56 -4765.54 136.944"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11160"
+	"origin" "3712 -5248 136.182"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11162"
+	"origin" "3392 -5376 128.838"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11164"
+	"origin" "3349.33 -4898.46 128.838"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11166"
+	"TeamNum" "3"
+	"targetname" "spawnzone_6"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"classname" "ins_spawnzone"
+	solid
+	{
+		"id" "9"
+		side
+		{
+			"id" "10"
+			"plane" "(2944.0 -5696.0 807.52405) (2944.0 -5696.0 70.5096) (2944.0 -3968.0 70.5096)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 31] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "11"
+			"plane" "(4160.0 -3968.0 807.52405) (4160.0 -3968.0 70.5096) (4160.0 -5696.0 70.5096)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 31] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "12"
+			"plane" "(4160.0 -5696.0 807.52405) (4160.0 -5696.0 70.5096) (2944.0 -5696.0 70.5096)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 31] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "13"
+			"plane" "(2944.0 -3968.0 807.52405) (2944.0 -3968.0 70.5096) (4160.0 -3968.0 70.5096)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 31] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "14"
+			"plane" "(2944.0 -3968.0 70.5096) (2944.0 -5696.0 70.5096) (4160.0 -5696.0 70.5096)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "15"
+			"plane" "(2944.0 -5696.0 807.52405) (2944.0 -3968.0 807.52405) (4160.0 -3968.0 807.52405)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "11168"
+	"origin" "-1761.72 -12.4629 190.629"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11170"
+	"origin" "-1889.72 -12.4629 183.272"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11172"
+	"origin" "-1810.85 -24.5928 183.272"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11174"
+	"origin" "-1889.72 -76.4629 183.272"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11176"
+	"origin" "-1889.72 -140.463 183.272"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11178"
+	"origin" "-1825.72 -140.463 183.272"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11180"
+	"origin" "-1761.72 -140.463 191.378"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11182"
+	"origin" "-1761.72 -204.463 190.616"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11184"
+	"origin" "-1825.72 -204.463 183.272"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11186"
+	"origin" "-1889.72 -204.463 183.272"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11188"
+	"TeamNum" "3"
+	"targetname" "spawnzone_3"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"classname" "ins_spawnzone"
+	solid
+	{
+		"id" "16"
+		side
+		{
+			"id" "17"
+			"plane" "(-4224.0 -2239.99 861.958) (-4224.0 -2239.99 151.533) (-4224.0 243.53702 151.533)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 50] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 56] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "18"
+			"plane" "(-1510.39 243.53702 861.958) (-1510.39 243.53702 151.533) (-1510.39 -2239.99 151.533)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 50] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 56] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "19"
+			"plane" "(-1510.39 -2239.99 861.958) (-1510.39 -2239.99 151.533) (-4224.0 -2239.99 151.533)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 7] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 56] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "20"
+			"plane" "(-4224.0 243.53702 861.958) (-4224.0 243.53702 151.533) (-1510.39 243.53702 151.533)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 7] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 56] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "21"
+			"plane" "(-4224.0 243.53702 151.533) (-4224.0 -2239.99 151.533) (-1510.39 -2239.99 151.533)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 7] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 -50] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "22"
+			"plane" "(-4224.0 -2239.99 861.958) (-4224.0 243.53702 861.958) (-1510.39 243.53702 861.958)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 7] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 -50] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "11190"
+	"origin" "-2490.5 -4288 136.859"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11192"
+	"origin" "-2618.5 -4288 129.502"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11194"
+	"origin" "-2539.63 -4300.13 129.502"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11196"
+	"origin" "-2618.5 -4352 129.502"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11198"
+	"origin" "-2618.5 -4416 129.502"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11200"
+	"origin" "-2554.5 -4416 129.502"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11202"
+	"origin" "-2490.5 -4416 137.608"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11204"
+	"origin" "-2496 -4544 136.846"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11206"
+	"origin" "-2554.5 -4480 129.502"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11208"
+	"origin" "-2618.5 -4480 129.502"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "11210"
+	"TeamNum" "3"
+	"targetname" "spawnzone_4"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"classname" "ins_spawnzone"
+	solid
+	{
+		"id" "23"
+		side
+		{
+			"id" "24"
+			"plane" "(-4095.99 -5440.0 808.188) (-4095.99 -5440.0 71.174) (-4095.99 -4032.0 71.174)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 33] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "25"
+			"plane" "(-2234.5 -4032.0 808.188) (-2234.5 -4032.0 71.174) (-2234.5 -5440.0 71.174)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 33] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "26"
+			"plane" "(-2234.5 -5440.0 808.188) (-2234.5 -5440.0 71.174) (-4095.99 -5440.0 71.174)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 42] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 33] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "27"
+			"plane" "(-4095.99 -4032.0 808.188) (-4095.99 -4032.0 71.174) (-2234.5 -4032.0 71.174)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 42] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 33] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "28"
+			"plane" "(-4095.99 -4032.0 71.174) (-4095.99 -5440.0 71.174) (-2234.5 -5440.0 71.174)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 42] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "29"
+			"plane" "(-4095.99 -5440.0 808.188) (-4095.99 -4032.0 808.188) (-2234.5 -4032.0 808.188)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 42] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "12055"
+	"origin" "-620.03 -819.537 302.346"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12057"
+	"origin" "-620.03 -896 320"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12059"
+	"origin" "-620.03 -960 321.444"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12061"
+	"origin" "-576 -1024 319.084"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12063"
+	"origin" "-640 -1088 319.084"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12065"
+	"origin" "-542.279 -1088 319.72"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12067"
+	"origin" "-542.279 -1024 319.72"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12069"
+	"origin" "-542.279 -947.537 320.916"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12071"
+	"origin" "-542.279 -883.537 320.916"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12073"
+	"origin" "-542.279 -832 320"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12075"
+	"TeamNum" "2"
+	"targetname" "spawnzone_4"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"classname" "ins_spawnzone"
+	solid
+	{
+		"id" "30"
+		side
+		{
+			"id" "31"
+			"plane" "(-1054.28 -51.5371 273.693) (-1054.28 -1203.54 273.693) (-222.27902 -1203.54 273.693)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 57] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 50] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "32"
+			"plane" "(-1054.28 -1203.54 556.693) (-1054.28 -51.5371 556.693) (-222.27902 -51.5371 556.693)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 57] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 50] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "33"
+			"plane" "(-1054.28 -1203.54 556.693) (-1054.28 -1203.54 273.693) (-1054.28 -51.5371 273.693)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 -50] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 52] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "34"
+			"plane" "(-222.27902 -51.5371 556.693) (-222.27902 -51.5371 273.693) (-222.27902 -1203.54 273.693)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 -50] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 52] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "35"
+			"plane" "(-222.27902 -1203.54 556.693) (-222.27902 -1203.54 273.693) (-1054.28 -1203.54 273.693)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 57] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 52] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "36"
+			"plane" "(-1054.28 -51.5371 556.693) (-1054.28 -51.5371 273.693) (-222.27902 -51.5371 273.693)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 57] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 52] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "12237"
+	"origin" "-2618.5 -4352 129.502"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12372"
+	"origin" "-2931.35 -4493.63 110.307"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12374"
+	"origin" "-2931.35 -4749.63 110.027"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12376"
+	"origin" "-3029.07 -4749.63 109.391"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12378"
+	"origin" "-2965.07 -4685.63 109.391"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12380"
+	"origin" "-2931.35 -4685.63 110.027"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12382"
+	"origin" "-3009.1 -4621.63 111.751"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12384"
+	"origin" "-2931.35 -4609.17 111.223"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12386"
+	"origin" "-3009.1 -4557.63 110.307"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12388"
+	"origin" "-3008 -4481.17 128"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12390"
+	"origin" "-2931.35 -4545.17 111.223"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12392"
+	"TeamNum" "2"
+	"targetname" "spawnzone_5"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"classname" "ins_spawnzone"
+	solid
+	{
+		"id" "37"
+		side
+		{
+			"id" "38"
+			"plane" "(-3443.3503 -4865.17 576.0) (-3443.3503 -4865.17 64.0) (-3443.3503 -3713.17 64.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 -59] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -19] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "39"
+			"plane" "(-2611.35 -3713.17 576.0) (-2611.35 -3713.17 64.0) (-2611.35 -4865.17 64.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 -59] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -19] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "40"
+			"plane" "(-2611.35 -4865.17 576.0) (-2611.35 -4865.17 64.0) (-3443.3503 -4865.17 64.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 13] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -19] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "41"
+			"plane" "(-3443.3503 -3713.17 576.0) (-3443.3503 -3713.17 64.0) (-2611.35 -3713.17 64.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 13] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -19] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "42"
+			"plane" "(-3443.3503 -3713.17 64.0) (-3443.3503 -4865.17 64.0) (-2611.35 -4865.17 64.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 13] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 59] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "43"
+			"plane" "(-3443.3503 -4865.17 576.0) (-3443.3503 -3713.17 576.0) (-2611.35 -3713.17 576.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 13] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 59] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "12428"
+	"origin" "2347.19 -2661.3 210.449"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12430"
+	"origin" "2347.19 -3072.4 289.473"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12432"
+	"origin" "2249.47 -3072.4 288.146"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12434"
+	"origin" "2313.47 -2969.63 208.539"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12436"
+	"origin" "2347.19 -2969.63 209.866"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12438"
+	"origin" "2269.44 -2866.85 213.461"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12440"
+	"origin" "2347.19 -2846.84 212.36"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12442"
+	"origin" "2269.44 -2764.08 210.449"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12444"
+	"origin" "2269.44 -2641.29 173.637"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12446"
+	"origin" "2347.19 -2744.07 212.36"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12448"
+	"TeamNum" "2"
+	"targetname" "spawnzone_6"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"classname" "ins_spawnzone"
+	solid
+	{
+		"id" "44"
+		side
+		{
+			"id" "45"
+			"plane" "(1835.19 -3257.9402 704.0) (1835.19 -3257.9402 113.89101) (1835.19 -1408.0 113.89101)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 40] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -11] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "46"
+			"plane" "(2667.19 -1408.0 704.0) (2667.19 -1408.0 113.89101) (2667.19 -3257.9402 113.89101)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 40] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -11] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "47"
+			"plane" "(2667.19 -3257.9402 704.0) (2667.19 -3257.9402 113.89101) (1835.19 -3257.9402 113.89101)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 -45] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -11] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "48"
+			"plane" "(1835.19 -1408.0 704.0) (1835.19 -1408.0 113.89101) (2667.19 -1408.0 113.89101)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 -45] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -11] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "49"
+			"plane" "(1835.19 -1408.0 113.89101) (1835.19 -3257.9402 113.89101) (2667.19 -3257.9402 113.89101)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 -45] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 -40] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "50"
+			"plane" "(1835.19 -3257.9402 704.0) (1835.19 -1408.0 704.0) (2667.19 -1408.0 704.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 -45] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 -40] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "12580"
+	"origin" "4559.34 -5568 128"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12582"
+	"origin" "4461.62 -5618.71 111.159"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12584"
+	"origin" "4525.62 -5515.93 95.552"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12586"
+	"origin" "4559.34 -5515.93 96.879"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12588"
+	"origin" "4559.34 -5393.15 163.373"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12590"
+	"origin" "4481.59 -5413.16 164.474"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12592"
+	"origin" "4481.59 -5310.39 161.463"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12594"
+	"origin" "4559.34 -5290.37 163.373"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12596"
+	"origin" "4481.59 -5187.6 124.65"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12598"
+	"origin" "4559.34 -5207.61 161.463"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "12600"
+	"TeamNum" "2"
+	"targetname" "spawnzone_7"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"classname" "ins_spawnzone"
+	solid
+	{
+		"id" "51"
+		side
+		{
+			"id" "52"
+			"plane" "(4879.34 -5804.24 655.0121) (4879.34 -5804.24 64.9044) (4047.3403 -5804.24 64.9044)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 3] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -15] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "53"
+			"plane" "(4047.3403 -3954.31 655.0121) (4047.3403 -3954.31 64.9044) (4879.34 -3954.31 64.9044)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 3] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -15] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "54"
+			"plane" "(4047.3403 -3954.31 64.9044) (4047.3403 -5804.24 64.9044) (4879.34 -5804.24 64.9044)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 3] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 -49] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "55"
+			"plane" "(4047.3403 -5804.24 655.0121) (4047.3403 -3954.31 655.0121) (4879.34 -3954.31 655.0121)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 3] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 -49] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "56"
+			"plane" "(4047.3403 -5804.24 655.0121) (4047.3403 -5804.24 64.9044) (4047.3403 -3954.31 64.9044)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 49] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -15] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "57"
+			"plane" "(4879.34 -3954.31 655.0121) (4879.34 -3954.31 64.9044) (4879.34 -5804.24 64.9044)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 49] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -15] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "10538"
+	"origin" "-320 2816 102"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10540"
+	"origin" "-320 2752 102"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10542"
+	"origin" "-320 2688 102"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10544"
+	"origin" "-320 2624 102"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10546"
+	"origin" "-320 2560 102"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10548"
+	"origin" "-384 2560 102"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10550"
+	"origin" "-384 2624 102"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10552"
+	"origin" "-397.751 2688 129.418"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10554"
+	"origin" "-397.751 2752 129.418"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10556"
+	"origin" "-397.751 2816 129.418"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10624"
+	"TeamNum" "2"
+	"targetname" "spawnzone_2"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"classname" "ins_spawnzone"
+	solid
+	{
+		"id" "58"
+		side
+		{
+			"id" "59"
+			"plane" "(-832.0 2432.0 383.765) (-832.0 2432.0 100.765) (-832.0 3584.0 100.765)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "60"
+			"plane" "(0.0 3584.0 383.765) (0.0 3584.0 100.765) (0.0 2432.0 100.765)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "61"
+			"plane" "(0.0 2432.0 383.765) (0.0 2432.0 100.765) (-832.0 2432.0 100.765)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "62"
+			"plane" "(-832.0 3584.0 383.765) (-832.0 3584.0 100.765) (0.0 3584.0 100.765)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "63"
+			"plane" "(-832.0 3584.0 100.765) (-832.0 2432.0 100.765) (0.0 2432.0 100.765)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "64"
+			"plane" "(-832.0 2432.0 383.765) (-832.0 3584.0 383.765) (0.0 3584.0 383.765)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "10656"
+	"origin" "3584 768 160.34"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10658"
+	"origin" "2688 128 160.327"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10660"
+	"origin" "3520 0 152.983"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10662"
+	"origin" "3328 384 88.983"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10664"
+	"origin" "3712 128 161.089"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10666"
+	"origin" "3377.2 194 152.983"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10668"
+	"origin" "3313.2 194 152.983"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10670"
+	"origin" "3584 448 152.983"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10672"
+	"origin" "3008 448 152.983"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10674"
+	"origin" "3392 704 152.983"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10676"
+	"TeamNum" "3"
+	"targetname" "spawnzone_2"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"classname" "ins_spawnzone"
+	solid
+	{
+		"id" "65"
+		side
+		{
+			"id" "66"
+			"plane" "(1664.0 -1152.0 832.0) (1664.0 -1152.0 94.9863) (1664.0 2560.0 94.9863)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 56] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 1] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "67"
+			"plane" "(3840.0 2560.0 832.0) (3840.0 2560.0 94.9863) (3840.0 -1152.0 94.9863)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 56] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 1] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "68"
+			"plane" "(3840.0 -1152.0 832.0) (3840.0 -1152.0 94.9863) (1664.0 -1152.0 94.9863)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 -64] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 1] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "69"
+			"plane" "(1664.0 2560.0 832.0) (1664.0 2560.0 94.9863) (3840.0 2560.0 94.9863)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 -64] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 1] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "70"
+			"plane" "(1664.0 2560.0 94.9863) (1664.0 -1152.0 94.9863) (3840.0 -1152.0 94.9863)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 -64] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 -56] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "71"
+			"plane" "(1664.0 -1152.0 832.0) (1664.0 2560.0 832.0) (3840.0 2560.0 832.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 -64] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 -56] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "10732"
+	"origin" "2816 1024 64"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10734"
+	"origin" "2880 1024 64"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10736"
+	"origin" "2901.57 1088 65.1288"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10738"
+	"origin" "2901.57 1152 65.1288"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10740"
+	"origin" "2901.57 1216 128.324"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10742"
+	"origin" "2880 1280 128.324"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10744"
+	"origin" "2837.57 1280 128.323"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10746"
+	"origin" "2837.57 1216 128.297"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10748"
+	"origin" "2816 1152 128.297"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10750"
+	"origin" "2816 1088 64"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "10752"
+	"TeamNum" "2"
+	"targetname" "spawnzone_3"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"classname" "ins_spawnzone"
+	solid
+	{
+		"id" "72"
+		side
+		{
+			"id" "73"
+			"plane" "(2432.0 640.0 328.161) (2432.0 640.0 45.1607) (2432.0 1472.0 45.1607)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -30] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "74"
+			"plane" "(3264.0 1472.0 328.161) (3264.0 1472.0 45.1607) (3264.0 640.0 45.1607)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -30] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "75"
+			"plane" "(3264.0 640.0 328.161) (3264.0 640.0 45.1607) (2432.0 640.0 45.1607)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -30] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "76"
+			"plane" "(2432.0 1472.0 328.161) (2432.0 1472.0 45.1607) (3264.0 1472.0 45.1607)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -30] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "77"
+			"plane" "(2432.0 1472.0 45.1607) (2432.0 640.0 45.1607) (3264.0 640.0 45.1607)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "78"
+			"plane" "(2432.0 640.0 328.161) (2432.0 1472.0 328.161) (3264.0 1472.0 328.161)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "9887"
+	"StartDisabled" "0"
+	"spawnflags" "4097"
+	"origin" "2816 800 576"
+	"controlpoint" "cap_b"
+	"classname" "trigger_capture_zone"
+	solid
+	{
+		"id" "79"
+		side
+		{
+			"id" "80"
+			"plane" "(2688.0 704.0 1152.0) (2688.0 704.0 0.0) (2688.0 896.0 0.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "81"
+			"plane" "(2944.0 896.0 1152.0) (2944.0 896.0 0.0) (2944.0 704.0 0.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "82"
+			"plane" "(2944.0 704.0 1152.0) (2944.0 704.0 0.0) (2688.0 704.0 0.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "83"
+			"plane" "(2688.0 896.0 1152.0) (2688.0 896.0 0.0) (2944.0 896.0 0.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "84"
+			"plane" "(2688.0 896.0 0.0) (2688.0 704.0 0.0) (2944.0 704.0 0.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "85"
+			"plane" "(2688.0 704.0 1152.0) (2688.0 896.0 1152.0) (2944.0 896.0 1152.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "9907"
+	"StartDisabled" "0"
+	"spawnflags" "4097"
+	"origin" "-640 -896 896"
+	"controlpoint" "cap_c"
+	"classname" "trigger_capture_zone"
+	solid
+	{
+		"id" "86"
+		side
+		{
+			"id" "87"
+			"plane" "(-960.0 -768.0 128.0) (-960.0 -1024.0 128.0) (-320.0 -1024.0 128.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "88"
+			"plane" "(-960.0 -1024.0 1664.0) (-960.0 -768.0 1664.0) (-320.0 -768.0 1664.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "89"
+			"plane" "(-960.0 -1024.0 1664.0) (-960.0 -1024.0 128.0) (-960.0 -768.0 128.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "90"
+			"plane" "(-320.0 -768.0 1664.0) (-320.0 -768.0 128.0) (-320.0 -1024.0 128.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "91"
+			"plane" "(-320.0 -1024.0 1664.0) (-320.0 -1024.0 128.0) (-960.0 -1024.0 128.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "92"
+			"plane" "(-960.0 -768.0 1664.0) (-960.0 -768.0 128.0) (-320.0 -768.0 128.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "10134"
+	"origin" "-320 3464.19 832"
+	"team_two_class" "1"
+	"team_one_class" "0"
+	"angles" "0 0 0"
+	"classname" "ins_team_parameters"
+}
+entity
+{
+	"id" "10237"
+	"origin" "-384 3912.82 320"
+	"angles" "0 0 0"
+	"classname" "ins_viewpoint"
+}
+entity
+{
+	"id" "10254"
+	"origin" "-512 3415.09 128"
+	"targetname" "cap_a"
+	"default_owner" "0"
+	"classname" "point_controlpoint"
+}
+entity
+{
+	"id" "10275"
+	"StartDisabled" "0"
+	"spawnflags" "4097"
+	"origin" "-416 3424 352"
+	"controlpoint" "cap_a"
+	"classname" "trigger_capture_zone"
+	solid
+	{
+		"id" "93"
+		side
+		{
+			"id" "94"
+			"plane" "(-768.0 3200.0 640.0) (-768.0 3200.0 64.0) (-768.0 3648.0 64.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "95"
+			"plane" "(-64.0 3648.0 640.0) (-64.0 3648.0 64.0) (-64.0 3200.0 64.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "96"
+			"plane" "(-64.0 3200.0 640.0) (-64.0 3200.0 64.0) (-768.0 3200.0 64.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "97"
+			"plane" "(-768.0 3648.0 640.0) (-768.0 3648.0 64.0) (-64.0 3648.0 64.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "98"
+			"plane" "(-768.0 3648.0 64.0) (-768.0 3200.0 64.0) (-64.0 3200.0 64.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "99"
+			"plane" "(-768.0 3200.0 640.0) (-768.0 3648.0 640.0) (-64.0 3648.0 640.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "9652"
+	"StartDisabled" "0"
+	"spawnflags" "4097"
+	"origin" "-2272 -2528 804.99"
+	"controlpoint" "cap_d"
+	"classname" "trigger_capture_zone"
+	solid
+	{
+		"id" "100"
+		side
+		{
+			"id" "101"
+			"plane" "(-3264.0 -4032.0 1088.0) (-3264.0 -4032.0 64.0) (-3264.0 -3840.0 64.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -64] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "102"
+			"plane" "(-3008.0 -3840.0 1088.0) (-3008.0 -3840.0 64.0) (-3008.0 -4032.0 64.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -64] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "103"
+			"plane" "(-3008.0 -4032.0 1088.0) (-3008.0 -4032.0 64.0) (-3264.0 -4032.0 64.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -64] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "104"
+			"plane" "(-3264.0 -3840.0 1088.0) (-3264.0 -3840.0 64.0) (-3008.0 -3840.0 64.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 -64] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "105"
+			"plane" "(-3264.0 -3840.0 64.0) (-3264.0 -4032.0 64.0) (-3008.0 -4032.0 64.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "106"
+			"plane" "(-3264.0 -4032.0 1088.0) (-3264.0 -3840.0 1088.0) (-3008.0 -3840.0 1088.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "9300"
+	"StartDisabled" "0"
+	"spawnflags" "4097"
+	"origin" "2368 -1600 632.48"
+	"controlpoint" "cap_e"
+	"classname" "trigger_capture_zone"
+	solid
+	{
+		"id" "107"
+		side
+		{
+			"id" "108"
+			"plane" "(2432.0 -1792.0 1152.0) (2432.0 -1792.0 112.961) (2112.0 -1792.0 112.961)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "109"
+			"plane" "(2112.0 -1472.0 1152.0) (2112.0 -1472.0 112.961) (2432.0 -1472.0 112.961)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "110"
+			"plane" "(2112.0 -1472.0 112.961) (2112.0 -1792.0 112.961) (2432.0 -1792.0 112.961)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "111"
+			"plane" "(2112.0 -1792.0 1152.0) (2112.0 -1472.0 1152.0) (2432.0 -1472.0 1152.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "112"
+			"plane" "(2112.0 -1792.0 1152.0) (2112.0 -1792.0 112.961) (2112.0 -1472.0 112.961)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "113"
+			"plane" "(2432.0 -1472.0 1152.0) (2432.0 -1472.0 112.961) (2432.0 -1792.0 112.961)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "9303"
+	"StartDisabled" "0"
+	"spawnflags" "4097"
+	"origin" "4416 -5472 544"
+	"controlpoint" "cap_f"
+	"classname" "trigger_capture_zone"
+	solid
+	{
+		"id" "114"
+		side
+		{
+			"id" "115"
+			"plane" "(4224.0 -5568.0 1088.0) (4224.0 -5568.0 0.0) (4224.0 -5376.0 0.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "116"
+			"plane" "(4480.0 -5376.0 1088.0) (4480.0 -5376.0 0.0) (4480.0 -5568.0 0.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "117"
+			"plane" "(4480.0 -5568.0 1088.0) (4480.0 -5568.0 0.0) (4224.0 -5568.0 0.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "118"
+			"plane" "(4224.0 -5376.0 1088.0) (4224.0 -5376.0 0.0) (4480.0 -5376.0 0.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "119"
+			"plane" "(4224.0 -5376.0 0.0) (4224.0 -5568.0 0.0) (4480.0 -5568.0 0.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "120"
+			"plane" "(4224.0 -5568.0 1088.0) (4224.0 -5376.0 1088.0) (4480.0 -5376.0 1088.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_capture"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "9316"
+	"origin" "2816 778.469 128"
+	"targetname" "cap_b"
+	"default_owner" "0"
+	"classname" "point_controlpoint"
+}
+entity
+{
+	"id" "9337"
+	"origin" "-640 -875.102 320"
+	"targetname" "cap_c"
+	"default_owner" "0"
+	"classname" "point_controlpoint"
+}
+entity
+{
+	"id" "9354"
+	"origin" "-3072 -3968 256"
+	"targetname" "cap_d"
+	"default_owner" "0"
+	"classname" "point_controlpoint"
+}
+entity
+{
+	"id" "9376"
+	"origin" "2304 -1682.55 384"
+	"targetname" "cap_e"
+	"default_owner" "0"
+	"classname" "point_controlpoint"
+}
+entity
+{
+	"id" "9395"
+	"origin" "4352 -5488.77 192"
+	"targetname" "cap_f"
+	"default_owner" "0"
+	"classname" "point_controlpoint"
+}
+entity
+{
+	"id" "9424"
+	"origin" "-5355 2645.57 154.638"
+	"angles" "0 0 0"
+	"classname" "info_player_start"
+}
+entity
+{
+	"id" "8546"
+	"origin" "-5888 2944 79.1714"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "8560"
+	"origin" "-5888 2816 79.1714"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "8562"
+	"origin" "-5888 2688 79.1714"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "8564"
+	"origin" "-5888 2560 79.1714"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "8566"
+	"origin" "-5824 2560 79.1714"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "8568"
+	"origin" "-5824 2688 79.1714"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "8570"
+	"origin" "-5824 2816 79.1714"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "8572"
+	"origin" "-5824 2944 79.1714"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "8574"
+	"origin" "-5824 2432 79.1714"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "8576"
+	"origin" "-5888 2432 79.1714"
+	"TeamNum" "2"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/security_standard.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 0 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "8583"
+	"TeamNum" "2"
+	"targetname" "spawnzone_1"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"classname" "ins_spawnzone"
+	solid
+	{
+		"id" "121"
+		side
+		{
+			"id" "122"
+			"plane" "(-6080.0 2304.0 960.0) (-6080.0 2304.0 77.8503) (-6080.0 3136.0 77.8503)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "123"
+			"plane" "(-5504.0 3136.0 960.0) (-5504.0 3136.0 77.8503) (-5504.0 2304.0 77.8503)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "124"
+			"plane" "(-5504.0 2304.0 960.0) (-5504.0 2304.0 77.8503) (-6080.0 2304.0 77.8503)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "125"
+			"plane" "(-6080.0 3136.0 960.0) (-6080.0 3136.0 77.8503) (-5504.0 3136.0 77.8503)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "126"
+			"plane" "(-6080.0 3136.0 77.8503) (-6080.0 2304.0 77.8503) (-5504.0 2304.0 77.8503)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "127"
+			"plane" "(-6080.0 2304.0 960.0) (-6080.0 3136.0 960.0) (-5504.0 3136.0 960.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "8590"
+	"origin" "526.87 2867.87 122.328"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "8604"
+	"origin" "576 2688 129.672"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "8606"
+	"origin" "512 2688 122.328"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "8608"
+	"origin" "576 2880 129.685"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "8610"
+	"origin" "448 2880 122.328"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "8612"
+	"origin" "448 2816 122.328"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "8614"
+	"origin" "448 2688 122.328"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "8616"
+	"origin" "576 2752 130.434"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "8618"
+	"origin" "512 2752 122.328"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "8620"
+	"origin" "448 2752 122.328"
+	"TeamNum" "3"
+	"StartDisabled" "0"
+	"spawnflags" "1"
+	"skin" "0"
+	"shadowdepthnocache" "0"
+	"model" "models/characters/insurgent_fighter.mdl"
+	"drawinfastreflection" "0"
+	"disableshadows" "0"
+	"disableshadowdepth" "0"
+	"disableflashlight" "0"
+	"angles" "0 180 0"
+	"classname" "ins_spawnpoint"
+}
+entity
+{
+	"id" "8959"
+	"TeamNum" "3"
+	"targetname" "spawnzone_1"
+	"StartDisabled" "0"
+	"spawnflags" "2"
+	"rendermode" "0"
+	"renderfx" "0"
+	"rendercolor" "255 255 255"
+	"renderamt" "255"
+	"classname" "ins_spawnzone"
+	solid
+	{
+		"id" "128"
+		side
+		{
+			"id" "129"
+			"plane" "(256.0 1216.0 801.01404) (256.0 1216.0 64.0) (256.0 3136.0 64.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 5] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "130"
+			"plane" "(1856.0 3136.0 801.01404) (1856.0 3136.0 64.0) (1856.0 1216.0 64.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[0.0 1.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 5] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "131"
+			"plane" "(1856.0 1216.0 801.01404) (1856.0 1216.0 64.0) (256.0 1216.0 64.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 5] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "132"
+			"plane" "(256.0 3136.0 801.01404) (256.0 3136.0 64.0) (1856.0 3136.0 64.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 0.0 -1.0 5] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "133"
+			"plane" "(256.0 3136.0 64.0) (256.0 1216.0 64.0) (1856.0 1216.0 64.0)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "134"
+			"plane" "(256.0 1216.0 801.01404) (256.0 3136.0 801.01404) (1856.0 3136.0 801.01404)"
+			"smoothing_groups" "0"
+			"material" "tools/toolstrigger_spawnzone"
+			"uaxis" "[1.0 0.0 0.0 0] 0.25"
+			"vaxis" "[0.0 -1.0 0.0 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
+entity
+{
+	"id" "8297"
+	"origin" "2067.39 396.611 80.7733"
+	"volstart" "0"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "48"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+}
+entity
+{
+	"id" "2986"
+	"origin" "0 0 2032"
+	"use_angles" "1"
+	"size" "16"
+	"rendercolor" "100 80 80"
+	"overlaysize" "-1"
+	"overlaymaterial" "sprites/light_glow02_add_noz"
+	"overlaycolor" "0 0 0"
+	"material" "sprites/light_glow02_add_noz"
+	"HDRColorScale" "1.0"
+	"angles" "-28 124 0"
+	"classname" "env_sun"
+}
+entity
+{
+	"id" "3022"
+	"origin" "0 0 2032"
+	"pitch" "-28"
+	"angles" "-28 124 0"
+	"_lightscaleHDR" "1"
+	"_lightHDR" "-1 -1 -1 1"
+	"_light" "255 255 255 200"
+	"_AmbientScaleHDR" "1"
+	"_ambientHDR" "-1 -1 -1 1"
+	"_ambient" "255 255 255 20"
+	"classname" "light_environment"
+}
+entity
+{
+	"id" "4794"
+	"origin" "0 0 2080"
+	"targetname" "ambient/desert_wind_low.wav"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "17"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "ambient/desert_wind_low.wav"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "5"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+}
+entity
+{
+	"id" "4839"
+	"origin" "0 0 2096"
+	"volstart" "0"
+	"targetname" "ambient/wind/wind_moan4.wav"
+	"spinup" "0"
+	"spindown" "0"
+	"spawnflags" "49"
+	"radius" "1250"
+	"preset" "0"
+	"pitchstart" "100"
+	"pitch" "100"
+	"message" "ambient/wind/wind_moan4.wav"
+	"lfotype" "0"
+	"lforate" "0"
+	"lfomodvol" "0"
+	"lfomodpitch" "0"
+	"health" "10"
+	"fadeoutsecs" "0"
+	"fadeinsecs" "0"
+	"cspinup" "0"
+	"classname" "ambient_generic"
+}

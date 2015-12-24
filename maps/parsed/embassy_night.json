@@ -252,5 +252,10 @@
 			"pos_team": 2,
 			"pos_name": "bz_sec"
 		}
+	},
+	"source_files": {
+		"CPSetup": "64e8517df4549f754736661b32dcb395",
+		"Overview": "05f27bfc5a25e628ab04af55fdf90984",
+		"VMF Source": "7909aba25e22ab54c6514fb7f1846ef1"
 	}
 }

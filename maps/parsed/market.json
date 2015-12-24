@@ -1018,5 +1018,10 @@
 			"pos_team": 2,
 			"pos_name": "spawnzone_neutral_team2"
 		}
+	},
+	"source_files": {
+		"CPSetup": "a602588e2642d6fa83029fcd2dfbcc91",
+		"Overview": "bccf6e2a07f6a2a86582e8e2d399d80d",
+		"VMF Source": "8146fdaa2a13dbcbe26e9f2759cd5015"
 	}
 }

@@ -448,5 +448,10 @@
 			"pos_type": "obj_weapon_cache",
 			"pos_team": 3
 		}
+	},
+	"source_files": {
+		"CPSetup": "2651e21bd2b62d8778af82c833f39fa4",
+		"Overview": "7ca2437aa44d6fdcf4f62cdce66ba104",
+		"VMF Source": "e079343cf6bc8835fc4a071626f35580"
 	}
 }

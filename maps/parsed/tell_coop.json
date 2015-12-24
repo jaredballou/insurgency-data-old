@@ -686,5 +686,10 @@
 			"pos_team": 3,
 			"pos_name": "bz_l"
 		}
+	},
+	"source_files": {
+		"CPSetup": "923d8f3122384b9255dfb7af60f73aca",
+		"Overview": "af7b90e0c8d9552ef3ac7fe3ce0a37e0",
+		"VMF Source": "b74cdbab6eb080063440f6e17b3e8f51"
 	}
 }

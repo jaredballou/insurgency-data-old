@@ -354,5 +354,10 @@
 			"pos_name": "cap_a",
 			"pos_team": 0
 		}
+	},
+	"source_files": {
+		"CPSetup": "c6745db4ecedb505d533d70d9b9eac56",
+		"Overview": "24b9f369ca936422b00a4fabba6da4ca",
+		"VMF Source": "ac4420d301080be3d20333969f89e54f"
 	}
 }

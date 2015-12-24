@@ -144,5 +144,10 @@
 			"pos_name": "occupy_cap",
 			"pos_team": 0
 		}
+	},
+	"source_files": {
+		"CPSetup": "8d157f233aeac759b10c2e79498db03e",
+		"Overview": "521da1e74997c74004ecebf008265b2a",
+		"VMF Source": "41c9d380546d29d53e1b0f4146e5a20b"
 	}
 }

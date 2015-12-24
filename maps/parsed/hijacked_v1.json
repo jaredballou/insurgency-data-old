@@ -554,5 +554,10 @@
 			"pos_x": 0,
 			"pos_y": 0
 		}
+	},
+	"source_files": {
+		"CPSetup": "2030b2f92dd5136f1992e1258cb3f9a1",
+		"Overview": "3417a2613e5a73ab1b7f9672924e5895",
+		"VMF Source": "0f1393cfd39c73bf007a2f03ab5c66f9"
 	}
 }

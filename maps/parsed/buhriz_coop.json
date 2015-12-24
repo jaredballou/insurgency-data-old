@@ -354,5 +354,10 @@
 			"pos_name": "cp5",
 			"pos_team": 0
 		}
+	},
+	"source_files": {
+		"CPSetup": "1665691b96fb9c6f0c2dbd015b13dc5e",
+		"Overview": "7de6823cb0f83c10a24be55a120c66c5",
+		"VMF Source": "3b28cdeebf816278762d2d6c6cc1d391"
 	}
 }

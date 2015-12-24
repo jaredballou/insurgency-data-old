@@ -1,9 +1,0 @@
-"ins_abdallah"
-{
-	"material" 	"overviews/ins_abdallah_new"
-	"pos_x" 	"-6061"
-	"pos_y" 	"2209"
-	"scale" 	"8"
-	"zoom"		"1.0"
-	"rotate"	"0"
-}

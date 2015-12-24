@@ -723,5 +723,10 @@
 			"pos_name": "c3",
 			"pos_team": 0
 		}
+	},
+	"source_files": {
+		"CPSetup": "f2d472e3b029e9edb6e0b10923574f3a",
+		"Overview": "de14c022caa7be0a36d8170637be3738",
+		"VMF Source": "6de3660f0abb39ae88d5c3aef84850d1"
 	}
 }

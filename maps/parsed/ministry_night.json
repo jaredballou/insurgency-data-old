@@ -95,5 +95,10 @@
 			"pos_team": 3,
 			"pos_name": "spawnzone_skirmish_team3"
 		}
+	},
+	"source_files": {
+		"CPSetup": "122528217789ce90e6d64138aa67edec",
+		"Overview": "ea5f896cd386fb6b9da299c454f03fcf",
+		"VMF Source": "ce53345ce53dceac2a1c21d641fe9a6b"
 	}
 }

@@ -862,5 +862,10 @@
 			"pos_team": 3,
 			"pos_name": "spawnzone_firefight_team3"
 		}
+	},
+	"source_files": {
+		"CPSetup": "58b393dcc0fc3aa15fbc6634a1665191",
+		"Overview": "c57bec9516f280440747dec575ec7279",
+		"VMF Source": "fd6fd623243203363da308d3042a0492"
 	}
 }

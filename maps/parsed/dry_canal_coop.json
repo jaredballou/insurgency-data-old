@@ -559,5 +559,10 @@
 			"pos_name": "cp_3",
 			"pos_team": 0
 		}
+	},
+	"source_files": {
+		"CPSetup": "54e68650ec63fcf4cffab9b1d161a342",
+		"Overview": "bf343cded1e5e8e2a17aa015d0ef67e1",
+		"VMF Source": "fa2f3bca5bd80679f6b778dd2f25c5d9"
 	}
 }

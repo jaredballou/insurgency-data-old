@@ -318,5 +318,10 @@
 			"pos_name": "cp_e",
 			"pos_team": 0
 		}
+	},
+	"source_files": {
+		"CPSetup": "bc717b11ccf5845da47c7ce3978711be",
+		"Overview": "b5febabc38e61fa7c99b2511d65184ed",
+		"VMF Source": "4b6c4f4404aff1cd31b34f758b20fa64"
 	}
 }

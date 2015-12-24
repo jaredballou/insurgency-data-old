@@ -190,5 +190,10 @@
 			"pos_name": "push_cap_b",
 			"pos_team": 0
 		}
+	},
+	"source_files": {
+		"CPSetup": "6f4a935caa0d87a03520ebdec2b8f1c8",
+		"Overview": "2a31d960ef238886d3f46e702adf62f9",
+		"VMF Source": "09c771de8ea6c778c4eda1b65d15fb57"
 	}
 }

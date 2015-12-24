@@ -104,7 +104,6 @@ dusty_nights_coopv1_1.*
 dusty_nights_hunt.*
 embassy_coop_141029.*
 embassy_coop_141103.*
-embassy_coop.*
 facility_beta2_rspawn.*
 fallujahbeta2.*
 farah_b3.*

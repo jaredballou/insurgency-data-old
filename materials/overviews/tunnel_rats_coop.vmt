@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	$translucent 1
+	"$basetexture" "overviews/tunnel_rats_coop"
+	$vertexalpha 1
+	$no_fullbright 1
+	$ignorez 1
+}
+

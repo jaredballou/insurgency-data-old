@@ -1,9 +1,0 @@
-"ins_prison_v1"
-{
-	material	overviews/ins_prison_v1       	// texture file
-	pos_x		"-6900"			// X coordinate
-	pos_y		"7450"			// Y coordinate
-	scale		"12.2" 			// scale used when taking the screenshot
-	rotate		"0"			// map was rotated by 90 degrees in image editor
-	zoom		1			// optimal zoom factor if map is shown in full size
-}

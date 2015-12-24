@@ -748,5 +748,10 @@
 			"pos_team": 3,
 			"pos_name": "bz_ins_1"
 		}
+	},
+	"source_files": {
+		"CPSetup": "1bd71ca041477f199275951e9c81437e",
+		"Overview": "af7b90e0c8d9552ef3ac7fe3ce0a37e0",
+		"VMF Source": "599dcaeaf9dc08bf9aeea059f0a8a937"
 	}
 }

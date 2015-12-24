@@ -210,5 +210,10 @@
 			"pos_name": "cp_d5",
 			"pos_team": 0
 		}
+	},
+	"source_files": {
+		"CPSetup": "f10f84625507de0c7010b6d93b9517d6",
+		"Overview": "0bd5ef82402fe1be6c195f3f3436d453",
+		"VMF Source": "aed021abe1eae12c31c09168ba5c058b"
 	}
 }

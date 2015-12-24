@@ -630,5 +630,10 @@
 			"pos_name": "cachepoint_final",
 			"pos_team": 0
 		}
+	},
+	"source_files": {
+		"CPSetup": "7de2290c20490e73403401ceac2446f0",
+		"Overview": "0f7e79b62e8030f674d7c0643caf5fe2",
+		"VMF Source": "97397b166f3d4b0e2adbe6507e0424c7"
 	}
 }

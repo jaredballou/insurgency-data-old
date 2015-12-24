@@ -188,5 +188,10 @@
 			"pos_name": "pushpoint_03",
 			"pos_team": 0
 		}
+	},
+	"source_files": {
+		"CPSetup": "6ef32e009a232420551abe1eb7ac1e9e",
+		"Overview": "e0780c63fd53ac37e6f82359da0a1a60",
+		"VMF Source": "668ebf9678818df3823a701dd6625e79"
 	}
 }

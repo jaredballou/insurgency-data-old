@@ -1,9 +1,0 @@
-"almaden_coop_v1"
-{
-	"material" 	"maps/overviews/almaden_coop_v1"
-	"pos_x" 	"-2698"//-2583
-	"pos_y" 	"4334"
-	"scale" 	"8.5"
-	"zoom"		"1.5"
-	"rotate"	"0"
-}

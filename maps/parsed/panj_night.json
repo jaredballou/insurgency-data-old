@@ -198,5 +198,10 @@
 			"pos_name": "skirmish_cap_d",
 			"pos_team": 0
 		}
+	},
+	"source_files": {
+		"CPSetup": "1cd5e264dce1f67c42f072801c8bf67b",
+		"Overview": "f39efe4abcdc9c01e950e5967a2a9e4c",
+		"VMF Source": "04b67da1af48ad28a8d00b2019ef4f90"
 	}
 }

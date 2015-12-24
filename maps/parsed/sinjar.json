@@ -636,5 +636,10 @@
 			"pos_name": "stationpoint",
 			"pos_team": 0
 		}
+	},
+	"source_files": {
+		"CPSetup": "70d5c2640e6cd222999a9ef2d411c930",
+		"Overview": "2af915e6e0fca739a02a92374ff07a9d",
+		"VMF Source": "7fac4d3d55dba474f4049975c14eb130"
 	}
 }

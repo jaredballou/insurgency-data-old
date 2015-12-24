@@ -915,5 +915,10 @@
 			"pos_name": "cap_5",
 			"pos_team": 0
 		}
+	},
+	"source_files": {
+		"CPSetup": "0480886e2fad9afb6750406715a2c063",
+		"Overview": "f949eb96e23c42e9bd6114be02a1dcbd",
+		"VMF Source": "7281d46a323107f1a64947373701f607"
 	}
 }

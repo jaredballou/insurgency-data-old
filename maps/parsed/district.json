@@ -789,5 +789,10 @@
 			"pos_team": 3,
 			"pos_name": "blockzone_ins_back"
 		}
+	},
+	"source_files": {
+		"CPSetup": "b04e2876ccdb1386ee75df0099dc0ea5",
+		"Overview": "7f861ea17e5b03e6c94d2ff2f96aacb5",
+		"VMF Source": "e42c75eec05db308a4510ff3f9054530"
 	}
 }

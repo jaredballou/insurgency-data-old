@@ -466,5 +466,10 @@
 			"pos_name": "cp_f",
 			"pos_team": 0
 		}
+	},
+	"source_files": {
+		"CPSetup": "fb4805247a302f9a4838e58ad8b9abbd",
+		"Overview": "bccf6e2a07f6a2a86582e8e2d399d80d",
+		"VMF Source": "4f56aba05c47413fa3ac4f76f9ba8143"
 	}
 }

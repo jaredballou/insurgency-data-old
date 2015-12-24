@@ -216,5 +216,10 @@
 			"pos_name": "vip_cap_1",
 			"pos_team": 0
 		}
+	},
+	"source_files": {
+		"CPSetup": "87b9f70cd743e76c0e1efd21c445eaa2",
+		"Overview": "3fe7f2a353bd1ba61698d3758e1e4f56",
+		"VMF Source": "fc9a7a15f54f7f766f276e30b2847302"
 	}
 }

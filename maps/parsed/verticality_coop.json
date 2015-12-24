@@ -395,5 +395,10 @@
 			"pos_name": "cp7",
 			"pos_team": 0
 		}
+	},
+	"source_files": {
+		"CPSetup": "2fe2b9ed1b728aa4620fea55df931397",
+		"Overview": "45ea566a67388b35c66eed39220ba964",
+		"VMF Source": "d526d37e530c175dbe942e3e315cd0c1"
 	}
 }

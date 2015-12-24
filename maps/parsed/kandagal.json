@@ -858,5 +858,10 @@
 			"pos_name": "m_push_point3",
 			"pos_team": 0
 		}
+	},
+	"source_files": {
+		"CPSetup": "58a386ff0f8b625580da465f87af2742",
+		"Overview": "438c2ea8661e3bd1879ee3ccb7356585",
+		"VMF Source": "d3b1576db3948aab21ed1866156b7ef2"
 	}
 }

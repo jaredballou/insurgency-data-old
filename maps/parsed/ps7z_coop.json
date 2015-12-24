@@ -437,5 +437,10 @@
 			"pos_team": 2,
 			"pos_name": "spawnzone3_team2"
 		}
+	},
+	"source_files": {
+		"CPSetup": "c527ea164dfaacece8485e9edff12242",
+		"Overview": "dbc644892044a7c1eaf0090bdf7fdd6c",
+		"VMF Source": "410c405060f16cfebe5b9bf03298b91b"
 	}
 }

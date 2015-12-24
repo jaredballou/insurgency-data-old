@@ -847,5 +847,10 @@
 			"pos_name": "push_cap_a",
 			"pos_team": 0
 		}
+	},
+	"source_files": {
+		"CPSetup": "f5efcf9ca72aa94e6b825bed1c857280",
+		"Overview": "cb94324bc13cad018ca1412dd01fc77c",
+		"VMF Source": "503142cba964f347021b93f6bfc80ab9"
 	}
 }

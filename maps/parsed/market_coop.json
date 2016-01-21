@@ -1,4 +1,9 @@
 {
+	"source_files": {
+		"CPSetup": "fb4805247a302f9a4838e58ad8b9abbd",
+		"Overview": "bccf6e2a07f6a2a86582e8e2d399d80d",
+		"VMF Source": "190b66e08deb7ca17856dd67a9c07d90"
+	},
 	"compassoffset": "180",
 	"gametypes": {
 		"checkpoint": {
@@ -21,18 +26,18 @@
 					"pos_name": "B"
 				},
 				"C": {
-					"pos_x": 277,
-					"pos_y": 452,
+					"pos_x": 282,
+					"pos_y": 468,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "C",
 					"pos_team": 3
 				},
 				"D": {
-					"pos_x": 540,
-					"pos_y": 447,
+					"pos_x": 522,
+					"pos_y": 449,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "D",
 					"pos_team": 3
 				},
@@ -45,18 +50,18 @@
 					"pos_name": "E"
 				},
 				"F": {
-					"pos_x": 568,
-					"pos_y": 257,
+					"pos_x": 593,
+					"pos_y": 328,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "F",
 					"pos_team": 3
 				},
 				"G": {
-					"pos_x": 406,
-					"pos_y": 324,
+					"pos_x": 388,
+					"pos_y": 325,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "G",
 					"pos_team": 3
 				},
@@ -435,41 +440,36 @@
 			"pos_name": "bz_a"
 		},
 		"cp_c": {
-			"pos_x": 277,
-			"pos_y": 452,
+			"pos_x": 282,
+			"pos_y": 468,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cp_c",
 			"pos_team": 0
 		},
 		"cp_g": {
-			"pos_x": 406,
-			"pos_y": 324,
+			"pos_x": 388,
+			"pos_y": 325,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cp_g",
 			"pos_team": 0
 		},
 		"cp_d": {
-			"pos_x": 540,
-			"pos_y": 447,
+			"pos_x": 522,
+			"pos_y": 449,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cp_d",
 			"pos_team": 0
 		},
 		"cp_f": {
-			"pos_x": 568,
-			"pos_y": 257,
+			"pos_x": 593,
+			"pos_y": 328,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cp_f",
 			"pos_team": 0
 		}
-	},
-	"source_files": {
-		"CPSetup": "fb4805247a302f9a4838e58ad8b9abbd",
-		"Overview": "bccf6e2a07f6a2a86582e8e2d399d80d",
-		"VMF Source": "4f56aba05c47413fa3ac4f76f9ba8143"
 	}
 }

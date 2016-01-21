@@ -1,4 +1,9 @@
 {
+	"source_files": {
+		"CPSetup": "da1fe6f6e2203760e99df9c40c8975d3",
+		"Overview": "83dab553f3aca42d9927323037d8babe",
+		"VMF Source": "bfc72496833f8c66a026bf5a59702107"
+	},
 	"overview": {
 		"material": "overviews\/kandagal_night",
 		"pos_x": -6194,
@@ -51,10 +56,10 @@
 			"pos_name": "sec_blocker_np1"
 		},
 		"np_capturepoint1": {
-			"pos_x": 606,
-			"pos_y": 530,
+			"pos_x": 605,
+			"pos_y": 513,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "np_capturepoint1",
 			"pos_team": 0
 		},
@@ -183,10 +188,10 @@
 			"pos_name": "sec_blocker3"
 		},
 		"m_firefight_point1": {
-			"pos_x": 371,
-			"pos_y": 535,
+			"pos_x": 386,
+			"pos_y": 543,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "m_firefight_point1",
 			"pos_team": 0
 		},
@@ -217,10 +222,10 @@
 			"pos_team": 0
 		},
 		"m_skirmish_point1": {
-			"pos_x": 524,
-			"pos_y": 798,
+			"pos_x": 533,
+			"pos_y": 804,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "m_skirmish_point1",
 			"pos_team": 0
 		},
@@ -311,11 +316,19 @@
 			"pos_name": "m_spawn1_team2"
 		},
 		"m_push_point2": {
-			"pos_x": 246,
-			"pos_y": 506,
+			"pos_x": 194,
+			"pos_y": 561,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "m_push_point2",
+			"pos_team": 0
+		},
+		"m_push_point3": {
+			"pos_x": 564,
+			"pos_y": 224,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "area",
+			"pos_name": "m_push_point3",
 			"pos_team": 0
 		},
 		"m_push_point1": {
@@ -325,19 +338,6 @@
 			"pos_type": "point_controlpoint",
 			"pos_name": "m_push_point1",
 			"pos_team": 0
-		},
-		"m_push_point3": {
-			"pos_x": 582,
-			"pos_y": 223,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "m_push_point3",
-			"pos_team": 0
 		}
-	},
-	"source_files": {
-		"CPSetup": "da1fe6f6e2203760e99df9c40c8975d3",
-		"Overview": "83dab553f3aca42d9927323037d8babe",
-		"VMF Source": "04c2acd12df708e33447b2f4294d52cd"
 	}
 }

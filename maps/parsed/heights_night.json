@@ -1,4 +1,9 @@
 {
+	"source_files": {
+		"CPSetup": "f10f84625507de0c7010b6d93b9517d6",
+		"Overview": "0bd5ef82402fe1be6c195f3f3436d453",
+		"VMF Source": "5175a874d0547697b59a9d538953700a"
+	},
 	"overview": {
 		"material": "overviews\/heights_night",
 		"pos_x": -7352,
@@ -13,65 +18,83 @@
 			"pos_blockzone": "blockzone_insurgents_1",
 			"pos_type": "area",
 			"pos_team": 3,
-			"pos_name": "spawnzone_1_team3"
+			"pos_name": "spawnzone_1_team3",
+			"pos_x": 0,
+			"pos_y": 0
 		},
 		"spawnzone_3_team2": {
 			"pos_classname": "ins_spawnzone",
 			"pos_blockzone": "blockzone_security_3",
 			"pos_type": "area",
 			"pos_team": 2,
-			"pos_name": "spawnzone_3_team2"
+			"pos_name": "spawnzone_3_team2",
+			"pos_x": 0,
+			"pos_y": 0
 		},
 		"spawnzone_3_team3": {
 			"pos_classname": "ins_spawnzone",
 			"pos_blockzone": "blockzone_insurgents_3",
 			"pos_type": "area",
 			"pos_team": 3,
-			"pos_name": "spawnzone_3_team3"
+			"pos_name": "spawnzone_3_team3",
+			"pos_x": 0,
+			"pos_y": 0
 		},
 		"blockzone_insurgents_3": {
 			"pos_classname": "ins_blockzone",
 			"pos_type": "area",
 			"pos_team": 3,
-			"pos_name": "blockzone_insurgents_3"
+			"pos_name": "blockzone_insurgents_3",
+			"pos_x": 0,
+			"pos_y": 0
 		},
 		"blockzone_security_3": {
 			"pos_classname": "ins_blockzone",
 			"pos_type": "area",
 			"pos_team": 2,
-			"pos_name": "blockzone_security_3"
+			"pos_name": "blockzone_security_3",
+			"pos_x": 0,
+			"pos_y": 0
 		},
 		"blockzone_security_2": {
 			"pos_classname": "ins_blockzone",
 			"pos_type": "area",
 			"pos_team": 2,
-			"pos_name": "blockzone_security_2"
+			"pos_name": "blockzone_security_2",
+			"pos_x": 0,
+			"pos_y": 0
 		},
 		"spawnzone_2_team2": {
 			"pos_classname": "ins_spawnzone",
 			"pos_blockzone": "blockzone_security_2",
 			"pos_type": "area",
 			"pos_team": 2,
-			"pos_name": "spawnzone_2_team2"
+			"pos_name": "spawnzone_2_team2",
+			"pos_x": 0,
+			"pos_y": 0
 		},
 		"blockzone_insurgents_2": {
 			"pos_classname": "ins_blockzone",
 			"pos_type": "area",
 			"pos_team": 3,
-			"pos_name": "blockzone_insurgents_2"
+			"pos_name": "blockzone_insurgents_2",
+			"pos_x": 0,
+			"pos_y": 0
 		},
 		"spawnzone_2_team3": {
 			"pos_classname": "ins_spawnzone",
 			"pos_blockzone": "blockzone_insurgents_2",
 			"pos_type": "area",
 			"pos_team": 3,
-			"pos_name": "spawnzone_2_team3"
+			"pos_name": "spawnzone_2_team3",
+			"pos_x": 0,
+			"pos_y": 0
 		},
 		"pushpoint_03": {
 			"pos_x": 478,
-			"pos_y": 677,
+			"pos_y": 678,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "pushpoint_03",
 			"pos_team": 0
 		},
@@ -87,62 +110,82 @@
 			"pos_classname": "ins_blockzone",
 			"pos_type": "area",
 			"pos_team": 2,
-			"pos_name": "blockzone_security_1"
+			"pos_name": "blockzone_security_1",
+			"pos_x": 0,
+			"pos_y": 0
 		},
 		"spawnzone_1_team2": {
 			"pos_classname": "ins_spawnzone",
 			"pos_blockzone": "blockzone_security_1",
 			"pos_type": "area",
 			"pos_team": 2,
-			"pos_name": "spawnzone_1_team2"
+			"pos_name": "spawnzone_1_team2",
+			"pos_x": 0,
+			"pos_y": 0
 		},
 		"blockzone_insurgents_1": {
 			"pos_classname": "ins_blockzone",
 			"pos_type": "area",
 			"pos_team": 3,
-			"pos_name": "blockzone_insurgents_1"
+			"pos_name": "blockzone_insurgents_1",
+			"pos_x": 0,
+			"pos_y": 0
 		},
 		"spawnzone_skirmish_team2": {
 			"pos_classname": "ins_spawnzone",
 			"pos_blockzone": "blockzone_security_3",
 			"pos_type": "area",
 			"pos_team": 2,
-			"pos_name": "spawnzone_skirmish_team2"
+			"pos_name": "spawnzone_skirmish_team2",
+			"pos_x": 0,
+			"pos_y": 0
 		},
 		"blockzone_insurgents_skirmish": {
 			"pos_classname": "ins_blockzone",
 			"pos_type": "area",
 			"pos_team": 3,
-			"pos_name": "blockzone_insurgents_skirmish"
+			"pos_name": "blockzone_insurgents_skirmish",
+			"pos_x": 0,
+			"pos_y": 0
 		},
 		"spawnzone_skirmish_team3": {
 			"pos_classname": "ins_spawnzone",
 			"pos_blockzone": "blockzone_insurgents_skirmish",
 			"pos_type": "area",
 			"pos_team": 3,
-			"pos_name": "spawnzone_skirmish_team3"
+			"pos_name": "spawnzone_skirmish_team3",
+			"pos_x": 0,
+			"pos_y": 0
 		},
 		"cp_e4": {
-			"pos_x": 464,
-			"pos_y": 494,
+			"pos_x": 462,
+			"pos_y": 487,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cp_e4",
 			"pos_team": 0
 		},
 		"cp_d6": {
-			"pos_x": 447,
-			"pos_y": 623,
+			"pos_x": 448,
+			"pos_y": 617,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cp_d6",
 			"pos_team": 0
 		},
-		"cp_f6": {
-			"pos_x": 571,
-			"pos_y": 595,
+		"skirmishpoint_d": {
+			"pos_x": 364,
+			"pos_y": 487,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
+			"pos_name": "skirmishpoint_d",
+			"pos_team": 0
+		},
+		"cp_f6": {
+			"pos_x": 572,
+			"pos_y": 594,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cp_f6",
 			"pos_team": 0
 		},
@@ -150,7 +193,7 @@
 			"pos_x": 433,
 			"pos_y": 329,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cp_d3",
 			"pos_team": 0
 		},
@@ -172,9 +215,9 @@
 		},
 		"extract2": {
 			"pos_x": 406,
-			"pos_y": 731,
+			"pos_y": 733,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "extract2",
 			"pos_team": 0
 		},
@@ -184,14 +227,6 @@
 			"pos_classname": "point_controlpoint",
 			"pos_type": "point_controlpoint",
 			"pos_name": "cp_f7",
-			"pos_team": 0
-		},
-		"skirmishpoint_d": {
-			"pos_x": 365,
-			"pos_y": 460,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "skirmishpoint_d",
 			"pos_team": 0
 		},
 		"pushpoint_01": {
@@ -206,14 +241,9 @@
 			"pos_x": 620,
 			"pos_y": 522,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cp_d5",
 			"pos_team": 0
 		}
-	},
-	"source_files": {
-		"CPSetup": "f10f84625507de0c7010b6d93b9517d6",
-		"Overview": "0bd5ef82402fe1be6c195f3f3436d453",
-		"VMF Source": "aed021abe1eae12c31c09168ba5c058b"
 	}
 }

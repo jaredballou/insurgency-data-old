@@ -1,4 +1,9 @@
 {
+	"source_files": {
+		"CPSetup": "f32250f749eb162e29ed5b9e7ddb54ee",
+		"Overview": "bbe6060f820d8671d7d869ec4c7cfe9b",
+		"VMF Source": "adb59e6ffa8d2a7ce041866d65d4a4cb"
+	},
 	"overview": {
 		"material": "overviews\/uprising_night",
 		"pos_x": -4322,
@@ -9,10 +14,10 @@
 	},
 	"points": {
 		"cap_conq_c": {
-			"pos_x": 396,
-			"pos_y": 700,
+			"pos_x": 374,
+			"pos_y": 745,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cap_conq_c",
 			"pos_team": 0
 		},
@@ -25,10 +30,10 @@
 			"pos_team": 0
 		},
 		"cap_conq_a": {
-			"pos_x": 889,
+			"pos_x": 908,
 			"pos_y": 638,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cap_conq_a",
 			"pos_team": 0
 		},
@@ -39,6 +44,14 @@
 			"pos_type": "area",
 			"pos_team": 2,
 			"pos_name": "bz_security"
+		},
+		"cap1": {
+			"pos_x": 556,
+			"pos_y": 685,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "area",
+			"pos_name": "cap1",
+			"pos_team": 0
 		},
 		"cap2": {
 			"pos_x": 566,
@@ -54,14 +67,6 @@
 			"pos_classname": "point_controlpoint",
 			"pos_type": "point_controlpoint",
 			"pos_name": "cap3",
-			"pos_team": 0
-		},
-		"cap1": {
-			"pos_x": 558,
-			"pos_y": 631,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "cap1",
 			"pos_team": 0
 		},
 		"bz_insurgents": {
@@ -90,10 +95,5 @@
 			"pos_team": 2,
 			"pos_name": "spawnzone_1_team2"
 		}
-	},
-	"source_files": {
-		"CPSetup": "f32250f749eb162e29ed5b9e7ddb54ee",
-		"Overview": "bbe6060f820d8671d7d869ec4c7cfe9b",
-		"VMF Source": "90beb4a3851ee24c384ee8e3fcd34d4c"
 	}
 }

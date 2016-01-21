@@ -1,4 +1,9 @@
 {
+	"source_files": {
+		"CPSetup": "58a386ff0f8b625580da465f87af2742",
+		"Overview": "438c2ea8661e3bd1879ee3ccb7356585",
+		"VMF Source": "6c51f82062e23a516af1c501e9ff6a73"
+	},
 	"compassoffset": "235",
 	"navfile": "kandagal",
 	"nightlighting": "0",
@@ -7,18 +12,18 @@
 			"attackingteam": "insurgents",
 			"controlpoint": {
 				"A": {
-					"pos_x": 342,
-					"pos_y": 535,
+					"pos_x": 357,
+					"pos_y": 543,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "A",
 					"pos_team": 2
 				},
 				"B": {
-					"pos_x": 577,
-					"pos_y": 530,
+					"pos_x": 575,
+					"pos_y": 513,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "B",
 					"pos_team": 2
 				},
@@ -122,10 +127,10 @@
 					"pos_team": 2
 				},
 				"C": {
-					"pos_x": 217,
-					"pos_y": 506,
+					"pos_x": 164,
+					"pos_y": 561,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "C",
 					"pos_team": 0
 				},
@@ -181,10 +186,10 @@
 					"pos_team": 2
 				},
 				"B": {
-					"pos_x": 217,
-					"pos_y": 506,
+					"pos_x": 164,
+					"pos_y": 561,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "B",
 					"pos_team": 0
 				},
@@ -224,10 +229,10 @@
 		"occupy": {
 			"controlpoint": {
 				"A": {
-					"pos_x": 342,
-					"pos_y": 535,
+					"pos_x": 357,
+					"pos_y": 543,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "A",
 					"pos_team": 0
 				}
@@ -268,10 +273,10 @@
 					"pos_team": 3
 				},
 				"B": {
-					"pos_x": 577,
-					"pos_y": 530,
+					"pos_x": 575,
+					"pos_y": 513,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "B",
 					"pos_team": 3
 				},
@@ -575,10 +580,10 @@
 			"pos_name": "sec_blocker_np1"
 		},
 		"np_capturepoint1": {
-			"pos_x": 577,
-			"pos_y": 530,
+			"pos_x": 575,
+			"pos_y": 513,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "np_capturepoint1",
 			"pos_team": 0
 		},
@@ -707,10 +712,10 @@
 			"pos_name": "sec_blocker3"
 		},
 		"m_firefight_point1": {
-			"pos_x": 342,
-			"pos_y": 535,
+			"pos_x": 357,
+			"pos_y": 543,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "m_firefight_point1",
 			"pos_team": 0
 		},
@@ -741,10 +746,10 @@
 			"pos_team": 0
 		},
 		"m_skirmish_point1": {
-			"pos_x": 495,
-			"pos_y": 798,
+			"pos_x": 503,
+			"pos_y": 804,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "m_skirmish_point1",
 			"pos_team": 0
 		},
@@ -835,11 +840,19 @@
 			"pos_name": "m_spawn1_team2"
 		},
 		"m_push_point2": {
-			"pos_x": 217,
-			"pos_y": 506,
+			"pos_x": 164,
+			"pos_y": 561,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "m_push_point2",
+			"pos_team": 0
+		},
+		"m_push_point3": {
+			"pos_x": 535,
+			"pos_y": 224,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "area",
+			"pos_name": "m_push_point3",
 			"pos_team": 0
 		},
 		"m_push_point1": {
@@ -849,19 +862,6 @@
 			"pos_type": "point_controlpoint",
 			"pos_name": "m_push_point1",
 			"pos_team": 0
-		},
-		"m_push_point3": {
-			"pos_x": 553,
-			"pos_y": 223,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "m_push_point3",
-			"pos_team": 0
 		}
-	},
-	"source_files": {
-		"CPSetup": "58a386ff0f8b625580da465f87af2742",
-		"Overview": "438c2ea8661e3bd1879ee3ccb7356585",
-		"VMF Source": "d3b1576db3948aab21ed1866156b7ef2"
 	}
 }

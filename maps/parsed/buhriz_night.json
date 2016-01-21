@@ -1,4 +1,9 @@
 {
+	"source_files": {
+		"CPSetup": "6ac4500f60d5c798d518a69f3b7c78ab",
+		"Overview": "edb21b1cdb8d34fc3c982e193de419b5",
+		"VMF Source": "868fa3693707d0809f7763cd1171e585"
+	},
 	"overview": {
 		"material": "overviews\/buhriz_night",
 		"pos_x": -11500,
@@ -170,12 +175,28 @@
 			"pos_name": "conquer_cap_c",
 			"pos_team": 0
 		},
+		"cp_skirmish_c": {
+			"pos_x": 517,
+			"pos_y": 510,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "area",
+			"pos_name": "cp_skirmish_c",
+			"pos_team": 0
+		},
 		"pushpoint_02b": {
 			"pos_x": 626,
 			"pos_y": 486,
 			"pos_classname": "point_controlpoint",
 			"pos_type": "point_controlpoint",
 			"pos_name": "pushpoint_02b",
+			"pos_team": 0
+		},
+		"pushpoint_02": {
+			"pos_x": 554,
+			"pos_y": 435,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "area",
+			"pos_name": "pushpoint_02",
 			"pos_team": 0
 		},
 		"cp_skirmish_b": {
@@ -186,20 +207,20 @@
 			"pos_name": "cp_skirmish_b",
 			"pos_team": 0
 		},
-		"cp_skirmish_c": {
-			"pos_x": 517,
-			"pos_y": 510,
+		"cp_skirmish_d": {
+			"pos_x": 539,
+			"pos_y": 411,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "cp_skirmish_c",
+			"pos_type": "area",
+			"pos_name": "cp_skirmish_d",
 			"pos_team": 0
 		},
-		"cp_skirmish_d": {
-			"pos_x": 540,
-			"pos_y": 407,
+		"pushpoint_03": {
+			"pos_x": 712,
+			"pos_y": 315,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "cp_skirmish_d",
+			"pos_type": "area",
+			"pos_name": "pushpoint_03",
 			"pos_team": 0
 		},
 		"pushpoint_01": {
@@ -209,27 +230,6 @@
 			"pos_type": "point_controlpoint",
 			"pos_name": "pushpoint_01",
 			"pos_team": 0
-		},
-		"pushpoint_02": {
-			"pos_x": 555,
-			"pos_y": 449,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "pushpoint_02",
-			"pos_team": 0
-		},
-		"pushpoint_03": {
-			"pos_x": 709,
-			"pos_y": 302,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "pushpoint_03",
-			"pos_team": 0
 		}
-	},
-	"source_files": {
-		"CPSetup": "6ac4500f60d5c798d518a69f3b7c78ab",
-		"Overview": "edb21b1cdb8d34fc3c982e193de419b5",
-		"VMF Source": "e740f5ab122473ab4a7be84346680440"
 	}
 }

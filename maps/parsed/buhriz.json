@@ -1,4 +1,9 @@
 {
+	"source_files": {
+		"CPSetup": "9e5eea696c42f8117f6bd65d7a0db527",
+		"Overview": "f9d0fc46abb42badcbb934102385ef93",
+		"VMF Source": "9e788fa28892c74540f45b82e0cc4fdb"
+	},
 	"navfile": "buhriz",
 	"nightlighting": "0",
 	"gametypes": {
@@ -22,10 +27,10 @@
 					"pos_team": 3
 				},
 				"C": {
-					"pos_x": 709,
-					"pos_y": 302,
+					"pos_x": 712,
+					"pos_y": 315,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "C",
 					"pos_team": 3
 				},
@@ -330,18 +335,18 @@
 					"pos_team": 3
 				},
 				"B": {
-					"pos_x": 541,
-					"pos_y": 407,
+					"pos_x": 539,
+					"pos_y": 411,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "B",
 					"pos_team": 3
 				},
 				"C": {
-					"pos_x": 725,
-					"pos_y": 169,
+					"pos_x": 729,
+					"pos_y": 155,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "C",
 					"pos_team": 3
 				},
@@ -456,10 +461,10 @@
 	},
 	"points": {
 		"conquer_cap_c": {
-			"pos_x": 725,
-			"pos_y": 169,
+			"pos_x": 729,
+			"pos_y": 155,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "conquer_cap_c",
 			"pos_team": 0
 		},
@@ -480,6 +485,14 @@
 			"pos_type": "area",
 			"pos_team": 3,
 			"pos_name": "spawnzone_strike_team3"
+		},
+		"cp_skirmish_c": {
+			"pos_x": 518,
+			"pos_y": 510,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "area",
+			"pos_name": "cp_skirmish_c",
+			"pos_team": 0
 		},
 		"spawnzone_1_team3": {
 			"pos_x": 596,
@@ -507,20 +520,20 @@
 			"pos_team": 3,
 			"pos_name": "spawnzone_skirmish_team3"
 		},
+		"pushpoint_02": {
+			"pos_x": 555,
+			"pos_y": 435,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "area",
+			"pos_name": "pushpoint_02",
+			"pos_team": 0
+		},
 		"cp_skirmish_b": {
 			"pos_x": 670,
 			"pos_y": 741,
 			"pos_classname": "point_controlpoint",
 			"pos_type": "point_controlpoint",
 			"pos_name": "cp_skirmish_b",
-			"pos_team": 0
-		},
-		"cp_skirmish_c": {
-			"pos_x": 518,
-			"pos_y": 510,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "cp_skirmish_c",
 			"pos_team": 0
 		},
 		"spawnzone_skirmish_team2": {
@@ -533,10 +546,10 @@
 			"pos_name": "spawnzone_skirmish_team2"
 		},
 		"cp_skirmish_d": {
-			"pos_x": 541,
-			"pos_y": 407,
+			"pos_x": 539,
+			"pos_y": 411,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cp_skirmish_d",
 			"pos_team": 0
 		},
@@ -557,6 +570,14 @@
 			"pos_type": "area",
 			"pos_team": 3,
 			"pos_name": "spawnzone_2_team3"
+		},
+		"pushpoint_03": {
+			"pos_x": 712,
+			"pos_y": 315,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "area",
+			"pos_name": "pushpoint_03",
+			"pos_team": 0
 		},
 		"bz_sec_c": {
 			"pos_x": 462,
@@ -630,22 +651,6 @@
 			"pos_name": "pushpoint_01",
 			"pos_team": 0
 		},
-		"pushpoint_02": {
-			"pos_x": 556,
-			"pos_y": 449,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "pushpoint_02",
-			"pos_team": 0
-		},
-		"pushpoint_03": {
-			"pos_x": 709,
-			"pos_y": 302,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "pushpoint_03",
-			"pos_team": 0
-		},
 		"spawnzone_2_team2": {
 			"pos_x": 518,
 			"pos_y": 687,
@@ -673,10 +678,5 @@
 			"pos_team": 2,
 			"pos_name": "spawnzone_3_team2"
 		}
-	},
-	"source_files": {
-		"CPSetup": "9e5eea696c42f8117f6bd65d7a0db527",
-		"Overview": "f9d0fc46abb42badcbb934102385ef93",
-		"VMF Source": "958eef699c54dcf4053e7683747baad9"
 	}
 }

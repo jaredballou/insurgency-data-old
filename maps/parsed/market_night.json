@@ -1,4 +1,9 @@
 {
+	"source_files": {
+		"CPSetup": "09687a4f1b5e6b940c5eb473583be733",
+		"Overview": "0803cde9a4ec61192f4206129f09e932",
+		"VMF Source": "ef687601c796fbbcf0fa961c100e0411"
+	},
 	"overview": {
 		"material": "overviews\/market_night",
 		"pos_x": -6448,
@@ -12,7 +17,7 @@
 			"pos_x": 832,
 			"pos_y": 426,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "extract_1",
 			"pos_team": 0
 		},
@@ -67,10 +72,10 @@
 			"pos_name": "blockzone_sec_back"
 		},
 		"extract_2": {
-			"pos_x": 930,
+			"pos_x": 931,
 			"pos_y": 793,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "extract_2",
 			"pos_team": 0
 		},
@@ -91,6 +96,14 @@
 			"pos_type": "area",
 			"pos_team": 2,
 			"pos_name": "spawnzone_oc_team2"
+		},
+		"cap_5": {
+			"pos_x": 579,
+			"pos_y": 710,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "area",
+			"pos_name": "cap_5",
+			"pos_team": 0
 		},
 		"": {
 			"pos_x": 637,
@@ -148,26 +161,26 @@
 			"pos_name": "blockzone_ins_1"
 		},
 		"push_cap_b": {
-			"pos_x": 411,
-			"pos_y": 360,
+			"pos_x": 405,
+			"pos_y": 362,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "push_cap_b",
 			"pos_team": 0
 		},
 		"push_cap_c": {
-			"pos_x": 297,
-			"pos_y": 401,
+			"pos_x": 283,
+			"pos_y": 372,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "push_cap_c",
 			"pos_team": 0
 		},
 		"push_cap_a": {
-			"pos_x": 585,
-			"pos_y": 485,
+			"pos_x": 550,
+			"pos_y": 486,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "push_cap_a",
 			"pos_team": 0
 		},
@@ -225,19 +238,11 @@
 			"pos_team": 3,
 			"pos_name": "spawnzone_3_team3"
 		},
-		"cap_5": {
-			"pos_x": 581,
-			"pos_y": 719,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "cap_5",
-			"pos_team": 0
-		},
 		"cap_3": {
-			"pos_x": 573,
-			"pos_y": 294,
+			"pos_x": 598,
+			"pos_y": 364,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cap_3",
 			"pos_team": 0
 		},
@@ -247,6 +252,14 @@
 			"pos_classname": "point_controlpoint",
 			"pos_type": "point_controlpoint",
 			"pos_name": "cap_occupy",
+			"pos_team": 0
+		},
+		"cap_1": {
+			"pos_x": 580,
+			"pos_y": 461,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "area",
+			"pos_name": "cap_1",
 			"pos_team": 0
 		},
 		"spawnzone_neutral_team3": {
@@ -259,34 +272,26 @@
 			"pos_name": "spawnzone_neutral_team3"
 		},
 		"cap_6": {
-			"pos_x": 469,
+			"pos_x": 465,
 			"pos_y": 422,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cap_6",
 			"pos_team": 0
 		},
 		"cap_7": {
 			"pos_x": 669,
-			"pos_y": 544,
+			"pos_y": 550,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cap_7",
-			"pos_team": 0
-		},
-		"cap_1": {
-			"pos_x": 571,
-			"pos_y": 486,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "cap_1",
 			"pos_team": 0
 		},
 		"cap_4": {
 			"pos_x": 708,
 			"pos_y": 630,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cap_4",
 			"pos_team": 0
 		},
@@ -294,7 +299,7 @@
 			"pos_x": 410,
 			"pos_y": 363,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cap_2",
 			"pos_team": 0
 		},
@@ -315,10 +320,5 @@
 			"pos_team": 2,
 			"pos_name": "spawnzone_neutral_team2"
 		}
-	},
-	"source_files": {
-		"CPSetup": "09687a4f1b5e6b940c5eb473583be733",
-		"Overview": "0803cde9a4ec61192f4206129f09e932",
-		"VMF Source": "80b1ba2743b0bb8224865c9994e1d6b6"
 	}
 }

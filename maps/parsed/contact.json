@@ -1,4 +1,9 @@
 {
+	"source_files": {
+		"CPSetup": "0480886e2fad9afb6750406715a2c063",
+		"Overview": "f949eb96e23c42e9bd6114be02a1dcbd",
+		"VMF Source": "93b6f0faab1f9dd51eb7dfab4b876d59"
+	},
 	"gametypes": {
 		"skirmish": {
 			"controlpoint": {
@@ -11,10 +16,10 @@
 					"pos_name": "A"
 				},
 				"B": {
-					"pos_x": 670,
-					"pos_y": 104,
+					"pos_x": 692,
+					"pos_y": 96,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "B",
 					"pos_team": 2
 				},
@@ -27,10 +32,10 @@
 					"pos_team": 0
 				},
 				"D": {
-					"pos_x": 367,
-					"pos_y": 775,
+					"pos_x": 390,
+					"pos_y": 760,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "D",
 					"pos_team": 3
 				},
@@ -70,10 +75,10 @@
 		"firefight": {
 			"controlpoint": {
 				"A": {
-					"pos_x": 670,
-					"pos_y": 104,
+					"pos_x": 692,
+					"pos_y": 96,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "A",
 					"pos_team": 2
 				},
@@ -86,10 +91,10 @@
 					"pos_team": 0
 				},
 				"C": {
-					"pos_x": 367,
-					"pos_y": 775,
+					"pos_x": 390,
+					"pos_y": 760,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "C",
 					"pos_team": 3
 				}
@@ -157,26 +162,26 @@
 			"attackingteam": "security",
 			"controlpoint": {
 				"A": {
-					"pos_x": 433,
-					"pos_y": 352,
+					"pos_x": 549,
+					"pos_y": 417,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "A",
 					"pos_team": 3
 				},
 				"B": {
-					"pos_x": 755,
-					"pos_y": 472,
+					"pos_x": 777,
+					"pos_y": 440,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "B",
 					"pos_team": 3
 				},
 				"C": {
-					"pos_x": 666,
-					"pos_y": 778,
+					"pos_x": 730,
+					"pos_y": 764,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "C",
 					"pos_team": 3
 				},
@@ -390,10 +395,10 @@
 			"attackingteam": "security",
 			"controlpoint": {
 				"A": {
-					"pos_x": 670,
-					"pos_y": 104,
+					"pos_x": 692,
+					"pos_y": 96,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "A",
 					"pos_team": 3
 				},
@@ -406,10 +411,10 @@
 					"pos_team": 3
 				},
 				"C": {
-					"pos_x": 367,
-					"pos_y": 775,
+					"pos_x": 390,
+					"pos_y": 760,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "C",
 					"pos_team": 3
 				},
@@ -608,10 +613,10 @@
 		"ambush": {
 			"controlpoint": {
 				"A": {
-					"pos_x": 920,
+					"pos_x": 918,
 					"pos_y": 753,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "A",
 					"pos_team": 2
 				},
@@ -672,6 +677,22 @@
 			"pos_type": "area",
 			"pos_team": 2,
 			"pos_name": "spawnzone_ambush_team2"
+		},
+		"push_cap_c": {
+			"pos_x": 730,
+			"pos_y": 764,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "area",
+			"pos_name": "push_cap_c",
+			"pos_team": 0
+		},
+		"push_cap_b": {
+			"pos_x": 777,
+			"pos_y": 440,
+			"pos_classname": "point_controlpoint",
+			"pos_type": "area",
+			"pos_name": "push_cap_b",
+			"pos_team": 0
 		},
 		"blockzone_spawn3_sec": {
 			"pos_x": 528,
@@ -852,42 +873,34 @@
 			"pos_team": 0
 		},
 		"push_cap_a": {
-			"pos_x": 433,
-			"pos_y": 352,
+			"pos_x": 549,
+			"pos_y": 417,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "push_cap_a",
 			"pos_team": 0
 		},
-		"push_cap_b": {
-			"pos_x": 755,
-			"pos_y": 472,
+		"cap_10": {
+			"pos_x": 390,
+			"pos_y": 760,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "push_cap_b",
-			"pos_team": 0
-		},
-		"push_cap_c": {
-			"pos_x": 666,
-			"pos_y": 778,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "push_cap_c",
+			"pos_type": "area",
+			"pos_name": "cap_10",
 			"pos_team": 0
 		},
 		"cap_9": {
-			"pos_x": 670,
-			"pos_y": 104,
+			"pos_x": 692,
+			"pos_y": 96,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cap_9",
 			"pos_team": 0
 		},
 		"extract_1": {
-			"pos_x": 920,
+			"pos_x": 918,
 			"pos_y": 753,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "extract_1",
 			"pos_team": 0
 		},
@@ -899,14 +912,6 @@
 			"pos_name": "extract_2",
 			"pos_team": 0
 		},
-		"cap_10": {
-			"pos_x": 367,
-			"pos_y": 775,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "cap_10",
-			"pos_team": 0
-		},
 		"cap_5": {
 			"pos_x": 602,
 			"pos_y": 433,
@@ -915,10 +920,5 @@
 			"pos_name": "cap_5",
 			"pos_team": 0
 		}
-	},
-	"source_files": {
-		"CPSetup": "0480886e2fad9afb6750406715a2c063",
-		"Overview": "f949eb96e23c42e9bd6114be02a1dcbd",
-		"VMF Source": "7281d46a323107f1a64947373701f607"
 	}
 }

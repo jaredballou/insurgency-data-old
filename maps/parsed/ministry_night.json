@@ -1,4 +1,9 @@
 {
+	"source_files": {
+		"CPSetup": "122528217789ce90e6d64138aa67edec",
+		"Overview": "ea5f896cd386fb6b9da299c454f03fcf",
+		"VMF Source": "485b4984e6ec19e0828f25899cabe529"
+	},
 	"overview": {
 		"material": "overviews\/ministry_night",
 		"pos_x": -6520,
@@ -12,27 +17,31 @@
 			"pos_classname": "ins_spawnzone",
 			"pos_type": "area",
 			"pos_team": 2,
-			"pos_name": "spawnzone_ambush_team2"
+			"pos_name": "spawnzone_ambush_team2",
+			"pos_x": 0,
+			"pos_y": 0
 		},
 		"spawnzone_ambush_team3": {
 			"pos_classname": "ins_spawnzone",
 			"pos_type": "area",
 			"pos_team": 3,
-			"pos_name": "spawnzone_ambush_team3"
+			"pos_name": "spawnzone_ambush_team3",
+			"pos_x": 0,
+			"pos_y": 0
 		},
 		"extract1": {
 			"pos_x": 420,
-			"pos_y": 715,
+			"pos_y": 723,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "extract1",
 			"pos_team": 0
 		},
 		"extract2": {
-			"pos_x": 135,
-			"pos_y": 453,
+			"pos_x": 136,
+			"pos_y": 463,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "extract2",
 			"pos_team": 0
 		},
@@ -40,45 +49,47 @@
 			"pos_classname": "ins_blockzone",
 			"pos_type": "area",
 			"pos_team": 2,
-			"pos_name": "blockzone_skirmish"
+			"pos_name": "blockzone_skirmish",
+			"pos_x": 0,
+			"pos_y": 0
 		},
 		"cap4": {
 			"pos_x": 543,
-			"pos_y": 541,
+			"pos_y": 587,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cap4",
 			"pos_team": 0
 		},
 		"cap3": {
-			"pos_x": 543,
-			"pos_y": 384,
+			"pos_x": 545,
+			"pos_y": 382,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cap3",
 			"pos_team": 0
 		},
 		"cap2": {
-			"pos_x": 543,
-			"pos_y": 349,
+			"pos_x": 588,
+			"pos_y": 346,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cap2",
 			"pos_team": 0
 		},
 		"elim_pcp1": {
-			"pos_x": 223,
-			"pos_y": 472,
+			"pos_x": 181,
+			"pos_y": 450,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "elim_pcp1",
 			"pos_team": 0
 		},
 		"elim_pcp2": {
-			"pos_x": 906,
-			"pos_y": 433,
+			"pos_x": 865,
+			"pos_y": 473,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "elim_pcp2",
 			"pos_team": 0
 		},
@@ -87,18 +98,17 @@
 			"pos_blockzone": "blockzone_skirmish",
 			"pos_type": "area",
 			"pos_team": 2,
-			"pos_name": "spawnzone_skirmish_team2"
+			"pos_name": "spawnzone_skirmish_team2",
+			"pos_x": 0,
+			"pos_y": 0
 		},
 		"spawnzone_skirmish_team3": {
 			"pos_classname": "ins_spawnzone",
 			"pos_type": "area",
 			"pos_team": 3,
-			"pos_name": "spawnzone_skirmish_team3"
+			"pos_name": "spawnzone_skirmish_team3",
+			"pos_x": 0,
+			"pos_y": 0
 		}
-	},
-	"source_files": {
-		"CPSetup": "122528217789ce90e6d64138aa67edec",
-		"Overview": "ea5f896cd386fb6b9da299c454f03fcf",
-		"VMF Source": "ce53345ce53dceac2a1c21d641fe9a6b"
 	}
 }

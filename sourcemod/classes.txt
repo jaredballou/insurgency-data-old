@@ -1,4 +1,4 @@
-// Dump of all classes for "insurgency" as at 23/11/2015
+// Dump of all classes for "insurgency" as at 21/01/2016
 //
 
 CFireSmoke - _firesmoke
@@ -407,6 +407,7 @@ CTriggerPlayerMovement - trigger_playermovement
 CBaseTrigger - trigger_proximity
 CBaseTrigger - trigger_push
 CBaseTrigger - trigger_remove
+CBaseTrigger - trigger_rocket_suppress
 CBaseTrigger - trigger_serverragdoll
 CBaseTrigger - trigger_soundscape
 CBaseTrigger - trigger_teleport

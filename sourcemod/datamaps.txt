@@ -1,4 +1,4 @@
-// Dump of all datamaps for "insurgency" as at 23/11/2015
+// Dump of all datamaps for "insurgency" as at 21/01/2016
 //
 //
 // Flag Details:
@@ -74907,6 +74907,197 @@ CBaseTrigger - trigger_push
 - m_bForcePurgeFixedupStrings (Save)(1 Bytes)
 CBaseTrigger - trigger_remove
 - m_OnRemove (Save|Key|Output)(0 Bytes) - OnRemove
+- m_iFilterName (Save|Key)(4 Bytes) - filtername
+- m_hFilter (Save)(4 Bytes)
+- m_bDisabled (Save|Key)(1 Bytes) - StartDisabled
+- m_hTouchingEntities (Save)(0 Bytes)
+- InputEnable (Input)(0 Bytes) - Enable
+- InputDisable (Input)(0 Bytes) - Disable
+- InputToggle (Input)(0 Bytes) - Toggle
+- InputTouchTest (Input)(0 Bytes) - TouchTest
+- InputStartTouch (Input)(0 Bytes) - StartTouch
+- InputEndTouch (Input)(0 Bytes) - EndTouch
+- m_OnStartTouch (Save|Key|Output)(0 Bytes) - OnStartTouch
+- m_OnStartTouchAll (Save|Key|Output)(0 Bytes) - OnStartTouchAll
+- m_OnEndTouch (Save|Key|Output)(0 Bytes) - OnEndTouch
+- m_OnEndTouchAll (Save|Key|Output)(0 Bytes) - OnEndTouchAll
+- m_OnTouching (Save|Key|Output)(0 Bytes) - OnTouching
+- m_OnNotTouching (Save|Key|Output)(0 Bytes) - OnNotTouching
+- m_toggle_state (Save)(4 Bytes)
+- m_flMoveDistance (Save)(4 Bytes)
+- m_flWait (Save)(4 Bytes)
+- m_flLip (Save)(4 Bytes)
+- m_vecPosition1 (Save)(12 Bytes)
+- m_vecPosition2 (Save)(12 Bytes)
+- m_vecMoveAng (Save)(12 Bytes)
+- m_vecAngle1 (Save)(12 Bytes)
+- m_vecAngle2 (Save)(12 Bytes)
+- m_flHeight (Save)(4 Bytes)
+- m_hActivator (Save)(4 Bytes)
+- m_vecFinalDest (Save)(12 Bytes)
+- m_vecFinalAngle (Save)(12 Bytes)
+- m_sMaster (Save)(4 Bytes)
+- m_movementType (Save)(4 Bytes)
+- m_iClassname (Save|Key)(4 Bytes) - classname
+- m_iGlobalname (Global|Save|Key)(4 Bytes) - globalname
+- m_iParent (Save|Key)(4 Bytes) - parentname
+- m_nMinCPULevel (Save|Key)(1 Bytes) - mincpulevel
+- m_nMaxCPULevel (Save|Key)(1 Bytes) - maxcpulevel
+- m_nMinGPULevel (Save|Key)(1 Bytes) - mingpulevel
+- m_nMaxGPULevel (Save|Key)(1 Bytes) - maxgpulevel
+- m_iHammerID (Save|Key)(4 Bytes) - hammerid
+- m_flSpeed (Save|Key)(4 Bytes) - speed
+- m_nRenderFX (Save|Key)(1 Bytes) - renderfx
+- m_nRenderMode (Save|Key)(1 Bytes) - rendermode
+- m_flPrevAnimTime (Save)(4 Bytes)
+- m_flAnimTime (Save)(4 Bytes)
+- m_flSimulationTime (Save)(4 Bytes)
+- m_nLastThinkTick (Save)(4 Bytes)
+- m_iszScriptId (Save)(4 Bytes)
+- m_iszVScripts (Save|Key)(4 Bytes) - vscripts
+- m_iszScriptThinkFunction (Save|Key)(4 Bytes) - thinkfunction
+- m_nNextThinkTick (Save|Key)(4 Bytes) - nextthink
+- m_fEffects (Save|Key)(4 Bytes) - effects
+- m_clrRender (Save|Key)(4 Bytes) - rendercolor
+- m_nModelIndex (Global|Save|Key)(2 Bytes) - modelindex
+- touchStamp (Save)(4 Bytes)
+- m_aThinkFunctions (Save)(0 Bytes)
+- m_ResponseContexts (Save)(0 Bytes)
+- m_iszResponseContext (Save|Key)(4 Bytes) - ResponseContext
+- m_pfnThink (Save)(8 Bytes)
+- m_pfnTouch (Save)(8 Bytes)
+- m_pfnUse (Save)(8 Bytes)
+- m_pfnBlocked (Save)(8 Bytes)
+- m_pfnMoveDone (Save)(8 Bytes)
+- m_lifeState (Save)(1 Bytes)
+- m_takedamage (Save)(1 Bytes)
+- m_iMaxHealth (Save|Key)(4 Bytes) - max_health
+- m_iHealth (Save|Key)(4 Bytes) - health
+- m_bIsAutoaimTarget (Save|Key)(1 Bytes) - is_autoaim_target
+- m_target (Save|Key)(4 Bytes) - target
+- m_iszDamageFilterName (Save|Key)(4 Bytes) - damagefilter
+- m_hDamageFilter (Save)(4 Bytes)
+- m_debugOverlays (Save)(4 Bytes)
+- m_pParent (Global|Save)(4 Bytes)
+- m_iParentAttachment (Save)(1 Bytes)
+- m_hMoveParent (Global|Save)(4 Bytes)
+- m_hMoveChild (Global|Save)(4 Bytes)
+- m_hMovePeer (Global|Save)(4 Bytes)
+- m_iEFlags (Save)(4 Bytes)
+- m_iName (Save)(4 Bytes)
+ Sub-Class Table (1 Deep): m_Collision - CCollisionProperty
+ - m_vecMins (Global|Save)(12 Bytes)
+ - m_vecMaxs (Global|Save)(12 Bytes)
+ - m_nSolidType (Save|Key)(1 Bytes) - solid
+ - m_usSolidFlags (Save)(2 Bytes)
+ - m_nSurroundType (Save)(1 Bytes)
+ - m_flRadius (Save)(4 Bytes)
+ - m_triggerBloat (Save)(1 Bytes)
+ - m_vecSpecifiedSurroundingMins (Save)(12 Bytes)
+ - m_vecSpecifiedSurroundingMaxs (Save)(12 Bytes)
+ - m_vecSurroundingMins (Save)(12 Bytes)
+ - m_vecSurroundingMaxs (Save)(12 Bytes)
+ Sub-Class Table (1 Deep): m_Network - CServerNetworkProperty
+ - m_hParent (Global|Save)(4 Bytes)
+- m_MoveType (Save|Key)(1 Bytes) - MoveType
+- m_MoveCollide (Save)(1 Bytes)
+- m_hOwnerEntity (Save)(4 Bytes)
+- m_CollisionGroup (Save|Key)(4 Bytes) - CollisionGroup
+- m_pPhysicsObject (Save)(0 Bytes)
+- m_flElasticity (Save)(4 Bytes)
+- m_flShadowCastDistance (Save|Key)(4 Bytes) - shadowcastdist
+- m_flDesiredShadowCastDistance (Save)(4 Bytes)
+- m_iInitialTeamNum (Save|Key|Input)(4 Bytes) - TeamNum
+- m_iTeamNum (Save|Key)(4 Bytes) - teamnumber
+- m_iPendingTeamNum (Save|Key)(4 Bytes) - pendingteamnumber
+- m_hGroundEntity (Save)(4 Bytes)
+- m_flGroundChangeTime (Save)(4 Bytes)
+- m_ModelName (Global|Save|Key)(4 Bytes) - model
+- m_AIAddOn (Save|Key)(4 Bytes) - addon
+- m_vecBaseVelocity (Save|Key)(12 Bytes) - basevelocity
+- m_vecAbsVelocity (Save)(12 Bytes)
+- m_vecAngVelocity (Save|Key)(12 Bytes) - avelocity
+- m_rgflCoordinateFrame (Save)(48 Bytes)
+- m_nWaterLevel (Save|Key)(1 Bytes) - waterlevel
+- m_nWaterType (Save)(1 Bytes)
+- m_pBlocker (Save)(4 Bytes)
+- m_flGravity (Save|Key)(4 Bytes) - gravity
+- m_flFriction (Save|Key)(4 Bytes) - friction
+- m_flLocalTime (Save|Key)(4 Bytes) - ltime
+- m_flVPhysicsUpdateLocalTime (Save)(4 Bytes)
+- m_flMoveDoneTime (Save)(4 Bytes)
+- m_vecAbsOrigin (Save)(12 Bytes)
+- m_vecVelocity (Save|Key)(12 Bytes) - velocity
+- m_iTextureFrameIndex (Save|Key)(1 Bytes) - texframeindex
+- m_bSimulatedEveryTick (Save)(1 Bytes)
+- m_bAnimatedEveryTick (Save)(1 Bytes)
+- m_bAlternateSorting (Save)(1 Bytes)
+- m_spawnflags (Save|Key)(4 Bytes) - spawnflags
+- m_nTransmitStateOwnedCounter (Save)(1 Bytes)
+- m_angAbsRotation (Save)(12 Bytes)
+- m_vecOrigin (Save)(12 Bytes)
+- m_angRotation (Save)(12 Bytes)
+- m_bClientSideRagdoll (Save)(1 Bytes)
+- m_vecViewOffset (Save|Key)(12 Bytes) - view_ofs
+- m_fFlags (Save)(4 Bytes)
+- m_nSimulationTick (Save)(4 Bytes)
+- m_flNavIgnoreUntilTime (Save)(4 Bytes)
+- InputSetTeam (Input)(0 Bytes) - SetTeam
+- m_fadeMinDist (Save|Key|Input)(4 Bytes) - fademindist
+- m_fadeMaxDist (Save|Key|Input)(4 Bytes) - fademaxdist
+- m_flFadeScale (Save|Key)(4 Bytes) - fadescale
+- InputKill (Input)(0 Bytes) - Kill
+- InputKillHierarchy (Input)(0 Bytes) - KillHierarchy
+- InputUse (Input)(0 Bytes) - Use
+- InputAlpha (Input)(0 Bytes) - Alpha
+- InputAlternativeSorting (Input)(0 Bytes) - AlternativeSorting
+- InputColor (Input)(0 Bytes) - Color
+- InputSetParent (Input)(0 Bytes) - SetParent
+- InputSetParentAttachment (Input)(0 Bytes) - SetParentAttachment
+- InputSetParentAttachmentMaintainOffset (Input)(0 Bytes) - SetParentAttachmentMaintainOffset
+- InputClearParent (Input)(0 Bytes) - ClearParent
+- InputSetLocalOrigin (Input)(0 Bytes) - SetLocalOrigin
+- InputSetLocalAngles (Input)(0 Bytes) - SetLocalAngles
+- InputSetDamageFilter (Input)(0 Bytes) - SetDamageFilter
+- InputEnableDamageForces (Input)(0 Bytes) - EnableDamageForces
+- InputDisableDamageForces (Input)(0 Bytes) - DisableDamageForces
+- InputDispatchResponse (Input)(0 Bytes) - DispatchResponse
+- InputAddContext (Input)(0 Bytes) - AddContext
+- InputRemoveContext (Input)(0 Bytes) - RemoveContext
+- InputClearContext (Input)(0 Bytes) - ClearContext
+- InputDisableShadow (Input)(0 Bytes) - DisableShadow
+- InputEnableShadow (Input)(0 Bytes) - EnableShadow
+- InputDisableDraw (Input)(0 Bytes) - DisableDraw
+- InputEnableDraw (Input)(0 Bytes) - EnableDraw
+- InputDisableReceivingFlashlight (Input)(0 Bytes) - DisableReceivingFlashlight
+- InputEnableReceivingFlashlight (Input)(0 Bytes) - EnableReceivingFlashlight
+- InputDisableDrawInFastReflection (Input)(0 Bytes) - DisableDrawInFastReflection
+- InputEnableDrawInFastReflection (Input)(0 Bytes) - EnableDrawInFastReflection
+- InputAddOutput (Input)(0 Bytes) - AddOutput
+- InputFireUser1 (Input)(0 Bytes) - FireUser1
+- InputFireUser2 (Input)(0 Bytes) - FireUser2
+- InputFireUser3 (Input)(0 Bytes) - FireUser3
+- InputFireUser4 (Input)(0 Bytes) - FireUser4
+- InputRunScriptFile (Input)(0 Bytes) - RunScriptFile
+- InputRunScript (Input)(0 Bytes) - RunScriptCode
+- InputCallScriptFunction (Input)(0 Bytes) - CallScriptFunction
+- m_OnUser1 (Save|Key|Output)(0 Bytes) - OnUser1
+- m_OnUser2 (Save|Key|Output)(0 Bytes) - OnUser2
+- m_OnUser3 (Save|Key|Output)(0 Bytes) - OnUser3
+- m_OnUser4 (Save|Key|Output)(0 Bytes) - OnUser4
+- CBaseEntitySUB_Remove (FunctionTable)(0 Bytes)
+- CBaseEntitySUB_DoNothing (FunctionTable)(0 Bytes)
+- CBaseEntitySUB_StartFadeOut (FunctionTable)(0 Bytes)
+- CBaseEntitySUB_StartFadeOutInstant (FunctionTable)(0 Bytes)
+- CBaseEntitySUB_FadeOut (FunctionTable)(0 Bytes)
+- CBaseEntitySUB_Vanish (FunctionTable)(0 Bytes)
+- CBaseEntitySUB_CallUseToggle (FunctionTable)(0 Bytes)
+- CBaseEntityShadowCastDistThink (FunctionTable)(0 Bytes)
+- CBaseEntityScriptThink (FunctionTable)(0 Bytes)
+- m_hEffectEntity (Save)(4 Bytes)
+- m_bLagCompensate (Save|Key)(1 Bytes) - LagCompensate
+- m_bForcePurgeFixedupStrings (Save)(1 Bytes)
+CBaseTrigger - trigger_rocket_suppress
 - m_iFilterName (Save|Key)(4 Bytes) - filtername
 - m_hFilter (Save)(4 Bytes)
 - m_bDisabled (Save|Key)(1 Bytes) - StartDisabled

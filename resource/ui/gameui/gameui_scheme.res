@@ -83,6 +83,11 @@ Scheme
 		"InsRed10"			"204 46 25 25"
 		"InsYellow"			"242 199 25 255"
 		"InsGreen"			"132 150 28 255"
+
+		"InsGreenUI25"		"47 91 32 64"
+		"InsGreenUI50"		"47 91 32 128"
+		"InsGreenUI75"		"47 91 32 191"
+		"InsGreenUI"		"47 91 32 255"
 		
 		"InsSteamInGame"		"139 197 63 255" // Green colour for status & avatar border on steam friends stuff
 		"InsSteamNotInGame"	"134 181 217 255" // blue colour for status & avatar border on steam friends stuff
@@ -433,10 +438,10 @@ Scheme
 		// Red buttons (with tick) selecting modes
 		PlaylistButton.Color				"InsBlack"
 		PlaylistButton.ColorAlt				"InsDarkerGrey"
-		PlaylistButton.ColorArmed			"InsRed25"
-		PlaylistButton.ColorArmedDepressed	"InsRed75"
-		PlaylistButton.ColorDepressed		"InsRed"
-		PlaylistButton.ColorHighlighted		"InsRed"
+		PlaylistButton.ColorArmed			"InsGreenUI25"
+		PlaylistButton.ColorArmedDepressed	"InsGreenUI75"
+		PlaylistButton.ColorDepressed		"InsGreenUI"
+		PlaylistButton.ColorHighlighted		"InsWhite"
 		PlaylistButton.HighlightedWidth		1
 		PlaylistButton.Height				45
 		PlaylistButton.TitleHeight			17
@@ -448,19 +453,19 @@ Scheme
 
 		GamemodeButton.Color				"InsBlack"
 		GamemodeButton.ColorAlt				"InsDarkGrey"
-		GamemodeButton.ColorArmed			"InsRed25"
-		GamemodeButton.ColorArmedDepressed	"InsRed75"
-		GamemodeButton.ColorDepressed		"InsRed"
-		GamemodeButton.ColorHighlighted		"InsRed"
-		GamemodeButton.Height				45
+		GamemodeButton.ColorArmed			"InsGreenUI25"
+		GamemodeButton.ColorArmedDepressed	"InsGreenUI75"
+		GamemodeButton.ColorDepressed		"InsGreenUI"
+		GamemodeButton.ColorHighlighted		"InsGreenUI"
+		GamemodeButton.Height				18
 		GamemodeButton.HeightLarger			60
-		GamemodeButton.TitleHeight			17
+		GamemodeButton.TitleHeight			18
 
 		MapButton.Color						"InsBlack50"
-		MapButton.ColorArmed				"InsRed"
-		MapButton.ColorArmedDepressed		"InsRed"
-		MapButton.ColorDepressed			"InsRed20"
-		MapButton.ColorHighlighted			"InsRed20"
+		MapButton.ColorArmed				"InsGreenUI"
+		MapButton.ColorArmedDepressed		"InsGreenUI"
+		MapButton.ColorDepressed			"InsGreenUI20"
+		MapButton.ColorHighlighted			"InsGreenUI20"
 
 		FilterButton.TickBGColor			"InsBlack50"
 		FilterButton.ColorArmed				"InsWhite"
@@ -1008,6 +1013,16 @@ Scheme
 			{
 				"name"			"FoundationSans-Cd"
 				"tall"			"14"
+				"antialias"		"1"
+			}
+		}
+		
+		"FoundationSans15"
+		{
+			"1"
+			{
+				"name"			"FoundationSans-Cd"
+				"tall"			"15"
 				"antialias"		"1"
 			}
 		}

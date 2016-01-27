@@ -4,7 +4,7 @@
 	"FilterPanelTag"
 	{
 		"wide"				"f"
-		"tall"				"21"	
+		"tall"				"18"	
 		"proportionalToParent"	"1"	
 		
 			
@@ -13,7 +13,7 @@
 			"xpos"					"7"
 			"ypos"					"0"
 			"wide"					"f25"
-			"tall"					"21"
+			"tall"					"18"
 			"proportionalToParent"	"1"	
 						
 			"Font"					"FoundationSans14"
@@ -27,7 +27,7 @@
 			"xpos"					"r23"
 			"ypos"					"0"
 			"wide"					"21"
-			"tall"					"21"
+			"tall"					"18"
 			"proportionalToParent"	"1"	
 
 		}

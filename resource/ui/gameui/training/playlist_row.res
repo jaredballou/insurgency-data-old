@@ -1,6 +1,6 @@
 res
 {
-	PlaylistRow
+	SoloPlaylistRow
 	{
 		wide					f
 		tall					35

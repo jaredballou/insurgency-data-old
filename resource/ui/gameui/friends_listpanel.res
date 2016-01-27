@@ -66,7 +66,7 @@
 			"fieldName"						"LblPlayerStatus"
 			"xpos"							"26"
 			"ypos"							"14"
-			"wide"							"150"
+			"wide"							"165"
 			"tall"							"8"
 			"visible"						"1"
 			"enabled"						"1"

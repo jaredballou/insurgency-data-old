@@ -150,8 +150,6 @@
 		"controlpoint"		"cachepoint_a" 
 		"controlpoint"		"cachepoint_b" 
 		"controlpoint"		"cachepoint_c" 
-		"controlpoint"		"cachepoint_d" 
-		"controlpoint"		"cachepoint_e" 
 		
 		"spawnzones"
 		{

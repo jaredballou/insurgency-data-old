@@ -1,20 +1,13 @@
 "Resource/UI/GameUI/Matchmaking.res"
 {
-	"Matchmaking"
+	Matchmaking
 	{	
-		"ControlName"				"Frame"
+		ControlName				Frame
 		xpos						485
 		ypos						27
 		wide						735
 		tall						f57
 		proportionalToParent		1
-		
-		navUp						BtnNews
-		
-		"BackgroundPerson"
-		{
-			"visible"			"0"
-		}
 		
 		TopButtons
 		{
@@ -90,270 +83,410 @@
 		}
 		
 		// Columns
-		"Playlists"
+		PlaylistsHeader
 		{
-			"xpos"					"0"
-			"ypos"					"73"
-			"wide"					"190"
-			"tall"					"f73"
+			ControlName				EditablePanelPassthrough
+			xpos					0
+			ypos					73	
+			wide					210
+			tall					25
+			proportional 			1
+			proportionalToParent	1
 
-			"proportionalToParent"	"1"	
-			"zpos"	"1"
-			
-			"tabPosition"			"1"
-			"navRight"				"Gamemodes"
-			
-			"AutoResize"			"0"
-			
-			"paintbackground"		"1" 
-			"bgcolor_override"		"34 28 28 128" // PH
-			
-			"scrollbar_inset"			"1"
-			"panelBorder"				"1"
-						
-			"navRight"				"Gamemodes"
-		}
-		
-		"Gamemodes"
-		{
-			"xpos"					"192"
-			"ypos"					"73" 
-			"wide"					"230"
-			"tall"					"f73"
-			"navDown"				"Filters"
-			"navRight"				"Maps"
-			"navLeft"				"Playlists"
+			paintbackground			1 
+			bgcolor_override		"0 0 0 200"
 
-			"proportionalToParent"	"1"
-
-			"AutoResize"			"0"
-			
-			"paintbackground"		"1" 
-			"bgcolor_override"		"34 28 28 128" // PH
-			
-			"scrollbar_inset"			"1"
-			"panelBorder"				"1"
-		}
-		
-		"Filters"
-		{
-			"xpos"					"192"
-			"ypos"					"r107"
-			"wide"					"230"
-			//"tall"					"90"
-
-			"navLeft"				"Playlists"
-			"navUp"					"Gamemodes"
-			"navRight"				"Reset"
-
-			"proportionalToParent"	"1"	
-						
-			"AutoResize"			"0"
-			
-			"paintbackground"		"1" 
-			"bgcolor_override"		"34 28 28 128" // PH
-			
-			"scrollbar_inset"			"1"
-			"panelBorder"				"1"
-			
-			"ScrVerticalScroll"
-			{
-				"wide"			"1"
+			LblPlaylistsHeader
+			{	
+				ControlName				Label	
+				xpos					0
+				ypos					0	
+				wide 					f
+				tall  					f	
+				proportionalToParent	1
+				labelText				"#GameUI_SelectPlaylist"
+				font					OratorStd12
+				allcaps					1
+				textAlignment			center
+				fgColor_override 		"242 235 216 255"
 			}
 		}
 
-		"Maps"
+		Playlists
 		{
-			"xpos"					"423"
-			"ypos"					"73"
-			"wide"					"f423"
-			"tall"					"f97"
+			xpos					0
+			ypos					98
+			wide					210
+			tall					156
 
-			"navLeft"				"Gamemodes"
-			"navDown"				"FindGame"
+			proportionalToParent	1	
+			zpos					1
+			
+			tabPosition				1
+			navRight				Gamemodes
+			
+			//AutoResize				0
+			
+			paintbackground			1 
+			bgcolor_override		"34 28 28 128" // PH
+			
+			//scrollbar_inset			1
+			//panelBorder				1
+						
+			navRight				Gamemodes
+		}
 
-			"proportionalToParent"	"1"	
-			
-			"AutoResize"			"0"
-			
-			"paintbackground"		"1" 
-			"bgcolor_override"		"34 28 28 128" // PH
-			
-			"scrollbar_inset"			"1"
-			"panelBorder"				"1"
+
+		GamemodeHeader
+		{
+			ControlName				EditablePanelPassthrough
+			xpos					0
+			ypos					r394
+			wide					210
+			tall					22
+			proportional 			1
+			proportionalToParent	1
+
+			paintbackground			1 
+			bgcolor_override		"0 0 0 200"
+
+			LblGamemodeHeader
+			{	
+				ControlName				Label	
+				xpos					0
+				ypos					0	
+				wide 					f
+				tall  					f	
+				proportionalToParent	1
+				labelText				"#GameUI_Gamemodes"
+				font					OratorStd12
+				allcaps					1
+				textAlignment			center
+				fgColor_override 		"242 235 216 255"
+			}
 		}
 		
-		"ServerCountPanel"
+		Gamemodes
 		{
-			"xpos"					"192"
-			"ypos"					"r22"
-			"wide"					"230"
-			"tall"					"22"
+			xpos					0
+			ypos					r372
+			wide					210
+			tall					150
+			navDown					Filters
+			navRight				Maps
+			navLeft					Playlists
 
-			"proportionalToParent"	"1"	
+			proportionalToParent	1
+
+			AutoResize				0
+			
+			paintbackground			1 
+			bgcolor_override		"34 28 28 128" // PH
+			
+			scrollbar_inset			1
+			panelBorder				1
+
+			// TODO: sort this
+			visible 				1
+		}
+
+		FiltersHeader
+		{
+			ControlName				EditablePanelPassthrough
+			xpos					0
+			ypos					r222	
+			wide					210
+			tall					22
+			proportional 			1
+			proportionalToParent	1
+
+			paintbackground			1 
+			bgcolor_override		"0 0 0 200"
+
+			LblFiltersHeader
+			{	
+				ControlName				Label	
+				xpos					0
+				ypos					0	
+				wide 					f
+				tall  					f	
+				proportionalToParent	1
+				labelText				"#GameUI_Filters"
+				font					OratorStd12
+				allcaps					1
+				textAlignment			center
+				fgColor_override 		"242 235 216 255"
+			}
+		}
+		
+		Filters
+		{
+			xpos					0
+			ypos					r200
+			wide					210
+			tall					177
+
+			navLeft					Playlists
+			navUp					Gamemodes
+			navRight				Reset
+
+			proportionalToParent	1	
+						
+			AutoResize				0
+			
+			paintbackground			1 
+			bgcolor_override		"34 28 28 128" // PH
+			
+			scrollbar_inset			1
+			panelBorder				1
+			
+			ScrVerticalScroll
+			{
+				wide				1
+			}
+		}
+
+		Reset
+		{	
+			ControlName					Button
+
+			xpos						0
+			ypos						r22
+			wide						100
+			tall						22
+			proportionalToParent		1	
+			
+			//navLeft						Filters
+			//navRight					DeselectAll
+			
+			visible						1
+			enabled						1			
+			paintbackground				1
+
+			defaultBgColor_override  	"34 28 28 200"
+			defaultFgColor_override  	"242 235 216 255"
+			armedBgColor_override  		"242 235 216 255"
+			armedFgColor_override 	 	"34 28 28 255"
+			depressedBgColor_override  	"204 46 25 15"
+			depressedFgColor_override  	"242 235 216 255"
+			
+			labelText				#GameUI_mm_reset
+			command					Reset
+			font					OratorStd12
+			
+			paintbackground			1
+			allcaps					1
+			textAlignment			center
+			sound_armed				UI/menu_focus.wav
+			sound_depressed			UI/menu_join.wav
+		}
+
+		Refresh
+		{	
+			ControlName					Button
+
+			xpos						101
+			ypos						r22
+			wide						109
+			tall						22
+			proportionalToParent		1	
+			
+			visible						1
+			enabled						1			
+			paintbackground				1
+
+			defaultBgColor_override  	"34 28 28 200"
+			defaultFgColor_override  	"242 235 216 255"
+			armedBgColor_override  		"242 235 216 255"
+			armedFgColor_override 	 	"34 28 28 255"
+			depressedBgColor_override  	"204 46 25 15"
+			depressedFgColor_override  	"242 235 216 255"
+			
+			labelText				#GameUI_Refresh
+			command					Refresh
+			font					OratorStd12
+			
+			paintbackground			1
+			allcaps					1
+			textAlignment			center
+			sound_armed				UI/menu_focus.wav
+			sound_depressed			UI/menu_join.wav
+		}
+
+
+		ServerList
+		{
+			xpos					212
+			ypos					73
+			wide					f212
+			tall					f73
+			enabled					1
+			proportionalToParent	1	
+
+
+			BtnSortName
+			{	
+				ControlName				Button
 				
-			"paintbackground"		"1" 
-			"bgcolor_override"		"34 28 28 128" // PH
+				xpos					0
+				ypos					0	
+				zpos					1
+				wide 					254
+				tall  					25	
+				proportionalToParent	1
+				
+				font					FoundationSans12
+				allcaps					1
+				textAlignment			west
+				labelText				#ServerBrowser_Servers
+				command					"SetSort 1"
+
+				defaultBgColor_override	"0 0 0 200"
+				ArmedBgColor_override  	"242 235 216 10"
+
+				textinsetx				18
+				use_proportional_insets 1
+
+				sound_armed				UI/menu_focus.wav
+				sound_depressed			UI/menu_click.wav
+			}
+
+			BtnSortPlayers
+			{	
+				ControlName				Button
+				
+				xpos					254
+				ypos					0	
+				zpos					1
+				wide 					56
+				tall  					25	
+				proportionalToParent	1
+				
+				font					FoundationSans12
+				allcaps					1
+				textAlignment			west
+				labelText				#ServerBrowser_Players
+				command					"SetSort 2"
+
+				defaultBgColor_override	"0 0 0 200"
+				ArmedBgColor_override  	"242 235 216 10"
+
+				textinsetx				9
+				use_proportional_insets 1
+
+				sound_armed				UI/menu_focus.wav
+				sound_depressed			UI/menu_click.wav
+			}
+
+			BtnSortGamemode
+			{	
+				ControlName				Button
+				
+				xpos					310
+				ypos					0	
+				zpos					1
+				wide 					64
+				tall  					25	
+				proportionalToParent	1
+				
+				font					FoundationSans12
+				allcaps					1
+				textAlignment			west
+				labelText				#ServerBrowser_GameMode
+				command					"SetSort 3"
+
+				defaultBgColor_override	"0 0 0 200"
+				ArmedBgColor_override  	"242 235 216 10"
+
+				textinsetx				9
+				use_proportional_insets 1
+
+				sound_armed				UI/menu_focus.wav
+				sound_depressed			UI/menu_click.wav
+			}
+
+			BtnSortMap
+			{	
+				ControlName				Button
+				
+				xpos					374
+				ypos					0	
+				zpos					1
+				wide 					85
+				tall  					25	
+				proportionalToParent	1
+				
+				font					FoundationSans12
+				allcaps					1
+				textAlignment			west
+				labelText				#ServerBrowser_Map
+				command					"SetSort 4"
+
+				defaultBgColor_override	"0 0 0 200"
+				ArmedBgColor_override  	"242 235 216 10"
+
+				textinsetx				9
+				use_proportional_insets 1
+
+				sound_armed				UI/menu_focus.wav
+				sound_depressed			UI/menu_click.wav
+			}
+
+			BtnSortLatency
+			{	
+				ControlName				Button
+				
+				xpos					459
+				ypos					0	
+				zpos					1
+				wide 					70
+				tall  					25	
+				proportionalToParent	1
+				
+				font					FoundationSans12
+				allcaps					1
+				textAlignment			west
+				labelText				#ServerBrowser_Latency
+				command					"SetSort 0"
+
+				defaultBgColor_override	"0 0 0 200"
+				ArmedBgColor_override  	"242 235 216 10"
+
+				textinsetx				9
+				use_proportional_insets 1
+
+				sound_armed				UI/menu_focus.wav
+				sound_depressed			UI/menu_click.wav
+			}
+
+			List
+			{
+				xpos				0
+				ypos				25
+				wide				f
+				tall				f48
+				proportionalToParent	1	
+
+				paintbackground			1 
+				bgcolor_override		"34 28 28 128"			
+			}
+
+			Status
+			{	
+				xpos				0
+				ypos				r22
+				wide				f
+				tall				22
+				proportionalToParent	1	
+
+				textinsetx				12
+				use_proportional_insets 1
+
+				font					OratorStd14
+				textAlignment			west
+				fgColor_override 		"242 235 216 255"
+			}
 		}
-
-		"ButtonBG"
-		{
-			"ControlName"			"EditablePanel"
-			"xpos"					"423"
-			"ypos"					"r22" 
-			"wide"					"f424"
-			"tall"					"22"
-			"zpos"					"-5"
-			"proportionalToParent"	"1"	
-			
-			"visible"				"0"
-			"enabled"				"1"
-			
-			"paintbackground"			"1"
-			"bgcolor_override"  "34 28 28 128"
-		}
-
-		"Reset"
-		{	
-			"ControlName"			"Button"
-
-			"xpos"					"403"
-			"ypos"					"r22"
-			"wide"					"45"
-			"tall"					"22"
-			"proportionalToParent"	"1"	
-			
-			"navLeft"				"Filters"
-			"navRight"				"DeselectAll"
-			
-			"visible"				"1"
-			"enabled"				"1"
-			
-			"paintbackground"			"1"
-			"defaultBgColor_override"  "34 28 28 200"
-			"defaultFgColor_override"  "242 235 216 255"
-			"armedBgColor_override"  "242 235 216 255"
-			"armedFgColor_override"  "34 28 28 255"
-			"depressedBgColor_override"  "204 46 25 15"
-			"depressedFgColor_override"  "242 235 216 255"
-			
-			"labelText"				"#GameUI_mm_reset"
-			"command"				"Reset"
-			"font"					"OratorStd12"
-			
-			"paintbackground"		"1"
-			"allcaps"				"1"
-			"textAlignment"			"center"
-			"sound_armed"			"UI/menu_focus.wav"
-			"sound_depressed"		"UI/menu_join.wav"
-		}
-
-		"DeselectAll"
-		{	
-			"ControlName"			"Button"
-
-			"xpos"					"449"
-			"ypos"					"r22"
-			"wide"					"76"
-			"tall"					"22"
-
-			"proportionalToParent"	"1"	
-			
-			"navLeft"				"Reset"
-			"navRight"				"SelectAll"
-			
-			"visible"				"1"
-			"enabled"				"1"
-			
-			"paintbackground"			"1"
-			"defaultBgColor_override"  "34 28 28 200"
-			"defaultFgColor_override"  "242 235 216 255"
-			"armedBgColor_override"  "242 235 216 255"
-			"armedFgColor_override"  "34 28 28 255"
-			"depressedBgColor_override"  "204 46 25 15"
-			"depressedFgColor_override"  "242 235 216 255"
-			
-			"labelText"				"#GameUI_mm_deselect_all"
-			"command"				"DeselectAllMaps"
-			"font"					"OratorStd12"
-			
-			"paintbackground"		"1"
-			"allcaps"				"1"
-			"textAlignment"			"center"
-			"sound_armed"			"UI/menu_focus.wav"
-			"sound_depressed"		"UI/menu_join.wav"
-		}
-
-
-		"SelectAll"
-		{	
-			"ControlName"			"Button"
-
-			"xpos"					"526"
-			"ypos"					"r22"
-			"wide"					"76"
-			"tall"					"22"
-			"proportionalToParent"	"1"	
-			
-			"navLeft"				"DeselectAll"
-			"navRight"				"FindGame"
-			
-			"visible"				"1"
-			"enabled"				"1"
-			
-			"paintbackground"			"1"
-			"defaultBgColor_override"  "34 28 28 200"
-			"defaultFgColor_override"  "242 235 216 255"
-			"armedBgColor_override"  "242 235 216 255"
-			"armedFgColor_override"  "34 28 28 255"
-			"depressedBgColor_override"  "204 46 25 15"
-			"depressedFgColor_override"  "242 235 216 255"
-			
-			"labelText"				"#GameUI_mm_select_all"
-			"command"				"SelectAllMaps"
-			"font"					"OratorStd12"
-			
-			"paintbackground"		"1"
-			"allcaps"				"1"
-			"textAlignment"			"center"
-			"sound_armed"			"UI/menu_focus.wav"
-			"sound_depressed"		"UI/menu_join.wav"
-		}
-		
-		"FindGame"
-		{	
-			"fieldName"				"FindGame"
-			
-			"navLeft"				"SelectAll"
-			
-			"xpos"					"603"
-			"ypos"					"r22"
-			"wide"					"f603"
-			"tall"  					"22" 
-			"proportionalToParent"		"1"
-			
-			"visible"				"1"
-			"enabled"				"1"
-			
-			"paintbackground"			"1"
-			"defaultBgColor_override"  "204 46 25 255"
-			"defaultFgColor_override"  "242 235 216 255"
-			"armedBgColor_override"  "242 235 216 255"
-			"armedFgColor_override"  "27 22 22 255"
-			"depressedBgColor_override"  "34 28 28 255"
-			"depressedFgColor_override"  "242 235 216 255"
-			
-			"labelText"				"#GameUI_mm_find_game"
-			"command"				"FindGame"
-			"font"					"OratorStd12"
-			
-			"paintbackground"		"1"
-			"allcaps"				"1"
-			"textinsetx"			"15"
-			"textAlignment"			"center"
-			"sound_armed"			"UI/menu_focus.wav"
-			"sound_depressed"		"UI/menu_join.wav"
-		}
-
 	}
+
 }

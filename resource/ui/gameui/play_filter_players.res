@@ -4,11 +4,10 @@
 	"FilterPanelPlayers"
 	{
 		"wide"				"f"
-		"tall"				"72"	
+		"tall"				"66"	
 		"proportionalToParent"	"1"	
 		
-		"paintbackground"		"1" 
-		"bgcolor_override"		"255 0 0 255"
+		"paintbackground"		"0" 
 			
 		"Min"
 		{
@@ -17,7 +16,7 @@
 			"xpos"					"7"
 			"ypos"					"9"
 			"wide"					"f14"
-			"tall"					"12"
+			"tall"					"16"
 			"proportionalToParent"	"1"	
 						
 			"labelText"				"#GameUI_mm_filter_minplayers"
@@ -30,7 +29,7 @@
 		"MinSlider"
 		{
 			"xpos"					"7"
-			"ypos"					"26"
+			"ypos"					"25"
 			"wide"					"f14"
 			"tall"					"10"
 			"proportionalToParent"	"1"	
@@ -81,9 +80,9 @@
 			"ControlName"			"Label"
 
 			"xpos"					"7"
-			"ypos"					"40"
+			"ypos"					"38"
 			"wide"					"f"
-			"tall"					"12"
+			"tall"					"16"
 			"proportionalToParent"	"1"	
 						
 			"labelText"				"#GameUI_mm_filter_maxplayers"
@@ -96,7 +95,7 @@
 		"MaxSlider"
 		{
 			"xpos"					"7"
-			"ypos"					"59"
+			"ypos"					"54"
 			"wide"					"f14"
 			"tall"					"10"
 			"proportionalToParent"	"1"	

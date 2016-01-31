@@ -1,4 +1,5 @@
 aa_bridge_b01_4_5.*
+abandoned.*
 abdallah_b1.*
 aim1.*
 aim_shootout_a3.*
@@ -32,6 +33,7 @@ bb_junkyard_coop.*
 bb_junkyard_coop_v2.*
 bb_junkyard_coop_v4.*
 bb_lighthouse_beta8.*
+blizzard.*
 block_party_coop_beta4.*
 block_party_coop_beta5.*
 bootcamp_2.*
@@ -74,13 +76,16 @@ convoy_night_apc_coop_v1_4.*
 convoy_night_coop_v1.*
 cqb_city_b4.*
 creek_a1.*
+crossroads.*
 cs_*
 cs_office.*
 de_*
+deathtrap.*
 dedust1p2_coop.*
 depot.*
 depot_a2.*
 depot_coop.*
+desertglory.*
 desertglory1.*
 desert_hell_coop_v1.*
 desert_warfare_vehicles_coop_v1_1.*
@@ -110,10 +115,12 @@ embassy_coop_141103.*
 facility_beta2_rspawn.*
 fallujahbeta2.*
 farah_b3.*
+fishhook.*
 fortress_coop_beta2.*
 fortress_coop_beta3.*
 fortress_coop_beta4.*
 fortress_coop_beta5.*
+frostfire.*
 game_day_coopv1_2.*
 game_day_coopv1_3.*
 gaza_coop.*
@@ -209,6 +216,7 @@ mp_shop2_b5.*
 nightfallb1_survival.*
 nightfall_coopv1_1.*
 nightfall_coopv1_2.*
+nightstalker.*
 nuketown_a4.*
 oasis.*
 oilfield_b4.*
@@ -230,9 +238,11 @@ rainforest_b2.*
 rainforest_coop_b2_v1.*
 ramadi_b5.*
 ramadi_ws.*
+requiem.*
 rust_a2.*
 safehouse_dusk.*
 samawah_b1.*
+sandstorm.*
 sdk_sandtrapr2.*
 shellshock.*
 skidrow_a1.*
@@ -245,6 +255,7 @@ terminal_a4.*
 terminal_a7.*
 the_burbs_coop.*
 the_raid_coopb4.*
+theruins.*
 toujane_b1.*
 trenches6_coop_v1_2.*
 trenchfoot_b5.*
@@ -253,6 +264,7 @@ tunnel_rats_coopv1_4.*
 tunnel_rats_night_hunt.*
 vacant_a5.*
 vietnam_b4.*
+vigilance.*
 warehouse_coop_beta_1.*
 warehouse_coopv2.*
 warehouse_survivalv1.*

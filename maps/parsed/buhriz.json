@@ -1,8 +1,8 @@
 {
 	"source_files": {
-		"CPSetup": "9e5eea696c42f8117f6bd65d7a0db527",
+		"CPSetup": "04d66e92215f9fb92d9e47c2905c8aec",
 		"Overview": "f9d0fc46abb42badcbb934102385ef93",
-		"VMF Source": "9e788fa28892c74540f45b82e0cc4fdb"
+		"VMF Source": "c730b6540031ab387bd30a80bae3cfe4"
 	},
 	"navfile": "buhriz",
 	"nightlighting": "0",
@@ -168,14 +168,6 @@
 					"pos_type": "obj_weapon_cache",
 					"pos_team": 3,
 					"pos_name": "C"
-				},
-				"D": {
-					"pos_name": "D",
-					"pos_team": 3
-				},
-				"E": {
-					"pos_name": "E",
-					"pos_team": 3
 				}
 			},
 			"spawnzones": {

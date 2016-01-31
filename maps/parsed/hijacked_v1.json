@@ -1,13 +1,18 @@
 {
+	"source_files": {
+		"CPSetup": "411d43e35e48454ba87f10f269797959",
+		"Overview": "3417a2613e5a73ab1b7f9672924e5895",
+		"VMF Source": "0f1393cfd39c73bf007a2f03ab5c66f9"
+	},
 	"gametypes": {
 		"checkpoint": {
 			"attackingteam": "security",
 			"controlpoint": {
 				"A": {
-					"pos_x": 145,
-					"pos_y": 463,
+					"pos_x": 130,
+					"pos_y": 516,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "A",
 					"pos_team": 3
 				},
@@ -15,7 +20,7 @@
 					"pos_x": 187,
 					"pos_y": 308,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "B",
 					"pos_team": 3
 				},
@@ -23,7 +28,7 @@
 					"pos_x": 229,
 					"pos_y": 591,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "C",
 					"pos_team": 3
 				},
@@ -31,39 +36,39 @@
 					"pos_x": 364,
 					"pos_y": 809,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "D",
 					"pos_team": 3
 				},
 				"E": {
-					"pos_x": 321,
-					"pos_y": 458,
+					"pos_x": 316,
+					"pos_y": 452,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "E",
 					"pos_team": 3
 				},
 				"F": {
-					"pos_x": 550,
-					"pos_y": 157,
+					"pos_x": 549,
+					"pos_y": 155,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "F",
 					"pos_team": 3
 				},
 				"G": {
-					"pos_x": 723,
-					"pos_y": 159,
+					"pos_x": 722,
+					"pos_y": 156,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "G",
 					"pos_team": 3
 				},
 				"H": {
 					"pos_x": 821,
-					"pos_y": 291,
+					"pos_y": 289,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "H",
 					"pos_team": 3
 				},
@@ -285,10 +290,10 @@
 			"pos_y": 0
 		},
 		"cp7": {
-			"pos_x": 723,
-			"pos_y": 159,
+			"pos_x": 722,
+			"pos_y": 156,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cp7",
 			"pos_team": 0
 		},
@@ -342,10 +347,10 @@
 			"pos_y": 0
 		},
 		"cp6": {
-			"pos_x": 550,
-			"pos_y": 157,
+			"pos_x": 549,
+			"pos_y": 155,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cp6",
 			"pos_team": 0
 		},
@@ -429,7 +434,7 @@
 			"pos_x": 364,
 			"pos_y": 809,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cp4",
 			"pos_team": 0
 		},
@@ -469,7 +474,7 @@
 			"pos_x": 187,
 			"pos_y": 308,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cp2",
 			"pos_team": 0
 		},
@@ -518,31 +523,31 @@
 			"pos_x": 229,
 			"pos_y": 591,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cp3",
 			"pos_team": 0
 		},
 		"cp5": {
-			"pos_x": 321,
-			"pos_y": 458,
+			"pos_x": 316,
+			"pos_y": 452,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cp5",
 			"pos_team": 0
 		},
 		"cp8": {
 			"pos_x": 821,
-			"pos_y": 291,
+			"pos_y": 289,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cp8",
 			"pos_team": 0
 		},
 		"cp1": {
-			"pos_x": 145,
-			"pos_y": 463,
+			"pos_x": 130,
+			"pos_y": 516,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cp1",
 			"pos_team": 0
 		},
@@ -554,10 +559,5 @@
 			"pos_x": 0,
 			"pos_y": 0
 		}
-	},
-	"source_files": {
-		"CPSetup": "2030b2f92dd5136f1992e1258cb3f9a1",
-		"Overview": "3417a2613e5a73ab1b7f9672924e5895",
-		"VMF Source": "0f1393cfd39c73bf007a2f03ab5c66f9"
 	}
 }

@@ -8,7 +8,7 @@ world
 	"InsGameMode" "3"
 	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
-	"mapversion" "6001"
+	"mapversion" "6005"
 	"comment" "Decompiled by BSPSource v1.3.17 from ministry_night"
 	"classname" "worldspawn"
 }
@@ -34114,6 +34114,7 @@ entity
 	"renderfx" "0"
 	"rendercolor" "255 255 255"
 	"renderamt" "255"
+	"origin" "2272 -1088 140"
 	"classname" "ins_spawnzone"
 	solid
 	{
@@ -34191,6 +34192,7 @@ entity
 	"renderfx" "0"
 	"rendercolor" "255 255 255"
 	"renderamt" "255"
+	"origin" "-2320 -3340 117.29"
 	"classname" "ins_spawnzone"
 	solid
 	{
@@ -59418,6 +59420,7 @@ entity
 	"renderfx" "0"
 	"rendercolor" "255 255 255"
 	"renderamt" "255"
+	"origin" "3667 -1808 -48"
 	"classname" "ins_blockzone"
 	solid
 	{
@@ -59542,8 +59545,8 @@ entity
 			"plane" "(2592.0 -1413.0 91.0) (2592.0 -1413.0 -320.0) (2592.0 -2227.0 -320.0)"
 			"smoothing_groups" "0"
 			"material" "tools/toolstrigger_spawnzone"
-			"uaxis" "[-0.0 -1.0 0.0 0] 0.25"
-			"vaxis" "[0.0 -0.0 -1.0 0] 0.25"
+			"uaxis" "[0.0 -1.0 0.0 -20] 1.0"
+			"vaxis" "[0.0 0.0 -1.0 -60] 1.0"
 			"lightmapscale" "16"
 		}
 	}
@@ -61416,6 +61419,7 @@ entity
 	"renderfx" "0"
 	"rendercolor" "255 255 255"
 	"renderamt" "255"
+	"origin" "-3520 -1408 -80"
 	"classname" "ins_blockzone"
 	solid
 	{
@@ -61456,8 +61460,8 @@ entity
 			"plane" "(-2784.0 -2432.0 -64.0) (-2784.0 -2432.0 -320.0) (-2784.0 -1360.0 -320.0)"
 			"smoothing_groups" "0"
 			"material" "tools/toolstrigger_spawnzone"
-			"uaxis" "[0.0 1.0 0.0 0] 0.25"
-			"vaxis" "[0.0 0.0 -1.0 0] 0.25"
+			"uaxis" "[0.0 -1.0 0.0 -4] 1.0"
+			"vaxis" "[0.0 0.0 -1.0 -28] 1.0"
 			"lightmapscale" "16"
 		}
 		side
@@ -64053,6 +64057,7 @@ entity
 	"renderfx" "0"
 	"rendercolor" "255 255 255"
 	"renderamt" "255"
+	"origin" "4352 -1200 112"
 	"blockzone" "blockzone_skirmish"
 	"classname" "ins_spawnzone"
 	solid
@@ -64431,6 +64436,7 @@ entity
 	"renderfx" "0"
 	"rendercolor" "255 255 255"
 	"renderamt" "255"
+	"origin" "-4336 -1232 80"
 	"classname" "ins_spawnzone"
 	solid
 	{
@@ -64438,7 +64444,7 @@ entity
 		side
 		{
 			"id" "4100"
-			"plane" "(-5088.0 -64.0 1.2207031E-4) (-5088.0 -2400.0 1.2207031E-4) (-3584.0 -2400.0 -31.999876)"
+			"plane" "(-5088.0 -64.0 0.0) (-5088.0 -2400.0 0.0) (-3584.0 -2400.0 -31.999992)"
 			"smoothing_groups" "0"
 			"material" "tools/toolstrigger_spawnzone"
 			"uaxis" "[-0.9997738 0.0 0.02126699 -30] 0.9998"

@@ -2,7 +2,7 @@
 	"source_files": {
 		"CPSetup": "122528217789ce90e6d64138aa67edec",
 		"Overview": "ea5f896cd386fb6b9da299c454f03fcf",
-		"VMF Source": "485b4984e6ec19e0828f25899cabe529"
+		"VMF Source": "7d02cf1d0ea83313157be340fc0eff05"
 	},
 	"overview": {
 		"material": "overviews\/ministry_night",
@@ -14,20 +14,20 @@
 	},
 	"points": {
 		"spawnzone_ambush_team2": {
+			"pos_x": 733,
+			"pos_y": 438,
 			"pos_classname": "ins_spawnzone",
 			"pos_type": "area",
 			"pos_team": 2,
-			"pos_name": "spawnzone_ambush_team2",
-			"pos_x": 0,
-			"pos_y": 0
+			"pos_name": "spawnzone_ambush_team2"
 		},
 		"spawnzone_ambush_team3": {
+			"pos_x": 350,
+			"pos_y": 626,
 			"pos_classname": "ins_spawnzone",
 			"pos_type": "area",
 			"pos_team": 3,
-			"pos_name": "spawnzone_ambush_team3",
-			"pos_x": 0,
-			"pos_y": 0
+			"pos_name": "spawnzone_ambush_team3"
 		},
 		"extract1": {
 			"pos_x": 420,
@@ -46,12 +46,12 @@
 			"pos_team": 0
 		},
 		"blockzone_skirmish": {
+			"pos_x": 849,
+			"pos_y": 498,
 			"pos_classname": "ins_blockzone",
 			"pos_type": "area",
 			"pos_team": 2,
-			"pos_name": "blockzone_skirmish",
-			"pos_x": 0,
-			"pos_y": 0
+			"pos_name": "blockzone_skirmish"
 		},
 		"cap4": {
 			"pos_x": 543,
@@ -94,21 +94,21 @@
 			"pos_team": 0
 		},
 		"spawnzone_skirmish_team2": {
+			"pos_x": 906,
+			"pos_y": 447,
 			"pos_classname": "ins_spawnzone",
 			"pos_blockzone": "blockzone_skirmish",
 			"pos_type": "area",
 			"pos_team": 2,
-			"pos_name": "spawnzone_skirmish_team2",
-			"pos_x": 0,
-			"pos_y": 0
+			"pos_name": "spawnzone_skirmish_team2"
 		},
 		"spawnzone_skirmish_team3": {
+			"pos_x": 182,
+			"pos_y": 450,
 			"pos_classname": "ins_spawnzone",
 			"pos_type": "area",
 			"pos_team": 3,
-			"pos_name": "spawnzone_skirmish_team3",
-			"pos_x": 0,
-			"pos_y": 0
+			"pos_name": "spawnzone_skirmish_team3"
 		}
 	}
 }

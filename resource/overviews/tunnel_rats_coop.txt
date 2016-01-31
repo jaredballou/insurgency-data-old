@@ -1,9 +1,0 @@
-"tunnel_rats_coop"
-{
-	material	overviews/tunnel_rats_coop       	// texture file
-	pos_x		"-4567"			// X coordinate
-	pos_y		"6196"			// Y coordinate
-	scale		"13.0" 			// scale used when taking the screenshot
-	rotate		"0"			// map was rotated by 90 degrees in image editor
-	zoom		1			// optimal zoom factor if map is shown in full size
-}

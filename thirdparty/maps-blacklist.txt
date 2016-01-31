@@ -92,8 +92,7 @@ dgl_speed.*
 dgl_street3.*
 docks_a1.*
 docks_ap_1.*
-dry_canal1.*
-dry_canal_coop_v4.*
+dry_canal*
 dust2_b4.*
 dust2_coop_v1.*
 dust2_coop_v1_1.*

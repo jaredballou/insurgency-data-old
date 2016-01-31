@@ -1,0 +1,4 @@
+Pakrat v0.95 - by Rof (rof@mellish.org.uk)
+Listing pak files from /home/insserver/serverfiles/insurgency/maps/station.bsp
+Pak file at offset 25305792, length 16477263 bytes
+Pak lump entries: 1937

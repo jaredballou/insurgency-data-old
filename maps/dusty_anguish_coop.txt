@@ -1,0 +1,25 @@
+"cpsetup.txt"
+{
+	"checkpoint"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"cp1"
+		"controlpoint"		"cp2"
+		"controlpoint"		"cp3"
+		"controlpoint"		"cp4"
+		"controlpoint"		"cp5"
+		"controlpoint"		"cp6"
+
+		"spawnzones"
+		{
+			"0"  "spawnzone_1"
+			"1"  "spawnzone_2"
+			"2"  "spawnzone_3"
+			"3"  "spawnzone_4"
+			"4"  "spawnzone_5"
+			"5"  "spawnzone_6"
+			"6"  "spawnzone_7"
+		}
+
+	}
+} 

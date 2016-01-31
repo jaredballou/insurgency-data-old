@@ -1,4 +1,9 @@
 {
+	"source_files": {
+		"CPSetup": "4f01f113a50b84637233fbeb21daec6b",
+		"Overview": "394f65673bbb2b24d5dfe9bcf6c5d17a",
+		"VMF Source": "bbeed70624979e4a4dacf546ea622f0e"
+	},
 	"gametypes": {
 		"firefight": {
 			"controlpoint": {
@@ -20,9 +25,9 @@
 				},
 				"C": {
 					"pos_x": 881,
-					"pos_y": 160,
+					"pos_y": 159,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "C",
 					"pos_team": 3
 				}
@@ -79,9 +84,9 @@
 				},
 				"D": {
 					"pos_x": 881,
-					"pos_y": 160,
+					"pos_y": 159,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "D",
 					"pos_team": 3
 				},
@@ -167,9 +172,9 @@
 			"controlpoint": {
 				"A": {
 					"pos_x": 881,
-					"pos_y": 160,
+					"pos_y": 159,
 					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
+					"pos_type": "area",
 					"pos_name": "A",
 					"pos_team": 2
 				},
@@ -606,9 +611,9 @@
 		},
 		"cp_3": {
 			"pos_x": 881,
-			"pos_y": 160,
+			"pos_y": 159,
 			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
+			"pos_type": "area",
 			"pos_name": "cp_3",
 			"pos_team": 0
 		},
@@ -621,10 +626,5 @@
 			"pos_x": 0,
 			"pos_y": 0
 		}
-	},
-	"source_files": {
-		"CPSetup": "9c48d9e0d0334112a3a2af0c24b731af",
-		"Overview": "394f65673bbb2b24d5dfe9bcf6c5d17a",
-		"VMF Source": "88142c64bd7c16d07e2662760bc5ea64"
 	}
 }

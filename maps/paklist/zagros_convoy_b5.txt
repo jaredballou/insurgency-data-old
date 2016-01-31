@@ -1,0 +1,21 @@
+Pakrat v0.95 - by Rof (rof@mellish.org.uk)
+Listing pak files from /home/insserver/serverfiles/insurgency/maps/zagros_convoy_b5.bsp
+Pak file at offset 30435628, length 154146 bytes
+Pak lump entries: 17
+materials/maps/zagros_convoy_b5/maps/afghanistan/afg_blendwall_03b_wvt_patch.vmt   (Material,  161 bytes)
+materials/maps/zagros_convoy_b5/maps/afghanistan/afg_blendwall_06_snow_wvt_patch.vmt   (Material,  162 bytes)
+materials/maps/zagros_convoy_b5/maps/afghanistan/afg_blendwall_01_wvt_patch.vmt   (Material,  166 bytes)
+materials/maps/zagros_convoy_b5/maps/verticality/blends/blend_rev_ceiling_01_snow_wvt_patch.vmt   (Material,  301 bytes)
+materials/maps/zagros_convoy_b5/maps/terrain/blend_af_rock_sand_02_wvt_patch.vmt   (Material,  174 bytes)
+materials/maps/zagros_convoy_b5/maps/buhriz/buh_blend_sand_wet_wvt_patch.vmt   (Material,  179 bytes)
+materials/maps/zagros_convoy_b5/maps/tile/ir_tilesfloor02b_-3622_-7680_-1502.vmt   (Material,  148 bytes)
+materials/maps/zagros_convoy_b5/glass/ins_glass_02break_-3622_-7680_-1502.vmt   (Material,  168 bytes)
+materials/maps/zagros_convoy_b5/glass/ins_glass_02_-3622_-7680_-1502.vmt   (Material,  227 bytes)
+materials/maps/zagros_convoy_b5/maps/door/garagedoor02a_-3622_-7680_-1502.vmt   (Material,  145 bytes)
+materials/maps/zagros_convoy_b5/maps/wood/ir_floor_wood_dm_-3622_-7680_-1502.vmt   (Material,  148 bytes)
+materials/maps/zagros_convoy_b5/maps/floor/ir_floor_wood_dm_-3622_-7680_-1502.vmt   (Material,  149 bytes)
+materials/maps/zagros_convoy_b5/dev/dev_water4_depth_202.vmt   (Material,  102 bytes)
+materials/maps/zagros_convoy_b5/cubemapdefault.vtf   (Texture,  8440 bytes)
+materials/maps/zagros_convoy_b5/c-3622_-7680_-1502.vtf   (Texture,  8440 bytes)
+materials/maps/zagros_convoy_b5/cubemapdefault.hdr.vtf   (Texture,  65608 bytes)
+materials/maps/zagros_convoy_b5/c-3622_-7680_-1502.hdr.vtf   (Texture,  65608 bytes)

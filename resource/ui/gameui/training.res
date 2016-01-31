@@ -579,7 +579,7 @@ Resource/UI/GameUI/Training.res
 				{
 					xpos					0
 					ypos					30
-					wide					220
+					wide					219
 					tall					f30
 					proportionalToParent	1	
 					

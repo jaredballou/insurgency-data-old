@@ -475,7 +475,7 @@
 			{	
 				xpos				0
 				ypos				r22
-				wide				f
+				wide				f145
 				tall				22
 				proportionalToParent	1	
 
@@ -485,6 +485,41 @@
 				font					OratorStd14
 				textAlignment			west
 				fgColor_override 		"242 235 216 255"
+			}
+
+			BtnQuickPlay
+			{	
+				ControlName				Button
+				
+				xpos					r145
+				ypos					r22
+				zpos					2
+				wide 					145
+				tall  					22
+				proportionalToParent	1
+				
+				font					FoundationSansBold14
+				allcaps					1
+				textAlignment			center
+				labelText				"#GameUI_QuickConnect"
+				command					QuickConnect
+
+				forceBaseColor			1
+				// defaultBgColor_override	"47 91 32 180"
+				// defaultFgColor_override	"242 235 216 255"
+				// ArmedBgColor_override  	"47 91 32 255"
+				defaultBgColor_override  	"242 235 216 5"
+				defaultFgColor_override  	"242 235 216 255"
+				armedBgColor_override  		"47 91 32 255"
+				armedFgColor_override 	 	"242 235 216 255"
+				depressedBgColor_override  	"204 46 25 15"
+				depressedFgColor_override  	"242 235 216 255"
+
+				visible					1
+
+				sound_armed				UI/menu_focus.wav
+				sound_depressed			UI/menu_click.wav
+
 			}
 		}
 	}

@@ -1,12 +1,76 @@
 {
-	"source_files": {
-		"CPSetup": "410aeb4c792b41105ae991fee031abdc",
-		"Overview": "4fe8c7bc200e94336f7dbe75b484eb76",
-		"VMF Source": "6c4e5882dac7eb6d042c9f3ce675168e"
+	"gametypes": {
+		"push": {
+			"attackingteam": "security",
+			"controlpoint": {
+				"A": {
+					"pos_name": "A",
+					"pos_team": 3
+				},
+				"B": {
+					"pos_name": "B",
+					"pos_team": 3
+				},
+				"C": {
+					"pos_name": "C",
+					"pos_team": 3
+				},
+				"D": {
+					"pos_classname": "obj_destructible",
+					"pos_name": "D",
+					"pos_team": 3,
+					"pos_type": "obj_destructible",
+					"pos_x": 372,
+					"pos_y": 69
+				}
+			},
+			"spawnzones": {
+				"disablespawns": "1",
+				"spawnzone_1": [
+				],
+				"spawnzone_2": [
+				],
+				"spawnzone_3": [
+				]
+			}
+		},
+		"strike": {
+			"attackingteam": "security",
+			"controlpoint": {
+				"A": {
+					"pos_classname": "obj_destructible",
+					"pos_name": "A",
+					"pos_team": 3,
+					"pos_type": "obj_destructible",
+					"pos_x": 725,
+					"pos_y": 486
+				},
+				"B": {
+					"pos_classname": "obj_destructible",
+					"pos_name": "B",
+					"pos_team": 3,
+					"pos_type": "obj_destructible",
+					"pos_x": 550,
+					"pos_y": 327
+				},
+				"C": {
+					"pos_classname": "obj_destructible",
+					"pos_name": "C",
+					"pos_team": 3,
+					"pos_type": "obj_destructible",
+					"pos_x": 483,
+					"pos_y": 121
+				}
+			},
+			"spawnzones": {
+				"disablespawns": "1",
+				"spawnzone_1": [
+				],
+				"spawnzone_3": [
+				]
+			}
+		}
 	},
-	"navfile": "doi_dog_red",
-	"nightlighting": "0",
-	"theaterfile": "doi",
 	"invasion": {
 		"attackingteam": "security",
 		"controlpoint": [
@@ -15,358 +79,43 @@
 			"pushpoint_03",
 			"radiopoint_final"
 		],
+		"entities": {
+			"obj_destructible": {
+				"angles": "0 90 0",
+				"controlpoint": "radiopoint_final",
+				"origin": "-2382 9400 679",
+				"targetname": "radio_final",
+				"teamnumber": "3"
+			},
+			"point_controlpoint": {
+				"angles": "0 0 0",
+				"origin": "-2382 9400 751",
+				"targetname": "radiopoint_final"
+			}
+		},
 		"spawnzones": {
 			"disablespawns": "1",
 			"0": "spawnzone_1",
 			"1": "spawnzone_2",
 			"2": "spawnzone_3"
-		},
-		"entities": {
-			"obj_destructible": {
-				"origin": "-2382 9400 679",
-				"angles": "0 90 0",
-				"targetname": "radio_final",
-				"teamnumber": "3",
-				"controlpoint": "radiopoint_final"
-			},
-			"point_controlpoint": {
-				"origin": "-2382 9400 751",
-				"angles": "0 0 0",
-				"targetname": "radiopoint_final"
-			}
 		}
 	},
-	"gametypes": {
-		"push": {
-			"attackingteam": "security",
-			"controlpoint": {
-				"A": {
-					"pos_x": 552,
-					"pos_y": 722,
-					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
-					"pos_name": "A",
-					"pos_team": 3
-				},
-				"B": {
-					"pos_x": 550,
-					"pos_y": 546,
-					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
-					"pos_name": "B",
-					"pos_team": 3
-				},
-				"C": {
-					"pos_x": 503,
-					"pos_y": 287,
-					"pos_classname": "point_controlpoint",
-					"pos_type": "point_controlpoint",
-					"pos_name": "C",
-					"pos_team": 3
-				},
-				"D": {
-					"pos_x": 372,
-					"pos_y": 69,
-					"pos_classname": "obj_destructible",
-					"pos_type": "obj_destructible",
-					"pos_team": 3,
-					"pos_name": "D"
-				}
-			},
-			"spawnzones": {
-				"disablespawns": "1",
-				"spawnzone_1": {
-					"spawnzone_1_team2": {
-						"pos_x": 544,
-						"pos_y": 1034,
-						"pos_classname": "ins_spawnzone",
-						"pos_type": "area",
-						"pos_team": 2,
-						"pos_name": "spawnzone_1_team2"
-					},
-					"spawnzone_1_team3": {
-						"pos_x": 544,
-						"pos_y": 533,
-						"pos_classname": "ins_spawnzone",
-						"pos_blockzone": "bz_defenders_1",
-						"pos_type": "area",
-						"pos_team": 3,
-						"pos_name": "spawnzone_1_team3"
-					}
-				},
-				"spawnzone_2": {
-					"spawnzone_2_team2": {
-						"pos_x": 486,
-						"pos_y": 795,
-						"pos_classname": "ins_spawnzone",
-						"pos_blockzone": "bz_attackers_2",
-						"pos_type": "area",
-						"pos_team": 2,
-						"pos_name": "spawnzone_2_team2"
-					},
-					"spawnzone_2_team3": {
-						"pos_x": 550,
-						"pos_y": 333,
-						"pos_classname": "ins_spawnzone",
-						"pos_blockzone": "bz_defenders_2",
-						"pos_type": "area",
-						"pos_team": 3,
-						"pos_name": "spawnzone_2_team3"
-					}
-				},
-				"spawnzone_3": {
-					"spawnzone_3_team2": {
-						"pos_x": 537,
-						"pos_y": 683,
-						"pos_classname": "ins_spawnzone",
-						"pos_blockzone": "bz_attackers_3",
-						"pos_type": "area",
-						"pos_team": 2,
-						"pos_name": "spawnzone_3_team2"
-					},
-					"spawnzone_3_team3": {
-						"pos_x": 404,
-						"pos_y": 84,
-						"pos_classname": "ins_spawnzone",
-						"pos_blockzone": "bz_defenders_3",
-						"pos_type": "area",
-						"pos_team": 3,
-						"pos_name": "spawnzone_3_team3"
-					}
-				}
-			}
-		},
-		"strike": {
-			"attackingteam": "security",
-			"controlpoint": {
-				"A": {
-					"pos_x": 725,
-					"pos_y": 486,
-					"pos_classname": "obj_destructible",
-					"pos_type": "obj_destructible",
-					"pos_team": 3,
-					"pos_name": "A"
-				},
-				"B": {
-					"pos_x": 550,
-					"pos_y": 327,
-					"pos_classname": "obj_destructible",
-					"pos_type": "obj_destructible",
-					"pos_team": 3,
-					"pos_name": "B"
-				},
-				"C": {
-					"pos_x": 483,
-					"pos_y": 121,
-					"pos_classname": "obj_destructible",
-					"pos_type": "obj_destructible",
-					"pos_team": 3,
-					"pos_name": "C"
-				}
-			},
-			"spawnzones": {
-				"disablespawns": "1",
-				"spawnzone_1": {
-					"spawnzone_1_team2": {
-						"pos_x": 544,
-						"pos_y": 1034,
-						"pos_classname": "ins_spawnzone",
-						"pos_type": "area",
-						"pos_team": 2,
-						"pos_name": "spawnzone_1_team2"
-					},
-					"spawnzone_1_team3": {
-						"pos_x": 544,
-						"pos_y": 533,
-						"pos_classname": "ins_spawnzone",
-						"pos_blockzone": "bz_defenders_1",
-						"pos_type": "area",
-						"pos_team": 3,
-						"pos_name": "spawnzone_1_team3"
-					}
-				},
-				"spawnzone_3": {
-					"spawnzone_3_team2": {
-						"pos_x": 537,
-						"pos_y": 683,
-						"pos_classname": "ins_spawnzone",
-						"pos_blockzone": "bz_attackers_3",
-						"pos_type": "area",
-						"pos_team": 2,
-						"pos_name": "spawnzone_3_team2"
-					},
-					"spawnzone_3_team3": {
-						"pos_x": 404,
-						"pos_y": 84,
-						"pos_classname": "ins_spawnzone",
-						"pos_blockzone": "bz_defenders_3",
-						"pos_type": "area",
-						"pos_team": 3,
-						"pos_name": "spawnzone_3_team3"
-					}
-				}
-			}
-		}
-	},
+	"navfile": "doi_dog_red",
+	"nightlighting": "0",
 	"overview": {
+		"grid_dark": 1,
+		"grid_divisions": 10,
 		"material": "overviews\/doi_dog_red",
 		"pos_x": -7030,
 		"pos_y": 10257,
-		"scale": 12.5,
 		"rotate": 0,
-		"zoom": 1,
-		"grid_divisions": 10,
-		"grid_dark": 1
+		"scale": 12.5,
+		"zoom": 1
 	},
-	"points": {
-		"bz_attackers_3": {
-			"pos_x": 769,
-			"pos_y": 1178,
-			"pos_classname": "ins_blockzone",
-			"pos_type": "area",
-			"pos_team": 2,
-			"pos_name": "bz_attackers_3"
-		},
-		"cap_02": {
-			"pos_x": 736,
-			"pos_y": 493,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "cap_02",
-			"pos_team": 0
-		},
-		"cap_01": {
-			"pos_x": 552,
-			"pos_y": 341,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "cap_01",
-			"pos_team": 0
-		},
-		"cap_03": {
-			"pos_x": 434,
-			"pos_y": 150,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "cap_03",
-			"pos_team": 0
-		},
-		"bz_attackers_2": {
-			"pos_x": 544,
-			"pos_y": 834,
-			"pos_classname": "ins_blockzone",
-			"pos_type": "area",
-			"pos_team": 2,
-			"pos_name": "bz_attackers_2"
-		},
-		"bz_defenders_3": {
-			"pos_x": 544,
-			"pos_y": 98,
-			"pos_classname": "ins_blockzone",
-			"pos_type": "area",
-			"pos_team": 3,
-			"pos_name": "bz_defenders_3"
-		},
-		"bz_defenders_2": {
-			"pos_x": 544,
-			"pos_y": 263,
-			"pos_classname": "ins_blockzone",
-			"pos_type": "area",
-			"pos_team": 3,
-			"pos_name": "bz_defenders_2"
-		},
-		"spawnzone_2_team3": {
-			"pos_x": 550,
-			"pos_y": 333,
-			"pos_classname": "ins_spawnzone",
-			"pos_blockzone": "bz_defenders_2",
-			"pos_type": "area",
-			"pos_team": 3,
-			"pos_name": "spawnzone_2_team3"
-		},
-		"bz_attackers_1": {
-			"pos_x": 544,
-			"pos_y": 934,
-			"pos_classname": "ins_blockzone",
-			"pos_type": "area",
-			"pos_team": 2,
-			"pos_name": "bz_attackers_1"
-		},
-		"bz_defenders_1": {
-			"pos_x": 544,
-			"pos_y": 366,
-			"pos_classname": "ins_blockzone",
-			"pos_type": "area",
-			"pos_team": 3,
-			"pos_name": "bz_defenders_1"
-		},
-		"spawnzone_3_team2": {
-			"pos_x": 537,
-			"pos_y": 683,
-			"pos_classname": "ins_spawnzone",
-			"pos_blockzone": "bz_attackers_3",
-			"pos_type": "area",
-			"pos_team": 2,
-			"pos_name": "spawnzone_3_team2"
-		},
-		"pushpoint_01": {
-			"pos_x": 552,
-			"pos_y": 722,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "pushpoint_01",
-			"pos_team": 0
-		},
-		"pushpoint_02": {
-			"pos_x": 550,
-			"pos_y": 546,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "pushpoint_02",
-			"pos_team": 0
-		},
-		"pushpoint_03": {
-			"pos_x": 503,
-			"pos_y": 287,
-			"pos_classname": "point_controlpoint",
-			"pos_type": "point_controlpoint",
-			"pos_name": "pushpoint_03",
-			"pos_team": 0
-		},
-		"spawnzone_1_team3": {
-			"pos_x": 544,
-			"pos_y": 533,
-			"pos_classname": "ins_spawnzone",
-			"pos_blockzone": "bz_defenders_1",
-			"pos_type": "area",
-			"pos_team": 3,
-			"pos_name": "spawnzone_1_team3"
-		},
-		"spawnzone_3_team3": {
-			"pos_x": 404,
-			"pos_y": 84,
-			"pos_classname": "ins_spawnzone",
-			"pos_blockzone": "bz_defenders_3",
-			"pos_type": "area",
-			"pos_team": 3,
-			"pos_name": "spawnzone_3_team3"
-		},
-		"spawnzone_2_team2": {
-			"pos_x": 486,
-			"pos_y": 795,
-			"pos_classname": "ins_spawnzone",
-			"pos_blockzone": "bz_attackers_2",
-			"pos_type": "area",
-			"pos_team": 2,
-			"pos_name": "spawnzone_2_team2"
-		},
-		"spawnzone_1_team2": {
-			"pos_x": 544,
-			"pos_y": 1034,
-			"pos_classname": "ins_spawnzone",
-			"pos_type": "area",
-			"pos_team": 2,
-			"pos_name": "spawnzone_1_team2"
-		}
-	}
+	"source_files": {
+		"CPSetup": "410aeb4c792b41105ae991fee031abdc",
+		"Overview": "4fe8c7bc200e94336f7dbe75b484eb76",
+		"VMF Source": "6c4e5882dac7eb6d042c9f3ce675168e"
+	},
+	"theaterfile": "doi"
 }

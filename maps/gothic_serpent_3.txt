@@ -1,0 +1,50 @@
+"cpsetup.txt"
+{	
+	"outpost"
+	{
+		"navfile"   		"gothic_serpent_3"
+		"AttackingTeam"		"insurgents"
+		
+		"controlpoint"		"cachepoint_friendly"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_1"
+		}
+		
+		"settings"
+		{
+			// bot attack/patrol spawn points
+			"attack_spawns"
+			{
+				"1"  	"spawnzone_attack_01"
+				"2"  	"spawnzone_attack_02"
+				"3"  	"spawnzone_attack_03"
+				"4"  	"spawnzone_attack_04"
+				"5"  	"spawnzone_attack_05"
+				"6"  	"spawnzone_attack_06"
+			}
+		}
+		
+		"entities"
+		{			
+			// Cache friendly
+			"obj_weapon_cache"
+			{
+				"origin"		"-1406 -560 17"
+				"angles"		"0.0 1.0 0.0"
+				"targetname"	"cache_friendly"
+				"teamnumber"	"2"
+				"ControlPoint"	"cachepoint_friendly"
+				"TakeDamageBullets" "0"
+			}	
+			"point_controlpoint"
+			{
+				"origin"		"-1406 -560 200"
+				"angles"		"0.0 1.0 0.0"
+				"targetname"	"cachepoint_friendly"
+			}
+		}
+	}
+} 

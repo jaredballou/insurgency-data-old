@@ -1,0 +1,71 @@
+"cpsetup.txt"
+{
+	"theater_conditions"
+	{
+		"?nightmap"		"1"
+	}
+
+	"checkpoint"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"cp_a"
+		"controlpoint"		"cp_b"
+		"controlpoint"		"cp_c"
+		"controlpoint"		"cp_d"
+		"controlpoint"		"cp_e"
+		"controlpoint"		"cachepoint_f"
+		"controlpoint"		"cp_g"
+		"controlpoint"		"cp_h"
+		"controlpoint"		"cachepoint_i"
+		"controlpoint"		"cp_j"
+		"controlpoint"		"cp_k"
+
+		"spawnzones"
+		{
+			"0"  "spawnzone_a"
+			"1"  "spawnzone_b"
+			"2"  "spawnzone_c"
+			"3"  "spawnzone_d"
+			"4"  "spawnzone_e"
+			"5"  "spawnzone_f"
+			"6"  "spawnzone_g"
+			"7"  "spawnzone_h"
+			"8"  "spawnzone_i"
+			"9"  "spawnzone_j"
+			"10"  "spawnzone_k"
+		}
+		"entities"
+		{
+			"obj_weapon_cache"
+			{
+				"origin"		"4982 2109 -242"
+				"angles"		"0 90 0"
+				"targetname"	"cache_f"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_f"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"4982 2109 -242"
+				"angles"		"0 90 0"
+				"targetname"	"cachepoint_f" 
+			}	
+			"obj_weapon_cache"
+			{
+				"origin"		"519 1450 -243"
+				"angles"		"0 270 0"
+				"targetname"	"cache_i"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_i"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"519 1450 -243"
+				"angles"		"0 270 0"
+				"targetname"	"cachepoint_i" 
+			}	
+		}
+	}
+}

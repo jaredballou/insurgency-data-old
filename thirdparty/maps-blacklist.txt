@@ -8,6 +8,7 @@ almaden_b3.*
 almaden_coop_v1.*
 almaden_coop_v1_1.*
 amber_spirits_coop_beta6.*
+amber_spiritsv1_1_coop.*
 angle_iron_beta1.*
 angle_iron_coop_beta2.*
 angle_iron_coop_beta4.*
@@ -36,6 +37,7 @@ bb_lighthouse_beta8.*
 blizzard.*
 block_party_coop_beta4.*
 block_party_coop_beta5.*
+block_partyv1_1_coop.*
 bootcamp_2.*
 bridge_coop_optimized_v1.*
 bridge_pvp_b1.*
@@ -76,9 +78,11 @@ convoy_night_apc_coop_v1_4.*
 convoy_night_coop_v1.*
 cqb_city_b4.*
 creek_a1.*
+crossbow*
 crossroads.*
 cs_*
 cs_office.*
+cu_chi*
 de_*
 deathtrap.*
 dedust1p2_coop.*
@@ -228,6 +232,7 @@ pipeline.*
 powcamp_a1.*
 prophet.*
 prophet_coop.*
+prospect_coop_b4.*
 ps7.*
 ps7_coop.*
 ps7_coop_b4.*
@@ -251,6 +256,7 @@ space.*
 station_coop_v1.*
 sweet_v1b.*
 takbar_b4.*
+tell_coop_v1.*
 terminal_a4.*
 terminal_a7.*
 the_burbs_coop.*

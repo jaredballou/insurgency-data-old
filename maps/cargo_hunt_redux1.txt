@@ -1,0 +1,91 @@
+"cpsetup.txt"
+{
+
+	"hunt"
+	{
+		"navfile"   		"cargo_hunt_redux1"
+		"AttackingTeam"		"security"
+		
+		"controlpoint"		"cachepoint_a"
+		"controlpoint"		"cachepoint_b"
+		"controlpoint"		"cachepoint_c"
+		"controlpoint"		"cachepoint_d"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_1"
+		}
+		
+		"entities"
+		{			
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"132 208 391"
+				"angles"		"0.000000 15 0.000000"
+				"targetname"	"cache_a"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"132 208 391"
+				"angles"		"0.000000 15 0.000000"
+				"targetname"	"cachepoint_a"
+			}	
+			
+			// Cache B
+			"obj_weapon_cache"
+			{
+				"origin"		"-654 -118 12"
+				"angles"		"0.000000 270 0.000000"
+				"targetname"	"cache_b"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_b"
+				"TakeDamageBullets" "0"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"-654 -118 12"
+				"angles"		"0.000000 270 0.000000"
+				"targetname"	"cachepoint_b"
+			}	
+			
+			// Cache C
+			"obj_weapon_cache"
+			{
+				"origin"		"-1806 123 652"
+				"angles"		"0.000000 95 0.000000"
+				"targetname"	"cache_c"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_c"
+				"TakeDamageBullets" "0"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"-1806 123 652"
+				"angles"		"0.000000 95 0.000000"
+				"targetname"	"cachepoint_c"
+			}	
+
+			// Cache D
+			"obj_weapon_cache"
+			{
+				"origin"		"-2375 -148 140"
+				"angles"		"0.000000 355 0.000000"
+				"targetname"	"cache_d"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_d"
+				"TakeDamageBullets" "0"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"-2375 -148 140"
+				"angles"		"0.000000 355 0.000000"
+				"targetname"	"cachepoint_d"
+			}	
+		}
+	}
+} 

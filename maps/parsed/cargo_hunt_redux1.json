@@ -1,0 +1,116 @@
+{
+	"gametypes": {
+		"hunt": {
+			"attackingteam": "security",
+			"controlpoint": {
+				"A": {
+					"pos_classname": "obj_weapon_cache",
+					"pos_name": "A",
+					"pos_team": 3,
+					"pos_type": "obj_weapon_cache",
+					"pos_x": 567,
+					"pos_y": 457
+				},
+				"B": {
+					"pos_classname": "obj_weapon_cache",
+					"pos_name": "B",
+					"pos_team": 3,
+					"pos_type": "obj_weapon_cache",
+					"pos_x": 424,
+					"pos_y": 517
+				},
+				"C": {
+					"pos_classname": "obj_weapon_cache",
+					"pos_name": "C",
+					"pos_team": 3,
+					"pos_type": "obj_weapon_cache",
+					"pos_x": 215,
+					"pos_y": 473
+				},
+				"D": {
+					"pos_classname": "obj_weapon_cache",
+					"pos_name": "D",
+					"pos_team": 3,
+					"pos_type": "obj_weapon_cache",
+					"pos_x": 111,
+					"pos_y": 522
+				}
+			},
+			"navfile": "cargo_hunt_redux1",
+			"spawnzones": {
+				"disablespawns": "1",
+				"spawnzone_1": {
+					"spawnzone_1_team2": {
+						"pos_classname": "ins_spawnzone",
+						"pos_height": 122,
+						"pos_name": "spawnzone_1_team2",
+						"pos_shape": "rect",
+						"pos_team": 2,
+						"pos_type": "area",
+						"pos_width": 49,
+						"pos_x": 975,
+						"pos_y": 437
+					}
+				}
+			}
+		}
+	},
+	"overview": {
+		"material": "overviews\/cargo_hunt_redux1",
+		"pos_x": -2988,
+		"pos_y": 2724,
+		"rotate": 0,
+		"scale": 5.5,
+		"zoom": 1
+	},
+	"points": {
+		"cachepoint_a": {
+			"pos_classname": "point_controlpoint",
+			"pos_name": "cachepoint_a",
+			"pos_team": 0,
+			"pos_type": "point_controlpoint",
+			"pos_x": 567,
+			"pos_y": 457
+		},
+		"cachepoint_b": {
+			"pos_classname": "point_controlpoint",
+			"pos_name": "cachepoint_b",
+			"pos_team": 0,
+			"pos_type": "point_controlpoint",
+			"pos_x": 424,
+			"pos_y": 517
+		},
+		"cachepoint_c": {
+			"pos_classname": "point_controlpoint",
+			"pos_name": "cachepoint_c",
+			"pos_team": 0,
+			"pos_type": "point_controlpoint",
+			"pos_x": 215,
+			"pos_y": 473
+		},
+		"cachepoint_d": {
+			"pos_classname": "point_controlpoint",
+			"pos_name": "cachepoint_d",
+			"pos_team": 0,
+			"pos_type": "point_controlpoint",
+			"pos_x": 109,
+			"pos_y": 525
+		},
+		"spawnzone_1_team2": {
+			"pos_classname": "ins_spawnzone",
+			"pos_height": 122,
+			"pos_name": "spawnzone_1_team2",
+			"pos_shape": "rect",
+			"pos_team": 2,
+			"pos_type": "area",
+			"pos_width": 49,
+			"pos_x": 975,
+			"pos_y": 437
+		}
+	},
+	"source_files": {
+		"CPSetup": "fedb5fa6d12a3987c8bb15bf790b56dc",
+		"Overview": "858f44c5780e2e4d5f9579f20797fc48",
+		"VMF Source": "11b735af470cd52cb744d98e8fa93b32"
+	}
+}

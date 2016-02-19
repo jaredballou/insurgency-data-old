@@ -1,33 +1,30 @@
 {
-	"theater_conditions": {
-		"?nightmap": "1"
-	},
 	"gametypes": {
 		"push": {
 			"controlpoint": {
 				"A": {
-					"pos_x": 209,
-					"pos_y": 351,
 					"pos_classname": "obj_weapon_cache",
-					"pos_type": "obj_weapon_cache",
+					"pos_name": "A",
 					"pos_team": 3,
-					"pos_name": "A"
+					"pos_type": "obj_weapon_cache",
+					"pos_x": 209,
+					"pos_y": 351
 				},
 				"B": {
-					"pos_x": 209,
-					"pos_y": 351,
 					"pos_classname": "obj_weapon_cache",
-					"pos_type": "obj_weapon_cache",
+					"pos_name": "B",
 					"pos_team": 2,
-					"pos_name": "B"
+					"pos_type": "obj_weapon_cache",
+					"pos_x": 209,
+					"pos_y": 351
 				},
 				"C": {
-					"pos_x": 209,
-					"pos_y": 351,
 					"pos_classname": "obj_weapon_cache",
-					"pos_type": "obj_weapon_cache",
+					"pos_name": "C",
 					"pos_team": 1,
-					"pos_name": "C"
+					"pos_type": "obj_weapon_cache",
+					"pos_x": 209,
+					"pos_y": 351
 				}
 			},
 			"spawnzones": {
@@ -35,15 +32,25 @@
 				"spawnzone_start": {
 					"spawnzone_start_team2": {
 						"pos_classname": "ins_spawnzone",
-						"pos_type": "area",
+						"pos_height": 8,
+						"pos_name": "spawnzone_start_team2",
+						"pos_shape": "rect",
 						"pos_team": 2,
-						"pos_name": "spawnzone_start_team2"
+						"pos_type": "area",
+						"pos_width": 15,
+						"pos_x": 437,
+						"pos_y": 381
 					},
 					"spawnzone_start_team3": {
 						"pos_classname": "ins_spawnzone",
-						"pos_type": "area",
+						"pos_height": 8,
+						"pos_name": "spawnzone_start_team3",
+						"pos_shape": "rect",
 						"pos_team": 3,
-						"pos_name": "spawnzone_start_team3"
+						"pos_type": "area",
+						"pos_width": 15,
+						"pos_x": 437,
+						"pos_y": 381
 					}
 				}
 			}
@@ -53,27 +60,40 @@
 		"material": "overviews\/operator_range",
 		"pos_x": -2088,
 		"pos_y": 4597,
-		"scale": 10,
 		"rotate": 0,
+		"scale": 10,
 		"zoom": 1
 	},
 	"points": {
-		"spawnzone_start_team3": {
-			"pos_classname": "ins_spawnzone",
-			"pos_type": "area",
-			"pos_team": 3,
-			"pos_name": "spawnzone_start_team3"
-		},
 		"spawnzone_start_team2": {
 			"pos_classname": "ins_spawnzone",
-			"pos_type": "area",
+			"pos_height": 8,
+			"pos_name": "spawnzone_start_team2",
+			"pos_shape": "rect",
 			"pos_team": 2,
-			"pos_name": "spawnzone_start_team2"
+			"pos_type": "area",
+			"pos_width": 15,
+			"pos_x": 437,
+			"pos_y": 381
+		},
+		"spawnzone_start_team3": {
+			"pos_classname": "ins_spawnzone",
+			"pos_height": 8,
+			"pos_name": "spawnzone_start_team3",
+			"pos_shape": "rect",
+			"pos_team": 3,
+			"pos_type": "area",
+			"pos_width": 15,
+			"pos_x": 437,
+			"pos_y": 381
 		}
 	},
 	"source_files": {
 		"CPSetup": "9cfde29801d314e7c3ba1a8bd7e6a666",
 		"Overview": "05bb8dfeb86ad9c8ee94b4a671ddaf6d",
 		"VMF Source": "61e8bdeb59c6d1d4731387289f112933"
+	},
+	"theater_conditions": {
+		"?nightmap": "1"
 	}
 }

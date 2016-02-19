@@ -1,0 +1,192 @@
+"cpsetup.txt"
+{	
+	// shrine supported modes:	
+	// - Skirmish +
+	// - Firefight  +
+	// - Push - NOT WORK
+	// - Ambush  +
+	// - Occupy  +
+	// - Elimination - NOT WORK
+	
+	"skirmish"
+	{
+		"controlpoint"		"cachepoint_a"
+		"controlpoint"		"skirmish_cap_1"
+		"controlpoint"		"cap_occupy"
+		"controlpoint"		"skirmish_cap_2"
+		"controlpoint"		"cachepoint_e"
+
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_ff"
+		}
+		
+		"entities"
+		{	
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"198.0 5824.0 92.0"
+				"angles"		"0.000000 100.0 0.000000"
+				"targetname"	"cache_a"
+				"teamnumber"	"2"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"198.0 5824.0 106.0"
+				"angles"		"0.000000 180.0 0.000000"
+				"targetname"	"cachepoint_a"
+			}	
+			
+			// Cache E
+			"obj_weapon_cache"
+			{
+				"origin"		"-571.07 1918.07 92.031250"
+				"angles"		"0.000000 97.5 0.000000"
+				"targetname"	"cache_e"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_e"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-576.443237 -1920.529907 128.031250"
+				"angles"		"0.000000 -90.966850 0.000000"
+				"targetname"	"cachepoint_e"
+			}	
+		}
+	}
+	
+	"firefight"
+	{
+		"controlpoint"		"firefight_a"
+		"controlpoint"		"cap_occupy"
+		"controlpoint"		"firefight_b"
+
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_ff"
+		}
+	}
+	
+	"push"
+	{
+		"AttackingTeam"		"security"
+		"controlpoint"		"skirmish_cap_1"
+		"controlpoint"		"skirmish_cap_2"
+		"controlpoint"		"cap_occupy"
+		"controlpoint"		"cachepoint_final"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_push_a"
+			"1"  "spawnzone_push_b"
+			"2"  "spawnzone_push_c"
+		}
+		
+		"entities"
+		{
+			// Final Cache
+			"obj_weapon_cache"
+			{
+				"origin"		"-4013.354248 -1856.367676 -255.968750"
+				"angles"		"0.000000 -91.051781 0.000000"
+				"targetname"	"cache_final"
+				"teamnumber"	"3"
+				"ControlPoint"	"cachepoint_final"
+				"TakeDamageBullets" "0"
+				"DestructibleWhenActiveOnly" "1"
+			}
+			"point_controlpoint"
+			{
+				"origin"		"-4013.354248 -1856.367676 -183.968750"
+				"angles"		"0.000000 -91.051781 0.000000"
+				"targetname"	"cachepoint_final"
+			}	
+		}
+	}
+	
+	"ambush"
+	{
+		"navfile"   		"shrine"
+		"attackingteam"		"insurgents"
+		"controlpoint" 		"vip_cap"
+		"controlpoint" 		"vip_cap_2"
+
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_ambush"
+		}	
+	}
+	
+	"occupy"
+	{
+		"navfile"   		"shrine"
+		"nightlighting"		"0"
+		"controlpoint"		"cap_occupy"
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_ff"
+		}
+	}
+	
+	"elimination"
+	{
+		"navfile"   		"shrine"
+		"nightlighting"		"0"
+		"AttackingTeam"		"insurgents"
+		"controlpoint"		"cachepoint_a" 
+		"controlpoint"		"cachepoint_b" 
+		
+		"spawnzones"
+		{
+			"disablespawns" "1"
+			"0"  "spawnzone_ff"
+		}
+		
+		"entities"
+		{
+			// Cache A
+			"obj_weapon_cache"
+			{
+				"origin"		"-1354.651001 2140.671387 200.311218"
+				"angles"		"0.000000 180.0 0.000000"
+				"targetname"	"cache_a"
+				"teamnumber"	"2"
+				"ControlPoint"	"cachepoint_a"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"-1340.651001 2140.671387 272.311218"
+				"angles"		"0.000000 180.0 0.000000"
+				"targetname"	"cachepoint_a"
+			}	
+			
+			// Cache B
+			"obj_weapon_cache"
+			{
+				"origin"		"1262.295654 2452.320068 0.031250"
+				"angles"		"0.000000 -92.796150 0.000000"
+				"targetname"	"cache_b"
+				"teamnumber"	"2"
+				"ControlPoint"	"cachepoint_b"
+				"TakeDamageBullets" "0"
+			}				
+			"point_controlpoint"
+			{
+				"origin"		"1262.295654 2452.320068 0.031250"
+				"angles"		"0.000000 -92.796150 0.000000"
+				"targetname"	"cachepoint_b"
+			}	
+		}
+	}
+} 

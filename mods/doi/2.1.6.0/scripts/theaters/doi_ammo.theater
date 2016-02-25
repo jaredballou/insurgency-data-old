@@ -166,5 +166,16 @@
 			"tracer_type"				"whiz_with_line"
 			"tracer_lowammo"			"20"
 		}
+		
+		// ========================================
+		// M1912 Tenchgun
+		// ========================================
+				
+		"buckshot"
+		{
+			"import"				"00buck"
+			"carry"					"72"
+			"flags_clear"				"AMMO_USE_MAGAZINES"
+		}
 	}
 }

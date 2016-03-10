@@ -66,6 +66,7 @@ clean_sweep_night_beta2.*
 clean_sweep_night_beta3.*
 clean_sweep_night_coop_beta1.*
 clean_sweep_night_coop_ws.*
+contact_coop*
 container_rc2.*
 container_rc2_coop.*
 convoy.*
@@ -99,8 +100,10 @@ dgl_ministry1.*
 dgl_paintball4.*
 dgl_speed.*
 dgl_street3.*
+district_coop_old*
 docks_a1.*
 docks_ap_1.*
+doi_ps7_beta0_1.*
 dry_canal*
 dust2_b4.*
 dust2_coop_v1.*
@@ -145,6 +148,7 @@ healthcenter_beta03.*
 healthcenter_beta04.*
 healthcenter_coop_v1_3.*
 healthcenter_coop_v1_4.*
+he_burbs_coop.*
 hidenseek_0.*
 highrise_a4.*
 hijacked_redux_v1.*
@@ -214,6 +218,7 @@ kunar_a3.*
 launch_control_coopv1_5.*
 launch_control_coopv1_6.*
 maska_Beta.*
+ministry_coop_old.*
 moonlight.*
 mountain_lake_v4.*
 mp_shop2_b5.*
@@ -236,6 +241,7 @@ prospect_coop_b4.*
 ps7.*
 ps7_coop.*
 ps7_coop_b4.*
+ps7z_coop_beta1.*
 ps7_push.*
 r6_safehouse.*
 r6_safehouse_coop_v1_1.*
@@ -250,10 +256,12 @@ samawah_b1.*
 sandstorm.*
 sdk_sandtrapr2.*
 shellshock.*
+siege_coop_old.*
 skidrow_a1.*
 smallmap_v2b.*
 space.*
 station_coop_v1.*
+station_up.*
 sweet_v1b.*
 takbar_b4.*
 tell_coop_v1.*

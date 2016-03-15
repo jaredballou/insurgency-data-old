@@ -1,6 +1,6 @@
-"#base" "Exstreams_91_base_weapon.theater"
-"#base" "Exstreams_91_base_common_ammo.theater"
-"#base" "Exstreams_91_base_explosives.theater"
+"#base" "exstreams_91_base_weapon.theater"
+"#base" "exstreams_91_base_common_ammo.theater"
+"#base" "exstreams_91_base_explosives.theater"
 
 "theater"
 {

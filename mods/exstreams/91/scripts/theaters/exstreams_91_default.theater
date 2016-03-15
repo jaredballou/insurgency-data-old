@@ -1,8 +1,8 @@
-"#base" "Exstreams_91_base_player.theater"
+"#base" "exstreams_91_base_player.theater"
 
-"#base" "Exstreams_91_default_gear.theater"
-"#base" "Exstreams_91_default_weapon.theater"
-"#base" "Exstreams_91_default_weapon_upgrades.theater"
+"#base" "exstreams_91_default_gear.theater"
+"#base" "exstreams_91_default_weapon.theater"
+"#base" "exstreams_91_default_weapon_upgrades.theater"
 
 
 "theater"

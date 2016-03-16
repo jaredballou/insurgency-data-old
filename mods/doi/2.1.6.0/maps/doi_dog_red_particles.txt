@@ -1,0 +1,4 @@
+"doi_dog_red"
+{
+	"file"		"!particles/doi_weapon_fx.pcf"
+}

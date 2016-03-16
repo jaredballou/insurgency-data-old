@@ -1,0 +1,4 @@
+"doi_bastogne"
+{
+	"file"		"!particles/doi_weapon_fx.pcf"
+}

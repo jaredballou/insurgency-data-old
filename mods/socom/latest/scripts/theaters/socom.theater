@@ -40,7 +40,7 @@
 			"speed_crouch_walk"		"51"   // ### 46
 			"speed_crouch_run"		"119"  // ### 108
 			"speed_walk"			"88"   // ### 80
-			"speed_run"				"190"  // ### 170
+			"speed_run"				"235"  // ### 170
 			"speed_sprint"			"260"  // ### 288
 			"AccelerationByWeight"
 			{
@@ -112,7 +112,7 @@
 		}
 		"slide"
 		{
-			"min_sprint_time"		"1.2"
+			"min_sprint_time"		"3600"//"1.2"
 			"post_sprint_grace"		"0.08"
 			
 			"DistanceByWeight"
@@ -180,14 +180,14 @@
 			}
 			"BulletPenetrationPower"
 			{
-				"CHAR_TEX_CONCRETE"				"100"
-				"CHAR_TEX_BRICK"				"100"
-				"CHAR_TEX_PLASTER"				"75"
+				"CHAR_TEX_CONCRETE"				"250"
+				"CHAR_TEX_BRICK"				"250"
+				"CHAR_TEX_PLASTER"				"100"
 				"CHAR_TEX_DIRT"					"50"
 				"CHAR_TEX_FLESH"				"10"
 				"CHAR_TEX_GRASS"				"75"
 				"CHAR_TEX_PLASTIC"				"20"
-				"CHAR_TEX_METAL"				"120"
+				"CHAR_TEX_METAL"				"250"
 				"CHAR_TEX_SAND"					"120"
 				"CHAR_TEX_FOLIAGE"				"60"
 				"CHAR_TEX_COMPUTER"				"40"
@@ -195,10 +195,10 @@
 				"CHAR_TEX_SLOSH"				"24"
 				"CHAR_TEX_TILE"					"26"
 				"CHAR_TEX_CARDBOARD"			"5"
-				"CHAR_TEX_VENT"					"16"
+				"CHAR_TEX_VENT"					"150"
 				"CHAR_TEX_WOOD"					"60"
 				"CHAR_TEX_GLASS"				"3"
-				"CHAR_TEX_ROCK"					"120"
+				"CHAR_TEX_ROCK"					"180"
 				"CHAR_TEX_RUBBER"				"16"
 				"CHAR_TEX_SHEETROCK"			"15"
 				"CHAR_TEX_CARPET"				"30"		
@@ -890,6 +890,10 @@
 				"fov_wpn_ironsight"			"48"
 				"fov_wpn_focus"				"48"
 			}
+			"kitui_offset"
+			{
+				"position"				"24 0 3"
+			}
 			"attachments"
 			{
 				"attachment_addon"			"launcher"
@@ -909,7 +913,7 @@
 			"world_model"					"models/weapons/w_at4.mdl"
 			"weapon_slot"					"explosive"
 			"weapon_max_subslot"			"0" // can only be in the first explosive slot
-			"act_table"						"launcher"
+			"act_table"						"launcher_at4"
 			"weapon_weight"					"160"
 			"weapon_cost"					"5"
 			"weapon_abilities"				"ironsight"
@@ -961,6 +965,10 @@
 				"fov_wpn_default"			"60"
 				"fov_wpn_ironsight"			"48"
 				"fov_wpn_focus"				"48"
+			}
+			"kitui_offset"
+			{
+				"position"				"24 0 3"
 			}
 			"attachments"
 			{
@@ -2760,6 +2768,14 @@
 					"fallback_for_slot"		"underbarrel"
 				}
 			}
+			"world_attachments"
+			{
+				"standard"
+				{
+					"model"					"models/weapons/upgrades/w_standard_akm.mdl"
+					"fallback_for_slot"			"underbarrel"
+				}
+			}
 			"fov"
 			{
 				"priority"					"0"
@@ -2854,6 +2870,14 @@
 				{
 					"model"						"models/weapons/upgrades/a_standard_ak74.mdl"
 					"fallback_for_slot"			"underbarrel"
+				}
+			}
+			"world_attachments"
+			{
+				"standard"
+				{
+					"model"					"models/weapons/upgrades/w_standard_ak74.mdl"
+					"fallback_for_slot"		"underbarrel"
 				}
 			}
 
@@ -3891,6 +3915,14 @@
 				"foregrip"
 				{
 					"model"				"models/weapons/upgrades/a_standard_aks74u.mdl"
+					"fallback_for_slot"		"underbarrel"
+				}
+			}
+			"world_attachments"
+			{
+				"standard"
+				{
+					"model"					"models/weapons/upgrades/w_standard_aks74u.mdl"
 					"fallback_for_slot"		"underbarrel"
 				}
 			}
@@ -5894,6 +5926,9 @@
 			"IsBase"						"1"
 			"import"						"baseDetonator"
 			
+			"Elasticity"					"0.05"
+			"Friction"						"0.9"
+			
 			"ImpactDamage"
 			{
 				"0"					"0"
@@ -5953,7 +5988,7 @@
 		{
 			"import"					"baseGrenade"
 			"entity_class"				"grenade_frag"
-			"Model"						"models/weapons/w_m67.mdl"
+			"Model"						"models/socom/weapons/w_m67.mdl"
 			"DetonateDamage"			"500"//160
 			"DetonatePenetrationRadius" "0"//40
 			"DetonateDamageRadius"		"350"//750
@@ -5981,7 +6016,7 @@
 		{
 			"import"					"baseGrenade"
 			"entity_class"				"grenade_frag"
-			"Model"						"models/weapons/w_f1.mdl"
+			"Model"						"models/socom/weapons/w_f1.mdl"
 			"DetonateDamage"			"400"//160
 			"DetonatePenetrationRadius" "0"//40
 			"DetonateDamageRadius"		"350"//750
@@ -6042,7 +6077,7 @@
 			"Sounds"
 			{
 				"DetonateSound"			"ANM14Incendiary.Burn"
-				"BounceSound"			"Weapon_M67.Bounce"
+				"BounceSound"			"ANM14Incendiary.Bounce"
 			}
 		}
 		"grenade_molotov"
@@ -6653,6 +6688,7 @@
 			{
 				"magazine_m1a1"
 				{
+					"Act_Suffix"		"_MAG1"
 					"model"				"models/weapons/upgrades/a_magazine_m1a1_30.mdl"
 					"Main"				"1"
 
@@ -6691,6 +6727,7 @@
 			{
 				"magazine_fal"
 				{
+					"Act_Suffix"		"_MAG1"
 					"model"				"models/weapons/upgrades/a_magazine_fal_l1a1_30.mdl"
 					"Main"				"1"
 
@@ -9553,6 +9590,13 @@
 					}
 				}
 			}
+			"world_attachments"
+			{
+				"Foregrip"
+				{
+					"model"					"models/weapons/upgrades/w_ins_foregrip.mdl"
+				}
+			}
 		}
 		"underbarrel_foregrip_ins2"
 		{
@@ -9575,7 +9619,14 @@
 						"weapon_toz"               "0.5"					
 					}
 				}
-			}			
+			}	
+			"world_attachments"
+			{
+				"Foregrip"
+				{
+					"model"					"models/weapons/upgrades/w_ins_foregrip.mdl"
+				}
+			}		
 		}
 		"underbarrel_woodgrip"
 		{
@@ -9622,6 +9673,38 @@
 					"weapons"
 					{
 						"weapon"			"weapon_ak74"
+					}
+				}
+			}
+			"world_attachments"
+			{
+				"Foregrip_AKM"
+				{
+					"model"					"models/weapons/upgrades/w_foregrip_wood_1.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_akm"
+					}
+				}
+				
+				"Foregrip_AKS"
+				{
+					"model"					"models/weapons/upgrades/w_foregrip_aks74u.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_aks74u"
+					}
+				}
+				
+				"Foregrip_AK74"
+				{
+					"model"					"models/weapons/upgrades/w_foregrip_wood_2.mdl"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_ak74"
 					}
 				}
 			}
@@ -9682,6 +9765,13 @@
 					}
 				}
 			}
+			"world_attachments"
+			{
+				"Foregrip"
+				{
+					"model"					"models/weapons/upgrades/w_foregrip_sec1.mdl"
+				}
+			}
 		}
 		"underbarrel_foregrip_sec2"
 		{
@@ -9722,6 +9812,13 @@
 					{
 						"weapon"				"weapon_galil_sar"
 					}
+				}
+			}
+			"world_attachments"
+			{
+				"Foregrip"
+				{
+					"model"					"models/weapons/upgrades/w_foregrip_sec2.mdl"
 				}
 			}
 		}

@@ -4,119 +4,41 @@
 	"description"		"The only easy day was yesterday."
 	"category"			"pvp" // Required: Menu category, should be "pvp" or "coop"
 
-	"require_maxplayers_max"	"24"	// Max player slots required for this playlist
+	"require_maxplayers_max"	"32"	// Max player slots required for this playlist
 
 	"allowed_maps"
 	{
 		"abandoned" "firefight"
 		"abandoned" "skirmish"
-		//"blizzard" "firefight"
+		"blizzard" "firefight"
 		"blizzard" "skirmish"
 		"crossroads" "firefight"
 		"crossroads" "skirmish"
-		//"deathtrap" "firefight"
+		"deathtrap" "firefight"
 		"deathtrap" "skirmish"
 		"desertglory" "firefight"
 		"desertglory" "skirmish"
-		//"fishhook" "firefight"
+		"fishhook" "firefight"
 		"fishhook" "skirmish"
 		"frostfire" "firefight"
 		"frostfire" "skirmish"
 		"nightstalker" "firefight"
 		"nightstalker" "skirmish"
-		//"requiem" "firefight"
+		"requiem" "firefight"
 		"requiem" "skirmish"
-		//"sandstorm" "firefight"
+		"sandstorm" "firefight"
 		"sandstorm" "skirmish"
 		"theruins" "firefight"
 		"theruins" "skirmish"
 		"vigilance" "firefight"
 		"vigilance" "skirmish"
-		//"embassy" "ambush"
-		//"embassy_night" "ambush"
-		//"market" "ambush"
-		//"market_night" "ambush"
-		//"revolt" "ambush"
-		//"revolt_night" "ambush"
-		//"siege" "ambush"
-		//"station" "ambush"
-		//"station_night" "ambush"
-		//"tell" "ambush"
-		//"tell_night" "ambush"
-		//"verticality" "ambush"
-		//"verticality_night" "ambush"
-		//"contact" "firefight"
-		//"contact_night" "firefight"
-		//"district" "firefight"
-		//"district_night" "firefight"
-		//"embassy" "firefight"
-		//"embassy_night" "firefight"
-		//"heights" "firefight"
-		//"heights_night" "firefight"
-		//"kandagal" "firefight"
-		//"kandagal_night" "firefight"
-		//"market" "firefight"
-		//"market_night" "firefight"
-		//"ministry" "firefight"
-		//"ministry_night" "firefight"
-		//"panj" "firefight"
-		//"panj_night" "firefight"
-		//"peak" "firefight"
-		//"peak_night" "firefight"
-		//"revolt" "firefight"
-		//"revolt_night" "firefight"
-		//"siege" "firefight"
-		//"sinjar" "firefight"
-		//"sinjar_night" "firefight"
-		//"station" "firefight"
-		//"station_night" "firefight"
-		//"uprising" "firefight"
-		//"uprising_night" "firefight"
-		//"verticality" "firefight"
-		//"verticality_night" "firefight"
-		//"buhriz" "elimination"
-		//"buhriz_night" "elimination"
-		//"district" "elimination"
-		//"district_night" "elimination"
-		//"embassy" "elimination"
-		//"embassy_night" "elimination"
-		//"heights" "elimination"
-		//"heights_night" "elimination"
-		//"market" "elimination"
-		//"market_night" "elimination"
-		//"panj" "elimination"
-		//"panj_night" "elimination"
-		//"peak" "elimination"
-		//"peak_night" "elimination"
-		//"revolt" "elimination"
-		//"revolt_night" "elimination"
-		//"siege" "elimination"
-		//"sinjar" "elimination"
-		//"sinjar_night" "elimination"
-		//"station" "elimination"
-		//"station_night" "elimination"
-		//"tell" "elimination"
-		//"tell_night" "elimination"
-		//"verticality" "elimination"
-		//"verticality_night" "elimination"
 	}
 
-	"cvars"
+	// Localization files, loaded before anything in this file is referenced by UI, ideal
+	// for strings like map and gamemode names that will be displayed in the menu
+	"localization"
 	{
-		"skirmish"
-		{
-			"mp_maxrounds"									"11"
-			"mp_roundtime"									"240"
-			"mp_waves_enabled"								"0"
-			"mp_winlimit"									"6"
-		}
-	}
-
-	"forced_cvars"
-	{
-		"host_timescale"								"1.0"
-		"mp_player_spotting"							"0"
-		"sv_thirdperson_allowed"						"1"
+		"file" 	"resource/socom_menu.txt"
 	}
 	
 	"filters"	
@@ -124,8 +46,12 @@
 		// Minimum player count filter, removing this key will remove this filter.
 		"players"
 		{
-			// Default min/max values are 0 to require_maxplayers_max-1
+			"min"					"0"	 // Minimum slider value, defaults to 0
+			"max"					"32" // Maximum slider value, defaults to require_maxplayers_max value
 		}
+		
+		"show_passworded_servers"	"1"
+		"mod_support"				"0"
 
 		// Per-tag filtering, each filter is given a 3-state button to require/exclude specific tags
 		// Example tags: no3dvoip, notargetindicator, deathmsgs, nofriendlyfire, deadchat, deadvoice, teamtalk (alltalk disabled), fullscoreboard (kd on scoreboard)
@@ -142,6 +68,11 @@
 			"nofriendlyfire"
 			{
 				"invert"		"1"
+				"default"		"2"
+			}
+			"respawn"
+			{
+				"invert"		"0"
 				"default"		"2"
 			}
 		}

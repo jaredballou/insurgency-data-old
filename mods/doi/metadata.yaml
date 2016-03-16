@@ -14,6 +14,7 @@ workshop:
     - 604412679 # Day of Infamy - Bastogne Night
     - 608694820 # doi_landfall
     - 613021926 # Day of Infamy - Carentan
+    - 623454326 # Bridge at Remagen
     - 643884052 # doi_metz
   collections:
     - 604418860 # Day of Infamy
@@ -25,3 +26,8 @@ maps:
   - doi_flash_b1
   - doi_foy
   - doi_carentan
+  - doi_metz
+  - doi_bridgeatremagen
+  - 
+  - 
+  - 

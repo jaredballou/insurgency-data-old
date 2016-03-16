@@ -1,0 +1,55 @@
+// Choreo version 1
+actor "Vip_Trainer"
+{
+  channel "Speak"
+  {
+    event speak "Training.Warehouse.Vip.29.1"
+    {
+      time 0.073431 9.122320
+      param "Training.Warehouse.Vip.29.1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Training.Warehouse.Vip.29.2"
+    {
+      time 9.962320 16.656651
+      param "Training.Warehouse.Vip.29.2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Training.Warehouse.Vip.29.3"
+    {
+      time 17.795654 19.412933
+      param "Training.Warehouse.Vip.29.3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+  }
+  channel "LookAt"
+  {
+    event lookat "LookAtPlayer"
+    {
+      time 0.033333 19.496552
+      param "!player"
+    }
+  }
+  faceposermodel "D:\dev\main\game\swarm\models\survivors\survivor_mechanic.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "36"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,149 @@
+// Choreo version 1
+actor "Vip_Trainer"
+{
+  channel "Speak"
+  {
+    event speak "Training.Warehouse.Vip.41.1"
+    {
+      time 3.216288 9.725948
+      param "Training.Warehouse.Vip.41.1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Training.Warehouse.Vip.41.2"
+    {
+      time 19.740099 26.757605
+      param "Training.Warehouse.Vip.41.2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+    event speak "Training.Warehouse.Vip.41.3"
+    {
+      time 27.025812 30.165222
+      param "Training.Warehouse.Vip.41.3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+	  cc_noattenuate
+    }
+  }
+  channel "LookAt"
+  {
+    event firetrigger "Trigger_1"
+    {
+      time 30.238094 -1.000000
+      param "1"
+    }
+    event face "FaceDriver"
+    {
+      time -0.000000 4.785713
+      param "Driver"
+      event_ramp
+      {
+        0.3960 1.0000
+        4.5100 1.0000
+      }
+    }
+    event face "FacePlayer"
+    {
+      time 4.333334 10.285715
+      param "!player"
+      event_ramp
+      {
+        0.5000 1.0000
+        5.4300 1.0000
+      }
+    }
+    event face "FaceDriver"
+    {
+      time 9.666667 20.238094
+      param "Driver"
+      event_ramp
+      {
+        0.3960 1.0000
+        10.2957 1.0000
+      }
+    }
+    event face "FacePlayer"
+    {
+      time 19.976191 33.238094
+      param "!player"
+      event_ramp
+      {
+        0.5000 1.0000
+        12.7395 1.0000
+      }
+    }
+  }
+  faceposermodel "D:\dev\main\game\swarm\models\survivors\survivor_mechanic.mdl"
+}
+
+actor "Driver"
+{
+  channel "Speak"
+  {
+    event speak "Training.Warehouse.Driver.1"
+    {
+      time 0.238096 2.915828
+      param "Training.Warehouse.Driver.1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Training.Warehouse.Driver.2"
+    {
+      time 9.952381 19.233334
+      param "Training.Warehouse.Driver.2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Training.Warehouse.Driver.3"
+    {
+      time 31.000000 31.923355
+      param "Training.Warehouse.Driver.3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "LookAt"
+  {
+    event face "FaceTrainer"
+    {
+      time 0.166667 10.261906
+      param "Vip_Trainer"
+      event_ramp
+      {
+        0.7100 1.0000
+        9.5500 1.0000
+      }
+    }
+    event face "FacePlayer"
+    {
+      time 9.738095 33.238094
+      param "!player"
+      event_ramp
+      {
+        0.5360 1.0000
+        23.0697 1.0000
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "SceneRampTool" "100"
+  "RampTool" "100"
+  "CChoreoView" "28"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -20,14 +20,9 @@ workshop:
     - 604418860 # Day of Infamy
 # List of maps that are affiliated with this mod
 maps:
-  - doi_landfall
-  - doi_red
   - doi_bastogne
-  - doi_flash_b1
-  - doi_foy
-  - doi_carentan
-  - doi_metz
-  - doi_bridgeatremagen
-  - 
-  - 
-  - 
+  - doi_bastogne_night
+  - doi_dog_red
+  - doi_landfall
+  - doi_ps7
+  - doi_ps7_beta01

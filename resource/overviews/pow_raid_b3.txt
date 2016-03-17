@@ -1,9 +1,0 @@
-"pow_raid_b3"
-{
-	material	overviews/pow_raid_b3  // texture file
-	pos_x		"-13970"			// X coordinate
-	pos_y		"11715"			// Y coordinate
-	scale		"10.4" 			// scale used when taking the screenshot
-	rotate		"0"			// map was rotated by 90 degrees in image editor
-	zoom		1			// optimal zoom factor if map is shown in full size
-}

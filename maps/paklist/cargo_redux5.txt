@@ -1,3 +1,0 @@
-Pakrat v0.95 - by Rof (rof@mellish.org.uk)
-Listing pak files from /home/insserver/serverfiles/insurgency/maps/cargo_redux5.bsp
-Pak file at offset 18810304, length 129865699 bytes

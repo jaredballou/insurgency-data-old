@@ -1,8 +1,0 @@
-UnlitGeneric
-{
-	$translucent 1
-	"$basetexture" "overviews/cu_chi_tunnels_coop_b2"
-	$vertexalpha 1
-	$no_fullbright 1
-	$ignorez 1
-}

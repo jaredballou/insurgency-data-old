@@ -1,8 +1,0 @@
-UnlitGeneric
-{
-$translucent 1
-$basetexture overviews\ps7n.vtf
-$vertexalpha 1
-$no_fullbright 1
-$ignorez 1
-}

@@ -1,4 +1,0 @@
-Pakrat v0.95 - by Rof (rof@mellish.org.uk)
-Listing pak files from /home/insserver/serverfiles/insurgency/maps/healthcenter_coop.bsp
-Pak file at offset 36316940, length 11604074 bytes
-Pak lump entries: 2047

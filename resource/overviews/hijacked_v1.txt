@@ -1,9 +1,0 @@
-"hijacked_v1"
-{
-	material	overviews/hijacked_v1       	// texture file
-	pos_x		"-2200"			// X coordinate
-	pos_y		"10000"			// Y coordinate
-	scale		"14.3" 			// scale used when taking the screenshot
-	rotate		"0"			// map was rotated by 90 degrees in image editor
-	zoom		1			// optimal zoom factor if map is shown in full size
-}

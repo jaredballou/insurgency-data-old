@@ -77,6 +77,7 @@
 				}
 			},
 			"spawnzones": {
+				"disablespawns": "1",
 				"spawnzone1": {
 					"spawnzone1_team2": {
 						"pos_classname": "ins_spawnzone",
@@ -646,7 +647,7 @@
 		}
 	},
 	"source_files": {
-		"CPSetup": "d9581ce45782859f18b4520ce0cbb604",
+		"CPSetup": "070f1a7e7f93de729f978c160799af20",
 		"Overview": "23eabe9c5e8f742f240bb1c966f0a4c2",
 		"VMF Source": "98153efcc2e5b92e2fd12287c34bf910"
 	}

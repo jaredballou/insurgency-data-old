@@ -35,7 +35,7 @@
 				}
 
 				// assault squad
-				"#Fireteam_Charly"	// small arms
+				"#Fireteam_Charlie"	// small arms
 				{
 					"#Squad_Fireteam_Leader_Specialist"	"template_specialist_security"
 					"#Squad_Fireteam_Specialist"		"template_specialist_security"
@@ -80,7 +80,7 @@
 					"#Squad_Cell_Sniper"			"template_sniper_insurgent"
 				}
 
-				"#Cell_Charly"
+				"#Cell_Charlie"
 				{
 					"#Squad_Cell_Leader_Specialist"		"template_specialist_insurgent"
 					"#Squad_Cell_Specialist"		"template_specialist_insurgent"

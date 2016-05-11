@@ -43,7 +43,6 @@ bridge_coop_optimized_v1.*
 bridge_pvp_b1.*
 bridge_se.*
 bunker_busting_coopv1_3.*
-bunker_busting_coopv1_4.*
 burgundy_a0.*
 cargo_coop_b10.*
 cargo_coop_b2.*

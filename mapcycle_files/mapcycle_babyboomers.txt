@@ -13,12 +13,12 @@ contact_coop checkpoint
 depot_coop checkpoint
 district_coop checkpoint
 dry_canal_coop_v4 checkpoint
-dusty_anguish_coopv1_1 checkpoint
-embassy_coop_141103 checkpoint
+dusty_anguish_coop checkpoint
+embassy_coop checkpoint
 fortress_coop_beta5 checkpoint
 game_day_coopv1_3 checkpoint
 haditha_dam_coop_finale checkpoint
-healthcenter_coop_v1_3 checkpoint
+healthcenter_coop checkpoint
 heights_coop checkpoint
 hijacked_v1 checkpoint
 ikazuchi_jungle_coop_b3 checkpoint
@@ -29,9 +29,9 @@ jack_hammer_coopv1_2 checkpoint
 jail_break_coopv1_2 checkpoint
 kandagal_coop_b5 checkpoint
 karkand_coop_ws checkpoint
-karkar_b8 checkpoint
+karkar_coop_v1_2 checkpoint
 khanashin_b8 checkpoint
-launch_control_coopv1_6 checkpoint
+launch_control_coopv1_9 checkpoint
 market_coop checkpoint
 ministry_coop checkpoint
 prophet_coop checkpoint

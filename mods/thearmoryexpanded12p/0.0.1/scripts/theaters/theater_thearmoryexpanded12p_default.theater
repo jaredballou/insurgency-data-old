@@ -1,9 +1,9 @@
-"#base" "theater_thearmoryExpanded12p_base_player.theater"
+"#base" "theater_thearmoryexpanded12p_base_player.theater"
 
-"#base" "theater_thearmoryExpanded12p_default_gear.theater"
-"#base" "theater_thearmoryExpanded12p_default_weapon.theater"
-"#base" "theater_thearmoryExpanded12p_custom_weapon.theater"
-"#base" "theater_thearmoryExpanded12p_default_weapon_upgrades.theater"
+"#base" "theater_thearmoryexpanded12p_default_gear.theater"
+"#base" "theater_thearmoryexpanded12p_default_weapon.theater"
+"#base" "theater_thearmoryexpanded12p_custom_weapon.theater"
+"#base" "theater_thearmoryexpanded12p_default_weapon_upgrades.theater"
 
 "theater"
 {

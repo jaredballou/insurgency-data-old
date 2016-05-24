@@ -1138,27 +1138,27 @@
 			"pos_classname": "ins_blockzone",
 			"pos_id": "173905",
 			"pos_name": "173905",
-			"pos_points": "474,783 591,784 587,989 483,989",
+			"pos_points": "483,989 474,783 591,784 587,989 473,783",
 			"pos_shape": "poly",
 			"pos_targetname": "bz_sec_1",
 			"pos_team": 2,
 			"pos_type": "area",
-			"pos_x": 473,
-			"pos_y": 783
+			"pos_x": 514,
+			"pos_y": 854
 		},
 		"173993": {
 			"pos_blockzone": "bz_sec_1",
 			"pos_classname": "ins_spawnzone",
-			"pos_height": 42,
+			"pos_height": 234,
 			"pos_id": "173993",
 			"pos_name": "173993",
 			"pos_shape": "rect",
 			"pos_targetname": "spawnzone_01",
 			"pos_team": 2,
 			"pos_type": "area",
-			"pos_width": 36,
-			"pos_x": 385,
-			"pos_y": 944
+			"pos_width": 148,
+			"pos_x": 310,
+			"pos_y": 752
 		},
 		"180518": {
 			"pos_blockzone": "bz_ins_2",
@@ -1202,28 +1202,28 @@
 		},
 		"184567": {
 			"pos_classname": "ins_blockzone",
+			"pos_height": 683,
 			"pos_id": "184567",
 			"pos_name": "184567",
-			"pos_points": "507,1032 694,1032 672,434 673,434",
-			"pos_shape": "poly",
+			"pos_shape": "rect",
 			"pos_targetname": "bz_sec_3",
 			"pos_team": 2,
 			"pos_type": "area",
+			"pos_width": 187,
 			"pos_x": 507,
 			"pos_y": 349
 		},
 		"184577": {
 			"pos_classname": "ins_blockzone",
-			"pos_height": 133,
 			"pos_id": "184577",
 			"pos_name": "184577",
-			"pos_shape": "rect",
+			"pos_points": "331,40 449,40 331,157 499,173 448,40",
+			"pos_shape": "poly",
 			"pos_targetname": "bz_ins_3",
 			"pos_team": 3,
 			"pos_type": "area",
-			"pos_width": 168,
-			"pos_x": 331,
-			"pos_y": 40
+			"pos_x": 458,
+			"pos_y": 106
 		},
 		"199603": {
 			"pos_blockzone": "bz_sec_2",
@@ -1489,18 +1489,18 @@
 			"pos_classname": "ins_blockzone",
 			"pos_id": "2073975",
 			"pos_name": "2073975",
-			"pos_points": "726,93 705,562 704,562 374,445 321,93",
+			"pos_points": "726,93 321,93 705,562 704,562 374,445",
 			"pos_shape": "poly",
 			"pos_targetname": "bz_ins_1",
 			"pos_team": 3,
 			"pos_type": "area",
-			"pos_x": 320,
-			"pos_y": 93
+			"pos_x": 523,
+			"pos_y": 294
 		}
 	},
 	"source_files": {
 		"CPSetup": "f2d472e3b029e9edb6e0b10923574f3a",
 		"Overview": "de14c022caa7be0a36d8170637be3738",
-		"VMF Source": "fc44de22a0a90529f5bdf30cf9cf10e3"
+		"VMF Source": "9db8ac6f5a12a4d9feb766c1485d10f5"
 	}
 }

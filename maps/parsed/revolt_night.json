@@ -2001,7 +2001,7 @@
 			"pos_controlpoint": "cap_3",
 			"pos_id": "542644",
 			"pos_name": "542644",
-			"pos_points": "512,153 529,268 590,153 590,268 512,258",
+			"pos_points": "529,268 512,258 512,153 590,153 590,268",
 			"pos_shape": "poly",
 			"pos_targetname": "cap_3_t",
 			"pos_team": 0,
@@ -2131,19 +2131,6 @@
 			"pos_width": 82,
 			"pos_x": 456,
 			"pos_y": 513
-		},
-		"2162210": {
-			"pos_classname": "ins_blockzone",
-			"pos_height": 232,
-			"pos_id": "2162210",
-			"pos_name": "2162210",
-			"pos_shape": "rect",
-			"pos_targetname": "blockzone_push_b_sec",
-			"pos_team": 2,
-			"pos_type": "area",
-			"pos_width": 526,
-			"pos_x": 38,
-			"pos_y": 497
 		},
 		"2605127": {
 			"pos_classname": "trigger_capture_zone",
@@ -2299,7 +2286,7 @@
 			"pos_controlpoint": "cap_a",
 			"pos_id": "3402630",
 			"pos_name": "3402630",
-			"pos_points": "515,602 515,612 536,612 525,602 536,602",
+			"pos_points": "525,602 536,602 536,612 515,612 515,602",
 			"pos_shape": "poly",
 			"pos_targetname": "cap_a_t",
 			"pos_team": 0,
@@ -2333,11 +2320,24 @@
 			"pos_width": 579,
 			"pos_x": 445,
 			"pos_y": 153
+		},
+		"4376271": {
+			"pos_classname": "ins_blockzone",
+			"pos_height": 232,
+			"pos_id": "4376271",
+			"pos_name": "4376271",
+			"pos_shape": "rect",
+			"pos_targetname": "blockzone_push_b_sec",
+			"pos_team": 2,
+			"pos_type": "area",
+			"pos_width": 526,
+			"pos_x": 38,
+			"pos_y": 497
 		}
 	},
 	"source_files": {
 		"CPSetup": "0d0179597f3e34a9ccf5e8c6363cf984",
 		"Overview": "83ddb86e400f73fd4191e14a7dd9f0ff",
-		"VMF Source": "2a6a3438d64f35abfad480fa13fc6076"
+		"VMF Source": "0b6fee5ea82ecdc9d71cf3aea2cacc8f"
 	}
 }

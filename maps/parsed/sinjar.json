@@ -1246,19 +1246,6 @@
 			"pos_x": 942,
 			"pos_y": 612
 		},
-		"796045": {
-			"pos_classname": "ins_blockzone",
-			"pos_height": 272,
-			"pos_id": "796045",
-			"pos_name": "796045",
-			"pos_shape": "rect",
-			"pos_targetname": "sr_ins_c",
-			"pos_team": 3,
-			"pos_type": "area",
-			"pos_width": 265,
-			"pos_x": 846,
-			"pos_y": 533
-		},
 		"844400": {
 			"pos_classname": "trigger_capture_zone",
 			"pos_controlpoint": "pushpoint_02",
@@ -1461,11 +1448,24 @@
 			"pos_width": 456,
 			"pos_x": 15,
 			"pos_y": 585
+		},
+		"1885010": {
+			"pos_classname": "ins_blockzone",
+			"pos_height": 8,
+			"pos_id": "1885010",
+			"pos_name": "1885010",
+			"pos_shape": "rect",
+			"pos_targetname": "sr_ins_c",
+			"pos_team": 3,
+			"pos_type": "area",
+			"pos_width": 249,
+			"pos_x": 862,
+			"pos_y": 533
 		}
 	},
 	"source_files": {
 		"CPSetup": "70d5c2640e6cd222999a9ef2d411c930",
 		"Overview": "2af915e6e0fca739a02a92374ff07a9d",
-		"VMF Source": "1608c28338e19f91e5d84731d4508c48"
+		"VMF Source": "7e0a54541fd159cb5f35eeab5536b401"
 	}
 }

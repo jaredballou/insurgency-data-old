@@ -1175,7 +1175,7 @@
 		},
 		"cap_conq_a": {
 			"pos_classname": "point_controlpoint",
-			"pos_id": "3734339",
+			"pos_id": "3724651",
 			"pos_name": "cap_conq_a",
 			"pos_targetname": "cap_conq_a",
 			"pos_team": 0,
@@ -1185,7 +1185,7 @@
 		},
 		"cap_conq_b": {
 			"pos_classname": "point_controlpoint",
-			"pos_id": "3734330",
+			"pos_id": "3738498",
 			"pos_name": "cap_conq_b",
 			"pos_targetname": "cap_conq_b",
 			"pos_team": 0,
@@ -1195,7 +1195,7 @@
 		},
 		"cap_conq_c": {
 			"pos_classname": "point_controlpoint",
-			"pos_id": "3734328",
+			"pos_id": "3738560",
 			"pos_name": "cap_conq_c",
 			"pos_targetname": "cap_conq_c",
 			"pos_team": 0,
@@ -1260,7 +1260,7 @@
 		},
 		"3032071": {
 			"pos_classname": "ins_blockzone",
-			"pos_height": 244,
+			"pos_height": 352,
 			"pos_id": "3032071",
 			"pos_name": "3032071",
 			"pos_shape": "rect",
@@ -1269,7 +1269,7 @@
 			"pos_type": "area",
 			"pos_width": 300,
 			"pos_x": 688,
-			"pos_y": 337
+			"pos_y": 229
 		},
 		"3032074": {
 			"pos_blockzone": "bz_insurgents",
@@ -1299,26 +1299,26 @@
 			"pos_x": 225,
 			"pos_y": 597
 		},
-		"3734322": {
+		"3724648": {
 			"pos_classname": "trigger_capture_zone",
-			"pos_controlpoint": "cap_conq_c",
-			"pos_height": 57,
-			"pos_id": "3734322",
-			"pos_name": "3734322",
+			"pos_controlpoint": "cap_conq_a",
+			"pos_height": 106,
+			"pos_id": "3724648",
+			"pos_name": "3724648",
 			"pos_shape": "rect",
-			"pos_targetname": "cap_conq_c_t",
+			"pos_targetname": "cap_conq_a_t",
 			"pos_team": 0,
 			"pos_type": "area",
-			"pos_width": 166,
-			"pos_x": 278,
-			"pos_y": 685
+			"pos_width": 156,
+			"pos_x": 830,
+			"pos_y": 585
 		},
-		"3734332": {
+		"3738495": {
 			"pos_classname": "trigger_capture_zone",
 			"pos_controlpoint": "cap_conq_b",
 			"pos_height": 76,
-			"pos_id": "3734332",
-			"pos_name": "3734332",
+			"pos_id": "3738495",
+			"pos_name": "3738495",
 			"pos_shape": "rect",
 			"pos_targetname": "cap_conq_b_t",
 			"pos_team": 0,
@@ -1327,24 +1327,24 @@
 			"pos_x": 468,
 			"pos_y": 503
 		},
-		"3734336": {
+		"3738601": {
 			"pos_classname": "trigger_capture_zone",
-			"pos_controlpoint": "cap_conq_a",
-			"pos_height": 106,
-			"pos_id": "3734336",
-			"pos_name": "3734336",
+			"pos_controlpoint": "cap_conq_c",
+			"pos_height": 57,
+			"pos_id": "3738601",
+			"pos_name": "3738601",
 			"pos_shape": "rect",
-			"pos_targetname": "cap_conq_a_t",
+			"pos_targetname": "cap_conq_c_t",
 			"pos_team": 0,
 			"pos_type": "area",
-			"pos_width": 156,
-			"pos_x": 830,
-			"pos_y": 585
+			"pos_width": 166,
+			"pos_x": 278,
+			"pos_y": 685
 		}
 	},
 	"source_files": {
 		"CPSetup": "f32250f749eb162e29ed5b9e7ddb54ee",
 		"Overview": "bbe6060f820d8671d7d869ec4c7cfe9b",
-		"VMF Source": "adb59e6ffa8d2a7ce041866d65d4a4cb"
+		"VMF Source": "37fbea7a69807e8f2af1ad4e16f939b9"
 	}
 }

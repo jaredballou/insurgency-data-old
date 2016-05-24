@@ -1622,7 +1622,7 @@
 			"pos_controlpoint": "ff_cp_2",
 			"pos_id": "2629511",
 			"pos_name": "2629511",
-			"pos_points": "593,528 670,451 667,551 615,551 615,451 593,474 690,471 690,528",
+			"pos_points": "670,451 690,471 593,474 615,451 690,528 667,551 615,551 593,528",
 			"pos_shape": "poly",
 			"pos_targetname": "ff_cz_2",
 			"pos_team": 0,
@@ -1649,7 +1649,7 @@
 			"pos_controlpoint": "occ_cp",
 			"pos_id": "2629519",
 			"pos_name": "2629519",
-			"pos_points": "694,602 594,602 739,440 739,555 549,555 549,447 594,400 701,400",
+			"pos_points": "549,555 549,447 701,400 739,440 694,602 594,602 739,555 594,400",
 			"pos_shape": "poly",
 			"pos_targetname": "occ_cz",
 			"pos_team": 0,
@@ -2069,6 +2069,6 @@
 	"source_files": {
 		"CPSetup": "64e8517df4549f754736661b32dcb395",
 		"Overview": "05f27bfc5a25e628ab04af55fdf90984",
-		"VMF Source": "06b6f4bfe80184809cb92ff91d596b11"
+		"VMF Source": "27abbbbcdfc7f71ae5290cca361c8be9"
 	}
 }

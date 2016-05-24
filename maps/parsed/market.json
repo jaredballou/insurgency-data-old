@@ -1969,7 +1969,7 @@
 			"pos_controlpoint": "cap_5",
 			"pos_id": "3687957",
 			"pos_name": "3687957",
-			"pos_points": "605,704 565,716 561,705 562,705 601,693",
+			"pos_points": "605,704 565,716 601,693 561,705 562,705",
 			"pos_shape": "poly",
 			"pos_targetname": "cap_5_t",
 			"pos_team": 0,
@@ -2117,6 +2117,6 @@
 	"source_files": {
 		"CPSetup": "a602588e2642d6fa83029fcd2dfbcc91",
 		"Overview": "bccf6e2a07f6a2a86582e8e2d399d80d",
-		"VMF Source": "3038961c5a64de6bf8fea618dada52b2"
+		"VMF Source": "ed3f634c503dd6a5efcafedfad67ed54"
 	}
 }

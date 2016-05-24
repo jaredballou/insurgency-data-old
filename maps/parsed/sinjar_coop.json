@@ -399,7 +399,7 @@
 			"pos_controlpoint": "cp_5",
 			"pos_id": "1528993",
 			"pos_name": "1528993",
-			"pos_points": "803,534 803,557 776,557 769,534 769,548",
+			"pos_points": "769,548 769,534 803,534 803,557 776,557",
 			"pos_shape": "poly",
 			"pos_targetname": "cz_5",
 			"pos_team": 0,
@@ -751,6 +751,6 @@
 	"source_files": {
 		"CPSetup": "ebaf20ac385a5ffcb1e059a04d424032",
 		"Overview": "3ed609330fb5bb2c2a6a08cf54a380e7",
-		"VMF Source": "8405748b12b7bb073c3f75eec5ab96ca"
+		"VMF Source": "91c8c99869f5237435e70a2fca68c500"
 	}
 }

@@ -1413,27 +1413,13 @@
 			"pos_classname": "ins_blockzone",
 			"pos_id": "1896380",
 			"pos_name": "1896380",
-			"pos_points": "374,445 321,93 705,562 704,562 726,93",
+			"pos_points": "705,562 321,93 726,93 374,445 704,562",
 			"pos_shape": "poly",
 			"pos_targetname": "bz_ins_1",
 			"pos_team": 3,
 			"pos_type": "area",
-			"pos_x": 320,
-			"pos_y": 93
-		},
-		"1896414": {
-			"pos_blockzone": "bz_sec_1",
-			"pos_classname": "ins_spawnzone",
-			"pos_height": 42,
-			"pos_id": "1896414",
-			"pos_name": "1896414",
-			"pos_shape": "rect",
-			"pos_targetname": "spawnzone_01",
-			"pos_team": 2,
-			"pos_type": "area",
-			"pos_width": 36,
-			"pos_x": 385,
-			"pos_y": 944
+			"pos_x": 523,
+			"pos_y": 294
 		},
 		"1896416": {
 			"pos_classname": "ins_blockzone",
@@ -1450,26 +1436,26 @@
 		},
 		"1896424": {
 			"pos_classname": "ins_blockzone",
-			"pos_height": 133,
 			"pos_id": "1896424",
 			"pos_name": "1896424",
-			"pos_shape": "rect",
+			"pos_points": "331,157 331,40 449,40 499,173 448,40",
+			"pos_shape": "poly",
 			"pos_targetname": "bz_ins_3",
 			"pos_team": 3,
 			"pos_type": "area",
-			"pos_width": 168,
-			"pos_x": 331,
-			"pos_y": 40
+			"pos_x": 458,
+			"pos_y": 106
 		},
 		"1896427": {
 			"pos_classname": "ins_blockzone",
+			"pos_height": 683,
 			"pos_id": "1896427",
 			"pos_name": "1896427",
-			"pos_points": "673,434 694,1032 507,1032 672,434",
-			"pos_shape": "poly",
+			"pos_shape": "rect",
 			"pos_targetname": "bz_sec_3",
 			"pos_team": 2,
 			"pos_type": "area",
+			"pos_width": 187,
 			"pos_x": 507,
 			"pos_y": 349
 		},
@@ -1643,13 +1629,13 @@
 			"pos_classname": "ins_blockzone",
 			"pos_id": "1905256",
 			"pos_name": "1905256",
-			"pos_points": "587,989 483,989 474,783 591,784",
+			"pos_points": "474,783 591,784 473,783 587,989 483,989",
 			"pos_shape": "poly",
 			"pos_targetname": "bz_sec_1",
 			"pos_team": 2,
 			"pos_type": "area",
-			"pos_x": 473,
-			"pos_y": 783
+			"pos_x": 514,
+			"pos_y": 854
 		},
 		"1949334": {
 			"pos_classname": "trigger_capture_zone",
@@ -1664,11 +1650,25 @@
 			"pos_width": 24,
 			"pos_x": 558,
 			"pos_y": 454
+		},
+		"2055310": {
+			"pos_blockzone": "bz_sec_1",
+			"pos_classname": "ins_spawnzone",
+			"pos_height": 234,
+			"pos_id": "2055310",
+			"pos_name": "2055310",
+			"pos_shape": "rect",
+			"pos_targetname": "spawnzone_01",
+			"pos_team": 2,
+			"pos_type": "area",
+			"pos_width": 148,
+			"pos_x": 310,
+			"pos_y": 752
 		}
 	},
 	"source_files": {
 		"CPSetup": "87b9f70cd743e76c0e1efd21c445eaa2",
 		"Overview": "3fe7f2a353bd1ba61698d3758e1e4f56",
-		"VMF Source": "38103d8a1905f4ea32a22ce0dfe1e10f"
+		"VMF Source": "06d212b7ed7a626e03ce6028b7eb474d"
 	}
 }

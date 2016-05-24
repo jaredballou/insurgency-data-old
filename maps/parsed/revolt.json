@@ -1834,7 +1834,7 @@
 			"pos_controlpoint": "cap_3",
 			"pos_id": "542644",
 			"pos_name": "542644",
-			"pos_points": "529,268 512,258 512,153 590,153 590,268",
+			"pos_points": "529,268 512,258 590,153 590,268 512,153",
 			"pos_shape": "poly",
 			"pos_targetname": "cap_3_t",
 			"pos_team": 0,
@@ -2159,7 +2159,7 @@
 			"pos_controlpoint": "cap_a",
 			"pos_id": "3402630",
 			"pos_name": "3402630",
-			"pos_points": "515,602 536,602 536,612 515,612 525,602",
+			"pos_points": "525,602 536,602 536,612 515,612 515,602",
 			"pos_shape": "poly",
 			"pos_targetname": "cap_a_t",
 			"pos_team": 0,
@@ -2171,6 +2171,6 @@
 	"source_files": {
 		"CPSetup": "01b8786a5fd05cdb92a8aee414ce70b4",
 		"Overview": "f25cc7c9f3e9610ce61f41f4e51baa01",
-		"VMF Source": "4b95f47d13661545f52fc152cf5e37ac"
+		"VMF Source": "b621520588e0f95646ff149bb78544e8"
 	}
 }

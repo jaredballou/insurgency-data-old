@@ -2073,19 +2073,6 @@
 			"pos_x": 56,
 			"pos_y": 350
 		},
-		"5146251": {
-			"pos_classname": "ins_blockzone",
-			"pos_height": 129,
-			"pos_id": "5146251",
-			"pos_name": "5146251",
-			"pos_shape": "rect",
-			"pos_targetname": "blockzone_ins_push_a",
-			"pos_team": 3,
-			"pos_type": "area",
-			"pos_width": 186,
-			"pos_x": 541,
-			"pos_y": 695
-		},
 		"5146253": {
 			"pos_classname": "ins_blockzone",
 			"pos_height": 284,
@@ -2180,11 +2167,24 @@
 			"pos_width": 104,
 			"pos_x": 917,
 			"pos_y": 606
+		},
+		"5354906": {
+			"pos_classname": "ins_blockzone",
+			"pos_height": 129,
+			"pos_id": "5354906",
+			"pos_name": "5354906",
+			"pos_shape": "rect",
+			"pos_targetname": "blockzone_ins_push_a",
+			"pos_team": 3,
+			"pos_type": "area",
+			"pos_width": 186,
+			"pos_x": 541,
+			"pos_y": 695
 		}
 	},
 	"source_files": {
 		"CPSetup": "85b93f503c5285f2de29bb8c37512ced",
 		"Overview": "d53c02bd96aa97904eff7900601d3f21",
-		"VMF Source": "d37e0fe9134d0a99c39aa2208707c8dc"
+		"VMF Source": "829ffdd314958bc49ed6cbfc8f0df235"
 	}
 }

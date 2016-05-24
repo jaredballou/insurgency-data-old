@@ -188,7 +188,7 @@
 			"pos_controlpoint": "cp_4",
 			"pos_id": "3715190",
 			"pos_name": "3715190",
-			"pos_points": "565,214 588,263 625,214 565,239 625,263",
+			"pos_points": "588,263 565,239 565,214 625,214 625,263",
 			"pos_shape": "poly",
 			"pos_targetname": "cz_4",
 			"pos_team": 0,
@@ -254,7 +254,7 @@
 			"pos_classname": "ins_blockzone",
 			"pos_id": "3715234",
 			"pos_name": "3715234",
-			"pos_points": "671,404 576,475 218,475 218,103 671,103",
+			"pos_points": "218,475 218,103 671,103 671,404 576,475",
 			"pos_shape": "poly",
 			"pos_targetname": "bz3",
 			"pos_team": 3,
@@ -668,6 +668,6 @@
 	"source_files": {
 		"CPSetup": "b1246cf53102c7a99f918e187fe5b0d4",
 		"Overview": "091581209eca12d64364922242005860",
-		"VMF Source": "e0e93b4854b9a8e272a8db661419353a"
+		"VMF Source": "75abe8850fa5f8c26ba801ba74ccfe68"
 	}
 }

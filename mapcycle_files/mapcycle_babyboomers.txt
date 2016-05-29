@@ -12,7 +12,7 @@ clean_sweep_coop_beta3 checkpoint
 contact_coop checkpoint
 depot_coop checkpoint
 district_coop checkpoint
-dry_canal_coop_v4 checkpoint
+drycanal_coop checkpoint
 dusty_anguish_coop checkpoint
 embassy_coop checkpoint
 fortress_coop_beta5 checkpoint

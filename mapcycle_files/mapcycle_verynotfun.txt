@@ -19,7 +19,7 @@ contact_hunt hunt
 depot_coop checkpoint
 district_coop checkpoint
 district_hunt hunt
-dry_canal_coop_v4 checkpoint
+drycanal_coop checkpoint
 dust2_ws hunt
 dusty_anguish_coopv1_1 checkpoint
 dusty_nights_coopv1_1 checkpoint

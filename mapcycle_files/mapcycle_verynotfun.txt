@@ -1,4 +1,3 @@
-HurtLocker_coop_Alpha5_1a checkpoint
 amber_spirits_coop checkpoint
 anbar_coop checkpoint
 anbar_nights_coop checkpoint
@@ -9,8 +8,6 @@ bridge_coop_final checkpoint
 buhriz_coop checkpoint
 buhriz_hunt hunt
 bunker_busting_coopv1_4 checkpoint
-cargo_coop_b9 checkpoint
-cargonight_coop_15 checkpoint
 caves_coop3 checkpoint
 clean_sweep_coop_beta3 checkpoint
 clean_sweep_night_coop_beta1 checkpoint
@@ -21,20 +18,11 @@ district_coop checkpoint
 district_hunt hunt
 drycanal_coop checkpoint
 dust2_ws hunt
-dusty_anguish_coopv1_1 checkpoint
-dusty_nights_coopv1_1 checkpoint
-dusty_nights_hunt hunt
-embassy_coop_141103 checkpoint
 fortress_coop_beta5 checkpoint
 game_day_coopv1_3 checkpoint
-haditha_dam_coop_finale checkpoint
-healthcenter_coop_v1_3 checkpoint
 heights_coop checkpoint
 heights_hunt hunt
 hijacked_v1 checkpoint
-ikazuchi_jungle_coop_b2_night checkpoint
-ikazuchi_jungle_coop_b3 checkpoint
-ins_abdallah_new_coop_a7 checkpoint
 ins_prison_v1 checkpoint
 invasion_coop_beta2 checkpoint
 jack_hammer_coopv1_2 checkpoint
@@ -44,8 +32,6 @@ karkand_coop_ws checkpoint
 karkar_b8 checkpoint
 khanashin_b8 hunt
 khanashin_b8 checkpoint
-khanashin_b8_night hunt
-khanashin_b8_night checkpoint
 launch_control_coopv1_6 checkpoint
 market_coop checkpoint
 market_hunt hunt
@@ -65,7 +51,6 @@ station_hunt hunt
 tell_coop checkpoint
 the_burbs_coop checkpoint
 tunnel_rats_coop checkpoint
-tunnel_rats_night_hunt hunt
 uprising_hunt hunt
 verticality_hunt hunt
 warehouse_coopv2 checkpoint

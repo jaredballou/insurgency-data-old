@@ -23,7 +23,6 @@ game_day_coopv1_3 checkpoint
 heights_coop checkpoint
 heights_hunt hunt
 hijacked_v1 checkpoint
-ins_prison_v1 checkpoint
 invasion_coop_beta2 checkpoint
 jack_hammer_coopv1_2 checkpoint
 jail_break_coopv1_2 checkpoint

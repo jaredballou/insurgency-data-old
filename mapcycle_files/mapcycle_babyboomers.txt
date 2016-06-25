@@ -10,7 +10,6 @@ cargo_coop_b9 checkpoint
 caves_coop3 checkpoint
 clean_sweep_coop_beta3 checkpoint
 contact_coop checkpoint
-depot_coop checkpoint
 district_coop checkpoint
 drycanal_coop checkpoint
 dusty_anguish_coop checkpoint
@@ -18,7 +17,6 @@ embassy_coop checkpoint
 fortress_coop_beta5 checkpoint
 game_day_coopv1_3 checkpoint
 haditha_dam_coop_finale checkpoint
-healthcenter_coop checkpoint
 heights_coop checkpoint
 hijacked_v1 checkpoint
 ikazuchi_jungle_coop_b3 checkpoint
